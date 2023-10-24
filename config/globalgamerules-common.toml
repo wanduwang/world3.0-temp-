@@ -138,6 +138,8 @@
 	zombie_clown_spawn = true
 	#Non Vanilla gamerule: 'zombiesinaBarrelSpawn'
 	zombiesina_barrel_spawn = true
+	#Non Vanilla gamerule: 'doSeasonCycle'
+	do_season_cycle = true
 
 #Configs related to difficult changes
 [difficulty]

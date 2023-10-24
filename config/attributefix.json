@@ -121,6 +121,17 @@
         "value": 10000000
       }
     },
+    "ars_nouveau:max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -165,6 +176,17 @@
         "value": 10000000
       }
     },
+    "ars_nouveau:mana_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2000,
+        "value": 10000000
+      }
+    },
     "puffish_skills:player.jump": {
       "enabled": false,
       "min": {
@@ -198,6 +220,17 @@
         "value": 10000000
       }
     },
+    "vampirism:sundamage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.movement_speed": {
       "enabled": true,
       "min": {
@@ -210,6 +243,17 @@
       }
     },
     "caelus:fall_flying": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "botania:pixie_spawn_chance": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -305,6 +349,17 @@
       },
       "max": {
         "default": 20,
+        "value": 10000000
+      }
+    },
+    "vampirism:blood_exhaustion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
         "value": 10000000
       }
     }
