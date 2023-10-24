@@ -1,0 +1,29 @@
+[20:08:56.517][INFO]: Successfully identified and loaded plugin jeitweaker:default
+[20:08:56.567][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[20:08:56.572][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[20:08:56.578][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
+[20:08:56.583][INFO]: Successfully identified and loaded plugin immersiveengineering:ct_module
+[20:09:00.451][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[20:09:00.453][INFO]: - 'crafttweaker' at version '9.1.209'
+[20:09:00.477][INFO]: - 'draconicevolution' at version '3.0.30.529'
+[20:09:00.477][INFO]: - 'farmersdelight' at version '1.18.2-1.2.3'
+[20:09:00.477][INFO]: - 'futurepack' at version '033.0.7544'
+[20:09:00.477][INFO]: - 'immersiveengineering' at version '1.18.2-8.4.0-161'
+[20:09:00.477][INFO]: - 'jeitweaker' at version '3.0.0.9'
+[20:09:00.477][INFO]: - 'mekanism' at version '10.2.5'
+[20:09:00.477][INFO]: - 'thermal' at version '9.2.2'
+[20:09:00.477][INFO]: - 'thermal_foundation' at version '9.2.2'
+[20:09:01.309][WARN]: Attempting to register expansion for unknown type 'crafttweaker.api.tag.type.KnownTag<crafttweaker.api.item.MCItemDefinition>', carrying on anyways
+[20:09:09.427][INFO]: Started loading scripts for loader 'mekanismcontent'
+[20:09:09.797][INFO]: Compiling and executing scripts
+[20:09:10.414][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[20:09:10.581][INFO]: Execution for loader 'mekanismcontent' completed successfully
+[20:09:10.581][INFO]: Registering 0 custom gases.
+[20:09:10.591][INFO]: Registering 0 custom infuse types.
+[20:09:10.603][INFO]: Registering 0 custom pigments.
+[20:09:10.609][INFO]: Registering 0 custom robit skins.
+[20:09:10.616][INFO]: Registering 0 custom slurries.
+[20:09:41.623][INFO]: Started loading scripts for loader 'initialize'
+[20:09:41.651][INFO]: Compiling and executing scripts
+[20:09:41.652][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[20:09:41.663][INFO]: Execution for loader 'initialize' completed successfully
