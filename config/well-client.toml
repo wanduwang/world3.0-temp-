@@ -1,3 +1,0 @@
-#Play the well cranking sound when someone takes fluid from a well.
-playSound = true
-
