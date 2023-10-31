@@ -1,0 +1,24 @@
+{
+  "selectedProfile": "(Default)",
+  "profiles": {
+    "(Default)": {
+      "name": "(Default)"
+    }
+  },
+  "clientToken": "2817d8bfd4034d21b7a20231e277c0a0",
+  "authenticationDatabase": {
+    "00000111112222233333444445555566": {
+      "accessToken": "eyJraWQiOiJhYzg0YSIsImFsZyI6IkhTMjU2In0.eyJ4dWlkIjoiMjUzNTQxMzU3NDg0NDMyOSIsImFnZyI6IkFkdWx0Iiwic3ViIjoiNTg4ZjNkZjItZWE4Ni00MTkxLTk2NjctOTZmNzMyY2ExNGM4IiwiYXV0aCI6IlhCT1giLCJucyI6ImRlZmF1bHQiLCJyb2xlcyI6W10sImlzcyI6ImF1dGhlbnRpY2F0aW9uIiwiZmxhZ3MiOlsidHdvZmFjdG9yYXV0aCIsIm1zYW1pZ3JhdGlvbl9zdGFnZTQiLCJvcmRlcnNfMjAyMiJdLCJwcm9maWxlcyI6eyJtYyI6IjI4MTdkOGJmLWQ0MDMtNGQyMS1iN2EyLTAyMzFlMjc3YzBhMCJ9LCJwbGF0Zm9ybSI6IlVOS05PV04iLCJ5dWlkIjoiNzFkNGEwZjNkM2I1MTBjODk4MDk1YzFjMzc4Njg1M2EiLCJuYmYiOjE2OTgxNDg5NDAsImV4cCI6MTY5ODIzNTM0MCwiaWF0IjoxNjk4MTQ4OTQwfQ.Tbk3e9QKtxVP0FSQLOCFL6t9gRvNYyUfH0bgTY_ph5U",
+      "username": "wanduwangMC",
+      "profiles": {
+        "66666555554444433333222221111100": {
+          "displayName": "wanduwangMC"
+        }
+      }
+    }
+  },
+  "selectedUser": {
+    "account": "00000111112222233333444445555566",
+    "profile": "66666555554444433333222221111100"
+  }
+}
