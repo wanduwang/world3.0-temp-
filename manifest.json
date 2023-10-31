@@ -1,0 +1,18 @@
+{
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "ComingSoon",
+  "version": "0.5",
+  "author": "SuzukiShio",
+  "overrides": "overrides",
+  "minecraft": {
+    "version": "1.18.2",
+    "modLoaders": [
+      {
+        "id": "forge-40.2.9",
+        "primary": true
+      }
+    ]
+  },
+  "files": []
+}
