@@ -1,9 +1,9 @@
 {
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
-  "name": "ComingSoon",
-  "version": "0.5",
-  "author": "SuzukiShio",
+  "name": "WLtest",
+  "version": "0.6",
+  "author": "057",
   "description": "",
   "fileApi": "",
   "url": "",
@@ -983,7 +983,7 @@
     },
     {
       "path": "config/awesomedungeonocean_1.properties",
-      "hash": "3509fff9518f8b5aea0d3838c08509f051a605b0",
+      "hash": "21369af4415042809adef8a7685c9a2dcdcbbce6",
       "force": true,
       "type": "addon"
     },
@@ -1127,7 +1127,7 @@
     },
     {
       "path": "config/bettervillage_1.properties",
-      "hash": "42f68aecfed90865be258ef9bb9c3f31a0fb18c6",
+      "hash": "b4676caa1e071bea5cc9139d2020a8258b37f93c",
       "force": true,
       "type": "addon"
     },
@@ -1146,6 +1146,12 @@
     {
       "path": "config/beyond_earth-common.toml",
       "hash": "e39e8111e4d868a685a2baf85cf2129bc5350c33",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/beyond_earth_giselle_addon-common.toml",
+      "hash": "2e310d60ecf6c8865b3cd9b5d112d2f19e910173",
       "force": true,
       "type": "addon"
     },
@@ -1222,6 +1228,12 @@
       "type": "addon"
     },
     {
+      "path": "config/brandon3055/CSG/Config.json",
+      "hash": "aa0324de580198879bf0b6150ef55f17fc1b650c",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "config/brandon3055/DraconicEvolution.cfg",
       "hash": "050f3d314ad5bed11594dbdcf77089da7c606c9f",
       "force": true,
@@ -1247,7 +1259,7 @@
     },
     {
       "path": "config/byg/backups/last_working_configs_backup.zip",
-      "hash": "f64f7d82275c6e32734fc905528fe759a9dbfee6",
+      "hash": "9ea151c92364d5d0af774df4cb13b1b8837d4511",
       "force": true,
       "type": "addon"
     },
@@ -1739,7 +1751,7 @@
     },
     {
       "path": "config/enigmaticlegacy-common.omniconf",
-      "hash": "03f7799ea576022b9883917cad2fba85e36fb5a6",
+      "hash": "c3a24fc35216bcbd0864c0a848f7c249980e81da",
       "force": true,
       "type": "addon"
     },
@@ -1924,6 +1936,24 @@
       "type": "addon"
     },
     {
+      "path": "config/ftbquests/quests/chapters/a.snbt",
+      "hash": "3caab4ecef70e04011d07036c5c82a311d6b66a0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ftbquests/quests/chapter_groups.snbt",
+      "hash": "96a94513e340c3382d7e9dfb0cdd11d7a2380e06",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ftbquests/quests/data.snbt",
+      "hash": "c6870a26fb21f6b0d7b8064e0a879bf775819c7f",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "config/ftbultimine.snbt",
       "hash": "3ab18f117610f9db56498064e872903642e7ff51",
       "force": true,
@@ -1936,8 +1966,14 @@
       "type": "addon"
     },
     {
+      "path": "config/gamestages/known_stages.json",
+      "hash": "cb6c3f47fde64b31bf8f760627f2fd24ef4cc671",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "config/globalgamerules-common.toml",
-      "hash": "f3aee06a1cd2a4ea7cadfe0124b546c6db4516b0",
+      "hash": "e0b8521a741d2855a8a821ca67365cbe00204e2f",
       "force": true,
       "type": "addon"
     },
@@ -2093,7 +2129,7 @@
     },
     {
       "path": "config/jei/ingredient-list-mod-sort-order.ini",
-      "hash": "dba1bbb3567e27beec6d6c64406179e30e2616a5",
+      "hash": "c32aaf2b8f76e6a9ea5c2ef235f215aa2cd11122",
       "force": true,
       "type": "addon"
     },
@@ -2111,7 +2147,7 @@
     },
     {
       "path": "config/jei/recipe-category-sort-order.ini",
-      "hash": "c078101d62f90f9b703ffbd8751501579560c4a8",
+      "hash": "b83b3907cb51498317e24b449f5deae34ccc4724",
       "force": true,
       "type": "addon"
     },
@@ -2159,7 +2195,7 @@
     },
     {
       "path": "config/libraryferret_1.properties",
-      "hash": "461ed4bd4682d577d5fb546b23a29d578c987440",
+      "hash": "44262adce7faff66f98e7dfcf51639485ea097f6",
       "force": true,
       "type": "addon"
     },
@@ -2291,7 +2327,7 @@
     },
     {
       "path": "config/Mekanism/client.toml",
-      "hash": "aef5d2bd1c0e779328d186d9ab778ac64e13bbc7",
+      "hash": "4d4160f6086fda07112a9dd23cef989e3b02cd7f",
       "force": true,
       "type": "addon"
     },
@@ -2453,7 +2489,7 @@
     },
     {
       "path": "config/oculus.properties",
-      "hash": "c18c14208ec40d5e76492d28dd71e01ea3471cfc",
+      "hash": "b7b95b2bf0daec55e5c8e098d587ceb09e5857c1",
       "force": true,
       "type": "addon"
     },
@@ -2651,7 +2687,7 @@
     },
     {
       "path": "config/rubidium_extras.toml",
-      "hash": "946797a004eb4d520bb2c4a0cca6ec9822e1f5c9",
+      "hash": "4aff0c69db1ccd25d9225be7a5e622c2ed337e63",
       "force": true,
       "type": "addon"
     },
@@ -3353,7 +3389,7 @@
     },
     {
       "path": "config/touhou_little_maid/info.json",
-      "hash": "3141a0d7e8eff8e1e8819e2ec888c0135a5af86f",
+      "hash": "15b3a6544dd9a05e747a9547f20fe4d362fa3773",
       "force": true,
       "type": "addon"
     },
@@ -3443,7 +3479,7 @@
     },
     {
       "path": "config/worldedit/worldedit.properties",
-      "hash": "8e8803e9b8a523786eed83cba75028206abcb1f7",
+      "hash": "1cea92158734a4fff50db6dd770ac3da2fa75daf",
       "force": true,
       "type": "addon"
     },
@@ -4528,38 +4564,8 @@
       "type": "addon"
     },
     {
-      "path": "defaultconfigs/champions-affixes.toml",
-      "hash": "80557676c40fa1230b27f73fce21ad633335eb85",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "defaultconfigs/champions-entities.toml",
-      "hash": "e3cbe7b6e20010e95d9b56d36c564cbbbcd393ce",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "defaultconfigs/champions-ranks.toml",
-      "hash": "aaa8d484a1cf07c64e33cd3afd59b38a77338e6b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "defaultconfigs/ftbultimine/ftbultimine-client.snbt",
-      "hash": "5f555b753f471cffbe46298ef3b4aaef1dfd1f34",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "defaultconfigs/ftbultimine/ftbultimine-server.snbt",
-      "hash": "788ebb529b155300d09a8b03f07626fed9d54827",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "defaultconfigs/ftbultimine/ftbultimine.snbt",
-      "hash": "6b439f9e73cef02a367194690285ac2eca10834e",
+      "path": "global_packs/required_data/stage_advancedments.zip",
+      "hash": "8f4a9cba1203fa9bba9d84a397ab67405f48fee0",
       "force": true,
       "type": "addon"
     },
@@ -5164,6 +5170,84 @@
       "type": "addon"
     },
     {
+      "path": "kubejs/jsconfig.json",
+      "hash": "d241c0f3363227cd45d23faee493b233c84229b3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "kubejs/probe/cache/cachedEvents.json",
+      "hash": "c748bab12895a36e5bf35e12c46a959f85ec4fbf",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "kubejs/probe/cache/cachedForgedEvents.json",
+      "hash": "ca8eab75be5030c85ea6f213e4fdef8774346986",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "kubejs/probe/cache/cachedJava.json",
+      "hash": "97d170e1550eee4afc0af065b78cda302a97674c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "kubejs/probe/cache/javaClasses.json",
+      "hash": "28bc07a97b5456f3b02d872c96c79a40bb7cee5d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "kubejs/probe/cache/mergedClasses.json",
+      "hash": "3560c04a97bff8bbfe41db8ba202eff665909a6e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "kubejs/probe/generated/constants.d.ts",
+      "hash": "d52d6f1a89993235eaefb6aa7e44305e96a7d67e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "kubejs/probe/generated/events.d.ts",
+      "hash": "82c75ddaa4fff319609e201ac96e09db91472f70",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "kubejs/probe/generated/globals.d.ts",
+      "hash": "9caa6b1df499e63e1de0a53ce2a1094988fa3f67",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "kubejs/probe/generated/java.d.ts",
+      "hash": "72dd292288dc0f72113f461f7bddfe1fe6fb6ff1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "kubejs/probe/generated/names.d.ts",
+      "hash": "b906fdcb60e82b43352c23114dd7336170287c70",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "kubejs/probe/generated/raw.d.ts",
+      "hash": "f47aa670886b3a9704d8b6daea38f74249450166",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "kubejs/probe/generated/registries.d.ts",
+      "hash": "c4053f24da1dd78885c8a1bbdfb82a7736c9a9b2",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "kubejs/README.txt",
       "hash": "4e6b6169fae5277ec5cc0955a7484942835d7eb1",
       "force": true,
@@ -5178,6 +5262,3042 @@
     {
       "path": "kubejs/startup_scripts/script.js",
       "hash": "744de5d587fbd14cafcb9a7260c5aa2e2e1dd5b5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_brigantine_53c32f5787.nbt",
+      "hash": "efa6ef7cd7ac79cc820c0ba299e16bc7a5c6d278",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_frigate_large_end_002118f7fb.nbt",
+      "hash": "2d90ddc702b2081996f509e8b15be05834c8dcac",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_frigate_large_end_top_20caecd8c9.nbt",
+      "hash": "6fead25008f21fc505510603aaf1f6237079d0e8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_frigate_large_start_5a5fdf864c.nbt",
+      "hash": "1d9e851c03f869a8cc0532ce820a46b927254dde",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_frigate_large_start_top_4bdfe5861c.nbt",
+      "hash": "61cea85e09540baa69d112cb8ad80286a529cda5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_ocean_cage_c9c238a93c.nbt",
+      "hash": "b401645da441681c967ff2e6236b6d6effb1fee9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_ocean_quad_ae4d983986.nbt",
+      "hash": "b9ab75b767b01a17713740a7d78c8080990994e8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_ocean_ruin_pillager_0acf60e6fe.nbt",
+      "hash": "51cc63ab0c8d104c66b72a558f6128ac1ff07ae8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_ocean_ruin_vanilla_temple_e95b67b0f8.nbt",
+      "hash": "9fd8089fb35acf47c61ad579b9925c3cb931fd97",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_ocean_temple_quad_1d35afd19c.nbt",
+      "hash": "263563ac3bc1b480aa5ea1ef970a4eddf63d5007",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_ocean_the_column_temple_86b8341b17.nbt",
+      "hash": "715d0a8ee039c0835168b8f3a51acd15dd121faa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_ocean_warn_temple_96789e9b8d.nbt",
+      "hash": "fd115815b379174dc0ca1cb2595b1cf3fc2e0ab4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_pillager_axe_4eb0ac4a2d.nbt",
+      "hash": "0b66e7b450f965dc8bba12e55a290507613d1862",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_pillager_bow_804032d144.nbt",
+      "hash": "0a5b796e3b153cd35361e36f8213f5cd9dbe48aa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_pillager_cac_75ec0752cb.nbt",
+      "hash": "ea1e04a820386d33a00ac26d36aa81efb2e3c1f3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_skeleton_axe_19f27cc074.nbt",
+      "hash": "22e5a7da68758fdc6916474ecb2cf466873f4790",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_skeleton_bow_5c020a4f5e.nbt",
+      "hash": "a2ddb8f9063099dd234c88c902482d07cbd97470",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/awesomedungeonocean_skeleton_cac_d32d19b997.nbt",
+      "hash": "3b879a655f895fb88d940f1e1ff91aa8e72bfb82",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_0_f0e2021747.nbt",
+      "hash": "28e1e5f82feab34b7d3c5460ffa914521ec0db29",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_10_ef7390a822.nbt",
+      "hash": "26ee17590b3308d1ee221cd3632697ef2a9d0c3b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_1_d33cc86297.nbt",
+      "hash": "b84ce1724e9b277e4ebbc8a779ebd18acaf59a0e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_2_eee568a047.nbt",
+      "hash": "2b41bb3db82b3106b09f8b7d19015ebfe95aaace",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_3_50da79b947.nbt",
+      "hash": "bc12b43b6b3e691461029435307a89e625a3e495",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_4_77f18b9200.nbt",
+      "hash": "71824b1082a85db46ce588ea2a104120447ead70",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_5_d50784ff42.nbt",
+      "hash": "dd1ec8095e3349e000d0a5627a3438d27c7afb4c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_6_c756a06022.nbt",
+      "hash": "b03d8cd27a4d94693f30bc3490701fb98bfd5862",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_7_7d875457b5.nbt",
+      "hash": "a5b39670b968db39c108a53d8417c4a4b371722b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_8_b9fdabe9f9.nbt",
+      "hash": "838720311eb92eb73eaccf42d790aead170dba16",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_9_34f62f9cb5.nbt",
+      "hash": "38748c7580ff202f9bd7b83a01e36590e5135634",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_empty_547d238db6.nbt",
+      "hash": "8c839f1aea5fa01e36738379a86803bf53795b37",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_10_5ba0d13af0.nbt",
+      "hash": "4c74eb8b76248161d2cc95a2496abdfac1254e43",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_3_b108e47757.nbt",
+      "hash": "4703ecfa59c77314500269b281a6a6bd39c3c8c3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_4_52cec4534d.nbt",
+      "hash": "4f76d157655b619f3d7bc19c3b867033c5110629",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_5_de981fe924.nbt",
+      "hash": "b2724e4cda07c7ec11db5ab07c5339280988e413",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_6_1421cb2249.nbt",
+      "hash": "5ec5aa1dc24aa133e59f53ad3a0897a767f0556f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_7_e659c44069.nbt",
+      "hash": "9159138c529da275d2a5f58d9f438ed4eaa54533",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_8_27da72aea2.nbt",
+      "hash": "b643b345b745f9d16ba2fdb8eaafc31ff2555b97",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_9_01b2f4a40f.nbt",
+      "hash": "7f2da597af586b5794ed922463c501d5a5a8aa39",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_empty_478e284ed4.nbt",
+      "hash": "14c0c30189b98155ae55186c92ef6cb39d096148",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_arches_arch_0_8add85a4c3.nbt",
+      "hash": "d1808a7cfe22c582c79eac5b743d1eb206278c2d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_arches_arch_10_470f82b563.nbt",
+      "hash": "1c3ce1184150076000fb9e991acf7308a2516d47",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_arches_arch_9_34b528c529.nbt",
+      "hash": "bb2003830ed311dcfe5f445931827b21e8d5919d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_bridges_bridge_big_0_80e03675b9.nbt",
+      "hash": "cd070f348afcbad4f3e68cf36575619ff872051f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_bridges_bridge_big_1_1ede92fb93.nbt",
+      "hash": "1b86456f0f3777fe536a25a71417e96a656ef75b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_bridges_bridge_big_2_5824cd2e1b.nbt",
+      "hash": "1f274ebdc48a6d62830e9981f416ad897e4e8bda",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_bridges_bridge_big_3_43d1311cfc.nbt",
+      "hash": "a7c45072cd214a31eed38e7c6bbd599ad5192d67",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_bridges_bridge_stone_071b5dd198.nbt",
+      "hash": "c0910d79d9ae0226cad9988dee83f11444851d8b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_bridges_bridge_wood_a32827d751.nbt",
+      "hash": "a3764c82486b725c07713e99f5d9280df50bbc8b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_campfire_prop_campfire_prop_0_f6d16284e5.nbt",
+      "hash": "817b8477bcb650c8e8440fc75a1440c56efdf565",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_campfire_prop_campfire_prop_1_c61fe33f3a.nbt",
+      "hash": "8f76003e6ce055be3edec3aa0104cfb434cd49e1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_campfire_prop_campfire_prop_3_9dd877a8a1.nbt",
+      "hash": "60596bee79646a2b412a7334654a70c8ef9b9f34",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_campfire_prop_campfire_prop_4_035f14a11e.nbt",
+      "hash": "5747f3b62f7070667b3f14a478b04287d1688617",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_campfire_prop_campfire_prop_5_e8b8fd517c.nbt",
+      "hash": "44c2416be715958b8e7536226c03a4043cb4581c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_campfire_prop_campfire_prop_6_fd344a6bf2.nbt",
+      "hash": "45f129758535e057ea158f88c2381c0f59e43563",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_skeleton_shell_55b4080ab9.nbt",
+      "hash": "d8c30bbc82585e818bd1adfd25f18814b5e82dc3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair1_stair1_0_1c96d27111.nbt",
+      "hash": "d48d5e48427b502548bbbd6ccc39a3c80452f1d7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair1_stair1_1_209a4f7c16.nbt",
+      "hash": "d8796f828818fd9847f7b1a54037b25fd2870473",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair1_stair1_2_13f41cf985.nbt",
+      "hash": "38b46f8dfc604eb50b7a28baf89b17c0aeb07280",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair1_stair1_3_1a94672c3c.nbt",
+      "hash": "a91411432374dfb629bbf8a3057e858e0aadb27b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair2_stair2_0_7c159e85f7.nbt",
+      "hash": "aab10f1aa70935afcc728d53211aa0a4f31e0255",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair2_stair2_1_36e5e99a80.nbt",
+      "hash": "695c4ae1c0e55b1364ef54fb4782962f6b723a2a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair2_stair2_2_0d4f6bf291.nbt",
+      "hash": "730852f6454770d52ed9a6ed89e544f0072cce14",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair2_stair2_3_dc4e11de08.nbt",
+      "hash": "8063be50bb57734bc04dbf04f790be4c2bfc7406",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair2_stair2_4_0db8414e48.nbt",
+      "hash": "f4648955b6daf0068ca12358ba7952641b342330",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair2_stair2_5_ccca018dd2.nbt",
+      "hash": "d2620010cd43aee9cf42c57457625b71027457d2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair_bottom_stair_bottom_1444059b00.nbt",
+      "hash": "1d957f10c75735a5d815a351cab23a546dadafbb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_0_c0736bd3a2.nbt",
+      "hash": "63f4613b95ece3bd5c728732489e4f9a6386b693",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_1_9e4b4a8643.nbt",
+      "hash": "ce1d054fda992abee36c2d6ac4a41b47e05fed43",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_2_e546b41936.nbt",
+      "hash": "428c1520517542f5fd4f03397d4eba187efef00b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_3_5c5880038e.nbt",
+      "hash": "f8c739f8e39b4f28f4794a6331e3279facf09e60",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_4_e7c36895b4.nbt",
+      "hash": "5f61c5238c3de89b7ff04c057185e70d5f915c01",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_5_ac5114c0a5.nbt",
+      "hash": "7e5362fb015a1c88d81dd47b0ce231c2be87964d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_6_484ed43715.nbt",
+      "hash": "2f87d276b748888bb4828d072b4a6164f3b3719f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_7_378d5c4893.nbt",
+      "hash": "510010419f06127bcd8c18652691a6720c2e64c5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_8_4990738bbc.nbt",
+      "hash": "0fe73787835d153f441787772413047481481fc8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_empty_060ef807fc.nbt",
+      "hash": "c57252f06e07b1baa3b435e0f37235d6d4d68709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_shells_small_shell_5x5_10adbf714c.nbt",
+      "hash": "939869c4a7253ce739014ac3c213af7c94fc2345",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_shells_small_shell_7x5_bf0ed58892.nbt",
+      "hash": "bc0ee5c3392b80dbc9ebacd8b594d8d79dbbb045",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_shells_small_shell_7x7_8ff232e934.nbt",
+      "hash": "c6cc1b9934082e8cad7d0f15f7c4b343a1a0c677",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_shells_small_shell_9x5_24b7cbb1ad.nbt",
+      "hash": "5a8a7894cd24002c97e8c361806f0c013adad285",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_shells_small_shell_9x7_5e99bab350.nbt",
+      "hash": "7f9dcdc8282117381528e2c75c128f7b508b7e2a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_shells_small_shell_9x9_b88c93854b.nbt",
+      "hash": "70073a692f44f5ba12a90dc16007b9863fbf55be",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_big_stairs_big_stairs_0_68bc7485e5.nbt",
+      "hash": "ac0b6e2d8bb32d5d4675b9d7de6609abc2808e87",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_big_stairs_big_stairs_crumbled_0_1d8711bc6b.nbt",
+      "hash": "26ed69332730738e203c386d3d41884712783e70",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_big_stairs_big_stairs_crumbled_1_f23103678a.nbt",
+      "hash": "22692824a8bb24ee586ce2f31f01c0b364062e4e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_big_stairs_big_stairs_crumbled_2_b6c98f56cf.nbt",
+      "hash": "bf670f5f8c14387498115ef7026f2b37b38b6d09",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_cubby_double_0_3d91d37244.nbt",
+      "hash": "b7aa2bbd0543fd924c31e3b4fa5198c07b2579eb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_cubby_single_0_b223b5c881.nbt",
+      "hash": "f25124754a4b53c76a077d5019143c9a72966c83",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_cubby_sm_single_0_5c1f9a28ea.nbt",
+      "hash": "5829ebce1715c70e3b9c5eff667c86052389b0f3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_0_19470f2517.nbt",
+      "hash": "71772511993232df85d1322854bc2af69a7c330e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_1_9de30ac762.nbt",
+      "hash": "cfbba5defdc7861d08259cf2153a3dd3d9cf1199",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_2_cea4f419f6.nbt",
+      "hash": "f531b388ea35d14225fa77457977cbd3f15cb683",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_3_771ff98168.nbt",
+      "hash": "8192b04e0621796eadd3e770e5d50fd38334452c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_4_c8124bc64f.nbt",
+      "hash": "628d1232f07e7a66a714cbce03512c61ea9034f7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_5_2ed61aea75.nbt",
+      "hash": "d0df4c03bf82ee63dcb359a1a44342629bae2b49",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_6_ae56d3227d.nbt",
+      "hash": "de8987af0ac15d4b79d51d4865a736f920e228dc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_7_1bfd37e7a5.nbt",
+      "hash": "4031e742f7c3324a9e430b7287691044987f39e8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_8_3e6c3af909.nbt",
+      "hash": "3a68ad3ea295bf1d6cd5d72b9cc98f0ec8bb3196",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_9_28ffc66738.nbt",
+      "hash": "6fdf0ca5ecce7c0f823632616dfe18de29041365",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_empty_d19b114bd3.nbt",
+      "hash": "a5cfdd308cc194c7f45b84850e776f23cc7a9583",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_spawner_0_4bc4d81937.nbt",
+      "hash": "52bd0cbe6e26029d11dc15472a2b5b5f7e55deb0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_spawner_1_5688fe111e.nbt",
+      "hash": "9939e55685a5b8623cffe38002e3390cc419f9b6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_spawner_2_1bffa9f7ce.nbt",
+      "hash": "00224e8b44a8795881a47d4430e854ff539af8fc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_room_floor1_room_0_97e7590a1b.nbt",
+      "hash": "d6f5bc9ee3fede8c51c1e8453da2bc412a2c764f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_room_floor1_room_1_09ff8e38e0.nbt",
+      "hash": "8c32de06f64636d0351764bf32793258f61632c1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_room_floor1_room_2_859bab9870.nbt",
+      "hash": "9425d66a29f73300e30ab9fdfa2d818f7be79b68",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_room_floor1_room_stairs_52bff3bb2b.nbt",
+      "hash": "e9948ccb837afc5b070b8a514a6e4044568ccf9e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_room_floor1_specialroom_0_405c6102d6.nbt",
+      "hash": "1aa3f0fa5b0c0b4c84b8457a353fe67269469adf",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_hall_terminator_0_fe26f5a081.nbt",
+      "hash": "c13047ee623a8358c3c3174e7d518a5e7d3c3d8f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_hall_terminator_1_8a83130c87.nbt",
+      "hash": "64f4165556eeb549213616304609a3dfcff3387f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_hall_terminator_2_195c65d5b2.nbt",
+      "hash": "11efd3f6c17cef4813169fba4442c2a9046c87e2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_hall_terminator_3_e32de48315.nbt",
+      "hash": "d85ad0999736f09486432c421fe9dcb00bae38e4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_hall_terminator_4_9e2c2040b4.nbt",
+      "hash": "d49d82ff07ad8ce6f78bf1e23515ca1798b5d078",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_room_terminator_0_25b9cc04a3.nbt",
+      "hash": "6d1cde84d12dd7961e2d27f3447bdfd2068aeffa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_room_terminator_1_ae781e45c5.nbt",
+      "hash": "6bdcfc06e99f10ce5d6b33d52131992007928e13",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_room_terminator_2_681e5c1230.nbt",
+      "hash": "516257f5547c5e84e64848f17206d3ae388287a9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_room_terminator_3_c9fad1901e.nbt",
+      "hash": "57ebef1f4adb699d26a49da58f26a787d3f8409c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_room_terminator_4_4116006d4b.nbt",
+      "hash": "d54cc91a6b2c8e4aaac53800520e4cdf4c7c9ee0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_room_floor2_room_0_b9616343f3.nbt",
+      "hash": "5d9cec30396afe89d9b4987c2795c637660765e4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_room_floor2_room_1_18b0aab15e.nbt",
+      "hash": "0eb9c889810935f024477a3ddd7a6e91335466a1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_room_floor2_room_2_4a5bdc6111.nbt",
+      "hash": "f9151cd54f841a5134ce7f42ac276b3587cc599b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_room_floor2_room_3_1432056cbe.nbt",
+      "hash": "f9ba4f7793dd19e24ef0ad8c9b586e0e348140a9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_terminator_floor2_hall_terminator_0_a331c62f6f.nbt",
+      "hash": "6ac1ee9363d193428e91c022f26a27199468b61a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_terminator_floor2_hall_terminator_1_3570c92d17.nbt",
+      "hash": "241de45ea2ee5df642ad7014d24ea915757edc24",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_terminator_floor2_hall_terminator_2_6e2ce00136.nbt",
+      "hash": "efe00802ca46ee41a93e1722f2c0d028e4b2bede",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_terminator_floor2_hall_terminator_3_982ebe639d.nbt",
+      "hash": "30a249c7d903ae6fcd25f6620a4e12762cb3d673",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_terminator_floor2_hall_terminator_4_34ff06bc12.nbt",
+      "hash": "20368395bbf60699bb380daf4197588b001fd198",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_bow_closed_bd8c00425e.nbt",
+      "hash": "0629ec0761864ad5668ec0daa7e0847b82654b43",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_bow_open_0_65598c2c42.nbt",
+      "hash": "7e02b7c71d736e38585a42a81d4ab085b0f70a70",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_bow_open_1_da585a42f2.nbt",
+      "hash": "b4d1acd00acaf94f564871218c35cd6a763d54a4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_chest_closed_a5c11e963a.nbt",
+      "hash": "940d4e81cc11c386cc8e08d28116992faf2bf5fb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_chest_open_0_c52a8dc0ee.nbt",
+      "hash": "3062593435255c09b8389ed800f55308d8da64de",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_chest_open_1_f3f201b8cc.nbt",
+      "hash": "f6451c06ec10a5c32e95022af974d88f19b72afa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_empty_closed_a78f2c7f53.nbt",
+      "hash": "d22400d5877a79648df6b9eba5ba9ed80f178e2b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_empty_open_0_50ca8c3489.nbt",
+      "hash": "11a7376bf9aff067cd9ac8a0743219c6ce7cc7d7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_empty_open_1_c970a77123.nbt",
+      "hash": "453f93280710f096ab128aa8e076ba24771e8145",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_flower_open_0_1db0be3bca.nbt",
+      "hash": "cdd516cc9473ed343043dc973c7ad17942c8ec9f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_flower_open_1_1db0be3bca.nbt",
+      "hash": "cdd516cc9473ed343043dc973c7ad17942c8ec9f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_skull_closed_bd8c00425e.nbt",
+      "hash": "0629ec0761864ad5668ec0daa7e0847b82654b43",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_skull_open_0_011de72dba.nbt",
+      "hash": "39bae16d2a02461c76641cc38e86f1322b6b875b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_skull_open_1_011de72dba.nbt",
+      "hash": "39bae16d2a02461c76641cc38e86f1322b6b875b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_spawner_closed_ee27e68eba.nbt",
+      "hash": "cbbfc8d5e3721987997ee373639fb6d45c6d5534",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_spawner_open_0_b890589d3c.nbt",
+      "hash": "f71e1a64710579cda7b8c87c89eeea411800ce82",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_spawner_open_1_ff34104ec3.nbt",
+      "hash": "527be01bf2b34e1665dd91e9a181d45410f64aa4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_zombie_start_d1343bb6e8.nbt",
+      "hash": "90e81d9a4f0472622e7173af58691e447b991849",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_hallways_hallway_2_334fb8feb1.nbt",
+      "hash": "a4c9d3b179e5f36979bcedce81cba95ecbae3124",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_hallways_hallway_3_7c9da9377e.nbt",
+      "hash": "49d0cc33b3f9ee2c9aaf1996db64c27f68405561",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_hallways_hallway_4_79435b80c2.nbt",
+      "hash": "6508d523e55621f5be5ba45dd46d17322f51f915",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_hallways_hallway_turn_294ab105b7.nbt",
+      "hash": "54f91656fd86cc636c73b2ed5289cf9d5ae60a24",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_hall_doorways_hall_doorway_1b8026bce3.nbt",
+      "hash": "37585a3be4f33b18a37b9d24790b49ebe06eafff",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_hall_doorways_hall_doorway_2torch_179117454f.nbt",
+      "hash": "512daf8234f3a97dc7625f17b4d0bd8a72ab5948",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_hall_doorways_hall_doorway_banner_b9a07d821f.nbt",
+      "hash": "8e059006f7e2647593c8ddd11ac3078a8682c35f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_hall_doorways_hall_doorway_small_9b37fffa93.nbt",
+      "hash": "3fa18d8d776250942b4dbe56d28f3bfd89a3cb38",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_hall_doorways_hall_door_iron_49b3fcf00b.nbt",
+      "hash": "b79f81104923e2ff98930f3d79803d8e02f12ae6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_hall_doorways_hall_door_wood_5ba88c32dc.nbt",
+      "hash": "a926406775d155f8ae547b87700612a2c50563fa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_portal_rooms_portal_room_2a24ccc2c1.nbt",
+      "hash": "1f3a79657b8b5544e7a32933edb7fdf2a0d5c583",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_armoury_md_8198a24484.nbt",
+      "hash": "54c4d7c847372fba23e262a125e2db156ad2e360",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_armoury_sm_c39a3cd103.nbt",
+      "hash": "ba59bdf9685153293993de3d748d1db0a705d1ef",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_bunks_md_016dd86d2b.nbt",
+      "hash": "bf327ecc35fe62eeca160e3e518acaa47b32101a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_cmd_acarii_a7376c9cd0.nbt",
+      "hash": "31c0c92cf08681737ef3edd99dea1f7183e53da8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_cmd_yung_327932c875.nbt",
+      "hash": "1f5a303ef4aabdf745538055c0b678fbe5efc8f7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_crypt_sm_17a6fbddee.nbt",
+      "hash": "7ad938d5476b101a77afa6e3120d349e83c1b1a9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_grand_library_f8ff3cc92a.nbt",
+      "hash": "8ede87fad30bf7d00bb10a08d5c7bae840d4dc27",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_junction_md_c035af1101.nbt",
+      "hash": "a556398933c6bba7de3cace1d46942178d690694",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_library_md_b047b7f0b7.nbt",
+      "hash": "18c8b4bf1b9b3dde576bb59c7e04285404079f37",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_mess_40b14cbfc1.nbt",
+      "hash": "e1151d711686674e782812441b2906c808cdd7f5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_prison_lg_d897c798c5.nbt",
+      "hash": "8ee55272628c68e9196521f6671649e0255c716d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_sealed_cell_19c1dab0d4.nbt",
+      "hash": "e8cfce1c970cdf4543bac420f4276c60c62d1c38",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_sealed_collapse_2a419f131d.nbt",
+      "hash": "d4fda194911b6b8c626cab031a6770ac0f1ba3f2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_storeroom_e974ef419b.nbt",
+      "hash": "896b6498d14c3ddc304d0882dc07e901e5541f06",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_rooms_treasure_room_lg_944972d10f.nbt",
+      "hash": "faca392db974e8142fe63f0745a5ca652b3bcae1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_stairs_spiral_stairs_2floor_0_e3e835d2f4.nbt",
+      "hash": "98b2adbd5a3e21636067c38e50c337631f070734",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_stairs_spiral_stairs_2floor_1_5d64d3a871.nbt",
+      "hash": "2fffc47e2af7a316a49e98eef493de0c5a58deb6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_stairs_spiral_stairs_3floor_0_0c2a45bccb.nbt",
+      "hash": "0b03e81c512b406f91b40823f3d0a7b5159c5e62",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_stairs_spiral_stairs_3floor_1_ef32b94a58.nbt",
+      "hash": "863ad6972b856d1bb7aab8c10197f4c5c2d5ed1a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_stairs_stairs_straight_02a4a8c43b.nbt",
+      "hash": "32eb91b1a6d729b532cecf2b81ae23513c4c9b95",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_starts_junction_lg_f07980f4e5.nbt",
+      "hash": "c1e3cdaaef5ef70fbd602c85e4e89c07cc8710e6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_statues_statue_book_l_3ddeee944c.nbt",
+      "hash": "3404f14c5bb25d1684093e38be4cf3645bfcc928",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_statues_statue_book_r_e2825d107f.nbt",
+      "hash": "c71f6ac07f72298a7a6acf7c890b91efa368498c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_statues_statue_chest_r_331368f169.nbt",
+      "hash": "840849a574fc6921aca436e69a470069b32200e5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_statues_statue_lantern_l_d4609f6a53.nbt",
+      "hash": "a7c8609b3547b025d28064e1dd919ad532fb1c8c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_statues_statue_lantern_r_e52e61c55f.nbt",
+      "hash": "972ceb2b8268c7f2e872d8b2f35908421408a08b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_statues_statue_shield_l_32e57883d9.nbt",
+      "hash": "8727f7960d42c9763f64573044202161f28dc881",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_statues_statue_shield_r_50dd1724d2.nbt",
+      "hash": "03c609a4f8d19f3e7fb37cc3d35e17572e470b72",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_statues_statue_sword_aebab57d79.nbt",
+      "hash": "fc54f3508c4d498decdb0fba5c4709d4d9ef5c7c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hallway_end_chest_adb9c55093.nbt",
+      "hash": "f3fd8b1fdeb8af1a20e48dcc27f10623cbd73770",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hallway_end_chest_trap_87f16defad.nbt",
+      "hash": "cde86aa5dd4ba899cec1eb3f2c9baa6f3c506ec6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hallway_end_e7707a8978.nbt",
+      "hash": "7c34241246428961cdbeb3eb14223e2bd718428e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hallway_end_statue_book_l_6802199219.nbt",
+      "hash": "aabb3a502e875c60a99ed949c5457256bca7fcf9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hallway_end_statue_book_r_1c52293bea.nbt",
+      "hash": "894bc041bdb8dcce5af2dabdaa957bd8adad5b0d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hallway_end_statue_chest_l_8a4251543e.nbt",
+      "hash": "93eca9dd64b850cc505843ff04014efb02815558",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hallway_end_statue_chest_r_75dcaa614c.nbt",
+      "hash": "cc23318b09c8ae5b3545f6b847a397c0ae1b11c7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hallway_end_statue_lantern_l_1c98ac3881.nbt",
+      "hash": "71c5c64340c4ae54dec4044f4358a18704ad7e5e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hallway_end_statue_lantern_r_968a0c563e.nbt",
+      "hash": "12511e32eb95501207e004a99cb1cc718b17f64d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hallway_end_statue_shield_l_c669835e00.nbt",
+      "hash": "41a0a247a6e523a0d6b2e46338c7adadf3e51243",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hallway_end_statue_shield_r_ea323c49ae.nbt",
+      "hash": "54d716efe05631648d733e593225aa5f66e483f6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hallway_end_statue_sword_0cdbd35f27.nbt",
+      "hash": "e5321d449087147e55050e4e0accec4401c827a9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hall_doorway_terminator_cdf8d662d1.nbt",
+      "hash": "876a1baed46209bf90c7bcbfcf60b6cd032d21dc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hall_wall_cobble_terminator_41c929868e.nbt",
+      "hash": "33db8f7c1a46476ecf18dcf6a4603bc5079b5026",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_hall_wall_terminator_9c70a85ac9.nbt",
+      "hash": "337d6a9a29697b85a1e7c3b24c294e7ee4ff762a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_terminators_spiral_stairs_terminator_86ef616bf1.nbt",
+      "hash": "83a40a8fb3c553ce72e356d6158ae365fd499eaa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_walls_hall_wall_1168101afe.nbt",
+      "hash": "2218f948a13249f615dea951c89a15768a57d4a6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/betterstrongholds_walls_hall_wall_cobble_3018fb3167.nbt",
+      "hash": "72e95a52faf7ab93afd836d0d0193015091ecf1b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/beyond_earth_alien_village1_07ad8e351e.nbt",
+      "hash": "34634639f3f0e0e4dd6db2ce073624cc52f47d94",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/beyond_earth_meteor_1_b1517ea582.nbt",
+      "hash": "12a170e781082a6fadcc005d575cadb9656a7c24",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/beyond_earth_meteor_2_e5cd3196c9.nbt",
+      "hash": "06ccf0f3fb920f3a01aa54bb2d3ce8d70b4411aa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/beyond_earth_meteor_3_3c32128882.nbt",
+      "hash": "0b541f1dbc4a42e90d62024e998e65f758361f14",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/beyond_earth_meteor_4_68def8cd9d.nbt",
+      "hash": "d72f240038465739ea6d45843ff3499a94e721ef",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/beyond_earth_meteor_5_210e7e5cbc.nbt",
+      "hash": "f503da2ae5714ad1adffa9f0a2e83b1964f2f919",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/beyond_earth_meteor_6_55fc1c4a07.nbt",
+      "hash": "ff4732f121ada27a0a259383b632e4ef7fe9676f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/beyond_earth_oil_well_e8a2e1a285.nbt",
+      "hash": "0a03714c2f2ab1ef43da160dca2baab254ed2d00",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/beyond_earth_venus_bullet_7224f902e8.nbt",
+      "hash": "77a657adb06b720a07303db15fa32ec35ed78533",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/beyond_earth_venus_tower_f3647d4175.nbt",
+      "hash": "6976888dbf748fedfcf6eac456a95e7d1d83b8a4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/beyond_earth_warped_watch_tower_bf3c3a6056.nbt",
+      "hash": "96e0d01decec759a0e98252318b4c47711878d29",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/born_in_chaos_v1_mini_ferma2_2bd3f29381.nbt",
+      "hash": "cede899b499cad26b0bdc74d72dc213c3256f628",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/born_in_chaos_v1_mini_ferma_0350148f30.nbt",
+      "hash": "753f6dc9c62bc5d9dc9042b1439e0a8582a52e1c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_farm_large_1_c143af8e13.nbt",
+      "hash": "697eb3738e44657b226a5e49dda36f15f46bd42a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_farm_small_1_8157c3d8c7.nbt",
+      "hash": "6ff9385b8b2b9e25b0c48bf81b30f108be7348e1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_farm_small_2_ca0ef5ab4b.nbt",
+      "hash": "d7cdc99be678073b377cf734b09b7c88a0dd8ddc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_large_house_1_1b6753e15e.nbt",
+      "hash": "e166d79e534dbaab1a56f96024e5fb5e5693639d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_market_1_160fe7f6c4.nbt",
+      "hash": "eaf7ce6cfe7d0967eef5d70980cdb79fa1fab31f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_market_2_d3a3a2df60.nbt",
+      "hash": "0f61e3ddc1b063ea1ce95c74936931df55e2fd93",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_mason_1_f2fa08e2db.nbt",
+      "hash": "e6440ae594d4b397a513e8218b153e0a2825a4d6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_medium_house_1_eaf81b2395.nbt",
+      "hash": "433e2cd8dc0e2ccae8ebb238ec85e65dbfd5dd63",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_medium_house_2_9c6573c788.nbt",
+      "hash": "d58cc532ae0f9cc7bbb74989839d8e4b06cecd56",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_shepherd_house_1_86353b8d10.nbt",
+      "hash": "4e9a187341c65969063889749b2a2beca947a001",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_small_house_1_fb69adc725.nbt",
+      "hash": "bcfba5ca874e633af7f9c3c1984bddb87cf6e490",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_small_house_2_1b5bc84e76.nbt",
+      "hash": "d07b8c8c8563a7025058479f96df452082b6b4d4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_small_house_3_c058003ded.nbt",
+      "hash": "01cac3b0280b32b1f6021b6a3810cca4f6431d8c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_small_house_4_801dc66236.nbt",
+      "hash": "df30bd37c694b31ef15f8b6f4015b3f57fd10d53",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_houses_red_rock_small_house_5_20d835f274.nbt",
+      "hash": "b6d359f3966d2c15deb4f89057ec965ed671fa47",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_red_rock_lamp_1_7db12fb40a.nbt",
+      "hash": "5056f4fe02eed026c7e47c05204ebadf6104f4e1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_streets_red_rock_corner_01_04f642dba1.nbt",
+      "hash": "4d52ab13d08688a472b266ee98baad0a9379e641",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_streets_red_rock_corner_02_ea4e7f645a.nbt",
+      "hash": "2567544869d8af58d2a3551ed47d653f691559b5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_streets_red_rock_crossroad_01_f48129e91c.nbt",
+      "hash": "1d4423ef1703ce35590f3f8921d3db1b78652c9b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_streets_red_rock_crossroad_02_103ee29017.nbt",
+      "hash": "e6fe5b7acc58111f804b790f6e4e331ce20f2b47",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_streets_red_rock_crossroad_03_cad9d5a895.nbt",
+      "hash": "3b1a72f2e930fd7dfdd47384a1c847764df4de32",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_streets_red_rock_square_01_28261af7fb.nbt",
+      "hash": "6bcb699c6f847d82ef4fcb143910f71b1fc1c158",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_streets_red_rock_square_02_06871612bc.nbt",
+      "hash": "6a0bc13f6561fc9e3b88aee2977af34e1be00ffc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_streets_red_rock_straight_01_dbd20ac0c0.nbt",
+      "hash": "95cd78ad56b47018aa711d3a7b7bdf6d2a5ff287",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_streets_red_rock_straight_02_84e0a3a4ff.nbt",
+      "hash": "eb2e464ed32cb977321421b819f36ee7b91136e4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_streets_red_rock_straight_03_6b03754381.nbt",
+      "hash": "36ec608a6a5f83b0d5a752706848e0a00e6a3abe",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_streets_red_rock_turn_01_30b209a7b3.nbt",
+      "hash": "ab622be482667fe6dd4364bb1d408d4ce80852c1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_terminators_red_rock_terminator_01_b08148a067.nbt",
+      "hash": "8e08118ae7b2f2270b936ac5e934361a56deb26e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_terminators_red_rock_terminator_02_6b27bed689.nbt",
+      "hash": "2ea8554e5c4941b91553d533ca04025ce09f7089",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_town_centers_red_rock_meeting_point_1_56de6f69e6.nbt",
+      "hash": "1c0099951bd3408936580e1dc473b9f63adc4d8b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_town_centers_red_rock_meeting_point_2_33ae61a3c3.nbt",
+      "hash": "ee33d26aceb3f2d47d6fbbd81f9ec33a31a45b82",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_red_rock_town_centers_red_rock_meeting_point_3_a0e8ff4e6e.nbt",
+      "hash": "880c951cfac5aa1f9e9d2035604ca100d20a1513",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_ruins_town_centers_ruins_meeting_point_1_9886b8af7e.nbt",
+      "hash": "ae9cf54f9b71d01a3bb6e7dd1772162501c15fe6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_ruins_town_centers_ruins_meeting_point_2_e6fc3919ef.nbt",
+      "hash": "eeac66e222339a120cdf39aae4e41687e99bf83e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_ruins_town_centers_ruins_meeting_point_3_ea04c9151c.nbt",
+      "hash": "feeb7efdae3bcd1274fedfd44d43c4fa810080f3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_ruins_town_centers_ruins_meeting_point_4_78eb4d0d06.nbt",
+      "hash": "0cf0a91bbad271adac7604c7d2de844a6ad46b33",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_skyris_town_centers_skyris_meeting_point_1_65e47245d6.nbt",
+      "hash": "b6d97df983b851852eef8d447d259854714006c3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_skyris_town_centers_skyris_meeting_point_2_bd40f83cda.nbt",
+      "hash": "5c754a7888a96dd88ffef9a3b6a26db680ba0dd4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_skyris_town_centers_skyris_meeting_point_3_2d6cbfc8be.nbt",
+      "hash": "f3a9897eff386f4f0f8d65b18a409ca59a8a440f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_skyris_town_centers_skyris_meeting_point_4_4a5e0be11e.nbt",
+      "hash": "fe61c73526001ebfe19fcb11fbbd3daf93deee79",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_tropical_town_centers_tropical_meeting_point_1_a2b5de8ae3.nbt",
+      "hash": "74faee85c79fc4c7efa9a14e8dc41cbeae0d224a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/byg_village_tropical_town_centers_tropical_meeting_point_2_66024d3615.nbt",
+      "hash": "aa0169847e51cac6cc04d57b330e861596743a9c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_abandoned_temple_abandoned_temple_0_ac98710a34.nbt",
+      "hash": "40da564c21604a0021eb9beec643624777e01592",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_abandoned_temple_abandoned_temple_1_cf7070605d.nbt",
+      "hash": "6f9d3356cbdca2342bd00f061fc763bcf64ef0e9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_towers_bandit_towers_crossing_0_18d1cf4750.nbt",
+      "hash": "59a26576dc0a21c2df8fd2ddb98fa244fba6fe64",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_towers_bandit_towers_crossing_1_c05040bbc2.nbt",
+      "hash": "6d7f917cca3c05a749938564f3fa6f4f715604f7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_archer_0_e6979b631e.nbt",
+      "hash": "ac01d32d01799c6043dbf9313177ccf11ca97169",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_assassin_0_6bf4eb0519.nbt",
+      "hash": "afe8c0e4735c5299d1b8edcf9928165fd5cfbaee",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_deco_0_3c0de24b44.nbt",
+      "hash": "5732b08f1dc76770a0cb348fa73e986f3dc7f1a1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_deco_10_e62430dd28.nbt",
+      "hash": "15b42755075b9dba49c55811544d7fa285f9c234",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_deco_11_2724f53aac.nbt",
+      "hash": "a7f812b0d5223471efdb5c557859632953db80ed",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_deco_12_ff0200094e.nbt",
+      "hash": "9784e4f361dbf933228120e82241ca9b9e8acd8a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_deco_1_5a11089f29.nbt",
+      "hash": "3df26a62b468b470c7e9f8ebcc44e3e6f7bf82e1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_deco_2_f234757c05.nbt",
+      "hash": "1f1bccdc1d8bb679895ce478aeb70802364b5f21",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_deco_4_1648d6adb1.nbt",
+      "hash": "f9f537b35179055b69f23f8dc050ad4c9ba36186",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_deco_5_a1996a608f.nbt",
+      "hash": "fa57d5a6db1c944672b2f2aca8a69ee5ca522eed",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_deco_6_ffca3712d9.nbt",
+      "hash": "1d7002ff8368aa78dd15354a4f500e6e7cbab14f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_deco_7_05f5140084.nbt",
+      "hash": "51071b1073448cc24d8292eef137533d326ea041",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_deco_8_159b3310c0.nbt",
+      "hash": "1f4af5132f54ac4390badfac21ccdc2cd6ff0370",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_deco_9_5f6aa3bbd3.nbt",
+      "hash": "fa22d24eb6ccc151b541d1fb3eb0e7230ba56352",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_hoglin_0_2cdca1e196.nbt",
+      "hash": "c4b817eae5784bee0e75e452153c1f0b880d55a0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_hoglin_1_df2dc4ff72.nbt",
+      "hash": "467c9ac808bc97627c152ff26844873921a91fa8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_house_0_eebfc9302e.nbt",
+      "hash": "1b01de1e196440dd36fdb608dbafcfd2ece1700e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_house_1_734a403750.nbt",
+      "hash": "deb5a69017bd25c6a814bb71a61bb1bdf4682bdd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_house_2_44996f125e.nbt",
+      "hash": "cbd64fe157827d0fd8c94704cb5b6ad59691bb83",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_house_3_ddca9cc55e.nbt",
+      "hash": "d61f6ee9ea8e2cf3b49f9723e7a7ed65ac0d5cb8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_house_4_d2a91203f7.nbt",
+      "hash": "86ccd2ad2a1e800b37de9bf83e7db52188f67e91",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_house_5_66a24aac9b.nbt",
+      "hash": "c4404abed30eee6002a3851aa911bd4aa4a1d142",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_house_6_00a88b4f32.nbt",
+      "hash": "46c07b1415887d0f12a131eb86bcc06aed44ecfc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_house_7_a366ae0a55.nbt",
+      "hash": "43a0466c9d6621c56749a624547e5521a4793dd3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_house_8_873cffbe4b.nbt",
+      "hash": "0b680e03ad55643da14f5b6736fae7e01f97843a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_house_9_aa3b4ed3c7.nbt",
+      "hash": "2ca9b885693130a97ea08d035665b79cda9ec367",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_street_0_60a82851af.nbt",
+      "hash": "b5978df8141a5fb7fc6af530362cce5b798360de",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_street_2_cc370fe8c0.nbt",
+      "hash": "5b8900efdc8eef590b8c2f62220f90443a86c5fb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_street_3_d55e2edb62.nbt",
+      "hash": "c98fe7eb37478311f164f838537a704a965efa03",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_street_4_6a56f99724.nbt",
+      "hash": "aef3d03b4d8cdb7da93094620d8bde3d629c2947",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_street_5_5eb4932f15.nbt",
+      "hash": "39248bd0c131064a62a1eec0e4ce4274838cc2af",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_ceryneian_hind_ceryneian_hind_part_0_e6e9f88749.nbt",
+      "hash": "5f18b6edb7f197c5bfd963b4bdecb09f3257f4c6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_ceryneian_hind_ceryneian_hind_part_1_1bcc5b024d.nbt",
+      "hash": "15c23ed2c5e4702469d535363568ea9e1e79b62c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_ceryneian_hind_ceryneian_hind_part_2_2eb73da83d.nbt",
+      "hash": "185fd3b9603277b7fd24751a7e77eda9e4331460",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_coliseum_coliseum_part_0_1131075b76.nbt",
+      "hash": "15ef1ff4fe86cac6597f377838ffbc9bdd1c48ea",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_coliseum_coliseum_part_1_23d8c1445e.nbt",
+      "hash": "1c868f7050780daee3c29fbd60d5f19336809957",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_coliseum_coliseum_part_2_c88764e2b0.nbt",
+      "hash": "8ac505cbc78e7f2c3339c79b62e14e99bdc92347",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_coliseum_coliseum_part_3_14ef77dacb.nbt",
+      "hash": "e2bc019d6cff897ebf0e214ddac07dab6afdddc8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_fishing_hut_fishing_hut_main_1887bfce7a.nbt",
+      "hash": "d400785db17c88649eb9cd4847c02e74fdae3ab4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_fishing_hut_fishing_hut_spawner_0_9be921d52b.nbt",
+      "hash": "61755907631fdfb1118752276a93d8ec3cdec4ca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_foundry_foundry_crossing_start_0_bd9ee453d3.nbt",
+      "hash": "65a788a4c5ca596d235393a74d45f62312a1b05a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_giant_mushroom_red_giant_mushroom_part_0_e41cc51dd5.nbt",
+      "hash": "c540f469b80348d70f91878681e227978fba7571",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_giant_mushroom_twin_giant_mushroom_part_0_1f543c0202.nbt",
+      "hash": "f9db78f0ed6b17fd7ce95368d90a479fde966b06",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_deco_0_21cc512216.nbt",
+      "hash": "58fd86e04a6a69fc1f87869cd39f361a13495145",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_deco_1_bda0c61aac.nbt",
+      "hash": "b68e507189c60ec87f5b7dacc2faf3e52be58c79",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_deco_2_8ad5e4d2f9.nbt",
+      "hash": "a266dfead9e5c7499b5db027de136ef8ec0fe01e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_deco_3_c4df4c8b75.nbt",
+      "hash": "5403365e793b49c4852c37882ef7ebd03676bd54",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_deco_4_756d96347f.nbt",
+      "hash": "df514d451b781ebf42cec04baf933d60de1d0f41",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_deco_5_44da986940.nbt",
+      "hash": "9c6fcc445bb146e3a9eebf78b03df1a4fca782b2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_deco_6_1f8423fff6.nbt",
+      "hash": "a878cb1911fb388f0cf29a8509bc3b7353cf653e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_pillager_multishot_0_e9e3fe4f14.nbt",
+      "hash": "04340ba320dd1bff1d9f9d0e90d6a0d73f51de70",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_pillager_normal_0_e5a7737874.nbt",
+      "hash": "3a4b74e58c3982f60ee2a467a4f3cf0e76dd65b8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_street_0_65d3df0652.nbt",
+      "hash": "f1a332418aa798975fd84ca0f1e04d9f096f1f70",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_street_1_0017af21e5.nbt",
+      "hash": "1d1ac8cae0b9fcef0db9ee779b0434711e7d5286",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_street_2_5b1c95de28.nbt",
+      "hash": "e0395e1fc48290ecdd2f86e0925b5f5fedbf3ebc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_street_3_61bd3fa366.nbt",
+      "hash": "1e5f10fbf8b1a1f35d1d2b7986effabc9d77f382",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_street_4_4c1457a733.nbt",
+      "hash": "7f7dc88e5c884f4d44f006bf435b8ec0b253bb14",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_street_5_6ee211594b.nbt",
+      "hash": "cc7dbc6e74f74f5f37f588450fa333e019647cf5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_street_6_main_06b76cba56.nbt",
+      "hash": "947283e0ad61d142bc4a44d60e414d9b8cc5a19c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_tent_0_eb685b7207.nbt",
+      "hash": "fabe725a94f99558548a498f25b32dbe9b50ade6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_tent_1_36b3ae52c4.nbt",
+      "hash": "4532573e032f2ce70522a08961a602a9915a5cf9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_tent_2_0831a8d92d.nbt",
+      "hash": "3f1b66998461b6285a16fcddd0b824aa3501e306",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_tent_3_e231d65f21.nbt",
+      "hash": "2a9734be69204828cb5043b19011e3969641bb46",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_vindicator_normal_0_1a0e7bf67a.nbt",
+      "hash": "d623a213a0527b78da7a07aaa95b47779aca3e81",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_corsair_illager_corsair_evoker_0_848d956a5a.nbt",
+      "hash": "5b680621dba68f0990bfd0b2b27a21f99d119055",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_corsair_illager_corsair_part_0_cb83309bdd.nbt",
+      "hash": "cfc3dad43a8b4c3de871cbbf64dc35824183e054",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_corsair_illager_corsair_part_1_fcc03ff06b.nbt",
+      "hash": "de308a377084ce4d01702e4df1368ac71bc97e2f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_corsair_illager_corsair_pillager_0_3388c1ea8e.nbt",
+      "hash": "47af9a77bbbbd78ddde2d91401bc01531a612c55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_corsair_illager_corsair_vindicator_spawner_0_227c9927c4.nbt",
+      "hash": "f771150e0879a4b374463ed2f0ec71389ea3c09e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_fort_illager_fort_part_0_14f81ea64c.nbt",
+      "hash": "a4b5ad5da889475650b88eb2845bf4f4c7fc407c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_fort_illager_fort_part_1_456a5f0c18.nbt",
+      "hash": "9063570941d48c71c1b55dab68b62414bdd95346",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_fort_illager_fort_part_2_a73f601603.nbt",
+      "hash": "2651081972ca83d6dd1e63958fb3890111b04d08",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_fort_illager_fort_part_3_a3bd5ed0c1.nbt",
+      "hash": "ea283326129d42a80287eef002057956f8a234b5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_galley_illager_galley_part_0_7460cc384e.nbt",
+      "hash": "5fdefcd8a025a8427855bb9cf353b1f461e0b8e1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_galley_illager_galley_part_1_534307a125.nbt",
+      "hash": "02c45c7953cdaa017d4f31753a2ac275cf25dfae",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_galley_illager_galley_pillager_0_c950daaa52.nbt",
+      "hash": "63d613b4b8979ef141cd1f4b4ac04ad07d9d39c2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_galley_illager_galley_vindicator_spawner_0_d238dd91ac.nbt",
+      "hash": "ceac888d982ea4582c2e5860ca0546165913ddbf",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_illager_windmill_illager_windmill_part_0_42f7a07a41.nbt",
+      "hash": "1e2a27372cd372c18a748d81d5dd512ee33a2d55",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_infested_temple_infested_temple_layout_part_1_middle_4534b8d353.nbt",
+      "hash": "fa0d986821c9ac3e3c0fa61ea671c8fe4aafd188",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_jungle_tree_house_jungle_tree_house_0_main_7ac637a6dc.nbt",
+      "hash": "b13ff515f86897e750cc7818c95803919e8da54e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_jungle_tree_house_jungle_tree_house_1_roots_61584c10da.nbt",
+      "hash": "0064fcc7cbb594800b512b4c16da6e145c3ef020",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_jungle_tree_house_jungle_tree_house_husk_0_c8dcd45bea.nbt",
+      "hash": "8314ae901d91b8dd10852b11783dda352113cfd6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_jungle_tree_house_jungle_tree_house_skeleton_0_fb0cd00cfb.nbt",
+      "hash": "c6ea97a80b7e3556d9c99821584638a1c61ea74a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_lighthouse_lighthouse_part_1_ef71e5f1b6.nbt",
+      "hash": "447b27ec374d4ccb9bdfa0c71b87d27631e00051",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_lighthouse_lighthouse_part_2_af866dceaf.nbt",
+      "hash": "65a41f11f75b248fd1fd07546e6a7d7975f0ff12",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_merchant_campsite_merchant_campsite_street_4_main_a9d9e667e3.nbt",
+      "hash": "3653b7546c8906d52461b8fb73b49947825dc09b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_descent_0_181d765703.nbt",
+      "hash": "ca054046d0f17f1909b747730ad6f5eacc4732d2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_spawner_skeleton_0_b0381c14d6.nbt",
+      "hash": "13834759478c4d4a74c053f570364b407358deba",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_spawner_skeleton_1_32135c78e1.nbt",
+      "hash": "62d4e6526cc12224627b438d2248b2eebfaadd91",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_spawner_skeleton_2_472fad6a5a.nbt",
+      "hash": "6c7a305ed686fc68a5532c493655e191698bf3f3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_spawner_skeleton_3_075e11cde7.nbt",
+      "hash": "b0f9452330a842417d7f5fbcc560b9854ba2c561",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_straight_0_e5ca32fc9c.nbt",
+      "hash": "71d48eccf464e675437b5d06c5af4f352a052a5b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_triple_0_79528e38be.nbt",
+      "hash": "2f0580d5c1368488de81878120b99db4123fbf39",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_turn_0_71436ffe41.nbt",
+      "hash": "16c60d88b7709f3b096d9e0283ac0075e7364a26",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_monastery_iron_golem_normal_0_a011b0a40c.nbt",
+      "hash": "01c615830f9f3731291019b896a6a7b6053f751a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_monastery_monastery_corridor_0_ddba2887ba.nbt",
+      "hash": "6ba61204dbdeb7896b8eacd3c1aea1482dd196b7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_monastery_monastery_corridor_crossing_84dc0174ae.nbt",
+      "hash": "ef2ac351d2fdee01c9a7cd3bf2044770e1da542a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_monastery_monastery_corridor_terminator_14c43b9fc5.nbt",
+      "hash": "8361b73074f536fde3f7274b2bc5dcf9b5dc4e19",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_monastery_monastery_room_0_d150c7e1a5.nbt",
+      "hash": "7d4c48d3bfd7480f3044218b52aab2cec3f71ab4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_monastery_monastery_room_1_42d5c15ecd.nbt",
+      "hash": "2f7cd316da58b1bfb10d122ebab9c34b380653bd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_monastery_monastery_room_2_585db3d741.nbt",
+      "hash": "72d859a6dadfd91b3d7d2350cb3420a0af87bac6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_monastery_monastery_room_3_stairs_a2f5d07fe4.nbt",
+      "hash": "bba8895c74df94987699d79baf89edf89e3f5c17",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_monastery_monastery_start_c7c1b3a089.nbt",
+      "hash": "4d1164b4592f870df350048292ad54b70eaf828e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_monastery_monastery_top_0_b108970edf.nbt",
+      "hash": "f91c8842edfbed707d6c164e680d0fb9fc45cd2c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_monastery_villager_normal_0_8d0e1a3df9.nbt",
+      "hash": "b944e091aecc070ad4d8dc26d650bfb70a5f67ec",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_bottom_0_78b43c759c.nbt",
+      "hash": "ac2329ad5d8dbe1208aba672fea99d355628fa0f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_bottom_1_1ece1934e1.nbt",
+      "hash": "09d30fa1b9d69ccaa09a468d9ad13f2077a3b524",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_bottom_2_e0bd18bf7b.nbt",
+      "hash": "6737527873175925656faebbff8979f711974222",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_bottom_3_7396a73e47.nbt",
+      "hash": "45f94aaad2f1b88e6bc4d3f5bdb9002ad3ec34c5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_piglin_0_d4e738c022.nbt",
+      "hash": "ff32f4de163a57cfe1cd9f62a2b252bb757d39ea",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_piglin_1_6e9ef81cc4.nbt",
+      "hash": "df913c8431a2d04ed8fafb56d41fab443921b124",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_piglin_2_3a1aa9ebbc.nbt",
+      "hash": "43c5600b18898e10f85775dcc7101f3145d0d35d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_roots_0_28e4b332ff.nbt",
+      "hash": "f1189017dcbc3bac5c8e780bf1206587349ebdfc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_top_0_245b0107e5.nbt",
+      "hash": "472119f8e8c08d68085cafaa26a2c61c221d61c9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_top_1_ee821db976.nbt",
+      "hash": "f455c1d615c742ffc9942c2ac7538d46241dd256",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_top_2_12fe45267f.nbt",
+      "hash": "98e15e645ec6edaa6e70aedc393d43fe069aa40b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_top_3_a333188923.nbt",
+      "hash": "09adca2b72f9d6426a593628f4fb64dfa5c9e116",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_top_4_08c4735f8a.nbt",
+      "hash": "7882e6cccc122da1f9eb50953267843a423bf7d8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_mines_mushroom_mines_part_0_0315195851.nbt",
+      "hash": "9568ba5ddd051367ccf717ab21a23cf19eb384a3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_mines_mushroom_mines_part_1_4d90540104.nbt",
+      "hash": "b92c79d33527d6230aa4831992ef23dbe7bf4c8c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_mines_mushroom_mines_part_2_9ad2aba4e6.nbt",
+      "hash": "149350df08033e0613bf693eaebf7523473dd2a3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_mines_mushroom_mines_part_3_f7430aae6a.nbt",
+      "hash": "7f83df4097898b23db16ede3f242f92a3a5b746c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_plague_asylum_plague_asylum_corridor_4_crossing_pit_b7fbe928a5.nbt",
+      "hash": "eaa9df0aa114a771fc76e5123ec99da3dc4813d9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_scorched_mines_scorched_mines_well_0_536d530474.nbt",
+      "hash": "68872387aea28f5a390c4dee3a90082eaf45fa3d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_small_blimp_small_blimp_ladders_0_7c649de4c0.nbt",
+      "hash": "66c1c2f5a29c1542792e5eddcfc442c4461d25d1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_small_blimp_small_blimp_part_0_6121245bba.nbt",
+      "hash": "f9b0f5ea2b491bd2fa3b3812e7aed4aced1611b2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_small_blimp_small_blimp_part_1_54b9d6e8bd.nbt",
+      "hash": "7489dc1966e3f73d683d82f61e4692d91cd0e1fa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_small_blimp_small_blimp_skeleton_0_f3f46c5f44.nbt",
+      "hash": "98132958efea6f3f55edf7ab648ed02dcc0d9cd2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_small_blimp_small_blimp_skeleton_1_e30f3810f5.nbt",
+      "hash": "d559b5e65cc593ad91a9c51e0703871688b71a71",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_small_blimp_small_blimp_skeleton_2_f831ec4707.nbt",
+      "hash": "641cac1c15b348cc88b96882a25f4311df70e98f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_thornborn_towers_thornborn_towers_part_0_main_ef88ba9d98.nbt",
+      "hash": "6bd85b7daa53d077fd678ed25520c6c98f59abc7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_typhon_typhon_part_0_9c0367a88b.nbt",
+      "hash": "410242e64c46f3d1a702e73471560cbd819810d7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_typhon_typhon_part_1_2066e97579.nbt",
+      "hash": "51ee2eb5bea3f2915befe2427720fb32cc70ebf2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_typhon_typhon_part_2_de106af52e.nbt",
+      "hash": "aefb46d37567244f369376d690d7c290d4c48b19",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_undead_pirate_ship_undead_pirate_ship_captain_0_d0421fd66c.nbt",
+      "hash": "6b3073a9f276a3915f4e24acb0c918bca04e37ed",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_undead_pirate_ship_undead_pirate_ship_dolphin_rider_0_2ff7384345.nbt",
+      "hash": "69a446e13aa0b6bb55354521abdd83b82d8e3342",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_undead_pirate_ship_undead_pirate_ship_part_0_83e75b3d38.nbt",
+      "hash": "e17ae4255e7f17d613e1b415d2f07ba9b972e302",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_undead_pirate_ship_undead_pirate_ship_part_1_cfc118100e.nbt",
+      "hash": "2087bab46508fe8cd8e5461b74015fabfecac32c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_undead_pirate_ship_undead_pirate_ship_ranged_skeleton_0_b2aa128cc7.nbt",
+      "hash": "1c9b7dd0f125142f9ee02dfcd18e4a9aebcf4fa4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_undead_pirate_ship_undead_pirate_ship_skeleton_juggernaut_0_e5197190a3.nbt",
+      "hash": "724ce893c4fc7b4baf7f819ade60dee583c87e1e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_undead_pirate_ship_undead_pirate_ship_skeleton_juggernaut_1_be28230498.nbt",
+      "hash": "c4e068e8cb3fbe42c15bf4fb96c253457c8cbd96",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/dungeons_arise_wishing_well_wishing_well_0_84b0997dd5.nbt",
+      "hash": "3290c214b164189799e872c9d91430fde6eb7190",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/farmersdelight_village_houses_desert_compost_pile_c806a3403a.nbt",
+      "hash": "bb9365ccd37883e3ea29a7b7a572ff5a51fab0fc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/farmersdelight_village_houses_plains_compost_pile_937cf64930.nbt",
+      "hash": "36ba424f40673f67affa95b6df088c060d565c49",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/farmersdelight_village_houses_savanna_compost_pile_77b375390a.nbt",
+      "hash": "0f6e07ebe0dc918eeb44e15bbf563648a4b0a77d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/graveyard_small_grave_crashed_carriage_cb4c757628.nbt",
+      "hash": "6e075531d297d3bc75a4bfe19960e386eef4d854",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/infernalexp_glowstone_canyon_grand_heaven_portal_1_3f1f5d1aa4.nbt",
+      "hash": "f915db50bc8ee6576f9e9b55f525ce0d5395bb1b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/infernalexp_glowstone_canyon_grand_heaven_portal_2_3f1f5d1aa4.nbt",
+      "hash": "f915db50bc8ee6576f9e9b55f525ce0d5395bb1b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/infernalexp_glowstone_canyon_grand_heaven_portal_3_3f1f5d1aa4.nbt",
+      "hash": "f915db50bc8ee6576f9e9b55f525ce0d5395bb1b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/infernalexp_glowstone_canyon_grand_heaven_portal_4_3f1f5d1aa4.nbt",
+      "hash": "f915db50bc8ee6576f9e9b55f525ce0d5395bb1b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/infernalexp_glowstone_canyon_grand_heaven_portal_5_3f1f5d1aa4.nbt",
+      "hash": "f915db50bc8ee6576f9e9b55f525ce0d5395bb1b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/infernalexp_glowstone_canyon_half_arch_ruin_188744e6b4.nbt",
+      "hash": "e5e13ebbade999a77bfff361edc726e6d84ebf5f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/infernalexp_glowstone_canyon_platform_altar_00ce01e236.nbt",
+      "hash": "c83a190d71f37c2987d8b5616339680719f21e19",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_outpost_pillagers_outpost_captain_71bd1825ea.nbt",
+      "hash": "1850aba563b4b01868965fb734527e69a167bbe5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_ships_wreckage_ocean_load_1f75138859.nbt",
+      "hash": "8dc1bafde79993ea092d33ebd71cc12faff2bc31",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_exclusives_mediterranean_med_lamp_1_c86cc2162b.nbt",
+      "hash": "e8ed7b7a966c40c4217a736458a7727572b78f24",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_exclusives_mediterranean_med_planter_1_d515b39599.nbt",
+      "hash": "c3ecad0a7ec8ae6d0b225d22ca7cae603addb083",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_town_centers_forest_meeting_point_1_55f9831fdf.nbt",
+      "hash": "1bb25f7dcd8e2c68fcc15ac2121a1b026385d755",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_town_centers_forest_meeting_point_2_6aeb6d407b.nbt",
+      "hash": "ad721d8860c48058bfc894cd9beb50bb7e8f9105",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/supplementaries_way_sign_5afeece7b2.nbt",
+      "hash": "c15b8260ac5e998cf57b676a76ade64ce6af3579",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_earth_earth_11x1x11_38d226c404.nbt",
+      "hash": "ef7597bd4a5ffbaa564d61d453b458744b7db1c2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_earth_earth_2x2x4_6c53734e6c.nbt",
+      "hash": "78c749c15f0974cee788772ba0f7773ed16f095c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_earth_earth_4x1x6_6c53734e6c.nbt",
+      "hash": "78c749c15f0974cee788772ba0f7773ed16f095c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_earth_sky_11x1x11_ef1105e6e2.nbt",
+      "hash": "7e71b125e840ccaa3768ba2f5c18e23d64a07a02",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_earth_sky_2x2x4_23d6077ef1.nbt",
+      "hash": "07a6e18be9562e1093d8d4dff31c932c02d4895b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_earth_sky_8x1x11_036fadd546.nbt",
+      "hash": "743ab367bc7553a2a91225ff4b2cd3a0ac555d73",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_sky_earth_0x1x0_202d68e275.nbt",
+      "hash": "e544447e8a9ec72387ff39bb47ee14de75ba1945",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_sky_earth_11x1x11_50fa9a99ae.nbt",
+      "hash": "9271db38d58564b2d2c4423afe0c05199e270684",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_sky_earth_2x2x4_ea0b275dc0.nbt",
+      "hash": "96acc091c40f713a30c095b914ff6d3799c5a7c2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_sky_earth_4x1x6_ea0b275dc0.nbt",
+      "hash": "96acc091c40f713a30c095b914ff6d3799c5a7c2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_sky_earth_8x1x11_79faa69e4f.nbt",
+      "hash": "71647625d58b7e488b5dc66856681faf72cc87eb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_sky_sky_0x1x0_a75132a4a1.nbt",
+      "hash": "7b9157e994aded426890cbce70ac663cd6949904",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_sky_sky_11x1x11_bb0d9e6e06.nbt",
+      "hash": "1a027aa58387929516342e88c4dffaef1d452f7b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_sky_sky_4x1x6_609907d42c.nbt",
+      "hash": "0b1b16fbf90e0c4d9b7f2c68ea7840474c9cecf1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_sky_sky_8x1x11_07811f4f99.nbt",
+      "hash": "fc05f2a1a1dad4a8b1db9016f520f9fb62674ba9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_vanilla_4x1x6_95497aba4b.nbt",
+      "hash": "0511331560fc36c54c155f954edc3ef62aa4d907",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_null_structure_75bed5de2a.nbt",
+      "hash": "33937592fb69a2dcc50aa261105766200eed6292",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_spire_6bf7e03c38.nbt",
+      "hash": "32919c00475ea2b6833f5baab8c600692c10f36a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_armorsmith1_590dd18bc9.nbt",
+      "hash": "dbc633958f5f3bcc6849ad945e739e3c9bd9396c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_butcher1_99063c21c4.nbt",
+      "hash": "754b5b6f8340bba0a8733adedcfa46ee7b5c1a5f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_cartographer1_2f178f69fb.nbt",
+      "hash": "d5d536b66bcc3db43b69e268443bb0d1306b7a63",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_cartographer2_d383526608.nbt",
+      "hash": "f31ee7e11a2a515681cc8d1b788fa8ec203bca13",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_castle_9dae39c679.nbt",
+      "hash": "14e243b0124df5c10cf091f2e62a28719cb498a7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_chapel1_59ced20d33.nbt",
+      "hash": "9e0d1490b4e233613906483b52280e4c1b1e89e7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_fisherman1_0c46aaac04.nbt",
+      "hash": "a65153596825e45a9a2ec89f562d5e726f80b803",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_fisherman2_8b6b06ca4a.nbt",
+      "hash": "f6f3a6cf237a9b4e5901694b9b99302141f6b936",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_fletcher1_7721fcf297.nbt",
+      "hash": "c019a63599d68cd971662674a006f8eaae5c683d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_generic1_77701ba2ff.nbt",
+      "hash": "882b6c509c928b1f697e858779aed4ecaf0464a4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_generic2_f60b003ad4.nbt",
+      "hash": "1c95df8c3ee8a35ad6d931902da3d9a767bcefdc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_generic3_f2fbb9b300.nbt",
+      "hash": "451a0fd16dc235a74143cbe879d4eb7a2c7c077a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_generic4_c17baeb927.nbt",
+      "hash": "4cb8c2863e651b586793c4759c4d5169ca78f4d4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_generic5_e24c0ce26a.nbt",
+      "hash": "844d82fa287a74e6ffb506098ca0d0997a8366fa",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_generic6_dee2f402f5.nbt",
+      "hash": "893c47e986b6e565ae7b910b2634cb8822ccdddd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_generic_big1_9d32c8fe1a.nbt",
+      "hash": "37aa0ad3dd1d23fbb0d162879d93bf1d9d0226c0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_library1_da2a26a4f3.nbt",
+      "hash": "c136e6a9ba7c1f1a58eb16504894d8cf06a8228e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_mason1_97216763c8.nbt",
+      "hash": "146e793cb15d9d5e9375316c055ff863a23761d6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_shepherd1_cb621bafd7.nbt",
+      "hash": "feea0e72862b926e0a715f374a64f79684cc38e2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_houses_weaponsmith1_e772afd567.nbt",
+      "hash": "1eccc2d9ce9951c39743293c31bd225191ce318e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_roads_bend1_78768790d8.nbt",
+      "hash": "b2a98502ecc0ae9c91c4749c28c39e1cd5155f95",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_roads_bend2_0f478b3d06.nbt",
+      "hash": "df979018046c8f45767e93a24fc0eaa10d715465",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_roads_inter1_344846de85.nbt",
+      "hash": "6c25be370352428ae6d8990bfda5388e98c270ad",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_roads_straight1_021121437b.nbt",
+      "hash": "b74f397c48096ad8932ce52093e1a3df91e4c3ff",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_roads_straight2_2cdb2d6fcd.nbt",
+      "hash": "42a59165496d8e817f1eface53df60479a5e7e21",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_roads_straight3_1b8bc83fc0.nbt",
+      "hash": "cac59f4bb4cf349cc9a800ef0d5abd8acde61814",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_roads_straight4_5612e3250c.nbt",
+      "hash": "49819ee58ebe24e5a6216393cb973d07e4a30aa2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_roads_straight5_93d95a7cce.nbt",
+      "hash": "ab7dbbc57577c489b16f490bc13e081600758b7a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_roads_straight6_e3505218e7.nbt",
+      "hash": "0976168ded20fc3c06c771864c9ae697bab2b828",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_roads_t1_446d3f69e4.nbt",
+      "hash": "e63f38e8562767b57310a6acc4c50b208d4fba33",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_roads_t2_7ef44d33cb.nbt",
+      "hash": "c716d7ca86f34a17495963338cd3ddcd07c7a621",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_terminators_term1_63b5ac3226.nbt",
+      "hash": "1c55f363e261c3e7f00c50796941dbef97e8f4cb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_terminators_term2_088ae3db76.nbt",
+      "hash": "6f7245c39f5f5cd2a0939ed805ed28ab854d3688",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_terminators_term3_b47dd5da7e.nbt",
+      "hash": "8babb6535a07f4f2d7477d0c69a8998fd63e083a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_desert_terminators_term4_3ba032d920.nbt",
+      "hash": "56030c651eb0df54c677d894554c77bb10e22417",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/terralith_village_fortified_start_castle_3edc983ef5.nbt",
+      "hash": "3e5083b41371a7698d8e985744ac3734f68ed226",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/tofucraft_tofu_village_town_centers_fountain_d2bbfcba3f.nbt",
+      "hash": "16fe2d9b013a939a6b72d34e5633fcbfc4a55aa8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/vampirism_village_desert_houses_desert_temple_1_33fec896f6.nbt",
+      "hash": "722fecc5136fd06a36cce25797a583174374cc91",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/vampirism_village_desert_houses_desert_temple_2_18cdf03f58.nbt",
+      "hash": "043d83c7d59dc2e57d8fa1460e3b91a32de4fe56",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/vampirism_village_desert_houses_hunter_trainer_2e300a0dc7.nbt",
+      "hash": "3593917c630423a873ca24e605985c40c93d3974",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/vampirism_village_entities_hunter_trainer_90f48ede2a.nbt",
+      "hash": "6523e5847dfa13620d1e4cc7f0b47a154fb27589",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/vampirism_village_plains_houses_hunter_trainer_49662ce920.nbt",
+      "hash": "28a0e930230ce6c495d991c5406c6b059593c64d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/vampirism_village_plains_houses_plains_temple_3_e53d0a488e.nbt",
+      "hash": "1faeca296c37a28a550477127ee93cda217451a0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/vampirism_village_plains_houses_plains_temple_4_26ed391faa.nbt",
+      "hash": "767bba5caaae70750e6aba53d2c6d8d40cfa5968",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/vampirism_village_savanna_houses_hunter_trainer_d199b4bb4d.nbt",
+      "hash": "b52328b324846d11c96a614cd4af4dba1c51f194",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/vampirism_village_savanna_houses_savanna_temple_1_4bf1638294.nbt",
+      "hash": "359bc19d6d0102086a7a8a96da3972376772bf9e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/vampirism_village_savanna_houses_savanna_temple_2_5319b94ae9.nbt",
+      "hash": "bd8da6de5be232f8ff934f0fe1d13cc9b63d8c56",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/vampirism_village_totem_5bcee3ed1e.nbt",
+      "hash": "3148014920ea12960ca7ba399954eb9d67ccd6da",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsbridges_bridge_stone_15_1_12e30ad0fa.nbt",
+      "hash": "cfba394f0017ca60d9e60360fd3205ba4eb3294a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsbridges_bridge_stone_16_0_broken_b48099f8c1.nbt",
+      "hash": "f79b5865691c7f7caeda4348addce80303b7d8f8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsbridges_bridge_stone_16_0_cc1ad65c45.nbt",
+      "hash": "67574d6ecdac552886bf57519b2d017354aab746",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsbridges_bridge_stone_22_0_broken_4dc51796d4.nbt",
+      "hash": "2be6bb30070c7a26d7152b81ad4deaf73933e99e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsbridges_bridge_stone_24_0_broken_40472f6f10.nbt",
+      "hash": "c0fda463c39c4e2ddc3302c902b6ebdf54c3ef4d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsbridges_bridge_wood_17_0_6d5beca773.nbt",
+      "hash": "aa0586255ce4cba1c67d1a762e0147c0fded8ad2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsbridges_bridge_wood_17_0_broken_a618486e40.nbt",
+      "hash": "2c3ca3fee1d19d1c47fb1feb622ef98dc1a407d2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsbridges_bridge_wood_27_0_7df27d2eee.nbt",
+      "hash": "ab171dbd51310c0bff6983f12cb02bd3270bae5c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsextras_desert_misc_chillzone_96ec6575dd.nbt",
+      "hash": "09c1b4690d090ce08e38514c3f7eb2a3371a999e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsextras_desert_misc_giant_torch_686c60694f.nbt",
+      "hash": "9a24ed6dccb1010e22c45369d5e6db59ad461fae",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsextras_desert_misc_ruins_0_e47bb8879b.nbt",
+      "hash": "bfb4bae79da37f27712a74156bb5ce9c05fc93e9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsextras_desert_obelisk_obelisk_creeper_1f04089d0c.nbt",
+      "hash": "6d7e937310353cf8ad54bd767a56bb5807965a3f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsextras_desert_obelisk_obelisk_f9e76cd377.nbt",
+      "hash": "5baf6e7042f74ab449847e9d658b2daf85373b11",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsextras_desert_obelisk_obelisk_ruined_c84e9bbfa8.nbt",
+      "hash": "0f38fa622438771e3bdc8ae91f2e2d623a243b0f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsextras_desert_wells_dry_well_sm_c5b114a1d7.nbt",
+      "hash": "4c2c79ec14845669b1141fc45316c374e3c75225",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsextras_desert_wells_well_lg_131468b54d.nbt",
+      "hash": "601a486cf34eb66407e7b3b1a3486f9f06edad5f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsextras_desert_wells_wishing_well_lg_769d355e34.nbt",
+      "hash": "f9a74aa683bb5df015b479f54e354feb76d54b90",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "modernfix/structureCacheV1/yungsextras_desert_wells_wishing_well_sm_eb54b08334.nbt",
+      "hash": "e5669469cd0ed72bacee22d43b2582da349db646",
       "force": true,
       "type": "addon"
     },
@@ -5867,7 +8987,7 @@
     },
     {
       "path": "mods/[实用_apex枪械]ApexGunAddon-1.18.2-0.0.1.jar",
-      "hash": "a5dd2df91f1eebe500d4fc65d33d53b918dfdf81",
+      "hash": "b7ec6a85d82e7271803f60c2c817fa9e5d030421",
       "force": true,
       "type": "addon"
     },
@@ -6040,36 +9160,6 @@
       "type": "addon"
     },
     {
-      "path": "mods/[环境_静谧四季HUD显示]seasonhud-1.18.2-1.4.18.jar",
-      "hash": "b60478b8dc5213b847a9b4e2354dd93b211794fe",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/[环境_静谧四季]SereneSeasons-1.18.2-7.0.0.15.jar",
-      "hash": "47f8b65a75468142836a73c0ab396ed34989931d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/[环境_静谧四季修复]sereneseasonfix-1.18.2-1.0.6.jar",
-      "hash": "00346fd8e0f75df1170fd584ddb2ea6ffe31297f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/[环境_静谧四季潘马斯农场2联动]sereneseasonsphc2crops-1.18.2-1.0.1.jar",
-      "hash": "47a856ed5a36affca8bc831a808168c0e52da25e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/[环境_静谧四季调整]seasontweaks-1.18.2-1.0.1.jar",
-      "hash": "1a9186c7639b2a3bc4657ba7d7ed3514d43fc1b6",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "mods/[生物_alex的生物]alexsmobs-1.18.3.jar",
       "hash": "8ce5cacf888fdc712d64f5c833f81dd5eb182084",
       "force": true,
@@ -6096,6 +9186,12 @@
     {
       "path": "mods/[生物_陆行鸟]chococraft-1.18.2-0.5.2.jar",
       "hash": "66ba91973a864b163925a33e689f5ae1b990581e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[科技-飞越地球附属]Beyond-Earth-Giselle-Addon-1.18.2-2.20.jar",
+      "hash": "c373a9be0d67ff625716063b6e047104bbb75dd9",
       "force": true,
       "type": "addon"
     },
@@ -6388,12 +9484,6 @@
       "type": "addon"
     },
     {
-      "path": "mods/[辅助_物品英文名显示]UntranslatedItems-forge-1.3-mc1.18.1.jar",
-      "hash": "169a3d694b4ea981357093c7a2ec9416991efdda",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "mods/[辅助_生物资源显示]jecharacters-1.18.2-4.3.13.jar",
       "hash": "e6d452ba6f0f7ba8dfdbdc2f0d508690c73f8315",
       "force": true,
@@ -6462,6 +9552,12 @@
     {
       "path": "mods/[魔改-免税铁砧]noaddrepcost-1.18.2-1.0.jar",
       "hash": "5edd5ede5a2dce896292536758a185ec32a3459c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[魔改-帕秋莉手册汉化]PRP-Arch-Forge-1.0.1-Hotfix-1.18.x.jar",
+      "hash": "6f9d3c54c0f0e2b2520d57239ca62f1f8d3b9d42",
       "force": true,
       "type": "addon"
     },
@@ -6647,19 +9743,43 @@
     },
     {
       "path": "options.txt",
-      "hash": "f806942359752c4ff9e2d257f4dfe5189adbf3f3",
+      "hash": "3a9d86bf0e4af04668242cd2f0369d3849b5bae0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "resourcepacks/Infernal Resources.zip",
+      "hash": "8bfe7b593459badf847e3a7e3bc06438b372b296",
       "force": true,
       "type": "addon"
     },
     {
       "path": "resourcepacks/Minecraft-Mod-Language-Modpack-1-18.zip",
-      "hash": "8af801fe243deb957b06aacdde2a7781fba36476",
+      "hash": "8228320abac66fc9df88d7ad57278cb2f1903c74",
       "force": true,
       "type": "addon"
     },
     {
       "path": "resourcepacks/Quark Programmer Art.zip",
       "hash": "2f4cadbbaeffec5f2811b34e053450a930626c15",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "scripts/itemstage1.zs",
+      "hash": "fdc54242dc042fb4d5ecf8ef6be147dc26b85110",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "scripts/itemstage2.zs",
+      "hash": "5c7279fe49ec41909df0a97f648dee438bf6c791",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "scripts/itemstage3.zs",
+      "hash": "68694adf5bcc74d4bebf1c923961d25d4536457c",
       "force": true,
       "type": "addon"
     },

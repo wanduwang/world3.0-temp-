@@ -1,5 +1,240 @@
 [
   {
+    "checksum": 2814419065,
+    "version": "1.0.0",
+    "upload_time": 1699374112658,
+    "name": "tlm.usa_sound.name",
+    "author": [
+      "EA"
+    ],
+    "desc": "tlm.usa_sound.desc",
+    "file_name": "usa_sound-1.0.0.zip",
+    "file_size": 640308,
+    "url": "/file/usa_sound-1.0.0.zip",
+    "type": [
+      "sound"
+    ],
+    "language": {
+      "en_us": {
+        "tlm.usa_sound.name": "USA Maid Sound Pack",
+        "tlm.usa_sound.desc": "Maid sound pack made by Electronic Arts(Maybe?)"
+      },
+      "zh_cn": {
+        "tlm.usa_sound.name": "美利坚女仆声音包",
+        "tlm.usa_sound.desc": "由EA（确信）制作的女仆声音包"
+      }
+    }
+  },
+  {
+    "checksum": 1518325837,
+    "version": "1.0.0",
+    "upload_time": 1699374088717,
+    "name": "tlm.italian_sound.name",
+    "author": [
+      "EA"
+    ],
+    "desc": "tlm.italian_sound.desc",
+    "file_name": "italian_sound-1.0.0.zip",
+    "file_size": 541076,
+    "url": "/file/italian_sound-1.0.0.zip",
+    "type": [
+      "sound"
+    ],
+    "language": {
+      "en_us": {
+        "tlm.italian_sound.name": "Italian Maid Sound Pack",
+        "tlm.italian_sound.desc": "Maid sound pack made by Electronic Arts(Maybe?)"
+      },
+      "zh_cn": {
+        "tlm.italian_sound.name": "意大利女仆声音包",
+        "tlm.italian_sound.desc": "由EA（确信）制作的女仆声音包"
+      }
+    }
+  },
+  {
+    "checksum": 3285194575,
+    "version": "1.0.0",
+    "upload_time": 1699374061537,
+    "name": "tlm.Illya_sounds.name",
+    "author": [
+      "酮戊二酸"
+    ],
+    "desc": "tlm.Illya_sounds.desc",
+    "file_name": "Illya_sounds-1.0.0.zip",
+    "file_size": 1063099,
+    "url": "/file/Illya_sounds-1.0.0.zip",
+    "type": [
+      "sound"
+    ],
+    "language": {
+      "en_us": {
+        "tlm.Illya_sounds.name": "Illya Sound Pack",
+        "tlm.Illya_sounds.desc": "Cute Illya"
+      },
+      "zh_cn": {
+        "tlm.Illya_sounds.name": "伊莉雅语音包",
+        "tlm.Illya_sounds.desc": "可爱的伊莉雅"
+      }
+    }
+  },
+  {
+    "checksum": 3610791812,
+    "version": "1.0.0",
+    "upload_time": 1699253391787,
+    "name": "tlm.unfinished_dream_of_all_living_ghost.name",
+    "author": [
+      "gyhgyj88"
+    ],
+    "desc": "tlm.unfinished_dream_of_all_living_ghost.desc",
+    "file_name": "unfinished_dream_of_all_living_ghost-1.0.0.zip",
+    "file_size": 23270,
+    "url": "/file/unfinished_dream_of_all_living_ghost-1.0.0.zip",
+    "type": [
+      "maid"
+    ],
+    "language": {
+      "en_us": {
+        "tlm.unfinished_dream_of_all_living_ghost.name": "Unfinished Dream of All Living Ghost",
+        "tlm.unfinished_dream_of_all_living_ghost.desc": "TH19 Unfinished Dream of All Living Ghost"
+      },
+      "zh_cn": {
+        "tlm.unfinished_dream_of_all_living_ghost.name": "东方兽王园模型包",
+        "tlm.unfinished_dream_of_all_living_ghost.desc": "TH19 下一个幻想再见"
+      }
+    }
+  },
+  {
+    "checksum": 2945507534,
+    "version": "1.0.0",
+    "upload_time": 1699253361378,
+    "name": "tlm.touhou_lostword_model_pack.name",
+    "author": [
+      "gyhgyj88"
+    ],
+    "desc": "tlm.touhou_lostword_model_pack.desc",
+    "file_name": "touhou_lostword_model_pack-1.0.0.zip",
+    "file_size": 19000,
+    "url": "/file/touhou_lostword_model_pack-1.0.0.zip",
+    "type": [
+      "maid"
+    ],
+    "language": {
+      "en_us": {
+        "tlm.touhou_lostword_model_pack.name": "Touhou Lost Word Model",
+        "tlm.touhou_lostword_model_pack.desc": "Touhou Lost Word Model"
+      },
+      "zh_cn": {
+        "tlm.touhou_lostword_model_pack.name": "东方归言录模型包",
+        "tlm.touhou_lostword_model_pack.desc": "东方归言录模型包"
+      }
+    }
+  },
+  {
+    "checksum": 1289022692,
+    "version": "1.1.0",
+    "upload_time": 1699248956804,
+    "name": "tlm.yezi_sound.name",
+    "author": [
+      "Yezi"
+    ],
+    "desc": "tlm.yezi_sound.desc",
+    "file_name": "yezi_sound-1.1.0.zip",
+    "file_size": 3755469,
+    "url": "/file/yezi_sound-1.1.0.zip",
+    "type": [
+      "sound"
+    ],
+    "language": {
+      "en_us": {
+        "tlm.yezi_sound.name": "Yezi Sound Pack",
+        "tlm.yezi_sound.desc": "Maid sound pack made by bilibili up yezi"
+      },
+      "zh_cn": {
+        "tlm.yezi_sound.name": "叶子女仆声音包",
+        "tlm.yezi_sound.desc": "由哔哩哔哩 up 叶子解说世界制作的女仆声音包"
+      }
+    }
+  },
+  {
+    "checksum": 1092353357,
+    "version": "1.1.0",
+    "upload_time": 1699248956801,
+    "name": "tlm.tangyuan_sound.name",
+    "author": [
+      "Tangyuan"
+    ],
+    "desc": "tlm.tangyuan_sound.desc",
+    "file_name": "tangyuan_sound-1.1.0.zip",
+    "file_size": 3854977,
+    "url": "/file/tangyuan_sound-1.1.0.zip",
+    "type": [
+      "sound"
+    ],
+    "language": {
+      "en_us": {
+        "tlm.tangyuan_sound.name": "Tangyuan Sound Pack",
+        "tlm.tangyuan_sound.desc": "Maid sound pack made by bilibili up tangyuan"
+      },
+      "zh_cn": {
+        "tlm.tangyuan_sound.name": "汤圆女仆声音包",
+        "tlm.tangyuan_sound.desc": "由哔哩哔哩 up 汤圆解说世界制作的女仆声音包"
+      }
+    }
+  },
+  {
+    "checksum": 363229844,
+    "version": "1.0.0",
+    "upload_time": 1699248914260,
+    "name": "tlm.god_eagle_brother.name",
+    "author": [
+      "老杰克qvq"
+    ],
+    "desc": "tlm.god_eagle_brother.desc",
+    "file_name": "god_eagle_brother-1.0.0.zip",
+    "file_size": 1431011,
+    "url": "/file/god_eagle_brother-1.0.0.zip",
+    "type": [
+      "maid",
+      "sound"
+    ],
+    "language": {
+      "en_us": {
+        "tlm.god_eagle_brother.name": "God Eagle Brother Pack",
+        "tlm.god_eagle_brother.desc": "LOL"
+      },
+      "zh_cn": {
+        "tlm.god_eagle_brother.name": "神鹰哥模型声音包",
+        "tlm.god_eagle_brother.desc": "带你飞"
+      }
+    }
+  },
+  {
+    "checksum": 3646264244,
+    "version": "1.0.0",
+    "upload_time": 1699248879081,
+    "name": "tlm.german_sound.name",
+    "author": [
+      "EA"
+    ],
+    "desc": "tlm.german_sound.desc",
+    "file_name": "german_sound-1.0.0.zip",
+    "file_size": 511277,
+    "url": "/file/german_sound-1.0.0.zip",
+    "type": [
+      "sound"
+    ],
+    "language": {
+      "en_us": {
+        "tlm.german_sound.name": "German Sound Pack",
+        "tlm.german_sound.desc": "Sound from game"
+      },
+      "zh_cn": {
+        "tlm.german_sound.name": "德意志女仆声音包",
+        "tlm.german_sound.desc": "来自于游戏的声音"
+      }
+    }
+  },
+  {
     "checksum": 1291970367,
     "version": "1.0.0",
     "upload_time": 1696428247563,
@@ -1805,58 +2040,6 @@
       "zh_cn": {
         "tlm.anime_model_pack.name": "动漫模型女仆资源包",
         "tlm.anime_model_pack.desc": "制作了几个简单的动漫角色模型"
-      }
-    }
-  },
-  {
-    "checksum": 1578186122,
-    "version": "1.0.0",
-    "upload_time": "1584931526000",
-    "name": "tlm.tangyuan_sound.name",
-    "author": [
-      "Tangyuan"
-    ],
-    "desc": "tlm.tangyuan_sound.desc",
-    "file_name": "tangyuan_sound-1.0.0.zip",
-    "file_size": 3863176,
-    "url": "/file/tangyuan_sound-1.0.0.zip",
-    "type": [
-      "sound"
-    ],
-    "language": {
-      "en_us": {
-        "tlm.tangyuan_sound.name": "Tangyuan Sound Pack",
-        "tlm.tangyuan_sound.desc": "Maid sound pack made by bilibili up tangyuan"
-      },
-      "zh_cn": {
-        "tlm.tangyuan_sound.name": "汤圆女仆声音包",
-        "tlm.tangyuan_sound.desc": "由哔哩哔哩 up 汤圆解说世界制作的女仆声音包"
-      }
-    }
-  },
-  {
-    "checksum": 822290867,
-    "version": "1.0.0",
-    "upload_time": "1584931526000",
-    "name": "tlm.yezi_sound.name",
-    "author": [
-      "Yezi"
-    ],
-    "desc": "tlm.yezi_sound.desc",
-    "file_name": "yezi_sound-1.0.0.zip",
-    "file_size": 3762482,
-    "url": "/file/yezi_sound-1.0.0.zip",
-    "type": [
-      "sound"
-    ],
-    "language": {
-      "en_us": {
-        "tlm.yezi_sound.name": "Yezi Sound Pack",
-        "tlm.yezi_sound.desc": "Maid sound pack made by bilibili up yezi"
-      },
-      "zh_cn": {
-        "tlm.yezi_sound.name": "叶子女仆声音包",
-        "tlm.yezi_sound.desc": "由哔哩哔哩 up 叶子解说世界制作的女仆声音包"
       }
     }
   },

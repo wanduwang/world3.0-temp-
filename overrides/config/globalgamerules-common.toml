@@ -30,7 +30,7 @@
 	#Non Vanilla gamerule: 'disappearanceofSpiritsUndertheSun'
 	disappearanceof_spirits_underthe_sun = true
 	#Whether the daylight cycle and moon phases progress.
-	do_daylight_cycle = true
+	do_daylight_cycle = false
 	#Whether entities that are not mobs should have drops.
 	do_entity_drops = true
 	#Whether fire should spread and naturally extinguish
