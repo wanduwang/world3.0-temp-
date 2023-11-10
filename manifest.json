@@ -1,0 +1,18 @@
+{
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "WLtest",
+  "version": "0.6",
+  "author": "057",
+  "overrides": "overrides",
+  "minecraft": {
+    "version": "1.18.2",
+    "modLoaders": [
+      {
+        "id": "forge-40.2.9",
+        "primary": true
+      }
+    ]
+  },
+  "files": []
+}

@@ -1,0 +1,41 @@
+{
+	id: "498C45DB7F3DE53B"
+	group: ""
+	order_index: 0
+	filename: "a"
+	title: "A"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: 0.0d
+			id: "3C814488B414631A"
+			tasks: [{
+				id: "5C3FB4030CC16D0C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "64AAEC90E3D0DD51"
+				type: "item"
+				item: "minecraft:grass_block"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			id: "418B9E9D892BF722"
+			tasks: [{
+				id: "5C334309DA96FBED"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "20E6917986EC16DE"
+				type: "advancement"
+				advancement: "minecraft:story/1"
+				criterion: ""
+			}]
+		}
+	]
+	quest_links: [ ]
+}
