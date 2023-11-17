@@ -160,11 +160,10 @@
     ItemStages.createModRestriction("artifacts", "1_create");
 //}
 //设置2阶段模组{
-    ItemStages.createModRestriction("additionalguns", "2_enginee");
     ItemStages.createModRestriction("ars_nouveau", "2_enginee");
     ItemStages.createModRestriction("bloodmagic", "2_enginee");
     ItemStages.createModRestriction("explorerscompass", "2_enginee");
-    ItemStages.createModRestriction("cgm", "2_enginee");
+    ItemStages.createModRestriction("tac", "2_enginee");
     ItemStages.createModRestriction("tofucraft", "2_enginee");
     ItemStages.createModRestriction("vampirism", "2_enginee");
 //}
@@ -176,7 +175,6 @@
     ItemStages.createModRestriction("fluxnetworks", "3_mechine");
 //}
 //设置4阶段模组{
-    ItemStages.createModRestriction("apexguns", "4_future");
     ItemStages.createModRestriction("mysticalagriculture", "4_future");
     ItemStages.createModRestriction("rftoolsbase", "4_future");
     ItemStages.createModRestriction("rftoolsbuilder", "4_future");

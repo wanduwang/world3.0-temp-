@@ -35,6 +35,19 @@
     //mods.recipestages.Recipes.setRecipeStage(阶段名,<产物>);
 //}
 
+//特别设置-神化{
+    ItemStages.restrict(<item:apotheosis:heart_seashelf>, "2_enginee");
+    ItemStages.restrict(<item:apotheosis:draconic_endshelf>, "2_enginee");
+    ItemStages.restrict(<item:apotheosis:rectifier>, "2_enginee");
+    ItemStages.restrict(<item:apotheosis:rectifier_t2>, "2_enginee");
+    ItemStages.restrict(<item:apotheosis:rectifier_t3>, "2_enginee");
+    ItemStages.restrict(<item:apotheosis:sightshelf>, "2_enginee");
+    ItemStages.restrict(<item:apotheosis:sightshelf_t2>, "2_enginee");
+    ItemStages.restrict(<item:apotheosis:library>, "3_mechine");
+    ItemStages.restrict(<item:apotheosis:ender_library>, "3_mechine");
+    ItemStages.createModRestriction("apotheosis", "1_create");
+//}
+
 //特别设置-应用能源2{
     //禁用部分{
         ItemStages.restrict(<item:ae2:singularity>, "disabled");
@@ -321,7 +334,7 @@
         ItemStages.restrict(<item:mekanismgenerators:module_geothermal_generator_unit>, "disabled");
     //}
     //1阶段部分{
-        ItemStages.restrict(<tag:items:forge:dusts/wood>, "2_enginee");
+        ItemStages.restrict(<tag:items:forge:dusts/obsidian>, "1_create");
         ItemStages.restrict(<tag:items:forge:dusts/coal>, "1_create");
         ItemStages.restrict(<tag:items:forge:dusts/charcoal>, "1_create");
         ItemStages.restrict(<tag:items:forge:dusts/diamond>, "1_create");
@@ -361,6 +374,7 @@
         ItemStages.restrict(<item:mekanism:personal_chest>, "1_create");
     //}
     //2阶段部分{
+        ItemStages.restrict(<tag:items:forge:dusts/wood>, "2_enginee");
         ItemStages.restrict(<tag:items:forge:ores/fluorite>, "2_enginee");
         ItemStages.restrict(<tag:items:forge:ores/uranium>, "2_enginee");
         ItemStages.restrict(<tag:items:forge:dusts/bronze>, "2_enginee");
@@ -396,7 +410,6 @@
         ItemStages.restrict(<tag:items:forge:dusts/netherite>, "3_mechine");
         ItemStages.restrict(<tag:items:forge:dusts/lithium>, "3_mechine");
         ItemStages.restrict(<tag:items:forge:dusts/refined_obsidian>, "3_mechine");
-        ItemStages.restrict(<tag:items:forge:dusts/obsidian>, "3_mechine");
         ItemStages.restrict(<tag:items:forge:dusts/fluorite>, "3_mechine");
         ItemStages.restrict(<tag:items:mekanism:enriched>, "3_mechine");
         ItemStages.restrict(<tag:items:mekanism:shards>, "3_mechine");
@@ -677,6 +690,10 @@
         ItemStages.restrict(<item:thermal:rf_potato>, "disabled");
     //}
     //1阶段部分{
+        ItemStages.restrict(<tag:items:forge:nuggets/constantan>, "1_create");
+        ItemStages.restrict(<tag:items:forge:plates/constantan>, "1_create");
+        ItemStages.restrict(<tag:items:forge:ingots/constantan>, "1_create");
+        ItemStages.restrict(<tag:items:forge:storage_blocks/constantan>, "1_create");
         ItemStages.restrict(<tag:items:forge:plates/nickel>, "1_create");
         ItemStages.restrict(<tag:items:forge:plates/lead>, "1_create");
         ItemStages.restrict(<tag:items:forge:plates/silver>, "1_create");
@@ -916,17 +933,13 @@
         ItemStages.restrict(<tag:items:forge:plates/tin>, "2_enginee");
         ItemStages.restrict(<tag:items:forge:plates/bronze>, "2_enginee");
         ItemStages.restrict(<tag:items:forge:plates/invar>, "2_enginee");
-        ItemStages.restrict(<tag:items:forge:plates/constantan>, "2_enginee");
         ItemStages.restrict(<tag:items:forge:ingots/invar>, "2_enginee");
-        ItemStages.restrict(<tag:items:forge:ingots/constantan>, "2_enginee");
         ItemStages.restrict(<tag:items:forge:dusts/silver>, "2_enginee");
         ItemStages.restrict(<tag:items:forge:dusts/nickel>, "2_enginee");
         ItemStages.restrict(<tag:items:forge:dusts/invar>, "2_enginee");
         ItemStages.restrict(<tag:items:forge:dusts/constantan>, "2_enginee");
         ItemStages.restrict(<tag:items:forge:nuggets/invar>, "2_enginee");
-        ItemStages.restrict(<tag:items:forge:nuggets/constantan>, "2_enginee");
         ItemStages.restrict(<tag:items:forge:storage_blocks/invar>, "2_enginee");
-        ItemStages.restrict(<tag:items:forge:storage_blocks/constantan>, "2_enginee");
         ItemStages.restrict(<item:thermal:flux_drill>, "2_enginee");
         ItemStages.restrict(<item:thermal:flux_saw>, "2_enginee");
         ItemStages.restrict(<item:thermal:drill_head>, "2_enginee");
