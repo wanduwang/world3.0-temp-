@@ -1086,6 +1086,7 @@
             ItemStages.restrict(<tag:items:forge:wires/electrum>, "1_create");
             ItemStages.restrict(<tag:items:forge:wires/aluminum>, "1_create");
             ItemStages.restrict(<tag:items:forge:wires/lead>, "1_create");
+            ItemStages.restrict(<item:immersiveengineering:hammer>, "1_create");
             ItemStages.restrict(<item:immersiveengineering:creosote_bucket>, "1_create");
             ItemStages.restrict(<item:immersiveengineering:cokebrick>, "1_create");
             ItemStages.restrict(<item:immersiveengineering:treated_fence>, "1_create");
@@ -1347,7 +1348,6 @@
             ItemStages.restrict(<item:immersiveengineering:plate_duroplast>, "2_enginee");
             ItemStages.restrict(<item:immersiveengineering:empty_casing>, "2_enginee");
             ItemStages.restrict(<item:immersiveengineering:empty_shell>, "2_enginee");
-            ItemStages.restrict(<item:immersiveengineering:hammer>, "2_enginee");
             ItemStages.restrict(<item:immersiveengineering:wirecutter>, "2_enginee");
             ItemStages.restrict(<item:immersiveengineering:screwdriver>, "2_enginee");
             ItemStages.restrict(<item:immersiveengineering:voltmeter>, "2_enginee");

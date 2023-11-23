@@ -1,9 +1,9 @@
 {
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "WLtest",
-  "version": "0.6",
-  "author": "057",
+  "name": "ComingSoon",
+  "version": "0.7",
+  "author": "szk",
   "overrides": "overrides",
   "minecraft": {
     "version": "1.18.2",
