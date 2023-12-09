@@ -157,9 +157,9 @@
 		#Whether allow chest use
 		allowChests = false
 		#Whether allow lever use
-		allowLever = true
+		allowLever = false
 		#Whether allow button use
-		allowButton = true
+		allowButton = false
 		#Whether allow door use
 		allowDoors = false
 		#Whether allow trap door use

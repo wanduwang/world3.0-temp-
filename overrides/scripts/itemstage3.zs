@@ -37,6 +37,10 @@
 
 //特别设置-循环{
     //禁用部分{
+        ItemStages.restrict(<item:cyclic:crate>, "disabled");
+        ItemStages.restrict(<item:cyclic:tank>, "disabled");
+        ItemStages.restrict(<item:cyclic:cask>, "disabled");
+        ItemStages.restrict(<item:cyclic:storage_bag>, "disabled");
         ItemStages.restrict(<item:cyclic:peat_fuel_enriched>, "disabled");
         ItemStages.restrict(<item:cyclic:wax_bucket>, "disabled");
         ItemStages.restrict(<item:cyclic:magma_bucket>, "disabled");
@@ -299,7 +303,6 @@
         ItemStages.restrict(<item:cyclic:dark_glass>, "disabled");
     //}
     //1阶段部分{
-        ItemStages.restrict(<item:cyclic:storage_bag>, "1_create");
         ItemStages.restrict(<item:cyclic:apple_lofty_stature>, "1_create");
         ItemStages.restrict(<item:cyclic:apple_honey>, "1_create");
         ItemStages.restrict(<item:cyclic:fan_slab>, "1_create");
@@ -329,14 +332,11 @@
         ItemStages.restrict(<item:cyclic:eye_redstone>, "1_create");
         ItemStages.restrict(<item:cyclic:peat_unbaked>, "1_create");
         ItemStages.restrict(<item:cyclic:peat_baked>, "1_create");
-        ItemStages.restrict(<item:cyclic:cask>, "1_create");
-        ItemStages.restrict(<item:cyclic:crate>, "1_create");
         ItemStages.restrict(<item:cyclic:clock>, "1_create");
         ItemStages.restrict(<item:cyclic:detector_item>, "1_create");
         ItemStages.restrict(<item:cyclic:detector_entity>, "1_create");
         ItemStages.restrict(<item:cyclic:fan>, "1_create");
         ItemStages.restrict(<item:cyclic:soundproofing>, "1_create");
-        ItemStages.restrict(<item:cyclic:tank>, "1_create");
         ItemStages.restrict(<item:cyclic:trash>, "1_create");
         ItemStages.restrict(<item:cyclic:dice>, "1_create");
         ItemStages.restrict(<item:cyclic:terra_preta>, "1_create");
@@ -368,9 +368,9 @@
 
 //特别设置-戈伯{
     //禁用部分{
-        ItemStages.restrict(<item:gobber2:gobber2_sword_traveler>, "3_mechine");
-        ItemStages.restrict(<item:gobber2:gobber2_paxel_stars>, "3_mechine");
-        ItemStages.restrict(<item:gobber2:gobber2_sword_sniper>, "3_mechine");
+        ItemStages.restrict(<item:gobber2:gobber2_sword_traveler>, "disabled");
+        ItemStages.restrict(<item:gobber2:gobber2_paxel_stars>, "disabled");
+        ItemStages.restrict(<item:gobber2:gobber2_sword_sniper>, "disabled");
         ItemStages.restrict(<item:gobber2:gobber2_ring>, "disabled");
         ItemStages.restrict(<item:gobber2:gobber2_ring_attraction>, "disabled");
         ItemStages.restrict(<item:gobber2:gobber2_ring_return>, "disabled");
@@ -525,14 +525,18 @@
 
 //特别设置-植物魔法{
     //禁用物品{
+        ItemStages.restrict(<item:botania:apothecary_forest>, "disabled");
+        ItemStages.restrict(<item:botania:apothecary_plains>, "disabled");
+        ItemStages.restrict(<item:botania:apothecary_mountain>, "disabled");
+        ItemStages.restrict(<item:botania:apothecary_fungal>, "disabled");
+        ItemStages.restrict(<item:botania:apothecary_swamp>, "disabled");
+        ItemStages.restrict(<item:botania:apothecary_desert>, "disabled");
+        ItemStages.restrict(<item:botania:apothecary_taiga>, "disabled");
+        ItemStages.restrict(<item:botania:apothecary_mesa>, "disabled");
+        ItemStages.restrict(<item:botania:apothecary_mossy>, "disabled");
         ItemStages.restrict(<item:botania:laputa_shard>, "disabled");
         ItemStages.restrict(<item:botania:black_hole_talisman>, "disabled");
         ItemStages.restrict(<item:botania:corporea_spark_creative>, "disabled");
-        ItemStages.restrict(<item:botania:quartz_dark>, "disabled");
-        ItemStages.restrict(<item:botania:quartz_blaze>, "disabled");
-        ItemStages.restrict(<item:botania:quartz_lavender>, "disabled");
-        ItemStages.restrict(<item:botania:quartz_red>, "disabled");
-        ItemStages.restrict(<item:botania:quartz_sunny>, "disabled");
         ItemStages.restrict(<item:botania:cosmetic_black_bowtie>, "disabled");
         ItemStages.restrict(<item:botania:cosmetic_black_tie>, "disabled");
         ItemStages.restrict(<item:botania:cosmetic_eyepatch>, "disabled");
@@ -568,6 +572,11 @@
         ItemStages.restrict(<item:botania:cosmetic_thinking_hand>, "disabled");
     //}
     //1阶段物品{
+        ItemStages.restrict(<item:botania:quartz_dark>, "1_create");
+        ItemStages.restrict(<item:botania:quartz_blaze>, "1_create");
+        ItemStages.restrict(<item:botania:quartz_lavender>, "1_create");
+        ItemStages.restrict(<item:botania:quartz_red>, "1_create");
+        ItemStages.restrict(<item:botania:quartz_sunny>, "1_create");
         ItemStages.restrict(<tag:items:botania:mystical_flowers>, "1_create");
         ItemStages.restrict(<tag:items:botania:double_mystical_flowers>, "1_create");
         ItemStages.restrict(<tag:items:botania:petals>, "1_create");
@@ -780,15 +789,6 @@
         ItemStages.restrict(<item:botania:quartz_mana>, "3_mechine");
         ItemStages.restrict(<item:botania:quartz_elven>, "3_mechine");
         ItemStages.restrict(<item:botania:apothecary_default>, "3_mechine");
-        ItemStages.restrict(<item:botania:apothecary_forest>, "3_mechine");
-        ItemStages.restrict(<item:botania:apothecary_plains>, "3_mechine");
-        ItemStages.restrict(<item:botania:apothecary_mountain>, "3_mechine");
-        ItemStages.restrict(<item:botania:apothecary_fungal>, "3_mechine");
-        ItemStages.restrict(<item:botania:apothecary_swamp>, "3_mechine");
-        ItemStages.restrict(<item:botania:apothecary_desert>, "3_mechine");
-        ItemStages.restrict(<item:botania:apothecary_taiga>, "3_mechine");
-        ItemStages.restrict(<item:botania:apothecary_mesa>, "3_mechine");
-        ItemStages.restrict(<item:botania:apothecary_mossy>, "3_mechine");
         ItemStages.restrict(<item:botania:livingrock>, "3_mechine");
         ItemStages.restrict(<item:botania:livingrock_bricks>, "3_mechine");
         ItemStages.restrict(<item:botania:chiseled_livingrock_bricks>, "3_mechine");

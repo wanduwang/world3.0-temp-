@@ -1,6 +1,0 @@
-{
-  "inventory": {
-    "0:0": "{Count:1b,id:\"eccentrictome:tome\",tag:{\"eccentrictome:mods\":{apotheosis:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"apotheosis:apoth_chronicle\"}}},bloodmagic:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"bloodmagic:guide\"}}},botania:{0:{Count:1b,id:\"botania:lexicon\"}},cyclic:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"cyclic:cyclic_guide_book\"}}},ftbquests:{0:{Count:1b,id:\"ftbquests:book\"}},mysticalagriculture:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"mysticalagriculture:guide\"}}},tconstruct:{0:{Count:1b,id:\"tconstruct:tinkers_gadgetry\"},1:{Count:1b,id:\"tconstruct:materials_and_you\"},2:{Count:1b,id:\"tconstruct:mighty_smelting\"},3:{Count:1b,id:\"tconstruct:fantastic_foundry\"}},thermal:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"thermal:guidebook\"}}},tofucraft:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"tofucraft:tofu_book\"}}},touhou_little_maid:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"touhou_little_maid:memorizable_gensokyo\"}}},twilightforest:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"twilightforest:guide\"}}}},\"eccentrictome:version\":1}}"
-  },
-  "wipeBlacklist": []
-}

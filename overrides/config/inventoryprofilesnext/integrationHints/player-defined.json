@@ -1,0 +1,38 @@
+{
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -5,
+                "top": 58
+            },
+            "SETTINGS": {
+                "horizontalOffset": -5,
+                "top": 29
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.ContainerScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -5,
+                "top": 59
+            },
+            "SETTINGS": {
+                "horizontalOffset": -5,
+                "top": 30
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CraftingScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -5,
+                "top": 58
+            },
+            "SETTINGS": {
+                "horizontalOffset": -5,
+                "top": 29
+            }
+        }
+    }
+}

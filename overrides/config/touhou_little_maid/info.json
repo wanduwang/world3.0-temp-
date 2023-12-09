@@ -1,5 +1,113 @@
 [
   {
+    "checksum": 1112441509,
+    "version": "1.0.0",
+    "upload_time": 1701608522419,
+    "name": "tlm.huangushi.name",
+    "author": [
+      "幻古诗"
+    ],
+    "desc": "tlm.huangushi.desc",
+    "file_name": "huangushi-1.0.0.zip",
+    "file_size": 654735,
+    "url": "/file/huangushi-1.0.0.zip",
+    "type": [
+      "maid"
+    ],
+    "language": {
+      "en_us": {
+        "tlm.huangushi.name": "Huangushi's Model Pack",
+        "tlm.huangushi.desc": "Recommended for high-performance computers"
+      },
+      "zh_cn": {
+        "tlm.huangushi.name": "幻古诗的模型包",
+        "tlm.huangushi.desc": "建议高性能电脑使用"
+      }
+    }
+  },
+  {
+    "checksum": 4176944738,
+    "version": "1.0.0",
+    "upload_time": 1700918582021,
+    "name": "tlm.littlemaid_wolf.name",
+    "author": [
+      "霜月優 (CV)",
+      "Tamemaru"
+    ],
+    "desc": "tlm.littlemaid_wolf.desc",
+    "file_name": "littlemaid_wolf-1.0.0.zip",
+    "file_size": 7830708,
+    "url": "/file/littlemaid_wolf-1.0.0.zip",
+    "type": [
+      "sound"
+    ],
+    "language": {
+      "en_us": {
+        "tlm.littlemaid_wolf.name": "LittleMaid WOLF Sound",
+        "tlm.littlemaid_wolf.desc": "§7This is a voice pack of a dignified furry-eared lady. Are you my master? Hmmmmm... not bad... CV: 霜月優"
+      },
+      "zh_cn": {
+        "tlm.littlemaid_wolf.name": "LittleMaid WOLF 语音包",
+        "tlm.littlemaid_wolf.desc": "§7这是一位优雅的兽耳女仆。 “你这家伙就是我的主人吗，嗯，还不错”  CV：霜月優"
+      }
+    }
+  },
+  {
+    "checksum": 1258448961,
+    "version": "1.1.0",
+    "upload_time": 1700839378884,
+    "name": "tlm.tendou_arisu.name",
+    "author": [
+      "Nexon",
+      "Annihilator"
+    ],
+    "desc": "tlm.tendou_arisu.desc",
+    "file_name": "tendou_arisu-1.1.0.zip",
+    "file_size": 5689135,
+    "url": "/file/tendou_arisu-1.1.0.zip",
+    "type": [
+      "maid",
+      "sound"
+    ],
+    "language": {
+      "en_us": {
+        "tlm.tendou_arisu.name": "Tendou Arisu Sound Pack",
+        "tlm.tendou_arisu.desc": "Tendou Arisu Model Pack"
+      },
+      "zh_cn": {
+        "tlm.tendou_arisu.name": "天童爱丽丝声音包",
+        "tlm.tendou_arisu.desc": "爱丽丝也想喝咖啡"
+      }
+    }
+  },
+  {
+    "checksum": 1485331013,
+    "version": "1.0.0",
+    "upload_time": 1700839207421,
+    "name": "tlm.littlemaid_peco.name",
+    "author": [
+      "秋野かえで (CV)",
+      "Tamemaru"
+    ],
+    "desc": "tlm.littlemaid_peco.desc",
+    "file_name": "littlemaid_peco-1.0.0.zip",
+    "file_size": 7708110,
+    "url": "/file/littlemaid_peco-1.0.0.zip",
+    "type": [
+      "sound"
+    ],
+    "language": {
+      "en_us": {
+        "tlm.littlemaid_peco.name": "LittleMaid PECO Sound",
+        "tlm.littlemaid_peco.desc": "This is a sound pack of the energetic hungry maid, 秋野かえで (CV), made by Tamemaru."
+      },
+      "zh_cn": {
+        "tlm.littlemaid_peco.name": "LittleMaid PECO 声音包",
+        "tlm.littlemaid_peco.desc": "这是一个饥肠辘辘但却活力四射的女仆音效包。秋野かえで (CV)，由 Tamemaru 制作。"
+      }
+    }
+  },
+  {
     "checksum": 592934612,
     "version": "1.0.0",
     "upload_time": 1700655074314,
@@ -160,34 +268,6 @@
       "zh_cn": {
         "tlm.the_best_soldier.name": "优质战士语音包",
         "tlm.the_best_soldier.desc": "最优质的战士"
-      }
-    }
-  },
-  {
-    "checksum": 4012984151,
-    "version": "1.0.0",
-    "upload_time": 1700483217522,
-    "name": "tlm.tendou_arisu.name",
-    "author": [
-      "Nexon",
-      "Annihilator"
-    ],
-    "desc": "tlm.tendou_arisu.desc",
-    "file_name": "tendou_arisu-1.0.0.zip",
-    "file_size": 3023153,
-    "url": "/file/tendou_arisu-1.0.0.zip",
-    "type": [
-      "maid",
-      "sound"
-    ],
-    "language": {
-      "en_us": {
-        "tlm.tendou_arisu.name": "Tendou Arisu Sound Pack",
-        "tlm.tendou_arisu.desc": "Tendou Arisu Model Pack"
-      },
-      "zh_cn": {
-        "tlm.tendou_arisu.name": "天童爱丽丝声音包",
-        "tlm.tendou_arisu.desc": "爱丽丝也想喝咖啡"
       }
     }
   },

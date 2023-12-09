@@ -725,7 +725,7 @@
         ItemStages.restrict(<tag:items:forge:storage_blocks/silver>, "1_create");
         ItemStages.restrict(<tag:items:forge:storage_blocks/slag>, "1_create");
         ItemStages.restrict(<tag:items:forge:gems/sulfur>, "1_create");
-            ItemStages.restrict(<tag:items:forge:gears/electrum>, "1_create");
+        ItemStages.restrict(<tag:items:forge:gears/electrum>, "1_create");
         ItemStages.restrict(<tag:items:forge:plates/electrum>, "1_create");
         ItemStages.restrict(<tag:items:forge:ingots/electrum>, "1_create");
         ItemStages.restrict(<tag:items:forge:dusts/electrum>, "1_create");
@@ -949,6 +949,8 @@
         ItemStages.restrict(<item:thermal:redstone_servo>, "2_enginee");
         ItemStages.restrict(<item:thermal:fluid_duct>, "2_enginee");
         ItemStages.restrict(<item:thermal:fluid_duct_windowed>, "2_enginee");
+        ItemStages.restrict(<item:thermal:servo_attachment>, "2_enginee");
+        ItemStages.restrict(<item:thermal:turbo_servo_attachment>, "2_enginee");
         
     //}
     //3阶段部分{
@@ -982,8 +984,6 @@
         ItemStages.restrict(<item:thermal:item_buffer>, "3_mechine");
         ItemStages.restrict(<item:thermal:energy_limiter_attachment>, "3_mechine");
         ItemStages.restrict(<item:thermal:filter_attachment>, "3_mechine");
-        ItemStages.restrict(<item:thermal:servo_attachment>, "3_mechine");
-        ItemStages.restrict(<item:thermal:turbo_servo_attachment>, "3_mechine");
         ItemStages.restrict(<item:thermal:slot_seal>, "3_mechine");
         ItemStages.restrict(<item:thermal:lumium_rail>, "3_mechine");
         ItemStages.restrict(<item:thermal:lumium_crossover_rail>, "3_mechine");

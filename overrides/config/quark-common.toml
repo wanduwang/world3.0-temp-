@@ -233,10 +233,10 @@
 [management]
 	"Quick Armor Swapping" = true
 	"Item Sharing" = true
-	"Inventory Sorting" = true
-	"Hotbar Changer" = true
+	"Inventory Sorting" = false
+	"Hotbar Changer" = false
 	"Expanded Item Interactions" = true
-	"Easy Transfering" = true
+	"Easy Transfering" = false
 	"Chests In Boats" = true
 
 	[management.quick_armor_swapping]
@@ -543,7 +543,7 @@
 	"Spiral Spires" = true
 	Permafrost = true
 	"No More Lava Pockets" = true
-	"New Stone Types" = true
+	"New Stone Types" = false
 	"Nether Obsidian Spikes" = true
 	"Monster Box" = true
 	"Glimmering Weald" = true

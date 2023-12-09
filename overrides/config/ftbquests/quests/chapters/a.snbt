@@ -3,9 +3,55 @@
 	group: ""
 	order_index: 0
 	filename: "a"
-	title: "A"
+	title: "万物起源"
+	icon: "ae2:singularity"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		title: "至少你现在能当个吉祥物了"
+		icon: {
+			id: "touhou_little_maid:garage_kit"
+			Count: 1b
+			tag: {
+				EntityInfo: {
+					ModelId: "touhou_little_maid:hakurei_reimu"
+					id: "touhou_little_maid:maid"
+				}
+			}
+		}
+		disable_toast: true
+		x: 0.0d
+		y: 0.0d
+		shape: "heart"
+		subtitle: "点击领取灵梦fumo模型"
+		description: [
+			"服务器中还有其他大量模型"
+			"获取详情参考其他任务和活动"
+			"alt+Y 开启模型列表"
+		]
+		id: "2567BBD8134BE4A8"
+		tasks: [{
+			id: "22385B9BF4141BEF"
+			type: "checkmark"
+			title: "点击以完成"
+			disable_toast: true
+		}]
+		rewards: [{
+			id: "06A3B483287EDFB2"
+			type: "command"
+			title: "获取模型“灵梦”"
+			icon: {
+				id: "touhou_little_maid:garage_kit"
+				Count: 1b
+				tag: {
+					EntityInfo: {
+						ModelId: "touhou_little_maid:hakurei_reimu"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			command: "/ysm auth @p add lingmeng"
+		}]
+	}]
 	quest_links: [ ]
 }

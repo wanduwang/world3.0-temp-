@@ -65,6 +65,13 @@
 //}
 
 //一般禁用物品{
+    ItemStages.restrict(<item:enigmaticlegacy:heaven_scroll>, "disabled");
+    ItemStages.restrict(<item:enigmaticlegacy:fabulous_scroll>, "disabled");
+    ItemStages.restrict(<item:mysticalagriculture:flight_augment>, "disabled");
+    ItemStages.restrict(<item:draconicevolution:wyvern_flight_module>, "disabled");
+    ItemStages.restrict(<item:draconicevolution:draconic_flight_module>, "disabled");
+    ItemStages.restrict(<item:draconicevolution:chaotic_flight_module>, "disabled");
+    ItemStages.restrict(<item:ars_nouveau:ritual_flight>, "disabled");
     ItemStages.restrict(<item:draconicevolution:info_tablet>, "disabled");
     ItemStages.restrict(<item:draconicevolution:reactor_stabilizer>, "disabled");
     ItemStages.restrict(<item:draconicevolution:reactor_prt_stab_frame>, "disabled");
@@ -109,6 +116,7 @@
 
 //}
 //设置1阶段模组{
+    ItemStages.createModRestriction("explorerscompass", "1_create");
     ItemStages.createModRestriction("untitledduckmod", "1_create");
     ItemStages.createModRestriction("alexsdelight", "1_create");
     ItemStages.createModRestriction("biomesoplenty", "1_create");
@@ -162,7 +170,6 @@
 //设置2阶段模组{
     ItemStages.createModRestriction("ars_nouveau", "2_enginee");
     ItemStages.createModRestriction("bloodmagic", "2_enginee");
-    ItemStages.createModRestriction("explorerscompass", "2_enginee");
     ItemStages.createModRestriction("tac", "2_enginee");
     ItemStages.createModRestriction("tofucraft", "2_enginee");
     ItemStages.createModRestriction("vampirism", "2_enginee");
