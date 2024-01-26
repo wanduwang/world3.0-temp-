@@ -1,0 +1,1090 @@
+{
+	id: "2F6B32EF85544D50"
+	group: ""
+	order_index: 1
+	filename: "2"
+	title: "1.齿轮与神秘"
+	icon: "create:cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	progression_mode: "linear"
+	quests: [
+		{
+			icon: "create:large_cogwheel"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "你现在可以利用更多物品了"
+			description: [
+				"你想起了一些事情，但不足及解释你的全部困惑"
+				"你看向了你的戒指，那似乎是一种诅咒"
+			]
+			hide_dependency_lines: true
+			size: 2.0d
+			id: "3C0B898853644846"
+			tasks: [{
+				id: "41F4E4CCABFD76C0"
+				type: "checkmark"
+				title: "知识在你的脑海浮现"
+			}]
+			rewards: [
+				{
+					id: "3CA0CF68565A5A1E"
+					type: "advancement"
+					advancement: "minecraft:story/1"
+					criterion: ""
+				}
+				{
+					id: "10793DC3E9BDD576"
+					type: "item"
+					item: "enigmaticlegacy:unwitnessed_amulet"
+				}
+				{
+					id: "1596419BC8F03D33"
+					type: "choice"
+					title: "豪华别墅自选"
+					exclude_from_claim_all: true
+					table_id: 9086944498270589071L
+				}
+			]
+		}
+		{
+			title: "证明你能活下去"
+			x: 2.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "矿物产量相当高"
+			description: [
+				"受戒指影响，你总能获得相当的矿物"
+				"这令人振奋，你应该利用这点"
+				"尽快打造一套盔甲以支撑你活下去"
+			]
+			dependencies: ["3C0B898853644846"]
+			id: "0D85D665D091B424"
+			tasks: [
+				{
+					id: "476DD4188B82A2D3"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6CADC97EB2E9EF77"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B235CDA0AED8D80"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D419F258A10645A"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1734D813E76C94FA"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "01CD0E42A6E40EC2"
+					type: "item"
+					item: "minecraft:enchanting_table"
+				}
+			]
+			rewards: [{
+				id: "3C67D30BC318E6DB"
+				type: "item"
+				item: "enigmaticlegacy:twisted_core"
+			}]
+		}
+		{
+			title: "向深渊进发"
+			x: 3.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "凶险的地狱"
+			description: [
+				"本该对你熟视无睹的猪人突然愤怒了起来"
+				"你知道，这也是诅咒的一环"
+				"这使得地狱名副其实"
+			]
+			dependencies: ["0D85D665D091B424"]
+			id: "3D46F8B425D1A89B"
+			tasks: [{
+				id: "01C4C5F234DA87E2"
+				type: "dimension"
+				title: "造访下界"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "0CB21618247CA248"
+				type: "item"
+				item: "enigmaticlegacy:evil_essence"
+				count: 4
+			}]
+		}
+		{
+			title: "神秘的力量"
+			x: 5.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "科研靠考古"
+			description: [
+				"你发现了一本残破的著作"
+				"你或许能从中解读出戒指的细节"
+				"你注意到，这本古老的著作蕴含某种力量"
+				"这会许值得一试....."
+			]
+			dependencies: ["3D46F8B425D1A89B"]
+			id: "6974837637E29186"
+			tasks: [{
+				id: "6C9E4A37CF0A142F"
+				type: "item"
+				item: "enigmaticlegacy:the_acknowledgment"
+			}]
+			rewards: [{
+				id: "4933C0062A6E734F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "漆黑的书籍"
+			x: 6.5d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "神秘遗物"
+			description: [
+				"你尝试修复了这本古老的著作"
+				"书中记录了相当多古老的力量"
+				"这或许能帮助你渡过艰难#前往章节[神秘遗物]#"
+			]
+			dependencies: ["6974837637E29186"]
+			id: "04F91BF4C61CD8E7"
+			tasks: [{
+				id: "766ED4EC2AE62CAB"
+				type: "item"
+				item: "enigmaticlegacy:the_twist"
+			}]
+			rewards: [{
+				id: "5278BC6AC26B3B56"
+				type: "random"
+				title: "盲盒"
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "认主的书"
+			icon: "enigmaticlegacy:the_twist"
+			x: 6.5d
+			y: -1.5d
+			shape: "octagon"
+			subtitle: "跟随的“诅咒”"
+			description: [
+				"这本不详的书籍明显缠上你了，他似乎是活的"
+				"但似乎并没有恐怖的事情发生，这使你安心"
+				"他挥舞起来异常好用，并且还能抵抗戒指的力量"
+				"这会许值得一试.....#这是你前期的主要武器#"
+			]
+			dependencies: ["04F91BF4C61CD8E7"]
+			can_repeat: true
+			id: "101B320DE05ADC19"
+			tasks: [{
+				id: "1FDC76F5A029CE20"
+				type: "item"
+				item: "minecraft:netherite_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7F720E953145C1B0"
+				type: "item"
+				team_reward: false
+				item: "enigmaticlegacy:the_twist"
+			}]
+		}
+		{
+			title: "生活质量"
+			x: -2.5d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "存储的艺术"
+			description: [
+				"你有多种方式整理你的仓库"
+				"#前往章节[扩展箱子]#"
+			]
+			dependencies: ["3C0B898853644846"]
+			id: "49637BCEDB772EAB"
+			tasks: [{
+				id: "591AB3C3B130A950"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+			}]
+			rewards: [{
+				id: "2F8F903FF40D6130"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "随身的箱子"
+			x: -4.0d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "提升探索里程"
+			description: [
+				"使你的活动范围更远、更久"
+				"#前往章节[背包]#"
+			]
+			dependencies: ["49637BCEDB772EAB"]
+			id: "5B8536587ABCCED1"
+			tasks: [{
+				id: "783BB8F74E180ACC"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "5DA14B6A0BECA78A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "更好的生活质量"
+			x: -4.0d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "整理的艺术"
+			description: [
+				"更大的箱子"
+				"#前往章节[更大的箱子]#"
+			]
+			dependencies: ["49637BCEDB772EAB"]
+			id: "5DA01D5CF885DF94"
+			tasks: [{
+				id: "017C01AC82009415"
+				type: "item"
+				item: "toms_storage:ts.storage_terminal"
+			}]
+			rewards: [{
+				id: "75F6404166080064"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "更热的话题"
+			x: -5.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "熔炼大师"
+			description: [
+				"矿物太多了？升级你的熔炉"
+				"#前往章节[更多熔炉]#"
+			]
+			dependencies: ["49637BCEDB772EAB"]
+			id: "70AB407A4C15C26C"
+			tasks: [{
+				id: "4CAF5F3CBE334C2D"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [{
+				id: "4C2CD1BB5D7D3F4A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "越共探头"
+			x: -1.5d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "车万到处都是"
+			description: [
+				"女仆也可以是自动化的一环（嗨奴）"
+				"#前往章节[车万女仆]#"
+			]
+			dependencies: ["3C0B898853644846"]
+			id: "763F0302D9D332B2"
+			tasks: [{
+				id: "54FFE218EBDBBE40"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:hakurei_gohei"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "36586BB68D75F47C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "最坚硬的镐"
+			x: 8.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "仅限原版"
+			description: [
+				"在探索这个世界之前，你需要更好的装备"
+				"你看上了高强度的戈伯，但是你没法采掘他们"
+				"你回想起了一种来自地狱的材料，那或许有效"
+			]
+			dependencies: ["04F91BF4C61CD8E7"]
+			id: "7546664ACC5A743F"
+			tasks: [{
+				id: "0AAE8FD3E649EAD1"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "04EB5E80E42C6557"
+				type: "item"
+				item: "gobber2:gobber2_ore"
+			}]
+		}
+		{
+			title: "强力防御"
+			x: 9.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "现在你有活下去的资本了"
+			description: [
+				"戈伯有极强的缓冲作用，用它来做护甲是个好主意"
+				"准备好你的附魔台，这会使你游刃有余"
+				"#下界戈伯2阶解锁，末地戈伯3阶解锁，龙套4阶解锁#"
+			]
+			dependencies: ["7546664ACC5A743F"]
+			id: "41E876B9789006B9"
+			tasks: [
+				{
+					id: "2B94CBBDEA4D70E4"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0DE5AC9B721AB3CA"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12B6AE7EA3350972"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A38B78948416340"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1A0502CF10471F00"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "1098E10E90338EFE"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 12
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "必经之路"
+			description: [
+				"你“意外”将一枚钻石丢人水中，产生了巨大的能量"
+				"门的那边或许隐藏了什么，你决定前去探索一番"
+				"#后期部分科技需要暮色材料制作，请留意#"
+			]
+			dependencies: ["41E876B9789006B9"]
+			id: "1DC922DD84C9D5DA"
+			tasks: [{
+				id: "19FB4ADBB20FF0CD"
+				type: "dimension"
+				title: "前往暮色森林"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				dimension: "twilightforest:twilight_forest"
+			}]
+			rewards: [{
+				id: "0286B266F0C0B6AD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "赌命"
+			x: 1.0d
+			y: -2.0d
+			shape: "octagon"
+			subtitle: "豪掷千金"
+			dependencies: ["5DE0BFB7403CE051"]
+			hide: true
+			can_repeat: true
+			id: "0F9BF4DCF1419724"
+			tasks: [{
+				id: "271E73FD88182B78"
+				type: "item"
+				item: "enigmaticlegacy:forbidden_fruit"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "41F610F3AE725E70"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "1460F42A4FB925B5"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "1F943CAF03256BFE"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "35C14C8296D9FDF5"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "5B54A313D5DA9B94"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			title: "火炬大师"
+			x: -1.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "保护你的家园"
+			description: [
+				"照亮他们"
+				"#前往章节[火炬大师]#"
+			]
+			dependencies: ["3C0B898853644846"]
+			id: "5970108504CAFA45"
+			tasks: [{
+				id: "6EC1A698A05A7972"
+				type: "item"
+				item: "twilightforest:torchberries"
+			}]
+			rewards: [{
+				id: "19059037D2B4815E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "对不起，没有 「雪鸦」"
+			x: 12.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "但你依旧需要杀只渡鸦"
+			description: [
+				"暮色的地形千变万化，重峦叠嶂，峰回路转"
+				"你发现暮色的动物总能辨明方向"
+				"你觉得这可以被利用，去抓只渡鸦"
+			]
+			dependencies: ["1DC922DD84C9D5DA"]
+			id: "5A10C761ABE1858E"
+			tasks: [{
+				id: "42211E4922E0FEBF"
+				type: "item"
+				item: "twilightforest:raven_feather"
+			}]
+			rewards: [{
+				id: "176B6CF97CA52033"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+		}
+		{
+			title: "孙哥，我火了"
+			x: 14.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "很亮的羽毛"
+			description: [
+				"你将暮色特有的发光浆果和萤石粉混合成了墨水"
+				"当渡鸦的羽毛沾上这种墨水时，它闪出了某种光芒"
+				"是时候绘制地图了"
+			]
+			dependencies: ["5A10C761ABE1858E"]
+			id: "5AA0801B08B192A8"
+			tasks: [{
+				id: "5D6E5131B2F8D518"
+				type: "item"
+				item: "twilightforest:magic_map_focus"
+			}]
+			rewards: [{
+				id: "2230C44217A14E9A"
+				type: "item"
+				item: "minecraft:sugar_cane"
+				count: 9
+			}]
+		}
+		{
+			title: "只能看百来格的千里眼"
+			x: 15.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "没关系，起码你看得见了"
+			description: [
+				"凭借这种自绘制地图，你得分辨方向"
+				"制作地图期间，你拾取到了多本残破的日记"
+				"你发现，他们都提到了一座筑有高墙的迷宫"
+				"事有蹊跷，这是你充满决心"
+				"{image:twilightforest:textures/block/pedestal/naga.png width:50 height:50 align:1}"
+			]
+			dependencies: ["5AA0801B08B192A8"]
+			id: "2D2A9DFD947CB88B"
+			tasks: [{
+				id: "4C04EE357688CF72"
+				type: "item"
+				item: "twilightforest:magic_map"
+			}]
+			rewards: [{
+				id: "3C975B8D4A53FD6C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "人面蛇"
+			x: 17.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "娜迦"
+			description: [
+				"在迷宫中央，出现了一只长着人面的长虫"
+				"你经历千难万险击杀了它，蛇的碎块到处都是"
+				"你突然发现不远处的一座高塔，那里肯定有人"
+				"你决定去问问这里发生了什么"
+				"{image:twilightforest:textures/block/pedestal/lich.png width:50 height:50 align:1}"
+			]
+			dependencies: ["2D2A9DFD947CB88B"]
+			id: "3DF9EDF49FB85BFD"
+			tasks: [{
+				id: "3A8FB10888DD8B82"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+			rewards: [{
+				id: "37C2D91BE129D333"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "巫妖王"
+			x: 18.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "但没有冰封王座"
+			description: [
+				"高塔内充满了阴森的气息，空气都有些诡异"
+				"好不容易爬上塔顶，却发现了一只浑身黑气的骷髅"
+				"通过引导巫妖的法球，你打败了它"
+				"在巫妖塔的文件中，你发现了三位暮色的守护神"
+				"你觉得他们或许知道些什么"
+				"#活根制造的铁树锭是重要材料"
+			]
+			dependencies: ["3DF9EDF49FB85BFD"]
+			id: "52F6DA9DC72CFB21"
+			tasks: [{
+				id: "528282427719F9D1"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [{
+				id: "65CCD5E6502FE8FB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "前往火焰沼泽"
+			icon: "twilightforest:minoshroom_trophy"
+			x: 18.5d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "守护神的守护者"
+			description: [
+				"在火焰沼泽的外围遍布着普通的沼泽"
+				"你在沼泽中发现了一座迷宫"
+				"在迷宫的深处你击杀了一种特别的哞菇"
+				"用它的肉，你决定你能够提抗火焰沼泽的热量"
+				"#牛头人迷宫中史莱姆掉落的保管护符是重要材料"
+			]
+			dependencies: ["52F6DA9DC72CFB21"]
+			id: "410EB565D34CCA1C"
+			tasks: [{
+				id: "133F437A8D1DC209"
+				type: "kill"
+				entity: "twilightforest:minoshroom"
+				value: 1L
+			}]
+			rewards: [{
+				id: "05AA299EC3A75009"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 3.5d
+			shape: "hexagon"
+			subtitle: "暮色三神"
+			description: [
+				"火焰沼泽中央栖息着一只会再生的蛇"
+				"他炽热的鲜血有一种奇异的魔力"
+				"#炽铁锭是一种重要的材料#"
+			]
+			dependencies: ["410EB565D34CCA1C"]
+			id: "38E94239D475D12E"
+			tasks: [{
+				id: "6F5C48CE09C7ADA7"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+			rewards: [{
+				id: "3DC7E4FC816602B8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "前往恶魂高塔"
+			icon: "twilightforest:knight_phantom_trophy"
+			x: 20.0d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "守护神的守护者"
+			description: [
+				"恶魂高塔被遮天蔽日的黑森林包围着"
+				"在森林中你发现了一种要塞"
+				"击杀迷宫深处的幻影骑士，你得到了某种力量"
+				"#骑士要塞的产物骑士锭是一种重要材料"
+			]
+			dependencies: ["52F6DA9DC72CFB21"]
+			id: "126063244296C166"
+			tasks: [{
+				id: "6C9DD0DBD3BB1B04"
+				type: "kill"
+				entity: "twilightforest:knight_phantom"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3AE14A338E1EDC84"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "前往极光城堡"
+			icon: "twilightforest:alpha_yeti_trophy"
+			x: 17.0d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "守护神的守护者"
+			description: [
+				"极光城堡常年被冰雪覆盖"
+				"在高耸的冰川外你发现了住有雪怪的洞窟"
+				"雪怪的皮毛或许能帮助你渡过风雪的寒冷"
+			]
+			dependencies: ["52F6DA9DC72CFB21"]
+			id: "128D12BD82B7F019"
+			tasks: [{
+				id: "69F99216C23784B8"
+				type: "kill"
+				entity: "twilightforest:alpha_yeti"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5AEE4B16FD8AAF18"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 3.5d
+			shape: "hexagon"
+			subtitle: "暮色三神"
+			description: [
+				"森林的中心有一座巨大的高塔"
+				"高塔的顶端徘徊着一只巨大的红色恶魂"
+				"#封装高塔木、炽铁锭是一种重要的材料#"
+			]
+			dependencies: ["126063244296C166"]
+			id: "074C161CD25D8243"
+			tasks: [{
+				id: "26EDE271770711C0"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+			rewards: [{
+				id: "4BBE34145E74B1FC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 17.0d
+			y: 3.5d
+			shape: "hexagon"
+			subtitle: "暮色三神"
+			description: [
+				"极光城堡的顶端居住着冰雪女王"
+				"这或许是暮色高地常年降水的原因"
+				"击败她（其实是3神都要击败）你将能登上高地"
+			]
+			dependencies: ["128D12BD82B7F019"]
+			id: "7A4EF4E84E8A7ACA"
+			tasks: [{
+				id: "78052DFFE53BEF06"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+			rewards: [{
+				id: "72EEE52B7C442EB1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "巨魔洞穴"
+			x: 18.5d
+			y: 5.0d
+			shape: "hexagon"
+			subtitle: "童话里也有真的"
+			description: [
+				"在暮色高地的地下，你发现了数个黑曜石房间"
+				"在其中一个房间里，你发现了这种魔豆"
+				"他或许能带你前往天际（不是天际省）"
+			]
+			dependencies: [
+				"7A4EF4E84E8A7ACA"
+				"38E94239D475D12E"
+				"074C161CD25D8243"
+			]
+			id: "61ADC3A82DD9A199"
+			tasks: [{
+				id: "13FC296571E19198"
+				type: "item"
+				item: "twilightforest:magic_beans"
+			}]
+			rewards: [{
+				id: "737A12753BA66A51"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "天上带着镐子的巨人"
+			x: 17.0d
+			y: 5.0d
+			shape: "hexagon"
+			subtitle: "撂倒你自己"
+			description: [
+				"在云上你发现了跟你长得一模一样的巨人"
+				"但他们拙劣的战斗技巧着实有些滑稽"
+				"他们巨大的镐子或许能用来破坏巨魔的巢穴"
+			]
+			dependencies: ["61ADC3A82DD9A199"]
+			id: "7F6B1D71712E0535"
+			tasks: [{
+				id: "419E0FFF163B9A25"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "66D3385DF9617D17"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "遗憾"
+			x: 15.5d
+			y: 5.0d
+			shape: "hexagon"
+			subtitle: "暮色的终点"
+			description: [
+				"在巨魔的房间里，你发现了这种神灯"
+				"这或许能将阻拦你的荆棘烧成灰烬"
+				"马上就要到终点了"
+				"#城堡门是一种重要的材料#"
+			]
+			dependencies: ["7F6B1D71712E0535"]
+			id: "55EACAE5A1484CA1"
+			tasks: [{
+				id: "5DEB2CCE54731ED1"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "26ABA3C8612478C0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "迹象"
+			x: 14.0d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "未知的方向"
+			description: [
+				"令你失望的是，那里什么都没有"
+				"在城堡中徘徊，你发现了一些蛛丝马迹"
+				"或许你可以去终末之地获取新的消息"
+				"暮色带有指向性的材料或许能帮助你"
+				"#前往章节[暮色创世]#"
+			]
+			dependencies: ["55EACAE5A1484CA1"]
+			id: "7EDDE806CBCB95E7"
+			tasks: [
+				{
+					id: "45BAF859476E99E1"
+					type: "item"
+					item: {
+						id: "explorerscompass:explorerscompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6BF23EA98803B4D7"
+					type: "item"
+					item: {
+						id: "naturescompass:naturescompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "7E3EB9162149F6BA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "到达末地"
+			x: 12.5d
+			y: 5.0d
+			shape: "hexagon"
+			dependencies: [
+				"487499AEE5C3AC45"
+				"7EDDE806CBCB95E7"
+			]
+			id: "064CA248C11420A8"
+			tasks: [{
+				id: "52B80803F184C9BB"
+				type: "dimension"
+				title: "到达末地"
+				icon: "minecraft:end_crystal"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "0E6E947D3DED0BDA"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "刚体金属"
+			x: 11.0d
+			y: 5.0d
+			shape: "hexagon"
+			dependencies: ["064CA248C11420A8"]
+			id: "759E9B45D2C2B382"
+			tasks: [{
+				id: "50C96FD98D4FF443"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "3EF874C850586ECE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "机械结构"
+			x: 9.5d
+			y: 5.0d
+			shape: "gear"
+			dependencies: ["759E9B45D2C2B382"]
+			id: "24AF84E54C183CEA"
+			tasks: [{
+				id: "50224F39E61D9776"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+			rewards: [{
+				id: "74244B12046405C2"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "化学作用"
+			x: 8.0d
+			y: 5.0d
+			shape: "hexagon"
+			dependencies: ["24AF84E54C183CEA"]
+			id: "3B5604EF0EA9E7D8"
+			tasks: [{
+				id: "59CF89477EB942A9"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+			}]
+			rewards: [{
+				id: "3786E5E9414962BA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "结实耐用"
+			x: 5.0d
+			y: 5.0d
+			shape: "gear"
+			dependencies: ["3B5604EF0EA9E7D8"]
+			size: 5.0d
+			id: "1518331DEF659FDE"
+			tasks: [{
+				id: "377A8D9C27E9A1F3"
+				type: "item"
+				title: "防腐木板"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:treated_wood"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E6FCE2E17554790"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

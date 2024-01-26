@@ -1,0 +1,303 @@
+{
+	id: "65B428287A0E0F34"
+	group: ""
+	order_index: 4
+	filename: "65B428287A0E0F34"
+	title: "更大的箱子"
+	icon: "toms_storage:ts.storage_terminal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "整理？整理不了一点"
+			icon: "toms_storage:ts.storage_terminal"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "我们联合"
+			description: ["将箱子连接在一起"]
+			hide_dependency_lines: true
+			dependencies: ["5DA01D5CF885DF94"]
+			size: 2.0d
+			id: "62A91282505BDBE2"
+			tasks: [{
+				id: "0D2BCA5374694B8F"
+				type: "checkmark"
+				title: "整理箱子"
+			}]
+			rewards: [{
+				id: "1FC369777F55C959"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "你得有脑子"
+			description: [
+				"放置一个存储整合器"
+				"每个存储体系最多拥有一个存储整合器"
+				"所有连接件都需要从这里出发"
+			]
+			dependencies: ["62A91282505BDBE2"]
+			id: "6B9CCF56186B6D07"
+			tasks: [{
+				id: "009699BD8EF39FDA"
+				type: "item"
+				item: "toms_storage:ts.inventory_connector"
+			}]
+			rewards: [{
+				id: "02C0ADEC96A6380F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "你得有躯干"
+			description: [
+				"贴着整合器的桥接器将形成一个整体"
+				"桥接器和整合器一样可以连接相邻的容器"
+				"桥接器不能连接线缆"
+			]
+			dependencies: ["6B9CCF56186B6D07"]
+			id: "647047004696AC6E"
+			tasks: [{
+				id: "022877F7919164EB"
+				type: "item"
+				item: "toms_storage:ts.trim"
+			}]
+			rewards: [{
+				id: "034E1236721F8AC7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			subtitle: "你得有四肢"
+			description: [
+				"线缆只能从整合器牵出"
+				"用以连接其他存储方块"
+			]
+			dependencies: ["647047004696AC6E"]
+			id: "174119EBF185DBE9"
+			tasks: [{
+				id: "22974AFB55FA98CD"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable"
+			}]
+			rewards: [{
+				id: "670E09C1F00302F8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			subtitle: "你得有皮肤"
+			description: ["没别的用，就是好看"]
+			dependencies: ["174119EBF185DBE9"]
+			id: "66962100A625140F"
+			tasks: [{
+				id: "40D5B340A6858F91"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable_framed"
+			}]
+			rewards: [{
+				id: "7A5F486DE6E56AC3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			subtitle: "你得有眼睛"
+			description: ["窄面连接线缆，宽面连接终端"]
+			dependencies: ["174119EBF185DBE9"]
+			id: "3C3405A6FB95939D"
+			tasks: [{
+				id: "641EF37ADDA3AB2A"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable_connector"
+			}]
+			rewards: [{
+				id: "12B835AF3B0146B0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			subtitle: "有色眼镜"
+			dependencies: ["3C3405A6FB95939D"]
+			id: "0FF1C3415BBE055F"
+			tasks: [{
+				id: "19A649CEBB31FDC1"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable_connector_filtered"
+			}]
+			rewards: [{
+				id: "73ACC9EF211AD007"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			subtitle: "让我访问！"
+			description: ["终端必须贴在线缆连接器或整合器上"]
+			dependencies: ["174119EBF185DBE9"]
+			id: "5AF07453B2608432"
+			tasks: [{
+				id: "0BB43E6F413F46E3"
+				type: "item"
+				item: "toms_storage:ts.storage_terminal"
+			}]
+			rewards: [{
+				id: "4DA602B78F4308E0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			subtitle: "高级访问"
+			dependencies: ["5AF07453B2608432"]
+			id: "4635ED4C5F81CE68"
+			tasks: [{
+				id: "143B861725785C66"
+				type: "item"
+				item: "toms_storage:ts.crafting_terminal"
+			}]
+			rewards: [{
+				id: "42217FBD784C8E70"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			subtitle: "小自动化"
+			dependencies: ["174119EBF185DBE9"]
+			id: "5D0B69C2BADA777E"
+			tasks: [{
+				id: "1C97C60345BEA18E"
+				type: "item"
+				item: "toms_storage:ts.inventory_hopper_basic"
+			}]
+			rewards: [{
+				id: "1FAE93A603E75595"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			subtitle: "小自动化"
+			dependencies: ["174119EBF185DBE9"]
+			id: "14DBB74307935930"
+			tasks: [{
+				id: "16CA49193D3A4BE1"
+				type: "item"
+				item: "toms_storage:ts.level_emitter"
+			}]
+			rewards: [{
+				id: "7BD3D9E09BB88605"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 9.5d
+			subtitle: "无线连接"
+			description: [
+				"允许你远距离访问终端"
+				"但你还是必须看向终端"
+				"确实，他没什么用，但是下一级呢"
+			]
+			dependencies: ["4635ED4C5F81CE68"]
+			id: "6EE48E4C3E76098B"
+			tasks: [{
+				id: "0D01DBFDA0E5C69E"
+				type: "item"
+				item: "toms_storage:ts.wireless_terminal"
+			}]
+			rewards: [{
+				id: "280CB1E755F78591"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 11.0d
+			subtitle: "万物互联"
+			description: [
+				"shift右键绑定终端"
+				"终端附近的信标可以扩大无线范围"
+				"4级信标可以全维度访问"
+			]
+			dependencies: ["6EE48E4C3E76098B"]
+			id: "1CAC97C66D612750"
+			tasks: [{
+				id: "264A0E9020DC7D25"
+				type: "item"
+				item: "toms_storage:ts.adv_wireless_terminal"
+			}]
+			rewards: [{
+				id: "461A2ECB23FBB02F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			subtitle: "皮肤彩绘"
+			dependencies: ["66962100A625140F"]
+			id: "663BE828F21546AA"
+			tasks: [{
+				id: "220AD7650B0012D2"
+				type: "item"
+				item: {
+					id: "toms_storage:ts.paint_kit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D4E3D290972C8E1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

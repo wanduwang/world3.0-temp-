@@ -1,0 +1,209 @@
+{
+	id: "1016E0130812F04C"
+	order_index: 1
+	title: "盲盒"
+	icon: "cyclic:dice"
+	empty_weight: 1
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:copper_ingot", count: 16, weight: 200 }
+		{ item: "minecraft:iron_ingot", count: 16, weight: 100 }
+		{ item: "minecraft:gold_ingot", count: 16, weight: 100 }
+		{ item: "minecraft:netherite_ingot", count: 16, weight: 50 }
+		{ item: "graveyard:dark_iron_ingot", count: 16, weight: 35 }
+		{ item: "tconstruct:cobalt_ingot", count: 16, weight: 50 }
+		{ item: "gobber2:gobber2_ingot", count: 16, weight: 50 }
+		{ item: "minecraft:diamond", count: 16, weight: 75 }
+		{ item: "minecraft:redstone", count: 32, weight: 100 }
+		{ item: "pamhc2foodextended:gourmetbeefburgeritem", count: 16, weight: 150 }
+		{ item: "minecraft:emerald", count: 16, weight: 50 }
+		{
+			item: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "cyclic:flight"
+				}
+			}
+			count: 3
+			weight: 5
+		}
+		{ item: "expandedstorage:diamond_chest", weight: 50 }
+		{ item: "minecraft:ender_pearl", count: 16, weight: 50 }
+		{
+			item: {
+				id: "endrem:black_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:cold_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:corrupted_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:lost_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:nether_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:old_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:rogue_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:cursed_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:evil_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:guardian_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:magical_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:wither_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:witch_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:undead_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "endrem:exotic_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "enigmaticlegacy:golem_heart" }
+		{ item: "enigmaticlegacy:angel_blessing" }
+		{ item: "enigmaticlegacy:ocean_stone" }
+		{ item: "enigmaticlegacy:magma_heart" }
+		{ item: "enigmaticlegacy:eye_of_nebula" }
+		{ item: "enigmaticlegacy:void_pearl" }
+		{ item: "enigmaticlegacy:astral_dust" }
+		{ item: "enigmaticlegacy:etherium_ore" }
+		{ item: "enigmaticlegacy:darkest_scroll" }
+		{
+			item: {
+				id: "enigmaticlegacy:earth_heart"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{ item: "enigmaticlegacy:ichor_bottle" }
+		{
+			item: {
+				id: "enigmaticlegacy:cosmic_heart"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "mekanism:ingot_osmium", count: 16, weight: 100 }
+		{ item: "mekanism:ingot_tin", count: 16, weight: 100 }
+		{ item: "mekanism:ingot_lead", count: 16, weight: 100 }
+		{ item: "immersiveengineering:ingot_silver", count: 16, weight: 100 }
+		{ item: "immersiveengineering:ingot_nickel", count: 16, weight: 100 }
+		{ item: "immersiveengineering:ingot_constantan", count: 16, weight: 50 }
+		{ item: "immersiveengineering:ingot_electrum", count: 16, weight: 50 }
+		{ item: "twilightforest:ironwood_ingot", count: 16, weight: 50 }
+		{ item: "twilightforest:fiery_ingot", count: 16, weight: 50 }
+		{ item: "twilightforest:knightmetal_ingot", count: 16, weight: 50 }
+		{ item: "born_in_chaos_v1:dark_metal_ingot", count: 16, weight: 50 }
+		{ item: "minecraft:golden_apple", count: 4, weight: 150 }
+		{ item: "minecraft:enchanted_golden_apple", weight: 50 }
+		{ item: "expandedstorage:wood_to_netherite_conversion_kit", weight: 10 }
+		{ item: "twilightforest:torchberries", count: 16, weight: 150 }
+	]
+}

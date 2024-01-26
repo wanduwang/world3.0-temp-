@@ -158,6 +158,13 @@ onEvent('recipes', event => {
     //盐通用
     event.replaceInput({input: 'tofucraft:salt'}, 'tofucraft:salt', '#forge:salts')
 
+    //末地戈伯改钢豆腐
+	event.replaceInput({output: 'gobber2:gobber2_ingot_nether'}, 'minecraft:netherite_scrap', '#forge:ingots/steel')
+
+    //枪械工作台要用下界戈伯、钢板金属块做
+    event.replaceInput({id: 'tac:workbench'}, 'minecraft:iron_ingot', 'gobber2:gobber2_ingot_nether')
+    event.replaceInput({id: 'tac:workbench'}, 'minecraft:iron_block', '#forge:sheetmetals/steel')
+
     //空白符文改末地石
     event.replaceInput({id: 'bloodmagic:blood_altar'}, '#bookshelf:stones', 'minecraft:end_stone')
     event.replaceInput({id: 'bloodmagic:alchemy_table'}, '#bookshelf:stones', 'minecraft:end_stone')

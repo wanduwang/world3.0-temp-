@@ -34,5 +34,17 @@
                 "top": 29
             }
         }
+    },
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": -6,
+                "top": 27
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 55
+            }
+        }
     }
 }

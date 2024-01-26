@@ -1,9 +1,9 @@
 {
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Modified-1",
-  "version": "1.0",
-  "author": "suzuki",
+  "name": "ComingSoon",
+  "version": "2",
+  "author": "z",
   "overrides": "overrides",
   "minecraft": {
     "version": "1.18.2",

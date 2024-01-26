@@ -1,0 +1,32 @@
+{
+	id: "0C1ABFAD28191231"
+	group: ""
+	order_index: 3
+	filename: "2_2"
+	title: "2.工程师与魔法师"
+	icon: "immersiveengineering:manual"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "新的学识"
+		icon: "immersiveengineering:manual"
+		x: 0.0d
+		y: 0.0d
+		shape: "gear"
+		dependencies: ["1518331DEF659FDE"]
+		size: 2.0d
+		id: "670B8AA9E28E9F74"
+		tasks: [{
+			id: "6BA6666E32A8D38D"
+			type: "checkmark"
+			title: "你开始知晓更多"
+		}]
+		rewards: [{
+			id: "616A8538D62E0B36"
+			type: "advancement"
+			advancement: "minecraft:story/2"
+			criterion: ""
+		}]
+	}]
+	quest_links: [ ]
+}

@@ -1,0 +1,164 @@
+{
+	id: "571153D9E32EB282"
+	group: ""
+	order_index: 11
+	filename: "571153D9E32EB282"
+	title: "简单堆叠"
+	icon: "mekanism:basic_bin"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "存储组件"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["6C99E0158CFD4653"]
+			size: 3.0d
+			id: "4F60DCBC369CD311"
+			tasks: [{
+				id: "2974DCB1D6C13199"
+				type: "item"
+				item: "create_sa:vault_component"
+			}]
+			rewards: [{
+				id: "674E7A11C339FC19"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["4F60DCBC369CD311"]
+			id: "7EA3DD367572A772"
+			tasks: [{
+				id: "34AF4152E97A3013"
+				type: "item"
+				item: "mekanism:basic_bin"
+			}]
+			rewards: [{
+				id: "0398D92190FEE09A"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["7EA3DD367572A772"]
+			id: "71D667B69CB12DC9"
+			tasks: [{
+				id: "0A4810CD40AE62B6"
+				type: "item"
+				item: "mekanism:advanced_bin"
+			}]
+			rewards: [{
+				id: "3ADC860993253C75"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["4700F97DAEA2A10F"]
+			id: "6DE5D45DEFCEE6FB"
+			tasks: [{
+				id: "43FDAFD974DEA42E"
+				type: "item"
+				item: "mekanism:ultimate_bin"
+			}]
+			rewards: [{
+				id: "7AE6C19DE86202CB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["71D667B69CB12DC9"]
+			id: "4700F97DAEA2A10F"
+			tasks: [{
+				id: "5E57ABACBB8974B1"
+				type: "item"
+				item: "mekanism:elite_bin"
+			}]
+			rewards: [{
+				id: "32694CCFF6947C07"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["4F60DCBC369CD311"]
+			id: "561CF404CAD51D0C"
+			tasks: [{
+				id: "44BC15C45DB36AA4"
+				type: "item"
+				item: "mekanism:basic_fluid_tank"
+			}]
+			rewards: [{
+				id: "3CAE943454D2D583"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["561CF404CAD51D0C"]
+			id: "301BFF11583ED15B"
+			tasks: [{
+				id: "58E49FE0DF23A2BC"
+				type: "item"
+				item: "mekanism:advanced_fluid_tank"
+			}]
+			rewards: [{
+				id: "636E295BF245364F"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["301BFF11583ED15B"]
+			id: "2AFC2CC505394A3A"
+			tasks: [{
+				id: "5CA6B062BBADF938"
+				type: "item"
+				item: "mekanism:elite_fluid_tank"
+			}]
+			rewards: [{
+				id: "6266E2214D456414"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["2AFC2CC505394A3A"]
+			id: "3AA11FCD8F9A2D74"
+			tasks: [{
+				id: "79929B44FEAD5936"
+				type: "item"
+				item: "mekanism:ultimate_fluid_tank"
+			}]
+			rewards: [{
+				id: "451A193AAA79DE9B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

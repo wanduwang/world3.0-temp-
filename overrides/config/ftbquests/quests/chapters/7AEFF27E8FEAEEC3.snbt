@@ -1,0 +1,542 @@
+{
+	id: "7AEFF27E8FEAEEC3"
+	group: ""
+	order_index: 9
+	filename: "7AEFF27E8FEAEEC3"
+	title: "末地创世"
+	icon: {
+		id: "endrem:wither_eye"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "更难触及的末地"
+			icon: {
+				id: "endrem:wither_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "寻找多种眼睛"
+			description: ["有很多种的眼睛，本章节将介绍其获取途径"]
+			hide_dependency_lines: true
+			dependencies: ["7EDDE806CBCB95E7"]
+			size: 2.0d
+			id: "186127039AC3CF4F"
+			tasks: [{
+				id: "34B745B6A7CA6424"
+				type: "checkmark"
+				title: "刻意的刁难"
+			}]
+			rewards: [{
+				id: "5E1A7525CAEC44B4"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			description: [
+				"由 藏宝图-埋藏的宝藏 中获取"
+				"查找结构 buried_treasure"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "239863464A568EB2"
+			tasks: [{
+				id: "05D4BC4F3C4DB8BD"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E2FDD5F1B81696A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: [
+				"由 雪屋的地下室 获取"
+				"查找结构 igloo"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "126945519453F09E"
+			tasks: [{
+				id: "5F5F35A7F153D222"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "47FC0378C29852A9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			description: [
+				"由 掠夺者哨站 中获取"
+				"查找结构 pillager_outpost"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "2E899C1E9FA41CFC"
+			tasks: [{
+				id: "356BF7D68D218424"
+				type: "item"
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "32137C481EF0082B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			description: [
+				"由 废弃矿井/地牢 中获取"
+				"查找结构 monster_room / mineshaft"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "7146E683C968BACB"
+			tasks: [{
+				id: "195B97DEBFA6B4E1"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2FDC414EC3910CA8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			description: [
+				"由 下界要塞 中获取"
+				"查找结构（下界） fortress"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "3AAAD052A8745E2C"
+			tasks: [{
+				id: "6350BA13E5597AAC"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "105309C537CF2B2F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: [
+				"由 沙漠神殿 中获取"
+				"查找结构 desert_pyramid"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "2E722418D6966630"
+			tasks: [{
+				id: "189B77ED3FC16D65"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "32E5AF106B4E5971"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: [
+				"由 丛林神庙 中获取"
+				"查找结构 jungle_pyramid"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "223615117FB88E46"
+			tasks: [{
+				id: "3E6A1C3839EC83DF"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "28AD24B7FEAE6757"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			description: [
+				"由 猪灵堡垒 中获取"
+				"查找结构 bastion_remnant"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "55A4E1BE82881B76"
+			tasks: [{
+				id: "0C90E7D0AA9A0832"
+				type: "item"
+				item: {
+					id: "endrem:cursed_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0792056F605D1A5C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: [
+				"由 满级牧师 交易获取"
+				"寻找村庄或培养牧师"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "456F2FCA1AE48032"
+			tasks: [{
+				id: "7C108526ED388C2E"
+				type: "item"
+				item: {
+					id: "endrem:evil_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2339E3D4E247A1A0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			description: [
+				"由 守卫者 击杀获取"
+				"查找结构 monument"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "49B3A606DF1C4F83"
+			tasks: [{
+				id: "462868DFD0628BB2"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "737F3420F61D63A3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: [
+				"由 唤魔者 击杀获取"
+				"查找结构 mansion"
+				"高阶袭击有几率刷新唤魔者"
+				"叠加不祥之兆并调高游戏难度可以提高袭击等级"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "4FE18D0A8924F47B"
+			tasks: [{
+				id: "2FE06F3A7B58F253"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C2E269437AB4EAF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			description: ["由 凋灵 击杀获取"]
+			dependencies: ["186127039AC3CF4F"]
+			id: "78F12CB276429B75"
+			tasks: [{
+				id: "7CC48734F041DF37"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "02FA61CDDB4B400A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			description: [
+				"由 女巫 击杀获取"
+				"用于合成巫师之眼"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "2BEDD75B4C3B1286"
+			tasks: [{
+				id: "7EDA499A218EB222"
+				type: "item"
+				item: "endrem:witch_pupil"
+			}]
+			rewards: [{
+				id: "2BCE9D78A277C119"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			description: ["由 巫瞳 合成获取"]
+			dependencies: ["2BEDD75B4C3B1286"]
+			id: "0C5D6077DD4CEB50"
+			tasks: [{
+				id: "10AA8EAEA4E91AFE"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "17FA7DFCEA6CCAC9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			description: [
+				"由 骷髅马 击杀获取"
+				"雷击马匹可以刷新骷髅马"
+				"用于合成不死之眼"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "2E1C4D8F51FDA2B4"
+			tasks: [{
+				id: "67E1B188CF730533"
+				type: "item"
+				item: "endrem:undead_soul"
+			}]
+			rewards: [{
+				id: "12A948B2334AEF3A"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			description: ["由 不死之魂 合成获取"]
+			dependencies: ["2E1C4D8F51FDA2B4"]
+			id: "2EDD61DF2EF2952E"
+			tasks: [{
+				id: "196748760F31738F"
+				type: "item"
+				item: {
+					id: "endrem:undead_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "023A2BA705FBA8C6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["由 潮涌核心 合成获取"]
+			dependencies: ["47342135FC7C90E7"]
+			id: "337EBE951B575452"
+			tasks: [{
+				id: "28D71525EAB391B9"
+				type: "item"
+				item: {
+					id: "endrem:exotic_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B43C877A63BBDB9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			description: [
+				"在 埋藏的宝藏 中获取"
+				"查找结构 buried_treasure"
+			]
+			dependencies: ["186127039AC3CF4F"]
+			id: "47342135FC7C90E7"
+			tasks: [{
+				id: "4FB4C1F9B7ADD3AD"
+				type: "item"
+				item: "minecraft:conduit"
+			}]
+			rewards: [{
+				id: "2343B4E8F94037EF"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "发现末地要塞"
+			x: 3.0d
+			y: 0.0d
+			description: ["查找结构 betterstrongholds:stronghold"]
+			dependencies: ["186127039AC3CF4F"]
+			id: "487499AEE5C3AC45"
+			tasks: [{
+				id: "391440FFD63A87CA"
+				type: "structure"
+				structure: "betterstrongholds:stronghold"
+			}]
+			rewards: [{
+				id: "4747AD4EADB6F84F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "到达末地"
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["487499AEE5C3AC45"]
+			id: "79245A443F566440"
+			tasks: [{
+				id: "66FAB0F83B732276"
+				type: "dimension"
+				title: "到达末地"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "7075AA6DC9A1A7CC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

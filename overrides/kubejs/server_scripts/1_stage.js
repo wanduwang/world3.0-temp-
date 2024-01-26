@@ -17,6 +17,11 @@ onEvent('recipes', event => {
     event.replaceInput({iutput: 'minecraft:andesite', output: 'create:andesite_alloy'}, 'minecraft:andesite', 'minecraft:end_stone')
     event.replaceInput({output: 'create:millstone'}, '#bookshelf:stones', 'minecraft:end_stone')
 
+    //附魔台相当贵
+    event.replaceInput({output: 'minecraft:enchanting_table'}, 'minecraft:book', 'apotheosis:hellshelf')
+    event.replaceInput({output: 'minecraft:enchanting_table'}, 'minecraft:diamond', 'gobber2:gobber2_ingot')
+    event.replaceInput({output: 'minecraft:enchanting_table'}, 'minecraft:obsidian', 'minecraft:crying_obsidian')
+
     //粉碎轮改高塔方块
     event.replaceInput({output: 'create:crushing_wheel'}, '#minecraft:planks', 'twilightforest:encased_towerwood')
     event.replaceInput({output: 'create:crushing_wheel'}, '#bookshelf:stones', 'minecraft:end_stone')
@@ -78,61 +83,5 @@ onEvent('recipes', event => {
 
     //经验瓶可以用经验颗粒合成
     event.shapeless('1x minecraft:experience_bottle',['create_sa:heap_of_experience','minecraft:glass_bottle']).id('kubejs:XPbottle')
-
-    //添加大地之心配方
-    event.shaped('1x enigmaticlegacy:earth_heart',
-	[
-		'CBC',
-		'BAB',
-		'CBC',
-	],
-	{
-		A:'enigmaticlegacy:massive_shroomlamp',
-		B:'tconstruct:manyullyn_ingot',
-        C:'gobber2:gobber2_ingot'
-	}).id('kubejs:earth_heart')
-
-    //添加禁忌之果配方
-    event.shaped('1x enigmaticlegacy:forbidden_fruit',
-	[
-		'BBB',
-		'BAB',
-		'BBB',
-	],
-	{
-		A:'enigmaticlegacy:twisted_core',
-		B:'enigmaticlegacy:evil_ingot'
-	}).id('kubejs:forbidden_fruit')
-
-    //添加救赎药水配方
-    event.shaped('1x enigmaticlegacy:antiforbidden_potion',
-	[
-		'CBC',
-		'DAD',
-		'CDC',
-	],
-	{
-		A:'croptopia:mead',
-		B:'enigmaticlegacy:etherium_ingot',
-        C:'twilightforest:torchberries',
-        D:'twilightforest:charm_of_life_1'
-	}).id('kubejs:antiforbidden_potion')
-
-    //添加不洁圣杯配方
-    event.shaped('1x enigmaticlegacy:unholy_grail',
-	[
-		'ABA',
-		'ADA',
-		'CAC',
-	],
-	{
-		A:'twilightforest:fiery_ingot',
-		B:'enigmaticlegacy:abyssal_heart',
-        C:'enigmaticlegacy:astral_dust',
-        D:'enigmaticlegacy:etherium_ingot'
-	}).id('kubejs:unholy_grail')
-
-    //删除邪恶之石配方
-    event.remove({output:'enigmaticlegacy:cursed_stone'})
 
 })

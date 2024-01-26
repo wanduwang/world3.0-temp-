@@ -9,6 +9,24 @@ console.info('Hello, World! (You will see this line every time server resources 
 
 onEvent('recipes', event => {
 
+    //觉醒龙种子是七级
+    event.recipes.botania.terra_plate("mysticalagriculture:awakened_draconium_seeds", ["mysticalagriculture:gaia_spirit_seeds","mysticalagriculture:dragon_egg_seeds","mysticalagriculture:nether_star_seeds","mysticalagradditions:insanium_block","mysticalagriculture:draconium_seeds"], 100000).id('kubejs:draconium_seeds')
+    event.remove({id: 'mysticalagriculture:seed/infusion/draconium'})
+    //龙种子是六级
+    event.recipes.botania.terra_plate("mysticalagriculture:draconium_seeds", ["mysticalagriculture:terrasteel_seeds","mysticalagriculture:hepatizon_seeds","mysticalagriculture:queens_slime_seeds","mysticalagriculture:manyullyn_seeds","mysticalagriculture:enderium_seeds","mysticalagriculture:wither_skeleton_seeds","mysticalagriculture:netherite_seeds","mysticalagriculture:emerald_seeds","mysticalagriculture:diamond_seeds","mysticalagradditions:insanium_essence"], 100000).id('kubejs:dra_seeds')
+    event.remove({id: 'mysticalagriculture:seed/infusion/awakened_draconium'})
+
+    //种子基底要符文合成
+    event.recipes.botania.runic_altar("mysticalagriculture:prosperity_seed_base", ["#forge:seeds","mysticalagriculture:prosperity_shard","mysticalagriculture:prosperity_shard","mysticalagriculture:prosperity_shard","mysticalagriculture:prosperity_shard","#botania:runes","#botania:runes"], 100000).id('kubejs:seed_base')
+    event.remove({id: 'mysticalagriculture:prosperity_seed_base'})
+    event.recipes.botania.runic_altar("mysticalagriculture:soulium_seed_base", ["#forge:seeds","mysticalagriculture:soulium_dust","mysticalagriculture:soulium_dust","#botania:runes","#botania:runes"], 100000).id('kubejs:soulseed_base')
+    event.remove({id: 'mysticalagriculture:soulium_seed_base'})
+
+    //种子核心需要门核心
+    event.replaceInput({id: "mysticalagradditions:nether_star_crux"}, 'minecraft:diamond_block', 'botania:alfheim_portal')
+    event.replaceInput({id: "mysticalagradditions:dragon_egg_crux"}, 'minecraft:diamond_block', 'botania:alfheim_portal')
+    event.replaceInput({id: "mysticalagradditions:gaia_spirit_crux"}, 'minecraft:diamond_block', 'botania:alfheim_portal')
+    event.replaceInput({id: "mysticalagradditions:awakened_draconium_crux"}, 'minecraft:diamond_block', 'botania:alfheim_portal')
     //基础龙研改前置
     event.replaceInput({id: "draconicevolution:basic_crafting_injector"}, '#bookshelf:stones', 'beyond_earth:compressed_calorite')
     event.replaceInput({id: "draconicevolution:crafting_core"}, 'minecraft:lapis_block', 'beyond_earth:blue_iron_plating_block')

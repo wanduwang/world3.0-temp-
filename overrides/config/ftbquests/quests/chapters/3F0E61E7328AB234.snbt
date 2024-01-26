@@ -1,0 +1,1398 @@
+{
+	id: "3F0E61E7328AB234"
+	group: ""
+	order_index: 12
+	filename: "3F0E61E7328AB234"
+	title: "神秘遗物"
+	icon: "enigmaticlegacy:unwitnessed_amulet"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "神秘遗物"
+			icon: {
+				id: "enigmaticlegacy:enigmatic_amulet"
+				Count: 1b
+				tag: {
+					AssignedColor: 0.1f
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "利用古老的力量"
+			description: [
+				"从书中你了解到相当多古老的力量"
+				"你决定利用他们"
+			]
+			hide_dependency_lines: true
+			dependencies: ["766ED4EC2AE62CAB"]
+			size: 2.0d
+			id: "5DE0BFB7403CE051"
+			tasks: [{
+				id: "09AAF6A64533CC3A"
+				type: "checkmark"
+				title: "利用古老的力量"
+			}]
+			rewards: [{
+				id: "70BDC4E34A73AE76"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 3.0d
+			shape: "gear"
+			subtitle: "释放自然的力量"
+			description: ["许多遗物需要以此为核心"]
+			dependencies: ["5DE0BFB7403CE051"]
+			id: "3C6E4AE58133B98F"
+			tasks: [{
+				id: "0C3E8FE1CE24C61B"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:earth_heart"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5F138CAA8C6B0374"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 4.0d
+			dependencies: ["3C6E4AE58133B98F"]
+			id: "5BAA1A9764EEEF55"
+			tasks: [{
+				id: "3A840FF1E00DC659"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:mining_charm"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4C2B3A2FEA15058E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 4.0d
+			dependencies: ["3C6E4AE58133B98F"]
+			id: "2DA0A2F0DF7B0A61"
+			tasks: [{
+				id: "6A1B0817A42A1D4E"
+				type: "item"
+				item: "enigmaticlegacy:infinimeal"
+			}]
+			rewards: [{
+				id: "6402652C85202E99"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -11.5d
+			y: 5.0d
+			subtitle: "释放诅咒的力量"
+			description: ["受诅咒之人亦有祝福"]
+			dependencies: ["3C6E4AE58133B98F"]
+			id: "508021B144EB4123"
+			tasks: [{
+				id: "76D87BF17B50F4CB"
+				type: "item"
+				item: "enigmaticlegacy:twisted_core"
+			}]
+			rewards: [{
+				id: "7FC7FDF3CC7DD695"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 7.0d
+			dependencies: [
+				"508021B144EB4123"
+				"4E206F5B01553CC0"
+			]
+			id: "180EDE667761E465"
+			tasks: [{
+				id: "253DFECD24B0FCA9"
+				type: "item"
+				item: "enigmaticlegacy:forbidden_fruit"
+			}]
+			rewards: [
+				{
+					id: "17F2547533632393"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "636DB254464E06B5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 7.0d
+			dependencies: ["508021B144EB4123"]
+			id: "47A8CB2498BB9305"
+			tasks: [{
+				id: "5520012383FE156A"
+				type: "item"
+				item: "enigmaticlegacy:soul_compass"
+			}]
+			rewards: [
+				{
+					id: "4DCA86402BF642C5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "03EBFE0D7421E87A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 7.0d
+			dependencies: ["508021B144EB4123"]
+			id: "2A2644B8EE9F72D8"
+			tasks: [{
+				id: "0D9CA22B522C36F3"
+				type: "item"
+				item: "enigmaticlegacy:avarice_scroll"
+			}]
+			rewards: [
+				{
+					id: "040BB05D19A38239"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "766F1B960FDBC876"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 7.0d
+			dependencies: ["508021B144EB4123"]
+			id: "18DACCF4FB6F264D"
+			tasks: [{
+				id: "6AD28F007C206B47"
+				type: "item"
+				item: "enigmaticlegacy:cursed_scroll"
+			}]
+			rewards: [
+				{
+					id: "71A6F9316821D5FD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "5F182133DF27822F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 7.0d
+			dependencies: ["508021B144EB4123"]
+			id: "4065EAF91D79F86D"
+			tasks: [{
+				id: "408FD590A20F1D50"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:infernal_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3D77BB2B4251C499"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "5886634F69C170FE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 7.0d
+			dependencies: ["508021B144EB4123"]
+			id: "0058C5F92C713107"
+			tasks: [{
+				id: "1F170E9E708C2F43"
+				type: "item"
+				item: "enigmaticlegacy:berserk_emblem"
+			}]
+			rewards: [
+				{
+					id: "574A0E9C4B458FCB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "007B07687D3C26DF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 7.0d
+			dependencies: ["508021B144EB4123"]
+			id: "38F34AAECD3243AD"
+			tasks: [{
+				id: "215C139F20A89378"
+				type: "item"
+				item: "enigmaticlegacy:dark_mirror"
+			}]
+			rewards: [
+				{
+					id: "402966868F1CB249"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "4080036FC81AAD89"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 7.0d
+			dependencies: [
+				"508021B144EB4123"
+				"191A86A36C899FA3"
+			]
+			id: "51E6D0E79D17E050"
+			tasks: [{
+				id: "2CA099C30B5E456E"
+				type: "item"
+				item: "enigmaticlegacy:the_twist"
+			}]
+			rewards: [
+				{
+					id: "2E9C807C247758F6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "2E69955194BDDF65"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			description: ["击杀凋零掉落"]
+			dependencies: ["5DE0BFB7403CE051"]
+			id: "191A86A36C899FA3"
+			tasks: [{
+				id: "6D431EDF0FDCEFDD"
+				type: "item"
+				item: "enigmaticlegacy:evil_essence"
+			}]
+			rewards: [{
+				id: "2BD9C714412CB810"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 7.0d
+			dependencies: ["191A86A36C899FA3"]
+			id: "5B98B4D6D9DCEE23"
+			tasks: [{
+				id: "3B09C53A92A784DA"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:ender_slayer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6A4A40A6B92CF531"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "7C5E6B77BE73F7AC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 7.0d
+			dependencies: ["191A86A36C899FA3"]
+			id: "60B863909F3F5655"
+			tasks: [{
+				id: "0AECFCEEB9E942C0"
+				type: "item"
+				item: "enigmaticlegacy:enchanter_pearl"
+			}]
+			rewards: [
+				{
+					id: "06C0D63455716F2D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "37B709B4245801C0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 7.0d
+			dependencies: ["191A86A36C899FA3"]
+			id: "2BD65676A4F23F77"
+			tasks: [{
+				id: "7888A42EE4A232BF"
+				type: "item"
+				item: "enigmaticlegacy:enchantment_transposer"
+			}]
+			rewards: [
+				{
+					id: "02A14D838FC79170"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "153F99633A417D35"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 8.5d
+			dependencies: [
+				"191A86A36C899FA3"
+				"01171522F49DE804"
+				"296F8AC34D1F414D"
+			]
+			id: "5AF99F02A8BB3208"
+			tasks: [{
+				id: "052479BD774D0F0D"
+				type: "item"
+				item: "enigmaticlegacy:desolation_ring"
+			}]
+			rewards: [
+				{
+					id: "31987DE12A43C4FD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "5FAF8285BE61C458"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 8.5d
+			dependencies: [
+				"191A86A36C899FA3"
+				"51E6D0E79D17E050"
+				"01171522F49DE804"
+				"60B863909F3F5655"
+				"296F8AC34D1F414D"
+			]
+			id: "279FF5BC6A223CF6"
+			tasks: [{
+				id: "7FA2DF2219072130"
+				type: "item"
+				item: "enigmaticlegacy:the_infinitum"
+			}]
+			rewards: [
+				{
+					id: "1D53D8B2FC5E2E54"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "0B99962733D85A53"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 4.5d
+			dependencies: ["191A86A36C899FA3"]
+			id: "4E206F5B01553CC0"
+			tasks: [{
+				id: "073041D397F480A1"
+				type: "item"
+				item: "enigmaticlegacy:evil_ingot"
+			}]
+			rewards: [{
+				id: "3F89669A12D8DB94"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			description: ["击杀潜影贝掉落"]
+			dependencies: ["5DE0BFB7403CE051"]
+			id: "2A2071327F0D71E4"
+			tasks: [{
+				id: "5AB068FF7192C87D"
+				type: "item"
+				item: "enigmaticlegacy:astral_dust"
+			}]
+			rewards: [{
+				id: "2680070A29CE520F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["2A2071327F0D71E4"]
+			id: "4A100CDBC912F518"
+			tasks: [{
+				id: "5631A5DFBD485125"
+				type: "item"
+				item: "enigmaticlegacy:astral_potato"
+			}]
+			rewards: [
+				{
+					id: "27881F76DF735C31"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "5638E3C5FD865B25"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			dependencies: [
+				"2A2071327F0D71E4"
+				"7C3B7EABF2D2750F"
+			]
+			id: "0D547F8692A38989"
+			tasks: [{
+				id: "15936E3AA5FFC003"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "50FD2AEF2F04FCF3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "7CEE6F9A7FD538A0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			dependencies: ["2A2071327F0D71E4"]
+			id: "01171522F49DE804"
+			tasks: [{
+				id: "494ACE2D988A6BCD"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:cosmic_heart"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4976A433E89BA189"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "6EA2C05B959491AB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			dependencies: ["2A2071327F0D71E4"]
+			id: "5BC53493469A9652"
+			tasks: [{
+				id: "4C317BBAEAC61C5C"
+				type: "item"
+				item: "enigmaticlegacy:lore_inscriber"
+			}]
+			rewards: [
+				{
+					id: "4DF5EB103DF0CEB7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "3BB2A2DB8EF9FB66"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 8.5d
+			dependencies: ["01171522F49DE804"]
+			id: "120F5F66B74AD101"
+			tasks: [{
+				id: "493D748D321C8593"
+				type: "item"
+				item: "enigmaticlegacy:cosmic_cake"
+			}]
+			rewards: [
+				{
+					id: "360B1BFB52C8E5CC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "64DF183BC11D961F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			dependencies: [
+				"2A2071327F0D71E4"
+				"7C3B7EABF2D2750F"
+			]
+			id: "1CFD12F7F25F89D2"
+			tasks: [{
+				id: "32B665ACCE38053C"
+				type: "item"
+				item: "enigmaticlegacy:ender_rod"
+			}]
+			rewards: [
+				{
+					id: "0BBC84C0CAF16558"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "27D9CFA0EDE3484E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			description: ["末地城刷新"]
+			dependencies: ["5DE0BFB7403CE051"]
+			id: "7C3B7EABF2D2750F"
+			tasks: [{
+				id: "5FC947C0B96FEE0A"
+				type: "item"
+				item: "enigmaticlegacy:etherium_ingot"
+			}]
+			rewards: [{
+				id: "0378281F5F04EC78"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.0d
+			dependencies: ["7C3B7EABF2D2750F"]
+			id: "4D82CAE80E24F7A0"
+			tasks: [{
+				id: "108C056993AA8336"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "79390DB477A0CE4A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "22D870CDB6B6135A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 5.0d
+			dependencies: ["7C3B7EABF2D2750F"]
+			id: "5911F50CB378A74C"
+			tasks: [{
+				id: "3B9459B415841202"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6B41BBB35960540E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "7F82D697DFB70C91"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 5.0d
+			dependencies: ["7C3B7EABF2D2750F"]
+			id: "7B8AE4C695BDB068"
+			tasks: [{
+				id: "4F9D2C607ED68943"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "47C1E6C6F166F270"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "79172A3B8220B983"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 5.0d
+			dependencies: ["7C3B7EABF2D2750F"]
+			id: "4CFFD913F82B8766"
+			tasks: [{
+				id: "1CD0FC466888B860"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "377FDCB4C4C9D1A9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "1E28B29D5BE37902"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 7.5d
+			dependencies: ["1CFD12F7F25F89D2"]
+			id: "03B24B548D8C6E36"
+			tasks: [{
+				id: "0EF657EAC9DA3FA3"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "53B8AC1800F4DC1B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "5B8EEFB9FB62EC10"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 7.5d
+			dependencies: ["1CFD12F7F25F89D2"]
+			id: "48EA8A49805D82DB"
+			tasks: [{
+				id: "00589FFD7A5CC45F"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7EF9F0C7CD49830B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "0915AEAECC3603C2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 7.5d
+			dependencies: ["1CFD12F7F25F89D2"]
+			id: "68EF9A7F5D58D301"
+			tasks: [{
+				id: "780BA1E8A5F60E70"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0AC48147D494A478"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "050AB531C61155FE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 7.5d
+			dependencies: ["1CFD12F7F25F89D2"]
+			id: "3DB5E562AF005280"
+			tasks: [{
+				id: "3F6293809FD7311A"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0BA626AC49E91998"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "0EF0D58CE131C902"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 7.5d
+			dependencies: ["1CFD12F7F25F89D2"]
+			id: "35B6697BCA4C73D7"
+			tasks: [{
+				id: "57D2C856D497E34A"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2D6DDBE109F964D6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "3BF7B3121AD52F63"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 5.0d
+			dependencies: ["7C3B7EABF2D2750F"]
+			id: "4A1AC9884B53015D"
+			tasks: [{
+				id: "0E5800070A55713C"
+				type: "item"
+				item: "enigmaticlegacy:end_anchor"
+			}]
+			rewards: [
+				{
+					id: "0B6677321A6415A2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "1D8E0C4AD08EC426"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			dependencies: ["7C3B7EABF2D2750F"]
+			id: "2D5901F61F2FA90C"
+			tasks: [{
+				id: "51B8AF291804C74D"
+				type: "item"
+				item: "enigmaticlegacy:antiforbidden_potion"
+			}]
+			rewards: [
+				{
+					id: "40B185290F384A8D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "05F8BB9F52901BAE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 8.5d
+			dependencies: [
+				"2A2071327F0D71E4"
+				"7C3B7EABF2D2750F"
+				"296F8AC34D1F414D"
+			]
+			id: "43BD9B53A8109707"
+			tasks: [{
+				id: "3E49F19D3353A0BE"
+				type: "item"
+				item: "enigmaticlegacy:unholy_grail"
+			}]
+			rewards: [
+				{
+					id: "035C9321B10C62FC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "264F5C46E65D2FBE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			description: ["击杀末影龙掉落"]
+			dependencies: ["5DE0BFB7403CE051"]
+			id: "296F8AC34D1F414D"
+			tasks: [{
+				id: "3584F20C093CBE3F"
+				type: "item"
+				item: "enigmaticlegacy:abyssal_heart"
+			}]
+			rewards: [
+				{
+					id: "5D73C0D8917B0EBC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "0E7729438A3D9CD7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 12.0d
+			dependencies: [
+				"43BD9B53A8109707"
+				"180EDE667761E465"
+			]
+			hide: true
+			hide_details_until_startable: true
+			id: "3245A71B87AE3146"
+			tasks: [{
+				id: "18B6ACEAEBBB4A97"
+				type: "advancement"
+				advancement: "enigmaticlegacy:main/unholy_grail_worthy"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "32473030C8FFE64E"
+				type: "item"
+				item: "artifacts:novelty_drinking_hat"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "释放自然的力量"
+			description: ["很多东西只能凭运气"]
+			dependencies: ["5DE0BFB7403CE051"]
+			id: "15C667D05A2433C1"
+			tasks: [{
+				id: "15FC2E3E4D8C4B84"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:architect_eye"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0FBF10C50B80D33B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			description: ["从地牢、矿井、沙漠神殿、丛林神庙中找到"]
+			dependencies: ["15C667D05A2433C1"]
+			id: "6F0D81187A39CB90"
+			tasks: [{
+				id: "6EB2F2F1F5930ED6"
+				type: "item"
+				item: "enigmaticlegacy:golem_heart"
+			}]
+			rewards: [{
+				id: "09E9DB1C1CEB9884"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			description: ["从沙漠神殿，丛林神庙中找到"]
+			dependencies: ["15C667D05A2433C1"]
+			id: "2D7FAA2E070CB812"
+			tasks: [{
+				id: "0FBF68514C4D7365"
+				type: "item"
+				item: "enigmaticlegacy:angel_blessing"
+			}]
+			rewards: [{
+				id: "45C84CD2CDB9D6A2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			description: ["在水下遗迹、沉船，藏宝图的宝藏中找到"]
+			dependencies: ["15C667D05A2433C1"]
+			id: "43C29A09A3C8EB3B"
+			tasks: [{
+				id: "402D6BA350EC3963"
+				type: "item"
+				item: "enigmaticlegacy:ocean_stone"
+			}]
+			rewards: [{
+				id: "684A69DD26CAF22E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			description: ["可以在废弃传送门，下界要塞，堡垒遗迹中找到"]
+			dependencies: ["15C667D05A2433C1"]
+			id: "4184715AAB0ED425"
+			tasks: [{
+				id: "6A995ED9138B2E10"
+				type: "item"
+				item: "enigmaticlegacy:magma_heart"
+			}]
+			rewards: [{
+				id: "49FCE9B8D98E1C86"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			description: ["在末地城中找到"]
+			dependencies: ["15C667D05A2433C1"]
+			id: "2D2B85C0343C715F"
+			tasks: [{
+				id: "757255958C15DAF7"
+				type: "item"
+				item: "enigmaticlegacy:eye_of_nebula"
+			}]
+			rewards: [{
+				id: "0496907D2C9E86C1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			description: ["在末地城中找到"]
+			dependencies: ["15C667D05A2433C1"]
+			id: "5DB23FB890D2FFB8"
+			tasks: [{
+				id: "4F31C3B02EC4D972"
+				type: "item"
+				item: "enigmaticlegacy:void_pearl"
+			}]
+			rewards: [{
+				id: "5BCA10403FEBE037"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: [
+				"5DB23FB890D2FFB8"
+				"4184715AAB0ED425"
+				"43C29A09A3C8EB3B"
+				"2D2B85C0343C715F"
+				"6F0D81187A39CB90"
+				"2D7FAA2E070CB812"
+			]
+			id: "72AEB9502680C890"
+			tasks: [{
+				id: "36571B96A9959FCC"
+				type: "item"
+				item: "enigmaticlegacy:the_cube"
+			}]
+			rewards: [
+				{
+					id: "394FE7C565F1EEEE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "4B1C7AF21D971AA4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "592DA7ABA2FB9052"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "38AE448C1E15B328"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "22B7885867FA1834"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			title: "赌命"
+			x: -2.0d
+			y: -2.0d
+			shape: "octagon"
+			subtitle: "豪掷千金"
+			dependencies: ["5DE0BFB7403CE051"]
+			hide: true
+			can_repeat: true
+			id: "1E45EEC54EBBC151"
+			tasks: [{
+				id: "501494DCA701AC46"
+				type: "item"
+				item: "enigmaticlegacy:forbidden_fruit"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "56DF0DECBAE179EA"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "3E1A66D931690951"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "3EF6A428FE8EA431"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "55748A9A90D3BB77"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "3E468A4D27695C87"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			title: "前置：开放兑换凋零头"
+			x: -3.5d
+			y: 2.5d
+			id: "05A35D5DAA8F72DB"
+			tasks: [{
+				id: "560B860A85657BDA"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [{
+				id: "43BD79FBEF162F28"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "兑换凋零头"
+			x: -2.5d
+			y: 2.5d
+			subtitle: "怕你没耐心"
+			dependencies: ["05A35D5DAA8F72DB"]
+			can_repeat: true
+			id: "214E64D66FA9676F"
+			tasks: [
+				{
+					id: "5F5EF743CB4B802F"
+					type: "item"
+					item: "minecraft:bone_block"
+					consume_items: true
+				}
+				{
+					id: "5D734DA0143D6709"
+					type: "item"
+					item: "tconstruct:necrotic_bone"
+					count: 10L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1311485A2F4DF7A7"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

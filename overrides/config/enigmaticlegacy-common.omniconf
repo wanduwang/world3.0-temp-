@@ -609,7 +609,7 @@
     B:SuperMagnetRingSound=false
 
     # Attack damage of The Infinitum, actual damage shown in tooltip will be is 1 + this_value. [range: 0.0 ~ 32768.0, default: 15.0, synchronized: yes]
-    D:TheInfinitumAttackDamage=19.0
+    D:TheInfinitumAttackDamage=11.0
 
     # Attack speed of The Infinitum. [range: -32768.0 ~ 32768.0, default: -2.0, synchronized: yes]
     D:TheInfinitumAttackSpeed=-2.0
@@ -627,7 +627,7 @@
     I:TheInfinitumUndeadProbability=50
 
     # Attack damage of The Twist, actual damage shown in tooltip will be is 1 + this_value. [range: 0.0 ~ 32768.0, default: 8.0, synchronized: yes]
-    D:TheTwistAttackDamage=9.0
+    D:TheTwistAttackDamage=6.0
 
     # Attack speed of The Twist. [range: -32768.0 ~ 32768.0, default: -1.8, synchronized: yes]
     D:TheTwistAttackSpeed=-1.8

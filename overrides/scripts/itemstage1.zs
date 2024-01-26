@@ -116,6 +116,7 @@
 
 //}
 //设置1阶段模组{
+    ItemStages.createModRestriction("ironfurnaces", "1_create");
     ItemStages.createModRestriction("explorerscompass", "1_create");
     ItemStages.createModRestriction("untitledduckmod", "1_create");
     ItemStages.createModRestriction("alexsdelight", "1_create");

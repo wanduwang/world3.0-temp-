@@ -1,0 +1,537 @@
+{
+	id: "468C66436B0AB3C9"
+	group: ""
+	order_index: 7
+	filename: "468C66436B0AB3C9"
+	title: "车万女仆"
+	icon: {
+		id: "touhou_little_maid:entity_placeholder"
+		Count: 1b
+		tag: {
+			RecipeId: "touhou_little_maid:altar/spawn_box"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "小女仆（禁止涩涩）"
+			icon: {
+				id: "touhou_little_maid:entity_placeholder"
+				Count: 1b
+				tag: {
+					RecipeId: "touhou_little_maid:altar/spawn_box"
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "时代变了，女仆不光是女仆了"
+			description: ["灵梦：只要你给钱......"]
+			hide_dependency_lines: true
+			dependencies: ["763F0302D9D332B2"]
+			size: 2.0d
+			id: "0DE53777BAA777DD"
+			tasks: [{
+				id: "6DEA23F12C5386D1"
+				type: "checkmark"
+				title: "东方厨点这里"
+			}]
+			rewards: [{
+				id: "4FE40F997915E7B3"
+				type: "command"
+				title: "更小的灵梦"
+				icon: {
+					id: "touhou_little_maid:garage_kit"
+					Count: 1b
+					tag: {
+						EntityInfo: {
+							ModelId: "gyhgyj:shirako"
+							id: "touhou_little_maid:maid"
+						}
+					}
+				}
+				command: "/ysm auth @p add lingmeng_2"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			subtitle: "击杀女仆妖精以获得P点"
+			dependencies: ["0DE53777BAA777DD"]
+			id: "2552AF94D9EDA59E"
+			tasks: [{
+				id: "4B69D188D6DEC19C"
+				type: "observation"
+				title: "野生的女仆"
+				icon: {
+					id: "touhou_little_maid:entity_placeholder"
+					Count: 1b
+					tag: {
+						RecipeId: "touhou_little_maid:altar/reborn_maid"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "touhou_little_maid:fairy"
+			}]
+			rewards: [{
+				id: "7261E5B4524AC91B"
+				type: "item"
+				item: "touhou_little_maid:power_point"
+				count: 4
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			subtitle: "你需要蛋糕来驯服"
+			dependencies: ["2552AF94D9EDA59E"]
+			id: "2BCD9D91C2AB5538"
+			tasks: [{
+				id: "57DC52D51CF55CBD"
+				type: "observation"
+				title: "新生成的女仆"
+				icon: {
+					id: "touhou_little_maid:entity_placeholder"
+					Count: 1b
+					tag: {
+						RecipeId: "touhou_little_maid:altar/spawn_box"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "touhou_little_maid:maid"
+			}]
+			rewards: [{
+				id: "62A60986DDC3E1CD"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:camera"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "更方便的召唤方式"
+			icon: "touhou_little_maid:smart_slab_init"
+			x: -2.0d
+			y: 6.0d
+			subtitle: "当然，他更贵"
+			description: [
+				"魂符可以直接召唤已驯服的女仆"
+				"也可以随身收纳女仆"
+			]
+			dependencies: ["2BCD9D91C2AB5538"]
+			id: "4AE96FDF692C1E5A"
+			tasks: [
+				{
+					id: "4C551E771819E270"
+					type: "item"
+					item: "minecraft:coal"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "25E74A50C6D154A8"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "244DDCA129451793"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "0C3AD82B8EEE1B2E"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "478F5B651D2F5604"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "3A6CE1EA0A83D75E"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "417252B2E2C958B4"
+					type: "item"
+					item: "twilightforest:liveroot"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6E8E19810F05FF35"
+				type: "item"
+				item: "touhou_little_maid:smart_slab_init"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["2BCD9D91C2AB5538"]
+			id: "3CF4F090AEF24F13"
+			tasks: [{
+				id: "6832A505139B2A5A"
+				type: "item"
+				item: "touhou_little_maid:maid_backpack_small"
+			}]
+			rewards: [{
+				id: "11B1F6AC0791087A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["3CF4F090AEF24F13"]
+			id: "4CCF4B310927C07D"
+			tasks: [{
+				id: "03144A6841FE4CFF"
+				type: "item"
+				item: "touhou_little_maid:maid_backpack_middle"
+			}]
+			rewards: [{
+				id: "44D7AEDBEDAC1A2B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["4CCF4B310927C07D"]
+			id: "00A272FA17346B0C"
+			tasks: [{
+				id: "258C440D72571D83"
+				type: "item"
+				item: "touhou_little_maid:maid_backpack_big"
+			}]
+			rewards: [{
+				id: "18CF15D0D4A6E8C1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["3CF4F090AEF24F13"]
+			id: "2AED2F13C8C87F4F"
+			tasks: [{
+				id: "1738AA2800FF0136"
+				type: "item"
+				item: "touhou_little_maid:maid_bed"
+			}]
+			rewards: [{
+				id: "2D292A9DCCD2C74D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["3CF4F090AEF24F13"]
+			id: "30CAA0C577B81284"
+			tasks: [{
+				id: "248BEFE831C0A0C2"
+				type: "item"
+				item: "touhou_little_maid:item_magnet_bauble"
+			}]
+			rewards: [{
+				id: "3A734A25F2C3B77D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["3CF4F090AEF24F13"]
+			id: "33932564631533DE"
+			tasks: [{
+				id: "0F27D4600B6E727B"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:maid_beacon"
+					Count: 1b
+					tag: {
+						StorageData: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "16648A65FEC2B02D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["3CF4F090AEF24F13"]
+			id: "3CCAED746D36E53E"
+			tasks: [{
+				id: "6D4E33DA9A49A643"
+				type: "item"
+				item: "touhou_little_maid:wireless_io"
+			}]
+			rewards: [{
+				id: "3597C1B1FB5BF897"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["3CF4F090AEF24F13"]
+			id: "08B0B1192026AC66"
+			tasks: [{
+				id: "41F12D1BDC80E70A"
+				type: "item"
+				item: "touhou_little_maid:trumpet"
+			}]
+			rewards: [{
+				id: "026CE24551365530"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["3CF4F090AEF24F13"]
+			id: "2949524BCC69FC25"
+			tasks: [{
+				id: "65C218ADF9B718E1"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:extinguisher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "63FEF36DFB1F0F00"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			dependencies: ["3CF4F090AEF24F13"]
+			id: "3BE95BBC48AAC651"
+			tasks: [{
+				id: "613766F7E6A361E4"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:ultramarine_orb_elixir"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5DA256576F1C43D3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			dependencies: ["3BE95BBC48AAC651"]
+			id: "492AC13604F8A17D"
+			tasks: [{
+				id: "33B79BABF1641D12"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:explosion_protect_bauble"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3382F70ED96225DF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			dependencies: ["3BE95BBC48AAC651"]
+			id: "125726ADF80C8D62"
+			tasks: [{
+				id: "049B027866D50580"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:fire_protect_bauble"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "49339ABA95889C6D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			dependencies: ["3BE95BBC48AAC651"]
+			id: "79D1600B8FFB13A5"
+			tasks: [{
+				id: "4C9ACEFF3D15945F"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:projectile_protect_bauble"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "699ABDB0CDFDDA41"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 9.0d
+			dependencies: ["3BE95BBC48AAC651"]
+			id: "52E4E49721A01FE9"
+			tasks: [{
+				id: "75F8AB615FE26F4D"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:magic_protect_bauble"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "389D79DC3C821D7C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			dependencies: ["3BE95BBC48AAC651"]
+			id: "4E54B423217C1E3A"
+			tasks: [{
+				id: "051BEDC6937AD419"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:fall_protect_bauble"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "02376607FC9393D9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			dependencies: ["3BE95BBC48AAC651"]
+			id: "6E143DE62E21AB83"
+			tasks: [{
+				id: "3A0CC4F513D3BDA2"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:drown_protect_bauble"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "53BF49969AD8771D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 10.0d
+			dependencies: ["3BE95BBC48AAC651"]
+			id: "6AC81A4CECFC1E18"
+			tasks: [{
+				id: "10D925343B304525"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:nimble_fabric"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4178623107616505"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,109 @@
+{
+	id: "610C8E5B710A34EF"
+	group: ""
+	order_index: 8
+	filename: "610C8E5B710A34EF"
+	title: "火炬大师"
+	icon: "torchmaster:megatorch"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "很亮火把"
+			icon: "torchmaster:feral_flare_lantern"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "你现在安全了，暂时"
+			description: ["极大范围内阻止怪物生成"]
+			hide_dependency_lines: true
+			dependencies: ["5970108504CAFA45"]
+			size: 2.0d
+			id: "3D221CACAF422C9B"
+			tasks: [{
+				id: "4A2694A4678739B2"
+				type: "checkmark"
+				title: "东方厨点这里"
+			}]
+			rewards: [{
+				id: "6AA6353D92740AB3"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			subtitle: "在很大范围内阻止怪物的生成"
+			dependencies: ["3D221CACAF422C9B"]
+			id: "4A3F3FD287A1D2AD"
+			tasks: [{
+				id: "35709ABD8C041003"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			rewards: [{
+				id: "35C4F684F3B23455"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			subtitle: "只是点亮很大的范围"
+			description: ["亮度也能阻止刷怪的对吧"]
+			dependencies: ["3D221CACAF422C9B"]
+			id: "76DC2B89A3B6D745"
+			tasks: [{
+				id: "36AA0BFC078E375A"
+				type: "item"
+				item: "torchmaster:feral_flare_lantern"
+			}]
+			rewards: [{
+				id: "13B0D04421C1D443"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			subtitle: "清除狂野闪耀之灯的隐形火把"
+			dependencies: ["76DC2B89A3B6D745"]
+			id: "2E2B9830FAC6096D"
+			tasks: [{
+				id: "7BF29BF6B12D3BEA"
+				type: "item"
+				item: "torchmaster:frozen_pearl"
+			}]
+			rewards: [{
+				id: "3721F34A614CC53E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			subtitle: "巨型火把（对普通生物）"
+			dependencies: ["4A3F3FD287A1D2AD"]
+			id: "2C8D067C4449AF6E"
+			tasks: [{
+				id: "3A65AE486041C8C5"
+				type: "item"
+				item: "torchmaster:dreadlamp"
+			}]
+			rewards: [{
+				id: "7E51186C6E7F34B7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

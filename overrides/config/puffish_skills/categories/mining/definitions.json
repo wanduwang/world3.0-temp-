@@ -1,5 +1,5 @@
 {
-	"fortune+0.1": {
+	"fortune+0.0625": {
 		"title": "+0.1 Fortune",
 		"icon": {
 			"type": "item",
@@ -16,9 +16,12 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "dpfbfuton40vc0z9"
+		}
 	},
-	"mining_speed+3%": {
+	"mining_speed+1%": {
 		"title": "+3% Mining Speed",
 		"icon": {
 			"type": "effect",
@@ -35,6 +38,9 @@
 					"operation": "multiply_base"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "gpqyx7ff773uno4t"
+		}
 	}
 }

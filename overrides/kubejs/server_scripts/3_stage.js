@@ -134,6 +134,12 @@ onEvent('recipes', event => {
 		B:'gobber2:gobber2_ingot'
 	}).id('kubejs:ultimate_fluid_tank')
 
+	//末地戈伯改钢豆腐
+	event.replaceInput({output: 'gobber2:gobber2_ingot_end'}, 'minecraft:chorus_flower', 'tofucraft:tofumetal')
+
+	//涡轮叶片改扇叶组件
+	event.replaceInput({output: 'mekanismgenerators:turbine_blade'}, '#mekanism:alloys/infused', 'create_sa:fan_component')
+
 	//灌注机改前置
 	event.replaceInput({output: 'mekanism:metallurgic_infuser'}, 'minecraft:furnace', '#forge:circuits/basic')
 	event.replaceInput({output: 'mekanism:metallurgic_infuser'}, '#forge:ingots/osmium', 'tofucraft:tf_capacitor')

@@ -1,0 +1,834 @@
+{
+	id: "523BC151783FCB34"
+	group: ""
+	order_index: 10
+	filename: "523BC151783FCB34"
+	title: "机械动力"
+	icon: "create:cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "机械结构"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["24AF84E54C183CEA"]
+			size: 3.0d
+			id: "6E0ECB7E102B3CB7"
+			tasks: [{
+				id: "6D50F1B1DF25AE08"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+			rewards: [{
+				id: "4E4B588B2334EBFA"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "传动"
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["6E0ECB7E102B3CB7"]
+			id: "35E9F0A7F3FB3E8D"
+			tasks: [{
+				id: "01A9226FEDB7C7D0"
+				type: "item"
+				item: "create:shaft"
+			}]
+			rewards: [{
+				id: "069DDAEA7873B122"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "更大的齿轮"
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["35E9F0A7F3FB3E8D"]
+			id: "6BFE5BA9FEBCB295"
+			tasks: [{
+				id: "377E49B8836A1DE0"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+			rewards: [{
+				id: "2CA7B49B4EB200E5"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			dependencies: ["6BFE5BA9FEBCB295"]
+			id: "1B9E6F3A276BB856"
+			tasks: [{
+				id: "79D44853A48F9116"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "4012F6AE9B354CE2"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["6BFE5BA9FEBCB295"]
+			id: "4C30CABDEB22685E"
+			tasks: [{
+				id: "7FE0D5D1A0868846"
+				type: "item"
+				item: "create:gearbox"
+			}]
+			rewards: [{
+				id: "57B6290B27702C3C"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "也是个齿轮箱"
+			x: -3.5d
+			y: 4.5d
+			dependencies: ["4C30CABDEB22685E"]
+			id: "7E5E24805B1C4D83"
+			tasks: [{
+				id: "61316A691760BA1D"
+				type: "item"
+				item: "create:vertical_gearbox"
+			}]
+			rewards: [{
+				id: "507802625A4A174E"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "调整器"
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["35E9F0A7F3FB3E8D"]
+			id: "13B62B2593D961AA"
+			tasks: [{
+				id: "62564AE89301E9BF"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [{
+				id: "67DC43A4D47862DF"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "踩离合！踩离合！"
+			x: -4.5d
+			y: 5.5d
+			dependencies: ["7E5E24805B1C4D83"]
+			id: "3FE383DE920471BE"
+			tasks: [{
+				id: "7A2B4EBA8D7A0983"
+				type: "item"
+				item: "create:clutch"
+			}]
+			rewards: [{
+				id: "061B9A2B2C699F9D"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "倒转之器"
+			x: -5.5d
+			y: 5.0d
+			dependencies: ["7E5E24805B1C4D83"]
+			id: "38E667AFEE3D5547"
+			tasks: [{
+				id: "7FBF97C0E3261017"
+				type: "item"
+				item: "create:gearshift"
+			}]
+			rewards: [{
+				id: "5A6BA57CB2E4A36A"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "我们联合"
+			x: -3.5d
+			y: 6.0d
+			dependencies: ["7E5E24805B1C4D83"]
+			id: "518E3A01C0472459"
+			tasks: [{
+				id: "65679A4E929EF5C9"
+				type: "item"
+				item: "create:encased_chain_drive"
+			}]
+			rewards: [{
+				id: "753EC67BC31E2376"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "速度调节"
+			x: -5.5d
+			y: 6.5d
+			dependencies: [
+				"518E3A01C0472459"
+				"38E667AFEE3D5547"
+				"3FE383DE920471BE"
+			]
+			id: "07418900366A48E4"
+			tasks: [{
+				id: "68D93110C41A2954"
+				type: "item"
+				item: "create:adjustable_chain_gearshift"
+			}]
+			rewards: [{
+				id: "0EBA80FFEDD3527C"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "先进齿轮箱"
+			x: -6.5d
+			y: 7.5d
+			dependencies: ["07418900366A48E4"]
+			id: "09FBFD008DC5C566"
+			tasks: [{
+				id: "178BA11C64AADEC1"
+				type: "item"
+				item: "create:sequenced_gearshift"
+			}]
+		}
+		{
+			title: "精密齿轮箱"
+			x: -7.5d
+			y: 8.5d
+			dependencies: ["09FBFD008DC5C566"]
+			id: "637FE9E55FCC7D14"
+			tasks: [{
+				id: "30038308FD89F1E7"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+		}
+		{
+			title: "速度可视化"
+			x: -2.5d
+			y: 6.0d
+			dependencies: ["7E5E24805B1C4D83"]
+			id: "6C8E89CBF618D5CC"
+			tasks: [{
+				id: "45AB517D6C14BBE8"
+				type: "item"
+				item: "create:speedometer"
+			}]
+		}
+		{
+			title: "应力可视化"
+			x: -4.0d
+			y: 7.5d
+			dependencies: ["6C8E89CBF618D5CC"]
+			id: "3FBB1AD16E0742AA"
+			tasks: [{
+				id: "1CD318958D920923"
+				type: "item"
+				item: "create:stressometer"
+			}]
+		}
+		{
+			title: "动力来源"
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["6E0ECB7E102B3CB7"]
+			id: "73C9C035FDF236C6"
+			tasks: [{
+				id: "5DB08AF35FC61DB4"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+			rewards: [{
+				id: "091D958548B059F3"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "水力"
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["73C9C035FDF236C6"]
+			id: "1E8AF8482D4DFFC5"
+			tasks: [{
+				id: "3A1090121842FAA5"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "159048265F7E0A7D"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "超级水力"
+			x: -4.5d
+			y: -2.0d
+			dependencies: ["1E8AF8482D4DFFC5"]
+			id: "277E63B2C14ADBA2"
+			tasks: [{
+				id: "723A23962E07B62D"
+				type: "item"
+				item: "create:large_water_wheel"
+			}]
+			rewards: [{
+				id: "76570F30ABDC5148"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "风力"
+			x: -3.5d
+			y: -3.0d
+			dependencies: ["73C9C035FDF236C6"]
+			id: "0AED57CA90BB18AB"
+			tasks: [{
+				id: "39436F47BCDE9CA2"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+			rewards: [{
+				id: "6119DFC7AA610303"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["0AED57CA90BB18AB"]
+			id: "758B9E1EC86E318C"
+			tasks: [{
+				id: "6063926A8E286960"
+				type: "item"
+				item: "create:white_sail"
+			}]
+			rewards: [{
+				id: "7268FEED0A1875FA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["73C9C035FDF236C6"]
+			id: "4055142C185C8F13"
+			tasks: [{
+				id: "1EB648A21BE20C86"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "7EDB4376A76BFEE7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			dependencies: ["4055142C185C8F13"]
+			id: "11237C317DA9A93D"
+			tasks: [{
+				id: "25A8B169218FF59F"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "0BCF4D7763C48799"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "火力"
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["73C9C035FDF236C6"]
+			id: "145F675B53F288E8"
+			tasks: [{
+				id: "6811745475204B39"
+				type: "item"
+				item: "create:steam_engine"
+			}]
+			rewards: [{
+				id: "4309019C5BF56A1F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "机械组件"
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["6E0ECB7E102B3CB7"]
+			id: "36DA76CE57F73B40"
+			tasks: [{
+				id: "7D5609E38A55DB4D"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [{
+				id: "7AE82A04B9B95049"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["36DA76CE57F73B40"]
+			id: "41FEE440C69704BD"
+			tasks: [{
+				id: "60DDF6BEE4B8252C"
+				type: "item"
+				item: "create:depot"
+			}]
+			rewards: [{
+				id: "29F656F7E9BA99D7"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["41FEE440C69704BD"]
+			id: "1260BAEFA8194673"
+			tasks: [{
+				id: "3B64BECABA33BDD6"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "3DA671BB3A8F16E8"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["1260BAEFA8194673"]
+			id: "27F1D34325521014"
+			tasks: [{
+				id: "05B565B2491A168E"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "2DC643D41914AB0A"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["36DA76CE57F73B40"]
+			id: "1BEEA4731771F2C2"
+			tasks: [{
+				id: "45207692C9319BF6"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "22373615C84428C1"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["1260BAEFA8194673"]
+			id: "637279C5D337CEF4"
+			tasks: [{
+				id: "3218C06CE89C6635"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "33F358FAEAAEFFC1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "材料"
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["6E0ECB7E102B3CB7"]
+			id: "128F02CED373AA19"
+			tasks: [{
+				id: "5D04E8B34ED58D91"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "1F9DE260E0D0D0DA"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["128F02CED373AA19"]
+			id: "78CA20297301D74E"
+			tasks: [{
+				id: "6770C4FEA1360FB1"
+				type: "item"
+				item: "create:zinc_ingot"
+			}]
+			rewards: [{
+				id: "1743FDF1EB0A7BAC"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			dependencies: ["128F02CED373AA19"]
+			id: "0729C9B60ECC424A"
+			tasks: [{
+				id: "02808170121A5D77"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+			rewards: [{
+				id: "6AE743883BF476A1"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["0729C9B60ECC424A"]
+			id: "57639DAA67D9E5BB"
+			tasks: [{
+				id: "3A6342D2BC712A01"
+				type: "item"
+				item: "create:polished_rose_quartz"
+			}]
+			rewards: [{
+				id: "2C37983606B0DDF5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["78CA20297301D74E"]
+			id: "2BD910FAD6FABBEC"
+			tasks: [{
+				id: "086BEBF352500A90"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			rewards: [{
+				id: "6269DE31074A907B"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.5d
+			dependencies: ["637279C5D337CEF4"]
+			id: "3E3A809BB4163281"
+			tasks: [{
+				id: "20D7D6B43E8895EE"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "37E108700E9C272B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.5d
+			dependencies: ["637279C5D337CEF4"]
+			id: "4758061BD86F37B5"
+			tasks: [{
+				id: "55332786DA160CFD"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "0B24842A1CF86B7E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			dependencies: ["4758061BD86F37B5"]
+			id: "3BB71A3D61F7EAC3"
+			tasks: [{
+				id: "07702DD87B4FA062"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+			rewards: [{
+				id: "4E9DB535CCAA9001"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			dependencies: ["57639DAA67D9E5BB"]
+			id: "12758CF92E5852D4"
+			tasks: [{
+				id: "774FFEB5BA4674B5"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [{
+				id: "73EFA47FA3AF0413"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["57639DAA67D9E5BB"]
+			id: "160E188FEB7F0E7F"
+			tasks: [{
+				id: "527E5A880C9A256B"
+				type: "item"
+				item: "create_sa:steam_engine"
+			}]
+			rewards: [{
+				id: "650B96ACFDA5CB84"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			dependencies: ["57639DAA67D9E5BB"]
+			id: "1AC2BBBF578F561F"
+			tasks: [{
+				id: "29EB58DE3DD953FB"
+				type: "item"
+				item: "create_sa:heat_engine"
+			}]
+			rewards: [{
+				id: "61A3140639E8E858"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["57639DAA67D9E5BB"]
+			id: "40E4C0009D1EE1CF"
+			tasks: [{
+				id: "2E3FF23C1ADD0FCF"
+				type: "item"
+				item: "create_sa:hydraulic_engine"
+			}]
+			rewards: [{
+				id: "49B8EAC1710F81B0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			dependencies: ["1260BAEFA8194673"]
+			id: "03EBBC936DC47FB4"
+			tasks: [{
+				id: "347650F00EDCE469"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "730DF2002FA2CC95"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["1260BAEFA8194673"]
+			id: "17DCEA6D29F51FE7"
+			tasks: [{
+				id: "4A0E7F4A62F40BE7"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "0C171C11602C3C5B"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["41FEE440C69704BD"]
+			id: "2FDB66BA73426944"
+			tasks: [{
+				id: "436908839A600FF8"
+				type: "item"
+				item: "create:basin"
+			}]
+			rewards: [{
+				id: "0F78D4A84A3688A1"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["2FDB66BA73426944"]
+			id: "4399DB0D20E6595C"
+			tasks: [{
+				id: "18F5B7649898B8E4"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "3864E0ADB8E2EB6E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			dependencies: ["637279C5D337CEF4"]
+			id: "2C25DF4BDE9B88B6"
+			tasks: [{
+				id: "28C9065618E80473"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [{
+				id: "581A76EB869FF213"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			dependencies: ["2C25DF4BDE9B88B6"]
+			id: "11C230B5442423DC"
+			tasks: [{
+				id: "443F13D7EE5B273A"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [{
+				id: "6C56FE97AD9DCF36"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["1260BAEFA8194673"]
+			id: "31E5A7A67546C04E"
+			tasks: [{
+				id: "21C2F8F2DA623FE4"
+				type: "item"
+				item: "create:item_vault"
+			}]
+		}
+		{
+			title: "存储组件"
+			x: 0.0d
+			y: 5.0d
+			shape: "gear"
+			dependencies: ["31E5A7A67546C04E"]
+			size: 2.0d
+			id: "6C99E0158CFD4653"
+			tasks: [{
+				id: "2FA50FF4B182E5CD"
+				type: "item"
+				item: "create_sa:vault_component"
+			}]
+			rewards: [{
+				id: "253D4A10AD75464F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			dependencies: ["1260BAEFA8194673"]
+			id: "3CEF78FFD42C1EC9"
+			tasks: [{
+				id: "693975B6E43ACBFE"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "59486A35AC876BC6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+	]
+	quest_links: [ ]
+}
