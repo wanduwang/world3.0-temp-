@@ -21,12 +21,6 @@
 			type: "item"
 			item: "vampirism:item_med_chair"
 		}]
-		rewards: [{
-			id: "6BD6A7D4D52DA502"
-			type: "random"
-			exclude_from_claim_all: true
-			table_id: 1159360326438940748L
-		}]
 	}]
 	quest_links: [ ]
 }

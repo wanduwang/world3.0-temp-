@@ -40,9 +40,10 @@
 				item: "create:shaft"
 			}]
 			rewards: [{
-				id: "069DDAEA7873B122"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "462C0372E22C0D80"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -57,9 +58,10 @@
 				item: "create:large_cogwheel"
 			}]
 			rewards: [{
-				id: "2CA7B49B4EB200E5"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "113596679B77B491"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -73,9 +75,10 @@
 				item: "create:belt_connector"
 			}]
 			rewards: [{
-				id: "4012F6AE9B354CE2"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "36C11F8ABC4C69B7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -89,9 +92,10 @@
 				item: "create:gearbox"
 			}]
 			rewards: [{
-				id: "57B6290B27702C3C"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "1078FA7488DAC6D9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -106,9 +110,10 @@
 				item: "create:vertical_gearbox"
 			}]
 			rewards: [{
-				id: "507802625A4A174E"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "26B9D0667795CD9C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -123,9 +128,10 @@
 				item: "create:wrench"
 			}]
 			rewards: [{
-				id: "67DC43A4D47862DF"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "63CE11D69DA02D63"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -140,9 +146,10 @@
 				item: "create:clutch"
 			}]
 			rewards: [{
-				id: "061B9A2B2C699F9D"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "09D5FA5581DFECCA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -157,9 +164,10 @@
 				item: "create:gearshift"
 			}]
 			rewards: [{
-				id: "5A6BA57CB2E4A36A"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "7F59E6897F2A6E3F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -174,9 +182,10 @@
 				item: "create:encased_chain_drive"
 			}]
 			rewards: [{
-				id: "753EC67BC31E2376"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "4CD165AE5A8076AA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -195,9 +204,10 @@
 				item: "create:adjustable_chain_gearshift"
 			}]
 			rewards: [{
-				id: "0EBA80FFEDD3527C"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "3A43B00C4C1B0821"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -211,6 +221,12 @@
 				type: "item"
 				item: "create:sequenced_gearshift"
 			}]
+			rewards: [{
+				id: "5B3384936999EE4E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			title: "精密齿轮箱"
@@ -222,6 +238,12 @@
 				id: "30038308FD89F1E7"
 				type: "item"
 				item: "create:rotation_speed_controller"
+			}]
+			rewards: [{
+				id: "6B167FE9291ECAEE"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -235,6 +257,12 @@
 				type: "item"
 				item: "create:speedometer"
 			}]
+			rewards: [{
+				id: "492C6F9E8C5AC5C5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			title: "应力可视化"
@@ -246,6 +274,12 @@
 				id: "1CD318958D920923"
 				type: "item"
 				item: "create:stressometer"
+			}]
+			rewards: [{
+				id: "680A482D894C763A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -260,9 +294,10 @@
 				item: "create:hand_crank"
 			}]
 			rewards: [{
-				id: "091D958548B059F3"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "3B95165B3043BDBD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -277,9 +312,10 @@
 				item: "create:water_wheel"
 			}]
 			rewards: [{
-				id: "159048265F7E0A7D"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "569442E118744B65"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -294,8 +330,8 @@
 				item: "create:large_water_wheel"
 			}]
 			rewards: [{
-				id: "76570F30ABDC5148"
-				type: "random"
+				id: "3D152644223ADBE2"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -312,9 +348,10 @@
 				item: "create:windmill_bearing"
 			}]
 			rewards: [{
-				id: "6119DFC7AA610303"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "6CBC91382427F980"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -328,8 +365,8 @@
 				item: "create:white_sail"
 			}]
 			rewards: [{
-				id: "7268FEED0A1875FA"
-				type: "random"
+				id: "445EAE35D3EC0F68"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -345,8 +382,8 @@
 				item: "createaddition:electric_motor"
 			}]
 			rewards: [{
-				id: "7EDB4376A76BFEE7"
-				type: "random"
+				id: "46D4614D970E88D5"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -362,9 +399,10 @@
 				item: "createaddition:alternator"
 			}]
 			rewards: [{
-				id: "0BCF4D7763C48799"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "1F33EABC90136613"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -379,8 +417,8 @@
 				item: "create:steam_engine"
 			}]
 			rewards: [{
-				id: "4309019C5BF56A1F"
-				type: "random"
+				id: "76355ADFBF98430F"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -397,9 +435,10 @@
 				item: "create:andesite_casing"
 			}]
 			rewards: [{
-				id: "7AE82A04B9B95049"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "1EECC5FFD0B1786D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -413,9 +452,10 @@
 				item: "create:depot"
 			}]
 			rewards: [{
-				id: "29F656F7E9BA99D7"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "33FB1CF88E0735B0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -429,9 +469,10 @@
 				item: "create:mechanical_press"
 			}]
 			rewards: [{
-				id: "3DA671BB3A8F16E8"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "37B5CD9BCCD0351E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -445,9 +486,10 @@
 				item: "create:mechanical_mixer"
 			}]
 			rewards: [{
-				id: "2DC643D41914AB0A"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "232C246F7AB17134"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -461,9 +503,10 @@
 				item: "create:millstone"
 			}]
 			rewards: [{
-				id: "22373615C84428C1"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "75F0B8FB0BF5F426"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -477,8 +520,8 @@
 				item: "create:deployer"
 			}]
 			rewards: [{
-				id: "33F358FAEAAEFFC1"
-				type: "random"
+				id: "1FCEF4C6649DB52C"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -495,9 +538,10 @@
 				item: "create:andesite_alloy"
 			}]
 			rewards: [{
-				id: "1F9DE260E0D0D0DA"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "7DB4EE920DEB397C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -511,9 +555,10 @@
 				item: "create:zinc_ingot"
 			}]
 			rewards: [{
-				id: "1743FDF1EB0A7BAC"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "650A1E51C6C1FF9F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -527,9 +572,10 @@
 				item: "create:rose_quartz"
 			}]
 			rewards: [{
-				id: "6AE743883BF476A1"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "5702413BEFF3C2A0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -543,8 +589,8 @@
 				item: "create:polished_rose_quartz"
 			}]
 			rewards: [{
-				id: "2C37983606B0DDF5"
-				type: "random"
+				id: "3E345F1FF31413D8"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -560,9 +606,10 @@
 				item: "create:brass_ingot"
 			}]
 			rewards: [{
-				id: "6269DE31074A907B"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "7D6A7FC11AF09971"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -576,8 +623,8 @@
 				item: "create:mechanical_arm"
 			}]
 			rewards: [{
-				id: "37E108700E9C272B"
-				type: "random"
+				id: "1F35148336B5CA0F"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -593,8 +640,8 @@
 				item: "create:mechanical_crafter"
 			}]
 			rewards: [{
-				id: "0B24842A1CF86B7E"
-				type: "random"
+				id: "3A7B256940E5C6F7"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -610,8 +657,8 @@
 				item: "create:crushing_wheel"
 			}]
 			rewards: [{
-				id: "4E9DB535CCAA9001"
-				type: "random"
+				id: "36CA8C2CB38CADE7"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -627,8 +674,8 @@
 				item: "create:precision_mechanism"
 			}]
 			rewards: [{
-				id: "73EFA47FA3AF0413"
-				type: "random"
+				id: "4EEA5EEB0BC36032"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -644,8 +691,8 @@
 				item: "create_sa:steam_engine"
 			}]
 			rewards: [{
-				id: "650B96ACFDA5CB84"
-				type: "random"
+				id: "1B18F36230860345"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -661,8 +708,8 @@
 				item: "create_sa:heat_engine"
 			}]
 			rewards: [{
-				id: "61A3140639E8E858"
-				type: "random"
+				id: "28BBD008BA538FEF"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -678,8 +725,8 @@
 				item: "create_sa:hydraulic_engine"
 			}]
 			rewards: [{
-				id: "49B8EAC1710F81B0"
-				type: "random"
+				id: "7B8F83E96173D81F"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -695,9 +742,10 @@
 				item: "create:encased_fan"
 			}]
 			rewards: [{
-				id: "730DF2002FA2CC95"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "7C001BB4FB46C57D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -711,9 +759,10 @@
 				item: "create:mechanical_saw"
 			}]
 			rewards: [{
-				id: "0C171C11602C3C5B"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "629A0A4820CB4007"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -727,9 +776,10 @@
 				item: "create:basin"
 			}]
 			rewards: [{
-				id: "0F78D4A84A3688A1"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "5390CAA0511DE0D0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -743,8 +793,8 @@
 				item: "create:blaze_burner"
 			}]
 			rewards: [{
-				id: "3864E0ADB8E2EB6E"
-				type: "random"
+				id: "202AAF6CF995BCB9"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -760,9 +810,10 @@
 				item: "create:spout"
 			}]
 			rewards: [{
-				id: "581A76EB869FF213"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "2785148358CFADE8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -776,8 +827,8 @@
 				item: "create:blaze_cake"
 			}]
 			rewards: [{
-				id: "6C56FE97AD9DCF36"
-				type: "random"
+				id: "613DB08C951A7DB8"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -791,6 +842,12 @@
 				id: "21C2F8F2DA623FE4"
 				type: "item"
 				item: "create:item_vault"
+			}]
+			rewards: [{
+				id: "2000DEFBEEF5F99F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -807,8 +864,8 @@
 				item: "create_sa:vault_component"
 			}]
 			rewards: [{
-				id: "253D4A10AD75464F"
-				type: "random"
+				id: "66F490562CA9F611"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -824,8 +881,8 @@
 				item: "createaddition:rolling_mill"
 			}]
 			rewards: [{
-				id: "59486A35AC876BC6"
-				type: "random"
+				id: "7EEF5E93249C0E30"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -841,8 +898,8 @@
 				item: "createaddition:straw"
 			}]
 			rewards: [{
-				id: "3BF063E34E931357"
-				type: "random"
+				id: "47BB9A68440B0EE3"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -857,17 +914,92 @@
 			can_repeat: true
 			id: "7DFD75E44C823361"
 			tasks: [{
-				id: "219C544685283C9C"
-				type: "fluid"
-				fluid: "createaddition:flowing_bioethanol"
-				amount: 5000L
+				id: "5D31CEF0993ABB36"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								55453993
+								1782593002
+								-1233285747
+								-2018546487
+							]
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "createaddition:bioethanol"
+									Amount: 32000
+								}
+							}]
+							securityMode: 0
+							Items: [ ]
+							editMode: 0
+						}
+					}
+				}
+				consume_items: true
+				match_nbt: true
+				weak_nbt_match: true
 			}]
-			rewards: [{
-				id: "36150B0A62E3AA34"
-				type: "random"
-				team_reward: false
-				table_id: 1159360326438940748L
-			}]
+			rewards: [
+				{
+					id: "22B568D87AB1C09E"
+					type: "item"
+					team_reward: false
+					item: "mekanism:basic_fluid_tank"
+				}
+				{
+					id: "2A662A7B6F3444D3"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "61CDFB506239FFC1"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "1FA7C95AB23F6555"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "6A65BEA99A6D2E10"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "32334E53D0242F6F"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "36CB7F25360D7E52"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "1A99D64E5A8CDD67"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "201D1C6159E03F7D"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+			]
 		}
 		{
 			title: "抽卡券制作"
@@ -912,6 +1044,39 @@
 				type: "item"
 				team_reward: false
 				item: "tac:ultimate_material"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["3F3DC076B043301A"]
+			id: "1431686B44FF27A5"
+			tasks: [{
+				id: "6EBBB7182223AEEA"
+				type: "item"
+				item: "cyclic:fluid_pipe"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["1431686B44FF27A5"]
+			id: "6596D62DF3085BA5"
+			tasks: [{
+				id: "236285D5C8B17049"
+				type: "item"
+				item: "cyclic:cable_wrench"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["1431686B44FF27A5"]
+			id: "3F11CD4B79324290"
+			tasks: [{
+				id: "4C9A04D2BC22976D"
+				type: "item"
+				item: "cyclic:item_pipe"
 			}]
 		}
 	]

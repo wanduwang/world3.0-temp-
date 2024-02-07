@@ -172,8 +172,8 @@
 				item: "enigmaticlegacy:the_acknowledgment"
 			}]
 			rewards: [{
-				id: "4933C0062A6E734F"
-				type: "random"
+				id: "76E9356A7B0538E4"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -197,9 +197,9 @@
 				item: "enigmaticlegacy:the_twist"
 			}]
 			rewards: [{
-				id: "5278BC6AC26B3B56"
-				type: "random"
-				title: "盲盒"
+				id: "66E1E7FED15F5A76"
+				type: "loot"
+				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
 		}
@@ -250,8 +250,8 @@
 				item: "expandedstorage:iron_chest"
 			}]
 			rewards: [{
-				id: "2F8F903FF40D6130"
-				type: "random"
+				id: "04746486CD6E1B4D"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -274,8 +274,8 @@
 				item: "sophisticatedbackpacks:backpack"
 			}]
 			rewards: [{
-				id: "5DA14B6A0BECA78A"
-				type: "random"
+				id: "476656D619E3D068"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -298,8 +298,8 @@
 				item: "toms_storage:ts.storage_terminal"
 			}]
 			rewards: [{
-				id: "75F6404166080064"
-				type: "random"
+				id: "174429124E59A637"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -322,8 +322,8 @@
 				item: "ironfurnaces:iron_furnace"
 			}]
 			rewards: [{
-				id: "4C2CD1BB5D7D3F4A"
-				type: "random"
+				id: "6DB05E46027B4A85"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -352,8 +352,8 @@
 				}
 			}]
 			rewards: [{
-				id: "36586BB68D75F47C"
-				type: "random"
+				id: "09F146D83EE69FC8"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -481,8 +481,8 @@
 				dimension: "twilightforest:twilight_forest"
 			}]
 			rewards: [{
-				id: "0286B266F0C0B6AD"
-				type: "random"
+				id: "69FB2B87B0E57729"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -505,8 +505,8 @@
 				item: "twilightforest:torchberries"
 			}]
 			rewards: [{
-				id: "19059037D2B4815E"
-				type: "random"
+				id: "7788FA1BA1E37EE1"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -581,8 +581,8 @@
 				item: "twilightforest:magic_map"
 			}]
 			rewards: [{
-				id: "3C975B8D4A53FD6C"
-				type: "random"
+				id: "3DB61371CD9C2CD8"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -608,8 +608,8 @@
 				item: "twilightforest:naga_trophy"
 			}]
 			rewards: [{
-				id: "37C2D91BE129D333"
-				type: "random"
+				id: "49475CBCCA3775CB"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -636,8 +636,8 @@
 				item: "twilightforest:lich_trophy"
 			}]
 			rewards: [{
-				id: "65CCD5E6502FE8FB"
-				type: "random"
+				id: "05F83B6FD019F336"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -665,9 +665,10 @@
 				value: 1L
 			}]
 			rewards: [{
-				id: "05AA299EC3A75009"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "09E73A5FCF4FF85D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -688,8 +689,8 @@
 				item: "twilightforest:hydra_trophy"
 			}]
 			rewards: [{
-				id: "3DC7E4FC816602B8"
-				type: "random"
+				id: "4A93FD7AD1801932"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -716,9 +717,10 @@
 				value: 1L
 			}]
 			rewards: [{
-				id: "3AE14A338E1EDC84"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "49B588383AEEE443"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -742,9 +744,10 @@
 				value: 1L
 			}]
 			rewards: [{
-				id: "5AEE4B16FD8AAF18"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "1D494184418CB0D9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -765,8 +768,8 @@
 				item: "twilightforest:ur_ghast_trophy"
 			}]
 			rewards: [{
-				id: "4BBE34145E74B1FC"
-				type: "random"
+				id: "6DC22F8070ABEF15"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -789,8 +792,8 @@
 				item: "twilightforest:snow_queen_trophy"
 			}]
 			rewards: [{
-				id: "72EEE52B7C442EB1"
-				type: "random"
+				id: "6798C94C9097574B"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -818,9 +821,10 @@
 				item: "twilightforest:magic_beans"
 			}]
 			rewards: [{
-				id: "737A12753BA66A51"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "68AC86FEB380EF8C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -848,9 +852,10 @@
 				}
 			}]
 			rewards: [{
-				id: "66D3385DF9617D17"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "4C59998E1BC0AF7E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -879,8 +884,8 @@
 				}
 			}]
 			rewards: [{
-				id: "26ABA3C8612478C0"
-				type: "random"
+				id: "6F38A413597E9CBB"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -921,8 +926,8 @@
 				}
 			]
 			rewards: [{
-				id: "7E3EB9162149F6BA"
-				type: "random"
+				id: "3E9FE7A37F8E06D6"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -945,9 +950,10 @@
 				dimension: "minecraft:the_end"
 			}]
 			rewards: [{
-				id: "0E6E947D3DED0BDA"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "2EA8A92049C81CC8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -963,8 +969,8 @@
 				item: "create:andesite_alloy"
 			}]
 			rewards: [{
-				id: "3EF874C850586ECE"
-				type: "random"
+				id: "4074AF4D382DFD85"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -982,9 +988,10 @@
 				item: "create:cogwheel"
 			}]
 			rewards: [{
-				id: "74244B12046405C2"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "0FAEFF72574ACCF9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -992,6 +999,10 @@
 			x: 8.0d
 			y: 5.0d
 			shape: "hexagon"
+			description: [
+				"#3*3堆砌并用工程师锤右键以成型#"
+				"#用工程师锤右键侧面中心方块已成型#"
+			]
 			dependencies: [
 				"24AF84E54C183CEA"
 				"1DF238BCAA2A58AE"
@@ -1002,10 +1013,11 @@
 				id: "59CF89477EB942A9"
 				type: "item"
 				item: "immersiveengineering:cokebrick"
+				count: 27L
 			}]
 			rewards: [{
-				id: "6C692AF2BA42BFFF"
-				type: "random"
+				id: "6E4FA4F86310DC43"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -1031,8 +1043,8 @@
 				}
 			}]
 			rewards: [{
-				id: "1E6FCE2E17554790"
-				type: "random"
+				id: "1741FBF10FA6306F"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -1057,8 +1069,8 @@
 				}
 			}]
 			rewards: [{
-				id: "040F11A361BC395C"
-				type: "random"
+				id: "2D36461AF2CEF90C"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -1076,9 +1088,10 @@
 				item: "tconstruct:scorched_brick"
 			}]
 			rewards: [{
-				id: "367FE8679B51B91B"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "0951E18CE82830B4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -1086,16 +1099,21 @@
 			y: 2.5d
 			shape: "hexagon"
 			subtitle: "@某高校"
+			description: [
+				"#2*2堆砌#"
+				"#用工程师锤右键侧面右上角方块已成型#"
+			]
 			dependencies: ["698147F529116513"]
 			id: "4EBECA16DAC188F4"
 			tasks: [{
 				id: "75C376891DDFA094"
 				type: "item"
 				item: "immersiveengineering:alloybrick"
+				count: 8L
 			}]
 			rewards: [{
-				id: "67456DE8405657AE"
-				type: "random"
+				id: "6A1BD933F5A3BB4E"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -1113,9 +1131,10 @@
 				item: "tconstruct:seared_brick"
 			}]
 			rewards: [{
-				id: "37FF082AB2D9FFDF"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "14F0B4D76B0A70A5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{

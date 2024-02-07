@@ -41,58 +41,9 @@
 			}]
 		}
 		{
-			title: "赌命"
-			x: 1.5d
-			y: 0.0d
-			shape: "octagon"
-			subtitle: "豪掷千金"
-			dependencies: ["180EDE667761E465"]
-			hide: true
-			can_repeat: true
-			id: "2A3B097ED38F7575"
-			tasks: [{
-				id: "1A7B2353B1E6C69F"
-				type: "item"
-				item: "enigmaticlegacy:forbidden_fruit"
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "1C2B44D1E58C9EE2"
-					type: "random"
-					team_reward: false
-					table_id: 1159360326438940748L
-				}
-				{
-					id: "55B74CF92B2D80B2"
-					type: "random"
-					team_reward: false
-					table_id: 1159360326438940748L
-				}
-				{
-					id: "48CA4C0CED4721AF"
-					type: "random"
-					team_reward: false
-					table_id: 1159360326438940748L
-				}
-				{
-					id: "6772F1FAE883148C"
-					type: "random"
-					team_reward: false
-					table_id: 1159360326438940748L
-				}
-				{
-					id: "57FCCB1C621065C3"
-					type: "random"
-					team_reward: false
-					table_id: 1159360326438940748L
-				}
-			]
-		}
-		{
 			title: "征服荒野"
-			x: 3.0d
-			y: 0.0d
+			x: 1.5d
+			y: -1.5d
 			shape: "octagon"
 			dependencies: ["44A7E0489E22CFC4"]
 			hide: true
@@ -125,6 +76,24 @@
 					team_reward: false
 					table_id: 1159360326438940748L
 				}
+				{
+					id: "34102F5ED6347285"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "764439D3E7A02ACA"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "595DB01AEC509C88"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
 			]
 		}
 		{
@@ -139,7 +108,7 @@
 			tasks: [{
 				id: "6CB7AEAAC20D4DB0"
 				type: "item"
-				title: "Any #kubejs:great_endeye"
+				title: "任意远古末影之眼"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -169,29 +138,25 @@
 					team_reward: false
 					table_id: 1159360326438940748L
 				}
+				{
+					id: "6109569995D83816"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "0DC80B86BCDF11B2"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "1C17BB70454DC3EA"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
 			]
-		}
-		{
-			title: "酒酿"
-			x: 1.5d
-			y: -1.5d
-			shape: "octagon"
-			dependencies: ["3F3DC076B043301A"]
-			hide: true
-			can_repeat: true
-			id: "61C9DB3248965E8C"
-			tasks: [{
-				id: "425598B72FC66F50"
-				type: "fluid"
-				fluid: "createaddition:flowing_bioethanol"
-				amount: 5000L
-			}]
-			rewards: [{
-				id: "09162084C866593E"
-				type: "random"
-				team_reward: false
-				table_id: 1159360326438940748L
-			}]
 		}
 		{
 			title: "铜锭兑换"
@@ -413,6 +378,381 @@
 				team_reward: false
 				item: "tac:ultimate_material"
 			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			shape: "octagon"
+			dependencies: ["49D7ED6DE9EC3EF1"]
+			hide: true
+			can_repeat: true
+			id: "785742D2E447FAB6"
+			tasks: [{
+				id: "3FE29A0E760A1264"
+				type: "item"
+				item: {
+					id: "ironfurnaces:million_furnace"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"yellow\",\"text\":\"彩\"},{\"color\":\"yellow\",\"text\":\"虹\"},{\"color\":\"aqua\",\"text\":\"熔\"},{\"color\":\"red\",\"text\":\"炉\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1397FB5B19181C33"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "1F8695E51A4BA453"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "65B6E37C6FAB6153"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "710AD41436692F34"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "0808E4E43AF73ED9"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "53B0CB745EB14499"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			title: "赌命"
+			x: 1.5d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "豪掷千金"
+			dependencies: ["180EDE667761E465"]
+			hide: true
+			can_repeat: true
+			id: "5AB8808BC171ECD1"
+			tasks: [{
+				id: "3A07E0449AE0E07B"
+				type: "item"
+				item: "enigmaticlegacy:forbidden_fruit"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "34C26D7D11152245"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "679C5BC4B9D8C5AD"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "7F31E6B5B465F5D2"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "6002844650EA1EF2"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "150DED5B1D3F33AE"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "2C41DD4A60B59868"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			title: "酒酿"
+			x: 3.0d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: ["3F3DC076B043301A"]
+			hide: true
+			can_repeat: true
+			id: "5A84B6C098670E18"
+			tasks: [{
+				id: "6C12D9291A6B872A"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								55453993
+								1782593002
+								-1233285747
+								-2018546487
+							]
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "createaddition:bioethanol"
+									Amount: 32000
+								}
+							}]
+							securityMode: 0
+							Items: [ ]
+							editMode: 0
+						}
+					}
+				}
+				consume_items: true
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "6F50E73863D85531"
+					type: "item"
+					team_reward: false
+					item: "mekanism:basic_fluid_tank"
+				}
+				{
+					id: "772430CA9BBAE434"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "3D2162CF571079E4"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "304E58A2F357EB5F"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "324E4479B9889780"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "05E64C638D76C41C"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "68B972B4F89C4B9B"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "559B33A0092E6367"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "2293767CA7662AB2"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			title: "生物炼成"
+			x: 3.0d
+			y: 1.5d
+			shape: "octagon"
+			dependencies: ["2931B5624A6E5DD4"]
+			hide: true
+			can_repeat: true
+			id: "1979A26A7186462C"
+			tasks: [{
+				id: "5AE40033B0CB32E4"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								55453993
+								1782593002
+								-1233285747
+								-2018546487
+							]
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "immersiveengineering:biodiesel"
+									Amount: 32000
+								}
+							}]
+							securityMode: 0
+							Items: [ ]
+							editMode: 0
+						}
+					}
+				}
+				consume_items: true
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "223DDE27D67C3956"
+					type: "item"
+					team_reward: false
+					item: "mekanism:basic_fluid_tank"
+				}
+				{
+					id: "0ACCDDC386D9F148"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "255D4EBAF519B207"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "307427E8CEED9942"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "61563ACEC1DA24AE"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "50D1E7278ED2205E"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "38AAE5081EE9BB17"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "02E1EF2D61608C03"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "6D31FFDE22E096AA"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			title: "种子回收"
+			x: 4.5d
+			y: -1.5d
+			shape: "octagon"
+			dependencies: [
+				"402D7B6ECD9E3C6F"
+				"01DBCB3F882085C0"
+			]
+			hide: true
+			can_repeat: true
+			id: "0364DB11267C8DAC"
+			tasks: [{
+				id: "1125FDA8B52295A8"
+				type: "item"
+				title: "任意精华种子"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "mysticalagriculture:seeds"
+					}
+				}
+				count: 384L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5D9776AC01A7AC46"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "6828643C82A27E5B"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "4EA5C278B290EFA2"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "0AB94BC291F4EED9"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "6760D586C5E1BD86"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "55D90AD807F8426C"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+			]
 		}
 	]
 	quest_links: [ ]

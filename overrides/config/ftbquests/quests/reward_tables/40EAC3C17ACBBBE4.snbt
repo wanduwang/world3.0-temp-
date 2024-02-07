@@ -21,646 +21,807 @@
 			type: "command"
 		}
 		{
+			title: "ak_dksjm"
 			command: "/ysm auth @p add ak_dksjm"
 			type: "command"
 		}
 		{
+			title: "ak_gui_huak_gui_hu"
 			command: "/ysm auth @p add ak_gui_huak_gui_hu"
 			type: "command"
 		}
 		{
+			title: "ak_lpld_yg"
 			command: "/ysm auth @p add ak_lpld_yg"
 			type: "command"
 		}
 		{
+			title: "ak_yls"
 			command: "/ysm auth @p add ak_yls"
 			type: "command"
 		}
 		{
+			title: "alex"
 			command: "/ysm auth @p add alex"
 			type: "command"
 		}
 		{
+			title: "alice_5.0_ver"
 			command: "/ysm auth @p add alice_5.0_ver"
 			type: "command"
 		}
 		{
+			title: "amagisummer"
 			command: "/ysm auth @p add amagisummer"
 			type: "command"
 		}
 		{
+			title: "ania1.0.5"
 			command: "/ysm auth @p add ania1.0.5"
 			type: "command"
 		}
 		{
+			title: "ansel"
 			command: "/ysm auth @p add ansel"
 			type: "command"
 		}
 		{
+			title: "aoi"
 			command: "/ysm auth @p add aoi"
 			type: "command"
 		}
 		{
+			title: "aoi_with_animation"
 			command: "/ysm auth @p add aoi_with_animation"
 			type: "command"
 		}
 		{
+			title: "arisu"
 			command: "/ysm auth @p add arisu"
 			type: "command"
 		}
 		{
+			title: "bai_lu"
 			command: "/ysm auth @p add bai_lu"
 			type: "command"
 		}
 		{
+			title: "bayunzi"
 			command: "/ysm auth @p add bayunzi"
 			type: "command"
 		}
 		{
+			title: "bayunzi_2"
 			command: "/ysm auth @p add bayunzi_2"
 			type: "command"
 		}
 		{
+			title: "bayunzi_3"
 			command: "/ysm auth @p add bayunzi_3"
 			type: "command"
 		}
 		{
+			title: "bayunzi_4"
 			command: "/ysm auth @p add bayunzi_4"
 			type: "command"
 		}
 		{
+			title: "chaddoge"
 			command: "/ysm auth @p add chaddoge"
 			type: "command"
 		}
 		{
+			title: "chara1.2.0"
 			command: "/ysm auth @p add chara1.2.0"
 			type: "command"
 		}
 		{
+			title: "chefty"
 			command: "/ysm auth @p add chefty"
 			type: "command"
 		}
 		{
+			title: "chizui"
 			command: "/ysm auth @p add chizui"
 			type: "command"
 		}
 		{
+			title: "chloe_von_einzbern"
 			command: "/ysm auth @p add chloe_von_einzbern"
 			type: "command"
 		}
 		{
+			title: "cirno1.0.5"
 			command: "/ysm auth @p add cirno1.0.5"
 			type: "command"
 		}
 		{
+			title: "creeper"
 			command: "/ysm auth @p add creeper"
 			type: "command"
 		}
 		{
+			title: "cuoe"
 			command: "/ysm auth @p add cuoe"
 			type: "command"
 		}
 		{
+			title: "daiyousei1.1.5"
 			command: "/ysm auth @p add daiyousei1.1.5"
 			type: "command"
 		}
 		{
+			title: "default"
 			command: "/ysm auth @p add default"
 			type: "command"
 		}
 		{
+			title: "default_boy"
 			command: "/ysm auth @p add default_boy"
 			type: "command"
 		}
 		{
+			title: "dekomori1.0.0"
 			command: "/ysm auth @p add dekomori1.0.0"
 			type: "command"
 		}
 		{
+			title: "dian"
 			command: "/ysm auth @p add dian"
 			type: "command"
 		}
 		{
+			title: "dongxuelian"
 			command: "/ysm auth @p add dongxuelian"
 			type: "command"
 		}
 		{
+			title: "drg_gunner"
 			command: "/ysm auth @p add drg_gunner"
 			type: "command"
 		}
 		{
+			title: "drone"
 			command: "/ysm auth @p add drone"
 			type: "command"
 		}
 		{
+			title: "ely"
 			command: "/ysm auth @p add ely"
 			type: "command"
 		}
 		{
+			title: "engu"
 			command: "/ysm auth @p add engu"
 			type: "command"
 		}
 		{
+			title: "feiniao-mashi"
 			command: "/ysm auth @p add feiniao-mashi"
 			type: "command"
 		}
 		{
+			title: "feiying"
 			command: "/ysm auth @p add feiying"
 			type: "command"
 		}
 		{
+			title: "flandre1.1.0"
 			command: "/ysm auth @p add flandre1.1.0"
 			type: "command"
 		}
 		{
+			title: "fox"
 			command: "/ysm auth @p add fox"
 			type: "command"
 		}
 		{
+			title: "free_endministrator"
 			command: "/ysm auth @p add free_endministrator"
 			type: "command"
 		}
 		{
+			title: "fridge"
 			command: "/ysm auth @p add fridge"
 			type: "command"
 		}
 		{
+			title: "fulilian"
 			command: "/ysm auth @p add fulilian"
 			type: "command"
 		}
 		{
+			title: "fuluolun"
 			command: "/ysm auth @p add fuluolun"
 			type: "command"
 		}
 		{
+			title: "furina_v2.0"
 			command: "/ysm auth @p add furina_v2.0"
 			type: "command"
 		}
 		{
+			title: "fuxuan"
 			command: "/ysm auth @p add fuxuan"
 			type: "command"
 		}
 		{
+			title: "game_api"
 			command: "/ysm auth @p add game_api"
 			type: "command"
 		}
 		{
+			title: "game_kaofish"
 			command: "/ysm auth @p add game_kaofish"
 			type: "command"
 		}
 		{
+			title: "game_kinoko7"
 			command: "/ysm auth @p add game_kinoko7"
 			type: "command"
 		}
 		{
+			title: "game_longbaobao"
 			command: "/ysm auth @p add game_longbaobao"
 			type: "command"
 		}
 		{
+			title: "game_yommyko"
 			command: "/ysm auth @p add game_yommyko"
 			type: "command"
 		}
 		{
+			title: "ganyu1.0.0"
 			command: "/ysm auth @p add ganyu1.0.0"
 			type: "command"
 		}
 		{
+			title: "gf_g11"
 			command: "/ysm auth @p add gf_g11"
 			type: "command"
 		}
 		{
+			title: "gf_hk416"
 			command: "/ysm auth @p add gf_hk416"
 			type: "command"
 		}
 		{
+			title: "gf_ump40"
 			command: "/ysm auth @p add gf_ump40"
 			type: "command"
 		}
 		{
+			title: "gf_ump45"
 			command: "/ysm auth @p add gf_ump45"
 			type: "command"
 		}
 		{
+			title: "gf_ump9"
 			command: "/ysm auth @p add gf_ump9"
 			type: "command"
 		}
 		{
+			title: "gold_ship"
 			command: "/ysm auth @p add gold_ship"
 			type: "command"
 		}
 		{
+			title: "goldship"
 			command: "/ysm auth @p add goldship"
 			type: "command"
 		}
 		{
+			title: "gs_bc_yg"
 			command: "/ysm auth @p add gs_bc_yg"
 			type: "command"
 		}
 		{
+			title: "gs_heita"
 			command: "/ysm auth @p add gs_heita"
 			type: "command"
 		}
 		{
+			title: "gs_hutao"
 			command: "/ysm auth @p add gs_hutao"
 			type: "command"
 		}
 		{
+			title: "gs_keli"
 			command: "/ysm auth @p add gs_keli"
 			type: "command"
 		}
 		{
+			title: "gs_nilu"
 			command: "/ysm auth @p add gs_nilu"
 			type: "command"
 		}
 		{
+			title: "gs_pm"
 			command: "/ysm auth @p add gs_pm"
 			type: "command"
 		}
 		{
+			title: "gs_tingyun"
 			command: "/ysm auth @p add gs_tingyun"
 			type: "command"
 		}
 		{
+			title: "hk416"
 			command: "/ysm auth @p add hk416"
 			type: "command"
 		}
 		{
+			title: "iroha"
 			command: "/ysm auth @p add iroha"
 			type: "command"
 		}
 		{
+			title: "jiakezi1.1.0"
 			command: "/ysm auth @p add jiakezi1.1.0"
 			type: "command"
 		}
 		{
+			title: "joanofarc1.0.0"
 			command: "/ysm auth @p add joanofarc1.0.0"
 			type: "command"
 		}
 		{
+			title: "joanofarc_alter1.0.0"
 			command: "/ysm auth @p add joanofarc_alter1.0.0"
 			type: "command"
 		}
 		{
+			title: "kaierxi"
 			command: "/ysm auth @p add kaierxi"
 			type: "command"
 		}
 		{
+			title: "kali"
 			command: "/ysm auth @p add kali"
 			type: "command"
 		}
 		{
+			title: "kaxiusi"
 			command: "/ysm auth @p add kaxiusi"
 			type: "command"
 		}
 		{
+			title: "kelala2.0"
 			command: "/ysm auth @p add kelala2.0"
 			type: "command"
 		}
 		{
+			title: "keqin1.3.2"
 			command: "/ysm auth @p add keqin1.3.2"
 			type: "command"
 		}
 		{
+			title: "kirara"
 			command: "/ysm auth @p add kirara"
 			type: "command"
 		}
 		{
+			title: "klee"
 			command: "/ysm auth @p add klee"
 			type: "command"
 		}
 		{
+			title: "kurumi1.2.0"
 			command: "/ysm auth @p add kurumi1.2.0"
 			type: "command"
 		}
 		{
+			title: "laojiebing"
 			command: "/ysm auth @p add laojiebing"
 			type: "command"
 		}
 		{
+			title: "leonhardt"
 			command: "/ysm auth @p add leonhardt"
 			type: "command"
 		}
 		{
+			title: "lilili"
 			command: "/ysm auth @p add lilili"
 			type: "command"
 		}
 		{
+			title: "lingmeng"
 			command: "/ysm auth @p add lingmeng"
 			type: "command"
 		}
 		{
+			title: "lingmeng_2"
 			command: "/ysm auth @p add lingmeng_2"
 			type: "command"
 		}
 		{
+			title: "luoshaliya"
 			command: "/ysm auth @p add luoshaliya"
 			type: "command"
 		}
 		{
+			title: "lycoris"
 			command: "/ysm auth @p add lycoris"
 			type: "command"
 		}
 		{
+			title: "marian_silver_spear1.2"
 			command: "/ysm auth @p add marian_silver_spear1.2"
 			type: "command"
 		}
 		{
+			title: "mc_queen"
 			command: "/ysm auth @p add mc_queen"
 			type: "command"
 		}
 		{
+			title: "megumin2"
 			command: "/ysm auth @p add megumin2"
 			type: "command"
 		}
 		{
+			title: "meiyou_2.0ver"
 			command: "/ysm auth @p add meiyou_2.0ver"
 			type: "command"
 		}
 		{
+			title: "merry"
 			command: "/ysm auth @p add merry"
 			type: "command"
 		}
 		{
+			title: "mikasa1.0.0"
 			command: "/ysm auth @p add mikasa1.0.0"
 			type: "command"
 		}
 		{
+			title: "miku"
 			command: "/ysm auth @p add miku"
 			type: "command"
 		}
 		{
+			title: "miku1.0.7"
 			command: "/ysm auth @p add miku1.0.7"
 			type: "command"
 		}
 		{
+			title: "miku_unwearable"
 			command: "/ysm auth @p add miku_unwearable"
 			type: "command"
 		}
 		{
+			title: "molisha"
 			command: "/ysm auth @p add molisha"
 			type: "command"
 		}
 		{
+			title: "molisha_2"
 			command: "/ysm auth @p add molisha_2"
 			type: "command"
 		}
 		{
+			title: "murasame"
 			command: "/ysm auth @p add murasame"
 			type: "command"
 		}
 		{
+			title: "nagato"
 			command: "/ysm auth @p add nagato"
 			type: "command"
 		}
 		{
+			title: "nanaki"
 			command: "/ysm auth @p add nanaki"
 			type: "command"
 		}
 		{
+			title: "noelle_6.6ver"
 			command: "/ysm auth @p add noelle_6.6ver"
 			type: "command"
 		}
 		{
+			title: "nunlyla"
 			command: "/ysm auth @p add nunlyla"
 			type: "command"
 		}
 		{
+			title: "origami1.0.2"
 			command: "/ysm auth @p add origami1.0.2"
 			type: "command"
 		}
 		{
+			title: "pangxiegirl"
 			command: "/ysm auth @p add pangxiegirl"
 			type: "command"
 		}
 		{
+			title: "pulana"
 			command: "/ysm auth @p add pulana"
 			type: "command"
 		}
 		{
+			title: "pulse_blade_pilot_ysm"
 			command: "/ysm auth @p add pulse_blade_pilot_ysm"
 			type: "command"
 		}
 		{
+			title: "puluona"
 			command: "/ysm auth @p add puluona"
 			type: "command"
 		}
 		{
+			title: "puluona_2"
 			command: "/ysm auth @p add puluona_2"
 			type: "command"
 		}
 		{
+			title: "qilunuo"
 			command: "/ysm auth @p add qilunuo"
 			type: "command"
 		}
 		{
+			title: "qiluonuo_2"
 			command: "/ysm auth @p add qiluonuo_2"
 			type: "command"
 		}
 		{
+			title: "qingluka"
 			command: "/ysm auth @p add qingluka"
 			type: "command"
 		}
 		{
+			title: "qiufeng2.0"
 			command: "/ysm auth @p add qiufeng2.0"
 			type: "command"
 		}
 		{
+			title: "qiyana"
 			command: "/ysm auth @p add qiyana"
 			type: "command"
 		}
 		{
+			title: "red_box"
 			command: "/ysm auth @p add red_box"
 			type: "command"
 		}
 		{
+			title: "reimu1.0.5"
 			command: "/ysm auth @p add reimu1.0.5"
 			type: "command"
 		}
 		{
+			title: "remilia1.1.3"
 			command: "/ysm auth @p add remilia1.1.3"
 			type: "command"
 		}
 		{
+			title: "rikka1.1.1"
 			command: "/ysm auth @p add rikka1.1.1"
 			type: "command"
 		}
 		{
+			title: "ryza"
 			command: "/ysm auth @p add ryza"
 			type: "command"
 		}
 		{
+			title: "saber1.8.0"
 			command: "/ysm auth @p add saber1.8.0"
 			type: "command"
 		}
 		{
+			title: "sakabanjiayu"
 			command: "/ysm auth @p add sakabanjiayu"
 			type: "command"
 		}
 		{
+			title: "saki"
 			command: "/ysm auth @p add saki"
 			type: "command"
 		}
 		{
+			title: "sakurafate1.0.0"
 			command: "/ysm auth @p add sakurafate1.0.0"
 			type: "command"
 		}
 		{
+			title: "sakuya1.2.1"
 			command: "/ysm auth @p add sakuya1.2.1"
 			type: "command"
 		}
 		{
+			title: "seele"
 			command: "/ysm auth @p add seele"
 			type: "command"
 		}
 		{
+			title: "sensei"
 			command: "/ysm auth @p add sensei"
 			type: "command"
 		}
 		{
+			title: "shanling"
 			command: "/ysm auth @p add shanling"
 			type: "command"
 		}
 		{
+			title: "shigejubs1.1.9"
 			command: "/ysm auth @p add shigejubs1.1.9"
 			type: "command"
 		}
 		{
+			title: "shixian1.0.5"
 			command: "/ysm auth @p add shixian1.0.5"
 			type: "command"
 		}
 		{
+			title: "shuangshengwulin"
 			command: "/ysm auth @p add shuangshengwulin"
 			type: "command"
 		}
 		{
+			title: "signalis"
 			command: "/ysm auth @p add signalis"
 			type: "command"
 		}
 		{
+			title: "skadi"
 			command: "/ysm auth @p add skadi"
 			type: "command"
 		}
 		{
+			title: "smart_falcon"
 			command: "/ysm auth @p add smart_falcon"
 			type: "command"
 		}
 		{
+			title: "sophie"
 			command: "/ysm auth @p add sophie"
 			type: "command"
 		}
 		{
+			title: "spider"
 			command: "/ysm auth @p add spider"
 			type: "command"
 		}
 		{
+			title: "steve"
 			command: "/ysm auth @p add steve"
 			type: "command"
 		}
 		{
+			title: "touka1.5.1"
 			command: "/ysm auth @p add touka1.5.1"
 			type: "command"
 		}
 		{
+			title: "tuoru1.1.1"
 			command: "/ysm auth @p add tuoru1.1.1"
 			type: "command"
 		}
 		{
+			title: "tv"
 			command: "/ysm auth @p add tv"
 			type: "command"
 		}
 		{
+			title: "two_body"
 			command: "/ysm auth @p add two_body"
 			type: "command"
 		}
 		{
+			title: "typhon"
 			command: "/ysm auth @p add typhon"
 			type: "command"
 		}
 		{
+			title: "umy"
 			command: "/ysm auth @p add umy"
 			type: "command"
 		}
 		{
+			title: "v_angelkawaii"
 			command: "/ysm auth @p add v_angelkawaii"
 			type: "command"
 		}
 		{
+			title: "v_rain"
 			command: "/ysm auth @p add v_rain"
 			type: "command"
 		}
 		{
+			title: "vocaloid_ca"
 			command: "/ysm auth @p add vocaloid_ca"
 			type: "command"
 		}
 		{
+			title: "vocaloid_ca_unwearable"
 			command: "/ysm auth @p add vocaloid_ca_unwearable"
 			type: "command"
 		}
 		{
+			title: "vocaloid_miku"
 			command: "/ysm auth @p add vocaloid_miku"
 			type: "command"
 		}
 		{
+			title: "wine_fox"
 			command: "/ysm auth @p add wine_fox"
 			type: "command"
 		}
 		{
+			title: "wuyin"
 			command: "/ysm auth @p add wuyin"
 			type: "command"
 		}
 		{
+			title: "xiaochun"
 			command: "/ysm auth @p add xiaochun"
 			type: "command"
 		}
 		{
+			title: "xiaochun2"
 			command: "/ysm auth @p add xiaochun2"
 			type: "command"
 		}
 		{
+			title: "xiaoshun"
 			command: "/ysm auth @p add xiaoshun"
 			type: "command"
 		}
 		{
+			title: "xing"
 			command: "/ysm auth @p add xing"
 			type: "command"
 		}
 		{
+			title: "xingchen"
 			command: "/ysm auth @p add xingchen"
 			type: "command"
 		}
 		{
+			title: "xingye"
 			command: "/ysm auth @p add xingye"
 			type: "command"
 		}
 		{
+			title: "xingyeai"
 			command: "/ysm auth @p add xingyeai"
 			type: "command"
 		}
 		{
+			title: "ying"
 			command: "/ysm auth @p add ying"
 			type: "command"
 		}
 		{
+			title: "ying_wu_luo2"
 			command: "/ysm auth @p add ying_wu_luo2"
 			type: "command"
 		}
 		{
+			title: "yinlang"
 			command: "/ysm auth @p add yinlang"
 			type: "command"
 		}
 		{
+			title: "yoshino1.1.7"
 			command: "/ysm auth @p add yoshino1.1.7"
 			type: "command"
 		}
 		{
+			title: "yuan_xiang"
 			command: "/ysm auth @p add yuan_xiang"
 			type: "command"
 		}
 		{
+			title: "yuan_xiang1"
 			command: "/ysm auth @p add yuan_xiang1"
 			type: "command"
 		}
 		{
+			title: "yyj"
 			command: "/ysm auth @p add yyj"
 			type: "command"
 		}

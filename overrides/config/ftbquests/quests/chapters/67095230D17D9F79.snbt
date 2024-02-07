@@ -4,21 +4,148 @@
 	order_index: 16
 	filename: "67095230D17D9F79"
 	title: "豆腐世界"
+	icon: "tofucraft:tofukinu"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		shape: "gear"
-		dependencies: ["7CA329722362B5C3"]
-		hide: true
-		size: 2.0d
-		id: "2E2C0734227D5B02"
-		tasks: [{
-			id: "27D4A96B54C28A47"
-			type: "checkmark"
-			title: "豆腐世界"
-		}]
-	}]
+	quests: [
+		{
+			icon: "tofucraft:tofukinu"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["7CA329722362B5C3"]
+			hide: true
+			size: 2.0d
+			id: "2E2C0734227D5B02"
+			tasks: [{
+				id: "27D4A96B54C28A47"
+				type: "checkmark"
+				title: "豆腐世界"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "人工烤制"
+			dependencies: ["2E2C0734227D5B02"]
+			id: "20A6D035DA98EE47"
+			tasks: [{
+				id: "4013060F12F03A6E"
+				type: "item"
+				item: "tofucraft:salt_furnace"
+			}]
+			rewards: [{
+				id: "1CAB59C0C6B0AAF8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			subtitle: "自然晒制"
+			dependencies: ["2E2C0734227D5B02"]
+			id: "1F3A46E1684A7C42"
+			tasks: [{
+				id: "7948DAE5CAC9AE8C"
+				type: "item"
+				item: "tofucraft:blocksaltpan"
+			}]
+			rewards: [{
+				id: "31FF90479656546F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["20A6D035DA98EE47"]
+			id: "5B53DD99385EF995"
+			tasks: [{
+				id: "71C1B7439A1D66D7"
+				type: "item"
+				item: "tofucraft:bittern_bottle"
+			}]
+			rewards: [{
+				id: "6855B6F6EE607F1B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["20A6D035DA98EE47"]
+			id: "594209CCF5765D3C"
+			tasks: [{
+				id: "40799F020469E7ED"
+				type: "item"
+				item: "tofucraft:salt"
+			}]
+			rewards: [{
+				id: "13DD10A6555933E8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["5B53DD99385EF995"]
+			id: "1E758EBBE0A1A643"
+			tasks: [{
+				id: "41770E3DE1C2F9D7"
+				type: "item"
+				item: "tofucraft:tofukinu"
+			}]
+			rewards: [{
+				id: "1F8D8FD734BD889C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			description: ["#将嫩豆腐放在上下两个圆石中间制成#"]
+			dependencies: ["1E758EBBE0A1A643"]
+			id: "1EF89BDFCA007C16"
+			tasks: [{
+				id: "56010370A2C9082B"
+				type: "item"
+				item: "tofucraft:tofuishi"
+			}]
+			rewards: [{
+				id: "6F794862D6C6894B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			description: ["#石豆腐继续转变为钢豆腐#"]
+			dependencies: ["1EF89BDFCA007C16"]
+			id: "1A88CB43E4895C19"
+			tasks: [{
+				id: "61898A0E0713B382"
+				type: "item"
+				item: "tofucraft:tofumetal"
+			}]
+			rewards: [{
+				id: "0DFF7DEA5DB88CBF"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+	]
 	quest_links: [ ]
 }

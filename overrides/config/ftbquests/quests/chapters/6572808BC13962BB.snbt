@@ -45,8 +45,8 @@
 				item: "expandedstorage:iron_chest"
 			}]
 			rewards: [{
-				id: "6166F4EEC719C8A5"
-				type: "random"
+				id: "0B9960A3FEA06382"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -62,8 +62,8 @@
 				item: "expandedstorage:gold_chest"
 			}]
 			rewards: [{
-				id: "5452F8F17369AB35"
-				type: "random"
+				id: "36ECA909E8B8264A"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -79,8 +79,8 @@
 				item: "expandedstorage:diamond_chest"
 			}]
 			rewards: [{
-				id: "5486F84F9D938B1D"
-				type: "random"
+				id: "4AB73DD931DDF21D"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -96,8 +96,8 @@
 				item: "expandedstorage:obsidian_chest"
 			}]
 			rewards: [{
-				id: "441470075947C187"
-				type: "random"
+				id: "5E5AAF2531E98CF9"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -113,8 +113,8 @@
 				item: "expandedstorage:netherite_chest"
 			}]
 			rewards: [{
-				id: "4AE8748750119121"
-				type: "random"
+				id: "2F78A86F3C1CCA8D"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -132,8 +132,8 @@
 				item: "expandedstorage:iron_barrel"
 			}]
 			rewards: [{
-				id: "6A1A53F39CB06D38"
-				type: "random"
+				id: "76D56FF60FCEFBB7"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -149,8 +149,8 @@
 				item: "expandedstorage:gold_barrel"
 			}]
 			rewards: [{
-				id: "70417F440FA42659"
-				type: "random"
+				id: "5B11DB5DE9C88454"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -166,8 +166,8 @@
 				item: "expandedstorage:diamond_barrel"
 			}]
 			rewards: [{
-				id: "6F49622B54E9353D"
-				type: "random"
+				id: "41B1595B43377E1E"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -183,8 +183,8 @@
 				item: "expandedstorage:obsidian_barrel"
 			}]
 			rewards: [{
-				id: "7A0113C05AB939CF"
-				type: "random"
+				id: "6E633620709C6775"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -200,8 +200,8 @@
 				item: "expandedstorage:netherite_barrel"
 			}]
 			rewards: [{
-				id: "6831F57FA8F3D492"
-				type: "random"
+				id: "08016CDF2BCBF0D7"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -218,8 +218,8 @@
 				item: "expandedstorage:old_iron_chest"
 			}]
 			rewards: [{
-				id: "67391E8C4E3EAB41"
-				type: "random"
+				id: "57ED6C03D5AAC5D5"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -235,8 +235,8 @@
 				item: "expandedstorage:old_gold_chest"
 			}]
 			rewards: [{
-				id: "2563E7DF88005DB0"
-				type: "random"
+				id: "7EA9312DB0FE8850"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -252,8 +252,8 @@
 				item: "expandedstorage:old_diamond_chest"
 			}]
 			rewards: [{
-				id: "2C4A15AE0B313534"
-				type: "random"
+				id: "5F60E845925B2A9D"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -269,8 +269,8 @@
 				item: "expandedstorage:old_obsidian_chest"
 			}]
 			rewards: [{
-				id: "4DACCFB01BA2DD33"
-				type: "random"
+				id: "16EB66D1854843CF"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -286,8 +286,8 @@
 				item: "expandedstorage:old_netherite_chest"
 			}]
 			rewards: [{
-				id: "4E3498D42A2DF4FD"
-				type: "random"
+				id: "6BD8441E29D04CE1"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -304,9 +304,10 @@
 				item: "expandedstorage:iron_mini_chest"
 			}]
 			rewards: [{
-				id: "11969FC84347F203"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "4ABBACA0E1765D4B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -320,9 +321,10 @@
 				item: "expandedstorage:gold_mini_chest"
 			}]
 			rewards: [{
-				id: "78BA947C9D947179"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "3A6DDF7C0F16EB67"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -336,9 +338,10 @@
 				item: "expandedstorage:diamond_mini_chest"
 			}]
 			rewards: [{
-				id: "35A3FF6CF43E8542"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "23613D0850DEB13D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -352,9 +355,10 @@
 				item: "expandedstorage:obsidian_mini_chest"
 			}]
 			rewards: [{
-				id: "778A5DD67344E454"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "363C5AC797B45707"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -368,9 +372,10 @@
 				item: "expandedstorage:netherite_mini_chest"
 			}]
 			rewards: [{
-				id: "490F6CD792080734"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "1C11DCE19E0CCADA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -385,8 +390,8 @@
 				item: "expandedstorage:iron_mini_barrel"
 			}]
 			rewards: [{
-				id: "68B7909CCEDA871B"
-				type: "random"
+				id: "373163E116B55E85"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -402,8 +407,8 @@
 				item: "expandedstorage:gold_mini_barrel"
 			}]
 			rewards: [{
-				id: "7B93C7E09CAD3A9A"
-				type: "random"
+				id: "3B2C2F5A66C12110"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -419,8 +424,8 @@
 				item: "expandedstorage:diamond_mini_barrel"
 			}]
 			rewards: [{
-				id: "06C2B5326DACFB9B"
-				type: "random"
+				id: "1479E66FDFE2FE76"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -436,8 +441,8 @@
 				item: "expandedstorage:obsidian_mini_barrel"
 			}]
 			rewards: [{
-				id: "5AA0B827EAC46B46"
-				type: "random"
+				id: "6ED95047544CEE76"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -453,8 +458,8 @@
 				item: "expandedstorage:netherite_mini_barrel"
 			}]
 			rewards: [{
-				id: "61171F516BC2939B"
-				type: "random"
+				id: "10465590D3063E44"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -471,8 +476,8 @@
 				item: "expandedstorage:wood_to_copper_conversion_kit"
 			}]
 			rewards: [{
-				id: "20B9618E10C1204F"
-				type: "random"
+				id: "02718140B35ADAC4"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -489,8 +494,8 @@
 				item: "expandedstorage:wood_to_iron_conversion_kit"
 			}]
 			rewards: [{
-				id: "2DB80C071BBDC8B0"
-				type: "random"
+				id: "3AD243F0DC49E31C"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -507,8 +512,8 @@
 				item: "expandedstorage:wood_to_gold_conversion_kit"
 			}]
 			rewards: [{
-				id: "4897512B7E6F38DB"
-				type: "random"
+				id: "7A4EDE50F7B75E0F"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -525,8 +530,8 @@
 				item: "expandedstorage:wood_to_diamond_conversion_kit"
 			}]
 			rewards: [{
-				id: "2C80B8A4908F01B8"
-				type: "random"
+				id: "29B90A369C07E3F4"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -543,8 +548,8 @@
 				item: "expandedstorage:wood_to_obsidian_conversion_kit"
 			}]
 			rewards: [{
-				id: "6CF1B55EB7020368"
-				type: "random"
+				id: "52EDBEE0D8C37B23"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -561,8 +566,8 @@
 				item: "expandedstorage:wood_to_netherite_conversion_kit"
 			}]
 			rewards: [{
-				id: "7BB26485154D830E"
-				type: "random"
+				id: "04A854CCCA63B118"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -578,8 +583,8 @@
 				item: "expandedstorage:copper_to_iron_conversion_kit"
 			}]
 			rewards: [{
-				id: "10370E1DD61C8E80"
-				type: "random"
+				id: "06594C031B275249"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -595,8 +600,8 @@
 				item: "expandedstorage:copper_to_gold_conversion_kit"
 			}]
 			rewards: [{
-				id: "3A184FD721E67722"
-				type: "random"
+				id: "20F6BA290E77ED28"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -612,8 +617,8 @@
 				item: "expandedstorage:copper_to_diamond_conversion_kit"
 			}]
 			rewards: [{
-				id: "17C73E71EEFC61D1"
-				type: "random"
+				id: "033168D786727369"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -629,8 +634,8 @@
 				item: "expandedstorage:copper_to_obsidian_conversion_kit"
 			}]
 			rewards: [{
-				id: "4DC71EA70ADEB00D"
-				type: "random"
+				id: "4F1E40B65E34BAE4"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -646,8 +651,8 @@
 				item: "expandedstorage:copper_to_netherite_conversion_kit"
 			}]
 			rewards: [{
-				id: "3D2BB255835B19AB"
-				type: "random"
+				id: "5FBC554B5985FCAB"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -663,8 +668,8 @@
 				item: "expandedstorage:iron_to_gold_conversion_kit"
 			}]
 			rewards: [{
-				id: "4ABB97BC68D3146D"
-				type: "random"
+				id: "74838BEE3CFCD6FF"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -680,8 +685,8 @@
 				item: "expandedstorage:iron_to_diamond_conversion_kit"
 			}]
 			rewards: [{
-				id: "06B8E20DEF2C03CE"
-				type: "random"
+				id: "569E00C2ED50B0BF"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -697,8 +702,8 @@
 				item: "expandedstorage:iron_to_obsidian_conversion_kit"
 			}]
 			rewards: [{
-				id: "2C51EEF0A5AEF6D0"
-				type: "random"
+				id: "6FBB1E0F7198E548"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -714,8 +719,8 @@
 				item: "expandedstorage:iron_to_netherite_conversion_kit"
 			}]
 			rewards: [{
-				id: "1E75F3199E13D1F0"
-				type: "random"
+				id: "01B154BFE2B43650"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -731,8 +736,8 @@
 				item: "expandedstorage:gold_to_diamond_conversion_kit"
 			}]
 			rewards: [{
-				id: "588EE9D3E2164A20"
-				type: "random"
+				id: "6C86472CDF1998DA"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -748,8 +753,8 @@
 				item: "expandedstorage:gold_to_obsidian_conversion_kit"
 			}]
 			rewards: [{
-				id: "36E76AFEEEF1F18B"
-				type: "random"
+				id: "63C716D6C39FFF59"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -765,8 +770,8 @@
 				item: "expandedstorage:gold_to_netherite_conversion_kit"
 			}]
 			rewards: [{
-				id: "487C8C15AE6EC591"
-				type: "random"
+				id: "0B5AE605CD27A90F"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -782,8 +787,8 @@
 				item: "expandedstorage:diamond_to_obsidian_conversion_kit"
 			}]
 			rewards: [{
-				id: "4CF069D6CBD2C5E4"
-				type: "random"
+				id: "629874BD357366C3"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -799,8 +804,8 @@
 				item: "expandedstorage:diamond_to_netherite_conversion_kit"
 			}]
 			rewards: [{
-				id: "0C014A7CD6958CA5"
-				type: "random"
+				id: "07D92219A35633A0"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -816,8 +821,8 @@
 				item: "expandedstorage:obsidian_to_netherite_conversion_kit"
 			}]
 			rewards: [{
-				id: "7FFCB89D40EC759E"
-				type: "random"
+				id: "4C1205ADC8B3F7E5"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]

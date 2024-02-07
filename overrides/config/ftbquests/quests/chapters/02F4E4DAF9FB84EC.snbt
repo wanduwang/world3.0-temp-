@@ -1,0 +1,269 @@
+{
+	id: "02F4E4DAF9FB84EC"
+	group: "70E0DD171C4BAA56"
+	order_index: 18
+	filename: "02F4E4DAF9FB84EC"
+	title: "太空人"
+	icon: "beyond_earth:nasa_workbench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "42"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: [
+				"1A0EC3C1A27CC6CA"
+				"00A9AA23DB97D535"
+				"74CDE0BBA4E93CC5"
+				"4C289B7A946AA2F5"
+				"21A2CF8653177FFA"
+				"547F8834741D6FE7"
+			]
+			hide: true
+			size: 2.0d
+			id: "6117F2F9C98F0460"
+			tasks: [{
+				id: "781D512FE16A9962"
+				type: "item"
+				item: "beyond_earth:nasa_workbench"
+			}]
+			rewards: [{
+				id: "11D8BA2A84934000"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["6117F2F9C98F0460"]
+			id: "7EBB89523A30CC91"
+			tasks: [{
+				id: "17BB334EBEE786A1"
+				type: "item"
+				item: "beyond_earth:compressed_steel"
+			}]
+			rewards: [{
+				id: "4C558F9FF6305BD4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["7EBB89523A30CC91"]
+			id: "1D2197288D8397E2"
+			tasks: [{
+				id: "2E193A56CE89801B"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "60F35FEA77F7E8AF"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["1D2197288D8397E2"]
+			id: "414298E3D1A6D59A"
+			tasks: [{
+				id: "281FB2759B222504"
+				type: "item"
+				item: "beyond_earth:compressed_desh"
+			}]
+			rewards: [{
+				id: "6ABBF5030269E25F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["414298E3D1A6D59A"]
+			id: "4BFD0F0D5D12160A"
+			tasks: [{
+				id: "4D4AC1BA28E54F7B"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4601935B0F26F96F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["4BFD0F0D5D12160A"]
+			id: "7BE79FD5B2B1F435"
+			tasks: [{
+				id: "14A539ED2B02CFD5"
+				type: "item"
+				item: "beyond_earth:compressed_ostrum"
+			}]
+			rewards: [{
+				id: "1D95684CF63C6696"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["7BE79FD5B2B1F435"]
+			id: "786F9F0526067C9D"
+			tasks: [{
+				id: "400FF8BDB1BC3CFA"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6A9B67D2847D47D7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["786F9F0526067C9D"]
+			id: "2549BE106568E83B"
+			tasks: [{
+				id: "3C8476E3DC94B1C7"
+				type: "item"
+				item: "beyond_earth:compressed_calorite"
+			}]
+			rewards: [{
+				id: "61A058B671798F62"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["2549BE106568E83B"]
+			id: "2085BC291B5C3351"
+			tasks: [{
+				id: "7071F3BFBDDC0D39"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t4"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "291F46BBB128C5A8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "太空服"
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["6117F2F9C98F0460"]
+			id: "5CDA27009A887D60"
+			tasks: [
+				{
+					id: "5F8164B3791D659E"
+					type: "item"
+					item: {
+						id: "beyond_earth:oxygen_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "352FC5FE145AEDA1"
+					type: "item"
+					item: {
+						id: "beyond_earth:space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "187A9F2EAFDC9F4D"
+					type: "item"
+					item: {
+						id: "beyond_earth:space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "544E08A80069CDAF"
+					type: "item"
+					item: {
+						id: "beyond_earth:space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5B498BAC6529817E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["5CDA27009A887D60"]
+			id: "7069F0D3863F6871"
+			tasks: [{
+				id: "715E7EABEF6E4B4D"
+				type: "item"
+				item: "beyond_earth_giselle_addon:oxygen_can"
+			}]
+			rewards: [{
+				id: "6A14FD723096599C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -4,21 +4,575 @@
 	order_index: 15
 	filename: "1853BE4A430159B8"
 	title: "血魔法"
+	icon: "bloodmagic:altar"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		shape: "gear"
-		dependencies: ["19E18AE07294A2C1"]
-		hide: true
-		size: 2.0d
-		id: "13E2CE3671987313"
-		tasks: [{
-			id: "5706068F11690A54"
-			type: "checkmark"
-			title: "血魔法"
-		}]
-	}]
+	quests: [
+		{
+			icon: "bloodmagic:strong_tau"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["19E18AE07294A2C1"]
+			hide: true
+			size: 2.0d
+			id: "13E2CE3671987313"
+			tasks: [{
+				id: "5706068F11690A54"
+				type: "checkmark"
+				title: "血魔法"
+			}]
+		}
+		{
+			title: "开始献血吧"
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["13E2CE3671987313"]
+			id: "666A5523D43C2524"
+			tasks: [{
+				id: "5A86C549E4B7C2C2"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "4D0C6E2F3DB16C84"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "先来3800cc"
+			x: 1.5d
+			y: 2.0d
+			subtitle: "当心死亡"
+			dependencies: ["666A5523D43C2524"]
+			id: "0C30C5698F495418"
+			tasks: [{
+				id: "0AB405E681CC4DD8"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4082F554794E572F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			subtitle: "5,000LP"
+			description: [
+				"#将宝珠放入祭坛，宝珠会吸血并向网络提供LP#"
+				"#不同等级的宝珠能存储不同量的LP#"
+				"#气血网络以个人为单位#"
+			]
+			dependencies: ["666A5523D43C2524"]
+			id: "12C46ED1143AB33D"
+			tasks: [{
+				id: "4C6196570DA81AD1"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [{
+				id: "056E511A8DC42C84"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["12C46ED1143AB33D"]
+			id: "1EFD6C4FA76840E1"
+			tasks: [{
+				id: "5614325025E634BD"
+				type: "item"
+				item: "bloodmagic:blankrune"
+			}]
+			rewards: [{
+				id: "394A1B3F98724F2F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "尽管他没有汉化，但你依旧可以看图"
+			dependencies: ["13E2CE3671987313"]
+			id: "10290F53258DA5E3"
+			tasks: [{
+				id: "4AC3FCC7A53656B3"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+			rewards: [{
+				id: "55F09FF8226AD71B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			subtitle: "25,000LP"
+			dependencies: ["1EFD6C4FA76840E1"]
+			id: "799E1EAC2A25054E"
+			tasks: [{
+				id: "7BA7416C6817CD66"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+			rewards: [{
+				id: "076CAF9B0DC9F9E4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "慨他人之慷"
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["1EFD6C4FA76840E1"]
+			id: "5A34F5C518E0506F"
+			tasks: [{
+				id: "651016D8E0041A6A"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [{
+				id: "41FA9BCE5FEF177F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			subtitle: "150,000LP"
+			dependencies: ["799E1EAC2A25054E"]
+			id: "508160391169F043"
+			tasks: [{
+				id: "673B898E0C92A97E"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+			rewards: [{
+				id: "65309DBB7C722B7D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			description: [
+				"#对着空气shift+左键/右键调整模式#"
+				"#对主仪式石右键可自动堆砌仪式#"
+			]
+			dependencies: ["508160391169F043"]
+			id: "3206ECD20F60E65F"
+			tasks: [{
+				id: "7456FAB2C42F0E9D"
+				type: "item"
+				item: "bloodmagic:ritualdiviner"
+			}]
+			rewards: [{
+				id: "3AF30E0ED2DA8804"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "隐域之缘仪式"
+			icon: "bloodmagic:special_dungeon_seal"
+			x: 0.5d
+			y: 5.0d
+			subtitle: "你需要80,000LP"
+			description: ["#使用虚弱激活水晶右键主仪式石启动仪式#"]
+			dependencies: ["3206ECD20F60E65F"]
+			id: "25DA5BC741711EC3"
+			tasks: [
+				{
+					id: "2313F8C62289EED6"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "5CDC6D11E077E051"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 36L
+				}
+				{
+					id: "303B9250CD849A0E"
+					type: "item"
+					item: "bloodmagic:activationcrystalweak"
+				}
+			]
+			rewards: [{
+				id: "006331E42E783CC3"
+				type: "item"
+				item: "bloodmagic:simplekey"
+				count: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			dependencies: ["25DA5BC741711EC3"]
+			id: "266DD34D7BE4A0B5"
+			tasks: [{
+				id: "240310EB01059B23"
+				type: "item"
+				item: "bloodmagic:weak_tau"
+			}]
+			rewards: [{
+				id: "2CE6E95C6CEA7C5C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			description: [
+				"#将友善生物和刚种下的血命果困在一起#"
+				"#血命果将吸收友善生物的血量以饱满#"
+			]
+			dependencies: ["266DD34D7BE4A0B5"]
+			id: "3F53BD46D53FC53F"
+			tasks: [{
+				id: "409565D736B50675"
+				type: "item"
+				item: "bloodmagic:strong_tau"
+			}]
+			rewards: [{
+				id: "5E3B01CB8E5600C4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["508160391169F043"]
+			id: "4C13A787716DA00C"
+			tasks: [{
+				id: "1F177722ED8ABD06"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+			rewards: [{
+				id: "6A18AC24D98931C7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			subtitle: "需要恶魔意志作为燃料"
+			dependencies: ["508160391169F043"]
+			id: "6EB0969D163E54AF"
+			tasks: [{
+				id: "710EB3423E2EF5F3"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [{
+				id: "5B359FFA4C9E6C6F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			subtitle: "捕捉灵魂"
+			description: [
+				"#原始投网投向怪物使他冒白色气泡#"
+				"#杀死冒泡的怪可以获得恶魔意志#"
+			]
+			dependencies: ["6EB0969D163E54AF"]
+			id: "6B76EBEF0C9D3F23"
+			tasks: [{
+				id: "24065E50C58527A0"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+			}]
+			rewards: [{
+				id: "105FBDFEDEF5C0E3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["6B76EBEF0C9D3F23"]
+			id: "2E285F990263D5D2"
+			tasks: [{
+				id: "358D51368BEC317C"
+				type: "item"
+				item: {
+					id: "bloodmagic:sanguinereverter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "04B4445AE14842E9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			dependencies: [
+				"2E285F990263D5D2"
+				"3F53BD46D53FC53F"
+				"4C13A787716DA00C"
+			]
+			id: "03EDD9559D84DBA6"
+			tasks: [{
+				id: "3BB1A769EEDF0928"
+				type: "item"
+				item: "bloodmagic:weakbloodshard"
+			}]
+			rewards: [{
+				id: "53636D06F2559CC6"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			subtitle: "1,000,000LP"
+			dependencies: ["2281C71C1FFB09B6"]
+			id: "7BFC3C5FD24CC866"
+			tasks: [{
+				id: "11DD804C58703F5B"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+			rewards: [
+				{
+					id: "44DEFE16581CB7D1"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "28A1E8127F763489"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["03EDD9559D84DBA6"]
+			id: "2281C71C1FFB09B6"
+			tasks: [{
+				id: "7CB7753760FFA507"
+				type: "item"
+				item: "bloodmagic:largebloodstonebrick"
+			}]
+			rewards: [{
+				id: "769723E9AF2A86FD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "魔法的终点"
+			x: 4.0d
+			y: 1.0d
+			subtitle: "10,000,000LP"
+			dependencies: ["4EB54DAD7E81B0F3"]
+			id: "75CE4774E0F83701"
+			tasks: [{
+				id: "40F71383561DD5DB"
+				type: "item"
+				item: "bloodmagic:archmagebloodorb"
+			}]
+			rewards: [{
+				id: "0A661A56F431B7A0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			dependencies: ["7BFC3C5FD24CC866"]
+			id: "15C9D9EA996B0990"
+			tasks: [{
+				id: "737D4AA5AA9F91F6"
+				type: "item"
+				item: "bloodmagic:ritualdivinerdusk"
+			}]
+			rewards: [{
+				id: "1086786FD226C5FB"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "通往无尽领域的路径"
+			icon: "bloodmagic:special_dungeon_seal"
+			x: -1.0d
+			y: -3.5d
+			subtitle: "你需要150,000LP"
+			description: ["#使用虚弱激活水晶右键主仪式石启动仪式#"]
+			dependencies: ["15C9D9EA996B0990"]
+			id: "5E5EE074F2D10AA2"
+			tasks: [
+				{
+					id: "2EC2658B4B98D68A"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "1429B6F29B777794"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 69L
+				}
+				{
+					id: "41C2D8873B3985D9"
+					type: "item"
+					item: "bloodmagic:activationcrystalweak"
+				}
+			]
+			rewards: [{
+				id: "5971149202299A9D"
+				type: "item"
+				item: "bloodmagic:simplekey"
+				count: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			dependencies: ["681B53E9E26446FA"]
+			id: "5A1D87874281820D"
+			tasks: [{
+				id: "3B2644397B5D9475"
+				type: "item"
+				item: "bloodmagic:rawdemonite"
+			}]
+			rewards: [{
+				id: "0E0550B3A95DE096"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["5E5EE074F2D10AA2"]
+			id: "681B53E9E26446FA"
+			tasks: [{
+				id: "045B13C7D1597727"
+				type: "item"
+				item: "bloodmagic:minekey"
+			}]
+			rewards: [{
+				id: "17A45122CDC1EBE7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["5A1D87874281820D"]
+			id: "4EB54DAD7E81B0F3"
+			tasks: [{
+				id: "7510D93AA67A7BB7"
+				type: "item"
+				item: "bloodmagic:dungeon_metal"
+			}]
+			rewards: [{
+				id: "726EA85ADF59F7F4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["12C46ED1143AB33D"]
+			id: "57656FC1F51B4029"
+			tasks: [{
+				id: "34515E96142D43F1"
+				type: "item"
+				item: "bloodmagic:lavacrystal"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["12C46ED1143AB33D"]
+			id: "7E4F45049D4BBF78"
+			tasks: [{
+				id: "658AD3B47056E7B4"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["7E4F45049D4BBF78"]
+			id: "24D73E3D153921B3"
+			tasks: [{
+				id: "74EC97FE15EC671E"
+				type: "item"
+				item: "bloodmagic:reagentvoid"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

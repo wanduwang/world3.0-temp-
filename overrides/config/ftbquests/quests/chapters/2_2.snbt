@@ -49,8 +49,8 @@
 				}
 			}]
 			rewards: [{
-				id: "172ECF075645A85C"
-				type: "random"
+				id: "5A35D21541941D49"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -68,8 +68,8 @@
 				item: "bloodmagic:altar"
 			}]
 			rewards: [{
-				id: "4154AA78E596EB07"
-				type: "random"
+				id: "2853A660560BAD71"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -87,8 +87,8 @@
 				item: "ars_nouveau:novice_spell_book"
 			}]
 			rewards: [{
-				id: "6FDEC79F8C138BC7"
-				type: "random"
+				id: "10EE7A81DC3E59E0"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -106,8 +106,8 @@
 				item: "vampirism:item_med_chair"
 			}]
 			rewards: [{
-				id: "796E77B14F2739CD"
-				type: "random"
+				id: "6EE9920FE54EE1A1"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -124,8 +124,8 @@
 				item: "gobber2:gobber2_ingot_nether"
 			}]
 			rewards: [{
-				id: "12AA586E4A694E42"
-				type: "random"
+				id: "60FC51A1A9ACB49C"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -143,8 +143,8 @@
 				item: "tac:workbench"
 			}]
 			rewards: [{
-				id: "3F579ED1FAA4C894"
-				type: "random"
+				id: "27D1757879AC1EC2"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -156,13 +156,13 @@
 			dependencies: ["3E0B32D17A7ADD1C"]
 			id: "082319459545E813"
 			tasks: [{
-				id: "756758F329CE6DD8"
+				id: "0FBC5E1FC0651B7C"
 				type: "item"
-				item: "ars_nouveau:source_gem"
+				item: "ars_nouveau:wilden_tribute"
 			}]
 			rewards: [{
-				id: "30547130CC8AF002"
-				type: "random"
+				id: "78A1B0A90859CF6E"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -179,8 +179,8 @@
 				item: "bloodmagic:reagentvoid"
 			}]
 			rewards: [{
-				id: "1B38B49DB4B898D1"
-				type: "random"
+				id: "149B0DD6E2D53A16"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -203,8 +203,8 @@
 				}
 			}]
 			rewards: [{
-				id: "5503325185D627A2"
-				type: "random"
+				id: "48A317DD403B3BE7"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -216,13 +216,13 @@
 			dependencies: ["19E18AE07294A2C1"]
 			id: "3F8766548F44D6B9"
 			tasks: [{
-				id: "2F5C0EC7FC5955A2"
+				id: "2718A3E1FCCEF026"
 				type: "item"
-				item: "bloodmagic:lavacrystal"
+				item: "bloodmagic:dungeon_metal"
 			}]
 			rewards: [{
-				id: "5AB13ACFA6E81BF6"
-				type: "random"
+				id: "0A020A8BE0507054"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -240,8 +240,8 @@
 				item: "tofucraft:seeds_soybeans"
 			}]
 			rewards: [{
-				id: "56B3887547F6A09D"
-				type: "random"
+				id: "0D1A202557435169"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -258,8 +258,8 @@
 				item: "tofucraft:bucket_soymilk"
 			}]
 			rewards: [{
-				id: "499A5157EF0A05DD"
-				type: "random"
+				id: "01EF0B547524B804"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -276,8 +276,8 @@
 				item: "tofucraft:tofugrilled"
 			}]
 			rewards: [{
-				id: "11711155430B68EF"
-				type: "random"
+				id: "06EB762553D3D04D"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -300,8 +300,8 @@
 				dimension: "tofucraft:tofu_world"
 			}]
 			rewards: [{
-				id: "383341C717135D95"
-				type: "random"
+				id: "77872FFF8450C8FA"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -329,8 +329,8 @@
 				}
 			}]
 			rewards: [{
-				id: "5F6F25C49AA307AB"
-				type: "random"
+				id: "4341BCD51E4F0E73"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -347,6 +347,12 @@
 				id: "17D56BF1CD0FAD17"
 				type: "item"
 				item: "tofucraft:tf_capacitor"
+			}]
+			rewards: [{
+				id: "2163F16AA450B1C0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{

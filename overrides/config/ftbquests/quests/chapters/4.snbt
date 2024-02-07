@@ -22,6 +22,13 @@
 				type: "checkmark"
 				title: "答案"
 			}]
+			rewards: [{
+				id: "159020E1AF3B7A57"
+				type: "advancement"
+				icon: "draconicevolution:dragon_heart"
+				advancement: "minecraft:story/4"
+				criterion: ""
+			}]
 		}
 		{
 			x: 0.0d
@@ -33,6 +40,12 @@
 				id: "699DBD937F1949FB"
 				type: "item"
 				item: "draconicevolution:draconium_core"
+			}]
+			rewards: [{
+				id: "7C08D9F61ACE7867"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -46,6 +59,12 @@
 				type: "item"
 				item: "gobber2:dragon_star"
 			}]
+			rewards: [{
+				id: "0292B83DF53C0046"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: -2.5d
@@ -57,6 +76,12 @@
 				id: "0CE1683D5E5BD270"
 				type: "item"
 				item: "mysticalagriculture:infusion_altar"
+			}]
+			rewards: [{
+				id: "1E169A5F59B89A0C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -70,6 +95,12 @@
 				type: "item"
 				item: "draconicevolution:wyvern_core"
 			}]
+			rewards: [{
+				id: "52BE433D55E56566"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: 1.5d
@@ -81,6 +112,12 @@
 				id: "5280C01A1565D50D"
 				type: "item"
 				item: "draconicevolution:awakened_core"
+			}]
+			rewards: [{
+				id: "2328651305717E0F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -94,6 +131,12 @@
 				type: "item"
 				item: "draconicevolution:crafting_core"
 			}]
+			rewards: [{
+				id: "06F831D8D3504447"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: 0.0d
@@ -105,6 +148,12 @@
 				id: "02B3C7487E434748"
 				type: "item"
 				item: "draconicevolution:basic_crafting_injector"
+			}]
+			rewards: [{
+				id: "26B087FFC6CD0DEA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -121,6 +170,12 @@
 				type: "item"
 				item: "draconicevolution:wyvern_crafting_injector"
 			}]
+			rewards: [{
+				id: "68BAA8FFBD47A7A3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: 0.0d
@@ -136,6 +191,12 @@
 				type: "item"
 				item: "draconicevolution:awakened_crafting_injector"
 			}]
+			rewards: [{
+				id: "364DA59CFAA5A30E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: 0.0d
@@ -147,6 +208,12 @@
 				id: "38C49605DCC0D624"
 				type: "item"
 				item: "draconicevolution:chaotic_crafting_injector"
+			}]
+			rewards: [{
+				id: "1AF89EA840F963B6"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -163,6 +230,12 @@
 				type: "item"
 				item: "draconicevolution:chaotic_core"
 			}]
+			rewards: [{
+				id: "035EFFB17961EA63"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: -2.5d
@@ -175,6 +248,12 @@
 				type: "item"
 				item: "mysticalagriculture:draconium_seeds"
 			}]
+			rewards: [{
+				id: "4127D42765DB7C6E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: -2.5d
@@ -186,6 +265,12 @@
 				id: "4215B85ED357D0DD"
 				type: "item"
 				item: "mysticalagriculture:awakened_draconium_seeds"
+			}]
+			rewards: [{
+				id: "6DA2EB17698DD726"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -277,6 +362,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4C2C7E6B519027A0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			title: "撕裂空间的力量"
@@ -292,6 +383,12 @@
 				entity: "draconicevolution:draconic_guardian"
 				value: 1L
 			}]
+			rewards: [{
+				id: "145A7C88AEA3D004"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: 0.0d
@@ -303,6 +400,12 @@
 				id: "333C3E0BE2B08FFF"
 				type: "item"
 				item: "draconicevolution:chaos_shard"
+			}]
+			rewards: [{
+				id: "679A92E7B7F5C4A5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -342,6 +445,12 @@
 					}
 				}
 				consume_items: true
+			}]
+			rewards: [{
+				id: "6D62D8AF3D7EBA50"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -412,6 +521,7 @@
 				{
 					id: "7267862D6929B4C5"
 					type: "command"
+					title: " "
 					team_reward: false
 					auto: "invisible"
 					command: "/effect give @p minecraft:weakness 60 255"
@@ -419,6 +529,7 @@
 				{
 					id: "709DB89AF13E3DC4"
 					type: "command"
+					title: " "
 					team_reward: false
 					auto: "invisible"
 					command: "/effect give @p minecraft:blindness 60 255"
@@ -465,6 +576,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "40DE5049DF83DFFE"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 	]

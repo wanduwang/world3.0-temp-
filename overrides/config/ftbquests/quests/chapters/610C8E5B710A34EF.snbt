@@ -44,7 +44,7 @@
 				item: "torchmaster:megatorch"
 			}]
 			rewards: [{
-				id: "35C4F684F3B23455"
+				id: "5898702FD304D931"
 				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
@@ -63,7 +63,7 @@
 				item: "torchmaster:feral_flare_lantern"
 			}]
 			rewards: [{
-				id: "13B0D04421C1D443"
+				id: "17CAB610EFDA85CE"
 				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
@@ -81,7 +81,7 @@
 				item: "torchmaster:frozen_pearl"
 			}]
 			rewards: [{
-				id: "3721F34A614CC53E"
+				id: "537C60D86B39C25D"
 				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
@@ -99,7 +99,7 @@
 				item: "torchmaster:dreadlamp"
 			}]
 			rewards: [{
-				id: "7E51186C6E7F34B7"
+				id: "5E3094B34294A68D"
 				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L

@@ -179,9 +179,10 @@
 				}
 			]
 			rewards: [{
-				id: "6E8E19810F05FF35"
-				type: "item"
-				item: "touhou_little_maid:smart_slab_init"
+				id: "354BD5172F6E056D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -195,8 +196,8 @@
 				item: "touhou_little_maid:maid_backpack_small"
 			}]
 			rewards: [{
-				id: "11B1F6AC0791087A"
-				type: "random"
+				id: "62A6C766D5119DF6"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -212,8 +213,8 @@
 				item: "touhou_little_maid:maid_backpack_middle"
 			}]
 			rewards: [{
-				id: "44D7AEDBEDAC1A2B"
-				type: "random"
+				id: "0878FE90E54B3A35"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -229,8 +230,8 @@
 				item: "touhou_little_maid:maid_backpack_big"
 			}]
 			rewards: [{
-				id: "18CF15D0D4A6E8C1"
-				type: "random"
+				id: "6B3839A5F14B5888"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -246,8 +247,8 @@
 				item: "touhou_little_maid:maid_bed"
 			}]
 			rewards: [{
-				id: "2D292A9DCCD2C74D"
-				type: "random"
+				id: "1906F3D4A61404A3"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -263,8 +264,8 @@
 				item: "touhou_little_maid:item_magnet_bauble"
 			}]
 			rewards: [{
-				id: "3A734A25F2C3B77D"
-				type: "random"
+				id: "58720DB7F7692B9C"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -286,8 +287,8 @@
 				}
 			}]
 			rewards: [{
-				id: "16648A65FEC2B02D"
-				type: "random"
+				id: "64C93FD8522EB7EE"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -303,8 +304,8 @@
 				item: "touhou_little_maid:wireless_io"
 			}]
 			rewards: [{
-				id: "3597C1B1FB5BF897"
-				type: "random"
+				id: "04F3886A8E35A5C0"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -320,8 +321,8 @@
 				item: "touhou_little_maid:trumpet"
 			}]
 			rewards: [{
-				id: "026CE24551365530"
-				type: "random"
+				id: "33720A14DA2FC6AB"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -343,8 +344,8 @@
 				}
 			}]
 			rewards: [{
-				id: "63FEF36DFB1F0F00"
-				type: "random"
+				id: "1CC49618085114F4"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -366,8 +367,8 @@
 				}
 			}]
 			rewards: [{
-				id: "5DA256576F1C43D3"
-				type: "random"
+				id: "207CB16A45EC811B"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -389,8 +390,8 @@
 				}
 			}]
 			rewards: [{
-				id: "3382F70ED96225DF"
-				type: "random"
+				id: "5054E2323F0A88F6"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -412,8 +413,8 @@
 				}
 			}]
 			rewards: [{
-				id: "49339ABA95889C6D"
-				type: "random"
+				id: "2DFD715329918CD0"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -435,8 +436,8 @@
 				}
 			}]
 			rewards: [{
-				id: "699ABDB0CDFDDA41"
-				type: "random"
+				id: "4D2EE5FCEB007127"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -458,8 +459,8 @@
 				}
 			}]
 			rewards: [{
-				id: "389D79DC3C821D7C"
-				type: "random"
+				id: "67C040A31ECB8BEA"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -481,8 +482,8 @@
 				}
 			}]
 			rewards: [{
-				id: "02376607FC9393D9"
-				type: "random"
+				id: "7C0611959821A790"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -504,8 +505,8 @@
 				}
 			}]
 			rewards: [{
-				id: "53BF49969AD8771D"
-				type: "random"
+				id: "12216BAACEEE687A"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -527,8 +528,8 @@
 				}
 			}]
 			rewards: [{
-				id: "4178623107616505"
-				type: "random"
+				id: "1FD05FC8E375CDA7"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -544,8 +545,8 @@
 				item: "touhou_little_maid:crafting_table_backpack"
 			}]
 			rewards: [{
-				id: "4933675611D32463"
-				type: "random"
+				id: "44DE11EFF5DDF7C7"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -561,8 +562,8 @@
 				item: "touhou_little_maid:furnace_backpack"
 			}]
 			rewards: [{
-				id: "2AE134644C94F37E"
-				type: "random"
+				id: "23BA6D8826DDD877"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -578,8 +579,8 @@
 				item: "touhou_little_maid:tank_backpack"
 			}]
 			rewards: [{
-				id: "147D2C0D8D5C057C"
-				type: "random"
+				id: "31B668CC0089AB49"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -595,8 +596,8 @@
 				item: "touhou_little_maid:ender_chest_backpack"
 			}]
 			rewards: [{
-				id: "604037E42434CA41"
-				type: "random"
+				id: "2E30968EAE60C33F"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -619,8 +620,8 @@
 				}
 			}]
 			rewards: [{
-				id: "63BCC172312B7E95"
-				type: "random"
+				id: "7EA94DD96DE9C509"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -643,8 +644,8 @@
 				}
 			}]
 			rewards: [{
-				id: "6C2185C604C10009"
-				type: "random"
+				id: "33EEDACA49346916"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -661,8 +662,8 @@
 				item: "touhou_little_maid:red_fox_scroll"
 			}]
 			rewards: [{
-				id: "5396829D9C9EC7E0"
-				type: "random"
+				id: "2E4D57AB731B79FA"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -679,8 +680,8 @@
 				item: "touhou_little_maid:white_fox_scroll"
 			}]
 			rewards: [{
-				id: "3B219F42438204A9"
-				type: "random"
+				id: "4652B03D4A46F0F2"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -696,8 +697,8 @@
 				item: "touhou_little_maid:kappa_compass"
 			}]
 			rewards: [{
-				id: "780396259B660F89"
-				type: "random"
+				id: "311C3749FD1281B1"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -712,6 +713,12 @@
 				type: "item"
 				item: "touhou_little_maid:keyboard"
 			}]
+			rewards: [{
+				id: "222CF49BEB32A4CA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: -4.0d
@@ -722,6 +729,12 @@
 				id: "277A9C66627C4CD2"
 				type: "item"
 				item: "touhou_little_maid:bookshelf"
+			}]
+			rewards: [{
+				id: "221F3E1DA6A226C5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -734,6 +747,12 @@
 				type: "item"
 				item: "touhou_little_maid:computer"
 			}]
+			rewards: [{
+				id: "5563C43768118BF4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: -4.0d
@@ -744,6 +763,12 @@
 				id: "08D002263651F075"
 				type: "item"
 				item: "touhou_little_maid:gomoku"
+			}]
+			rewards: [{
+				id: "3B723B0558625220"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -758,8 +783,8 @@
 				item: "touhou_little_maid:shrine"
 			}]
 			rewards: [{
-				id: "1C1A31A6923A2CD9"
-				type: "random"
+				id: "54DF622A07006E1B"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]

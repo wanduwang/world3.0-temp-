@@ -13,26 +13,921 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		icon: {
-			id: "immersiveengineering:hammer"
-			Count: 1b
-			tag: {
-				Damage: 0
+	quests: [
+		{
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
 			}
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["4B212A337A70C324"]
+			hide: true
+			size: 2.0d
+			id: "3F394B40A4EA5118"
+			tasks: [{
+				id: "402ABA639892D045"
+				type: "checkmark"
+				title: "沉浸工程"
+			}]
 		}
-		x: 0.0d
-		y: 0.0d
-		shape: "gear"
-		dependencies: ["4B212A337A70C324"]
-		hide: true
-		size: 2.0d
-		id: "3F394B40A4EA5118"
-		tasks: [{
-			id: "402ABA639892D045"
-			type: "checkmark"
-			title: "沉浸工程"
-		}]
-	}]
+		{
+			title: "大跃进运动"
+			x: 0.0d
+			y: 2.5d
+			description: ["#焦煤最大的用处#"]
+			dependencies: ["56FDD8AB8E142C72"]
+			id: "3A5DBB7895A96748"
+			tasks: [{
+				id: "3883010734D0F7C2"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "0C4438DF9EDD8C6F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["3A5DBB7895A96748"]
+			id: "43F4FFA73F5FBBA5"
+			tasks: [{
+				id: "55BC53971C0BF35D"
+				type: "item"
+				item: "immersiveengineering:blastbrick_reinforced"
+			}]
+			rewards: [{
+				id: "0CE330D2871C01A4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "任何工程问题查询手册"
+			dependencies: ["3F394B40A4EA5118"]
+			id: "56FDD8AB8E142C72"
+			tasks: [{
+				id: "4B9F464AA7D179DF"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+			rewards: [{
+				id: "0DBD50B7F487F547"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			subtitle: "他要通电"
+			dependencies: ["43F4FFA73F5FBBA5"]
+			id: "693F85794BE62C8F"
+			tasks: [{
+				id: "3880F6F293BFCCD0"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+			}]
+			rewards: [{
+				id: "4180372449DB15B3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			subtitle: "他可以不通电"
+			dependencies: ["56FDD8AB8E142C72"]
+			id: "556F3890295C2D99"
+			tasks: [{
+				id: "33E9E442EAB1BCB5"
+				type: "item"
+				item: "immersiveengineering:fluid_pump"
+			}]
+			rewards: [{
+				id: "1AF355B4A84609B7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["3A5DBB7895A96748"]
+			id: "571ECEFBD1A1CAB6"
+			tasks: [{
+				id: "2961C55EB3FA5F7E"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [{
+				id: "1D3023652FF23C3D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			dependencies: ["571ECEFBD1A1CAB6"]
+			id: "47C8A88C408F07F4"
+			tasks: [{
+				id: "286A8C920C5F57E6"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+			rewards: [{
+				id: "4621C71DA2721FCE"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["571ECEFBD1A1CAB6"]
+			id: "0F48DE4046F1E85B"
+			tasks: [{
+				id: "326A4B727ED750C7"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+			rewards: [{
+				id: "6A8C1CB06851FD9A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			dependencies: ["0F48DE4046F1E85B"]
+			id: "294B3BD476D90036"
+			tasks: [{
+				id: "5AF34ABF289BA657"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+			}]
+			rewards: [{
+				id: "3B1907F902EA582B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			subtitle: "酥酥麻麻"
+			dependencies: [
+				"798598DA83FC10D3"
+				"571ECEFBD1A1CAB6"
+			]
+			dependency_requirement: "one_completed"
+			id: "35C4385A81F4FF9A"
+			tasks: [{
+				id: "5F4FE395E15EF89B"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+			rewards: [{
+				id: "3BABE37338C5410B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			subtitle: "说实话，没人会选择中压"
+			dependencies: [
+				"798598DA83FC10D3"
+				"571ECEFBD1A1CAB6"
+			]
+			dependency_requirement: "one_completed"
+			id: "3F74AAEA4D5CD88E"
+			tasks: [{
+				id: "0379BEC47D7FFABA"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum"
+			}]
+			rewards: [{
+				id: "0B65F282FB31D45F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			subtitle: "小心触电"
+			dependencies: [
+				"798598DA83FC10D3"
+				"571ECEFBD1A1CAB6"
+			]
+			dependency_requirement: "one_completed"
+			id: "4CC95EE51985FC09"
+			tasks: [{
+				id: "2F2E40A6DDBB5EC2"
+				type: "item"
+				item: "immersiveengineering:wirecoil_steel"
+			}]
+			rewards: [{
+				id: "71E6F723A9AF35F3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			subtitle: "电量存储"
+			dependencies: ["35C4385A81F4FF9A"]
+			id: "6F733BD5234F98E7"
+			tasks: [{
+				id: "443AB8D25B28E19B"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+			rewards: [{
+				id: "7683FE5118D58492"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.0d
+			subtitle: "电量存储"
+			dependencies: ["3F74AAEA4D5CD88E"]
+			id: "53789F7B4E3F0617"
+			tasks: [{
+				id: "1138D8118A150238"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+			rewards: [{
+				id: "22EE0F672E3AAE5F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			subtitle: "电量存储"
+			dependencies: ["4CC95EE51985FC09"]
+			id: "6B1E8CC707FD4AE5"
+			tasks: [{
+				id: "78E2EDC6E02DE866"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+			rewards: [{
+				id: "684F9D31B95840AE"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.5d
+			dependencies: ["4CC95EE51985FC09"]
+			id: "3F22FEBEFC11591F"
+			tasks: [{
+				id: "777AB15586EF0F5D"
+				type: "item"
+				item: "immersiveengineering:connector_hv"
+			}]
+			rewards: [{
+				id: "44C3984A5ED69BDE"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.0d
+			dependencies: ["3F74AAEA4D5CD88E"]
+			id: "627F6B2C7B44718F"
+			tasks: [{
+				id: "0AD20A06E10E20C8"
+				type: "item"
+				item: "immersiveengineering:connector_mv"
+			}]
+			rewards: [{
+				id: "319FBD2A83740CF3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 8.0d
+			dependencies: ["35C4385A81F4FF9A"]
+			id: "40BC37A9D193FACF"
+			tasks: [{
+				id: "1F0152787F1F5DEF"
+				type: "item"
+				item: "immersiveengineering:connector_lv"
+			}]
+			rewards: [{
+				id: "3E9509AD290FF743"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["40BC37A9D193FACF"]
+			id: "13D46D7F31B32344"
+			tasks: [{
+				id: "276AF445B6173A40"
+				type: "item"
+				item: "immersiveengineering:connector_lv_relay"
+			}]
+			rewards: [{
+				id: "1935008110220A74"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			dependencies: ["627F6B2C7B44718F"]
+			id: "7B8714973EE9AE72"
+			tasks: [{
+				id: "2E3DF7A60C5AE6A4"
+				type: "item"
+				item: "immersiveengineering:connector_mv_relay"
+			}]
+			rewards: [{
+				id: "477D1D29361A938D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			dependencies: ["3F22FEBEFC11591F"]
+			id: "18F45E2D5D9597A1"
+			tasks: [{
+				id: "565E55CDDEED9352"
+				type: "item"
+				item: "immersiveengineering:connector_hv_relay"
+			}]
+			rewards: [{
+				id: "2FF7CC00B9C696CB"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "冰火两重天"
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["3A5DBB7895A96748"]
+			id: "798598DA83FC10D3"
+			tasks: [{
+				id: "59E1663997A70A3C"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+			rewards: [{
+				id: "463B8265E7115CDE"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["798598DA83FC10D3"]
+			id: "07B162B17B7F2384"
+			tasks: [{
+				id: "32DC57CF5249482B"
+				type: "item"
+				item: "minecraft:blue_ice"
+			}]
+			rewards: [{
+				id: "6593E04234530F03"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["798598DA83FC10D3"]
+			id: "1C1D38C4BE7304C6"
+			tasks: [{
+				id: "339B35323B618FD3"
+				type: "item"
+				item: "immersiveengineering:storage_uranium"
+			}]
+			rewards: [{
+				id: "645EBFA05CA8380F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: [
+				"798598DA83FC10D3"
+				"571ECEFBD1A1CAB6"
+			]
+			dependency_requirement: "one_completed"
+			id: "41254FA0564C2E6F"
+			tasks: [{
+				id: "58972C478DB5B66E"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			rewards: [{
+				id: "2DEEC6CD66F735D9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "金属冲压机"
+			x: 1.0d
+			y: 6.5d
+			dependencies: ["41254FA0564C2E6F"]
+			id: "09F97CCE5062AF47"
+			tasks: [{
+				id: "215856265A7530FD"
+				type: "observation"
+				title: "观察：金属冲压机"
+				icon: "minecraft:piston"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:metal_press"
+			}]
+			rewards: [{
+				id: "2AC4A00B2971EC06"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "粉碎机"
+			x: 0.0d
+			y: 7.0d
+			dependencies: ["41254FA0564C2E6F"]
+			id: "3BA4310FCDD8E125"
+			tasks: [{
+				id: "3DC51F731FC02474"
+				type: "observation"
+				title: "观察：粉碎机"
+				icon: "immersiveengineering:light_engineering"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:crusher"
+			}]
+			rewards: [{
+				id: "608194CCC44B61BF"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "工业挤压机"
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["3BA4310FCDD8E125"]
+			id: "2823C4FAA912E181"
+			tasks: [{
+				id: "4A59EB18A835FB1C"
+				type: "observation"
+				title: "观察：工业挤压机"
+				icon: "immersiveengineering:light_engineering"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:squeezer"
+			}]
+			rewards: [{
+				id: "396AC165CF6E7E5D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 9.0d
+			dependencies: ["2823C4FAA912E181"]
+			id: "6B6BECE4828F2BCA"
+			tasks: [{
+				id: "10C99CD8932DF332"
+				type: "item"
+				item: {
+					id: "immersiveengineering:graphite_electrode"
+					Count: 1b
+					tag: {
+						graphDmg: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "电弧炉"
+			x: -0.5d
+			y: 10.0d
+			dependencies: ["6B6BECE4828F2BCA"]
+			id: "2E476EDA8C9E2142"
+			tasks: [{
+				id: "2C0264C56DF9BA7F"
+				type: "observation"
+				title: "观察：电弧炉"
+				icon: "immersiveengineering:heavy_engineering"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:arc_furnace"
+			}]
+			rewards: [{
+				id: "1409FDD107388067"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "工业发酵机"
+			x: 1.0d
+			y: 8.0d
+			dependencies: ["2823C4FAA912E181"]
+			id: "24371236D467FA12"
+			tasks: [{
+				id: "448105F82B20D3E4"
+				type: "observation"
+				title: "观察：工业发酵机"
+				icon: "immersiveengineering:light_engineering"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:fermenter"
+			}]
+			rewards: [{
+				id: "0CEE099FFEF2E0BA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "生物柴油"
+			x: 0.5d
+			y: 9.0d
+			dependencies: [
+				"24371236D467FA12"
+				"2823C4FAA912E181"
+			]
+			id: "2931B5624A6E5DD4"
+			tasks: [{
+				id: "410B910B11B2C171"
+				type: "observation"
+				title: "观察：炼油厂"
+				icon: "immersiveengineering:heavy_engineering"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:refinery"
+			}]
+			rewards: [{
+				id: "069832B549AEC466"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.0d
+			subtitle: "这是你二阶段最能发电的机器了"
+			dependencies: ["2931B5624A6E5DD4"]
+			id: "0A2B603E7EEBA8B0"
+			tasks: [{
+				id: "266C0451181CF97A"
+				type: "observation"
+				title: "观察：柴油发电机"
+				icon: "immersiveengineering:heavy_engineering"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:diesel_generator"
+			}]
+			rewards: [{
+				id: "1D339E99CE02D8D5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.0d
+			dependencies: ["0A2B603E7EEBA8B0"]
+			id: "2ECCC08620A6591B"
+			tasks: [{
+				id: "4CB005DDEF39C0B3"
+				type: "observation"
+				title: "观察：斗轮式挖掘机"
+				icon: "immersiveengineering:heavy_engineering"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:excavator"
+			}]
+			rewards: [{
+				id: "34B0B568B64ED755"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "生物炼成"
+			x: 1.5d
+			y: 9.0d
+			shape: "octagon"
+			dependencies: ["2931B5624A6E5DD4"]
+			hide: true
+			can_repeat: true
+			id: "04B3895C564C8FF5"
+			tasks: [{
+				id: "7D1622C1FF10185C"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								55453993
+								1782593002
+								-1233285747
+								-2018546487
+							]
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "immersiveengineering:biodiesel"
+									Amount: 32000
+								}
+							}]
+							securityMode: 0
+							Items: [ ]
+							editMode: 0
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4B2878B187EA679F"
+					type: "item"
+					team_reward: false
+					item: "mekanism:basic_fluid_tank"
+				}
+				{
+					id: "0B8F5B474F74F928"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "21346D7C22ED53C6"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "31221193103B63BB"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "555F0CFCE08ABFB5"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "7034BA182F7306DC"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "016730B72F0E0431"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "4C83F3A9518162BB"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "57F8DEF11F6A494B"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			dependencies: [
+				"4CC95EE51985FC09"
+				"35C4385A81F4FF9A"
+			]
+			id: "569E79EF0636202A"
+			tasks: [{
+				id: "725263ABCB9C8901"
+				type: "item"
+				item: "immersiveengineering:transformer_hv"
+			}]
+			rewards: [{
+				id: "7B856773128058F0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			subtitle: "直接且只能接低压电，能当作继电器使用"
+			description: [
+				"#能大范围阻止刷怪#"
+				"#光影下看不到亮光#"
+			]
+			dependencies: ["35C4385A81F4FF9A"]
+			id: "2B4A153110614F2D"
+			tasks: [{
+				id: "71B5C160C9E67CD6"
+				type: "item"
+				item: "immersiveengineering:floodlight"
+			}]
+			rewards: [{
+				id: "54512763ABFB9E9E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 8.0d
+			subtitle: "“天”线"
+			dependencies: ["13D46D7F31B32344"]
+			id: "3057ABBAB797807B"
+			tasks: [{
+				id: "26F1A33FB21B35EB"
+				type: "item"
+				item: {
+					id: "immersiveengineering:balloon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "61B2B055E8E21CB9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["41254FA0564C2E6F"]
+			id: "100C4BEEA866BCFF"
+			tasks: [{
+				id: "42D393C360AE3AA8"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [{
+				id: "1A0434C1E9C8B4B5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["556F3890295C2D99"]
+			id: "0E720CACB8737A25"
+			tasks: [{
+				id: "49BC0988DC80457A"
+				type: "item"
+				item: "thermal:fluid_duct"
+			}]
+			rewards: [{
+				id: "1A005B3299FCE1EC"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["0E720CACB8737A25"]
+			id: "3863863BC45BD804"
+			tasks: [{
+				id: "47BE0035C4812D00"
+				type: "item"
+				item: "thermal:servo_attachment"
+			}]
+			rewards: [{
+				id: "5C0A9D1C296BB9C3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["3863863BC45BD804"]
+			id: "4CE385F3E2E184C3"
+			tasks: [{
+				id: "0EBCE38ADC641D41"
+				type: "item"
+				item: "thermal:turbo_servo_attachment"
+			}]
+			rewards: [{
+				id: "3FD4DF56A06DA7B5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["0E720CACB8737A25"]
+			id: "09008D48B76928A3"
+			tasks: [{
+				id: "28A0AF12A5EF63F5"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+			rewards: [{
+				id: "5C81ADF0D64F0C2E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+	]
 	quest_links: [ ]
 }

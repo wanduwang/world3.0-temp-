@@ -225,6 +225,35 @@
 		}
 		{ item: "minecraft:gunpowder", count: 32, weight: 100 }
 		{ item: "minecraft:nether_star" }
-		{ item: "tac:ultimate_material", weight: 100 }
+		{ item: "tac:ultimate_material", weight: 50 }
+		{
+			title: "攻击卷轴+1"
+			icon: {
+				id: "minecraft:diamond_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			command: "/puffish_skills points add @p combat 1"
+			type: "command"
+			weight: 100
+		}
+		{
+			title: "采掘卷轴+1"
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			command: "/puffish_skills points add @p mining 1"
+			type: "command"
+			weight: 100
+		}
+		{ item: "tconstruct:hepatizon_ingot", count: 16, weight: 50 }
+		{ item: "tconstruct:queens_slime_ingot", count: 16, weight: 50 }
+		{ item: "immersiveengineering:wirecoil_redstone", count: 16, weight: 50 }
 	]
 }

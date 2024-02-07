@@ -23,11 +23,6 @@
 				type: "checkmark"
 				title: "XXX"
 			}]
-			rewards: [{
-				id: "36A399A7FEFDF489"
-				type: "item"
-				item: "minecraft:golden_apple"
-			}]
 		}
 		{
 			x: 3.0d
@@ -42,8 +37,8 @@
 				item: "ars_nouveau:imbuement_chamber"
 			}]
 			rewards: [{
-				id: "0F6308F909EB2344"
-				type: "random"
+				id: "25A02E69293E8C3F"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -59,8 +54,8 @@
 				item: "ars_nouveau:blue_archwood_sapling"
 			}]
 			rewards: [{
-				id: "25D454167BC727E6"
-				type: "random"
+				id: "7AE006C1BCB4DC10"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -76,8 +71,8 @@
 				item: "ars_nouveau:green_archwood_sapling"
 			}]
 			rewards: [{
-				id: "6CD4705CA7522939"
-				type: "random"
+				id: "571E5080765E39AB"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -93,8 +88,8 @@
 				item: "ars_nouveau:purple_archwood_sapling"
 			}]
 			rewards: [{
-				id: "748028C138ADB198"
-				type: "random"
+				id: "55CD8D06F30267A0"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -110,8 +105,8 @@
 				item: "ars_nouveau:red_archwood_sapling"
 			}]
 			rewards: [{
-				id: "653B512C01848136"
-				type: "random"
+				id: "7EAD26A59D78743F"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -150,8 +145,8 @@
 				}
 			]
 			rewards: [{
-				id: "0AE83EA8EF26238B"
-				type: "random"
+				id: "34D53F5D94D136DC"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -168,8 +163,8 @@
 				item: "ars_nouveau:source_jar"
 			}]
 			rewards: [{
-				id: "57ECB00D25A1710C"
-				type: "random"
+				id: "2FBE2887C5B6F1F7"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -186,8 +181,8 @@
 				item: "ars_nouveau:agronomic_sourcelink"
 			}]
 			rewards: [{
-				id: "61D29AFCAE3A7BF2"
-				type: "random"
+				id: "53593466F1DF8CA9"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -204,8 +199,8 @@
 				item: "ars_nouveau:volcanic_sourcelink"
 			}]
 			rewards: [{
-				id: "3F7AE5B0F6AAC57C"
-				type: "random"
+				id: "05FD0DB0D47334A3"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -222,8 +217,8 @@
 				item: "ars_nouveau:alchemical_sourcelink"
 			}]
 			rewards: [{
-				id: "7F4BEE3EFC9B1F6C"
-				type: "random"
+				id: "482E96F4FD64BEC8"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -240,8 +235,8 @@
 				item: "ars_nouveau:vitalic_sourcelink"
 			}]
 			rewards: [{
-				id: "6948D0017047AE0F"
-				type: "random"
+				id: "6EAFBA06737A6BA6"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -258,8 +253,8 @@
 				item: "ars_nouveau:mycelial_sourcelink"
 			}]
 			rewards: [{
-				id: "568711042091A74C"
-				type: "random"
+				id: "32F2529CB3BA7F44"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -296,8 +291,8 @@
 				}
 			]
 			rewards: [{
-				id: "5245B874F30A3887"
-				type: "random"
+				id: "0FB2AD1D832139D5"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -314,8 +309,8 @@
 				item: "ars_nouveau:ritual_brazier"
 			}]
 			rewards: [{
-				id: "56B9F453AC43A2AC"
-				type: "random"
+				id: "54ED38EA0402E706"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -333,8 +328,8 @@
 				item: "ars_nouveau:ritual_sunrise"
 			}]
 			rewards: [{
-				id: "2B219F2904F2073A"
-				type: "random"
+				id: "6F025F80C03AEDD3"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -352,8 +347,8 @@
 				item: "ars_nouveau:ritual_overgrowth"
 			}]
 			rewards: [{
-				id: "3DA0054F915E1092"
-				type: "random"
+				id: "1F3D1DF8EA6BEE9F"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -371,8 +366,8 @@
 				item: "ars_nouveau:ritual_moonfall"
 			}]
 			rewards: [{
-				id: "21B08FE78519B3A6"
-				type: "random"
+				id: "671FED5689E527BF"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -390,8 +385,8 @@
 				item: "ars_nouveau:ritual_fertility"
 			}]
 			rewards: [{
-				id: "3999458D8874DF99"
-				type: "random"
+				id: "3627DAD6E0A722A7"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -409,8 +404,8 @@
 				item: "ars_nouveau:ritual_binding"
 			}]
 			rewards: [{
-				id: "697433E9904D91A3"
-				type: "random"
+				id: "4297CB61D1F6D29E"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -428,8 +423,8 @@
 				item: "ars_nouveau:ritual_scrying"
 			}]
 			rewards: [{
-				id: "28417CCC7DAC9D85"
-				type: "random"
+				id: "2E17687FE28B89A9"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -446,8 +441,8 @@
 				item: "ars_nouveau:ritual_wilden_summon"
 			}]
 			rewards: [{
-				id: "29F2C33583040F3D"
-				type: "random"
+				id: "2012E3574AAB5556"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -465,8 +460,8 @@
 				item: "ars_nouveau:ritual_awakening"
 			}]
 			rewards: [{
-				id: "4A013E8068245206"
-				type: "random"
+				id: "54963C2FA749D8E7"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -484,8 +479,8 @@
 				item: "ars_nouveau:ritual_burrowing"
 			}]
 			rewards: [{
-				id: "3085DB5726339176"
-				type: "random"
+				id: "025C048A48541D23"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -503,8 +498,8 @@
 				item: "ars_nouveau:ritual_challenge"
 			}]
 			rewards: [{
-				id: "70C668DC10BD8971"
-				type: "random"
+				id: "4D9E95AF5987FD5E"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -522,8 +517,8 @@
 				item: "ars_nouveau:ritual_cloudshaping"
 			}]
 			rewards: [{
-				id: "3C6541770B677D93"
-				type: "random"
+				id: "3F18559467ED6D98"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -541,8 +536,8 @@
 				item: "ars_nouveau:ritual_disintegration"
 			}]
 			rewards: [{
-				id: "4733D553DA04E2A1"
-				type: "random"
+				id: "633C10920814741A"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -560,7 +555,7 @@
 				item: "ars_nouveau:ritual_warping"
 			}]
 			rewards: [{
-				id: "294016F6D443FB6C"
+				id: "2FFBED1D97CF6796"
 				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
@@ -579,8 +574,8 @@
 				item: "ars_nouveau:ritual_restoration"
 			}]
 			rewards: [{
-				id: "520FEF5DE17BE0FC"
-				type: "random"
+				id: "40E8310CAF0BE5FA"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -621,6 +616,24 @@
 					team_reward: false
 					table_id: 1159360326438940748L
 				}
+				{
+					id: "5ACBC449A75EC204"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "4ADBD87925AFB875"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "5C4BBD0F134CFE3F"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
 			]
 		}
 		{
@@ -634,8 +647,8 @@
 				item: "ars_nouveau:wilden_tribute"
 			}]
 			rewards: [{
-				id: "179BB6AD8D879F2C"
-				type: "random"
+				id: "0C8DC9D78A11F0A8"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -650,6 +663,12 @@
 				id: "3DA5225ADCE4FDFB"
 				type: "item"
 				item: "ars_nouveau:scribes_table"
+			}]
+			rewards: [{
+				id: "78C20DEF115D9557"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -706,8 +725,8 @@
 				item: "ars_nouveau:glyph_ignite"
 			}]
 			rewards: [{
-				id: "519F58C64A2F9C7D"
-				type: "random"
+				id: "3AB982223110CD5E"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -724,8 +743,8 @@
 				item: "ars_nouveau:glyph_snare"
 			}]
 			rewards: [{
-				id: "47E616EFA4F6FCCB"
-				type: "random"
+				id: "09D8E6BD81CC93CE"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -742,8 +761,8 @@
 				item: "ars_nouveau:glyph_freeze"
 			}]
 			rewards: [{
-				id: "76D0659D0705C5B5"
-				type: "random"
+				id: "6F0ED79A8AAB74F5"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -760,8 +779,8 @@
 				item: "ars_nouveau:glyph_summon_wolves"
 			}]
 			rewards: [{
-				id: "429D114783905035"
-				type: "random"
+				id: "6132BFF46BF9E49F"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -778,8 +797,8 @@
 				item: "ars_nouveau:glyph_amplify"
 			}]
 			rewards: [{
-				id: "10DA813AA1B72657"
-				type: "random"
+				id: "130335C9D1245EA5"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -797,8 +816,8 @@
 				item: "ars_nouveau:glyph_dispel"
 			}]
 			rewards: [{
-				id: "5BA6864E65053A66"
-				type: "random"
+				id: "74C866041926BA4B"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -815,8 +834,8 @@
 				item: "ars_nouveau:glyph_flare"
 			}]
 			rewards: [{
-				id: "66C36F9810CB44CC"
-				type: "random"
+				id: "0C70934ACCFA56C6"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -833,8 +852,8 @@
 				item: "ars_nouveau:glyph_cold_snap"
 			}]
 			rewards: [{
-				id: "60002C0A1489475C"
-				type: "random"
+				id: "18AD17AB168E5D0C"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -851,8 +870,8 @@
 				item: "ars_nouveau:glyph_fortune"
 			}]
 			rewards: [{
-				id: "1F91F15CE7FE6D1B"
-				type: "random"
+				id: "00BCBA95F2709E06"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -869,8 +888,8 @@
 				item: "ars_nouveau:glyph_extend_time"
 			}]
 			rewards: [{
-				id: "69BABE9FCD1CAED8"
-				type: "random"
+				id: "28EE289B8BEF3979"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -887,8 +906,8 @@
 				item: "ars_nouveau:glyph_heal"
 			}]
 			rewards: [{
-				id: "5DF459214214717A"
-				type: "random"
+				id: "186613054BCC8D72"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -905,8 +924,8 @@
 				item: "ars_nouveau:glyph_hex"
 			}]
 			rewards: [{
-				id: "0F6E0D9BBCD4A215"
-				type: "random"
+				id: "0869A19FC6803C19"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -923,8 +942,8 @@
 				item: "ars_nouveau:glyph_summon_vex"
 			}]
 			rewards: [{
-				id: "61F2F8FC9C28C651"
-				type: "random"
+				id: "3BA6DC517BE53DD9"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -941,8 +960,8 @@
 				item: "ars_nouveau:glyph_lightning"
 			}]
 			rewards: [{
-				id: "29DAED4F8DE17E8C"
-				type: "random"
+				id: "4E1AD69415A99732"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -959,8 +978,8 @@
 				item: "ars_nouveau:glyph_summon_undead"
 			}]
 			rewards: [{
-				id: "13C94B0B386CF49D"
-				type: "random"
+				id: "1C8BBE98F63D54E1"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -978,8 +997,8 @@
 				item: "ars_nouveau:glyph_glide"
 			}]
 			rewards: [{
-				id: "11D776F856FEA47F"
-				type: "random"
+				id: "667892DDAE490E66"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -996,8 +1015,8 @@
 				item: "ars_nouveau:glyph_wither"
 			}]
 			rewards: [{
-				id: "017DAFE25D29DCE5"
-				type: "random"
+				id: "50AF195146CE84FA"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -1014,8 +1033,8 @@
 				item: "ars_nouveau:glyph_firework"
 			}]
 			rewards: [{
-				id: "2BAD203EF4F3D528"
-				type: "random"
+				id: "1E98E6F07E1179BC"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -1039,8 +1058,8 @@
 				}
 			}]
 			rewards: [{
-				id: "4B29D96D9C68C26B"
-				type: "random"
+				id: "0E95DA1D9041EDD8"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -1062,8 +1081,8 @@
 				}
 			}]
 			rewards: [{
-				id: "3603FFC7E2313576"
-				type: "random"
+				id: "6D65DD0B28CD44E4"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -1085,8 +1104,8 @@
 				}
 			}]
 			rewards: [{
-				id: "2EFF770DAFE229CA"
-				type: "random"
+				id: "55C5DA03097CD84C"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -1110,8 +1129,8 @@
 				}
 			}]
 			rewards: [{
-				id: "704C5F2A77B31DC1"
-				type: "random"
+				id: "4360FCF50A977965"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]

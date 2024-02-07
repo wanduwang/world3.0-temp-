@@ -65,8 +65,8 @@
 				}
 			}]
 			rewards: [{
-				id: "2E2FDD5F1B81696A"
-				type: "random"
+				id: "0D27ECD2AC9740C7"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -92,8 +92,8 @@
 				}
 			}]
 			rewards: [{
-				id: "47FC0378C29852A9"
-				type: "random"
+				id: "2C5873DBC9933858"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -119,8 +119,8 @@
 				}
 			}]
 			rewards: [{
-				id: "32137C481EF0082B"
-				type: "random"
+				id: "33FD04FFE6A873C1"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -146,8 +146,8 @@
 				}
 			}]
 			rewards: [{
-				id: "2FDC414EC3910CA8"
-				type: "random"
+				id: "7922C82D663C73F3"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -173,8 +173,8 @@
 				}
 			}]
 			rewards: [{
-				id: "105309C537CF2B2F"
-				type: "random"
+				id: "2A55314AA5C8970E"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -200,8 +200,8 @@
 				}
 			}]
 			rewards: [{
-				id: "32E5AF106B4E5971"
-				type: "random"
+				id: "6F3C139B5EEDC207"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -227,8 +227,8 @@
 				}
 			}]
 			rewards: [{
-				id: "28AD24B7FEAE6757"
-				type: "random"
+				id: "0F1E9620FD613403"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -254,8 +254,8 @@
 				}
 			}]
 			rewards: [{
-				id: "0792056F605D1A5C"
-				type: "random"
+				id: "561719AC8BF4FA5C"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -281,8 +281,8 @@
 				}
 			}]
 			rewards: [{
-				id: "2339E3D4E247A1A0"
-				type: "random"
+				id: "01AF6751DC8327A5"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -308,8 +308,8 @@
 				}
 			}]
 			rewards: [{
-				id: "737F3420F61D63A3"
-				type: "random"
+				id: "5D24F0F8FCBBEC5F"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -337,8 +337,8 @@
 				}
 			}]
 			rewards: [{
-				id: "5C2E269437AB4EAF"
-				type: "random"
+				id: "061401419B9B1202"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -361,8 +361,8 @@
 				}
 			}]
 			rewards: [{
-				id: "02FA61CDDB4B400A"
-				type: "random"
+				id: "5562D5FAC0025733"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -382,9 +382,10 @@
 				item: "endrem:witch_pupil"
 			}]
 			rewards: [{
-				id: "2BCE9D78A277C119"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "6E4E39372CB7D6C1"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -405,8 +406,8 @@
 				}
 			}]
 			rewards: [{
-				id: "17FA7DFCEA6CCAC9"
-				type: "random"
+				id: "1B070CF87465114B"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -427,9 +428,10 @@
 				item: "endrem:undead_soul"
 			}]
 			rewards: [{
-				id: "12A948B2334AEF3A"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "7D9CECA053DC8CE5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -450,8 +452,8 @@
 				}
 			}]
 			rewards: [{
-				id: "023A2BA705FBA8C6"
-				type: "random"
+				id: "3D60BDCBBD7C7FB4"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -474,8 +476,8 @@
 				}
 			}]
 			rewards: [{
-				id: "6B43C877A63BBDB9"
-				type: "random"
+				id: "402EBB87FF86189A"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -495,9 +497,10 @@
 				item: "minecraft:conduit"
 			}]
 			rewards: [{
-				id: "2343B4E8F94037EF"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "10C89DED556786A0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -513,8 +516,8 @@
 				structure: "betterstrongholds:stronghold"
 			}]
 			rewards: [{
-				id: "4747AD4EADB6F84F"
-				type: "random"
+				id: "7BE96984C7859980"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -532,8 +535,8 @@
 				dimension: "minecraft:the_end"
 			}]
 			rewards: [{
-				id: "7075AA6DC9A1A7CC"
-				type: "random"
+				id: "45C50DB8A645FAA2"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -550,7 +553,7 @@
 			tasks: [{
 				id: "5C616BC7F74D38AD"
 				type: "item"
-				title: "Any #kubejs:great_endeye"
+				title: "任意远古末影之眼"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -576,6 +579,24 @@
 				}
 				{
 					id: "488AC6DC5C5D6DFF"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "49F607BB94BA7BBE"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "07E0A318905574CF"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "3FED1669ACF6DC29"
 					type: "random"
 					team_reward: false
 					table_id: 1159360326438940748L

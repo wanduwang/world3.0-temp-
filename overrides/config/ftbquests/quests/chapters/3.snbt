@@ -41,6 +41,12 @@
 				type: "item"
 				item: "botania:apothecary_default"
 			}]
+			rewards: [{
+				id: "00AF2F98E2524966"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: 1.0d
@@ -77,6 +83,12 @@
 				type: "item"
 				item: "botania:fabulous_pool"
 			}]
+			rewards: [{
+				id: "511722D6EE64659B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: 0.0d
@@ -96,6 +108,12 @@
 				type: "item"
 				item: "beyond_earth:nasa_workbench"
 			}]
+			rewards: [{
+				id: "01650FF610400750"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: 1.5d
@@ -107,6 +125,12 @@
 				id: "2AFD0E33C20F2960"
 				type: "item"
 				item: "compactmachines:machine_tiny"
+			}]
+			rewards: [{
+				id: "2A35A1CE95734E54"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -123,6 +147,12 @@
 				type: "item"
 				item: "compactmachines:machine_small"
 			}]
+			rewards: [{
+				id: "4F0FAC14B9647D65"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: 3.5d
@@ -134,6 +164,12 @@
 				id: "654E7864DF82B2B0"
 				type: "item"
 				item: "compactmachines:machine_normal"
+			}]
+			rewards: [{
+				id: "17792D2DA6FB65CF"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -147,6 +183,12 @@
 				type: "item"
 				item: "compactmachines:machine_large"
 			}]
+			rewards: [{
+				id: "21D322F7116C2CC2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: 2.5d
@@ -158,6 +200,12 @@
 				id: "4BCFA264F7AEA24C"
 				type: "item"
 				item: "compactmachines:machine_giant"
+			}]
+			rewards: [{
+				id: "408C1DFA0B877035"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -171,18 +219,11 @@
 				type: "item"
 				item: "compactmachines:machine_maximum"
 			}]
-		}
-		{
-			title: "无线电"
-			x: 0.0d
-			y: -4.5d
-			shape: "gear"
-			dependencies: ["6EE7BE068F767365"]
-			id: "5F57354E7031BDEB"
-			tasks: [{
-				id: "0B394A6C3A623D94"
-				type: "item"
-				item: "fluxnetworks:flux_core"
+			rewards: [{
+				id: "20A3F1A5DBAC74A5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -197,6 +238,12 @@
 				type: "item"
 				item: "beyond_earth:compressed_calorite"
 			}]
+			rewards: [{
+				id: "7D88330F7974E089"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			title: "高科技"
@@ -210,17 +257,29 @@
 				type: "item"
 				item: "mekanism:metallurgic_infuser"
 			}]
+			rewards: [{
+				id: "6947D425A76E0DD3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: 0.5d
 			y: -5.5d
 			shape: "hexagon"
-			dependencies: ["5F57354E7031BDEB"]
+			dependencies: ["6EE7BE068F767365"]
 			id: "00A9AA23DB97D535"
 			tasks: [{
 				id: "750CC050C1CF4BFA"
 				type: "item"
 				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [{
+				id: "399ACB1D505DB386"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -234,6 +293,12 @@
 				type: "item"
 				item: "mekanism:qio_drive_supermassive"
 			}]
+			rewards: [{
+				id: "370D5CBC63727521"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: -0.5d
@@ -245,6 +310,12 @@
 				id: "5D811E38F9B1406C"
 				type: "item"
 				item: "mekanism:laser"
+			}]
+			rewards: [{
+				id: "376566183EF7529C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -258,6 +329,12 @@
 				type: "item"
 				item: "botania:gaia_ingot"
 			}]
+			rewards: [{
+				id: "1B0829C23180FD14"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			x: -2.5d
@@ -270,18 +347,30 @@
 				type: "item"
 				item: "thermal:upgrade_augment_3"
 			}]
+			rewards: [{
+				id: "6C4C8D9F31288F12"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
 		}
 		{
 			title: "神化图书馆"
-			x: -1.5d
-			y: -1.0d
-			shape: "gear"
+			x: -2.5d
+			y: 0.0d
+			shape: "circle"
 			dependencies: ["4BCAA6227606DF0F"]
 			id: "0B66C681D53255F3"
 			tasks: [{
 				id: "498F3EFD34CC2F3B"
 				type: "item"
 				item: "apotheosis:library"
+			}]
+			rewards: [{
+				id: "098793333A1D0441"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -295,56 +384,22 @@
 				type: "item"
 				item: "gobber2:gobber2_ingot_end"
 			}]
-		}
-		{
-			icon: "mekanism:basic_control_circuit"
-			x: -5.0d
-			y: -3.0d
-			shape: "gear"
-			hide_dependency_lines: false
-			dependencies: ["52A3F7231F31A990"]
-			hide: false
-			size: 2.0d
-			id: "25F19F054BB09035"
-			tasks: [{
-				id: "3C347827A2A9CB75"
-				type: "checkmark"
+			rewards: [{
+				id: "45FD6F5BA1EA660D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
-			icon: {
-				id: "botania:lexicon"
-				Count: 1b
-				tag: {
-					"botania:elven_unlock": 1b
-				}
-			}
-			x: 3.5d
-			y: 2.0d
-			shape: "gear"
-			hide_dependency_lines: false
-			dependencies: ["48BFD741D1089178"]
-			hide: false
-			size: 2.0d
-			id: "6BE36A6CC5D83805"
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["0B66C681D53255F3"]
+			id: "0BBA761647DDF2E5"
 			tasks: [{
-				id: "113F3885AC9FFE74"
-				type: "checkmark"
-			}]
-		}
-		{
-			icon: "fluxnetworks:flux_configurator"
-			x: 7.0d
-			y: -4.5d
-			shape: "gear"
-			hide_dependency_lines: false
-			dependencies: ["5F57354E7031BDEB"]
-			hide: false
-			size: 2.0d
-			id: "62D1EA98978E33B0"
-			tasks: [{
-				id: "29282280E9DB39BA"
-				type: "checkmark"
+				id: "6F8DC0B1544F0EA6"
+				type: "item"
+				item: "apotheosis:ender_library"
 			}]
 		}
 	]

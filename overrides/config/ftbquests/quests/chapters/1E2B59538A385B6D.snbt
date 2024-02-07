@@ -1,0 +1,1194 @@
+{
+	id: "1E2B59538A385B6D"
+	group: "70E0DD171C4BAA56"
+	order_index: 17
+	filename: "1E2B59538A385B6D"
+	title: "超高科技"
+	icon: "mekanism:dictionary"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "高科技"
+			icon: "mekanism:dictionary"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["52A3F7231F31A990"]
+			hide: true
+			size: 2.0d
+			id: "2DD7EF7D47958B1D"
+			tasks: [{
+				id: "5F2AF92271404FFC"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["2DD7EF7D47958B1D"]
+			id: "0E985D96B9C6CDD7"
+			tasks: [{
+				id: "14CDC0A8B92491FD"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+			rewards: [{
+				id: "6D88B4A4ADD70117"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["0E985D96B9C6CDD7"]
+			id: "4DD0F75E6E191B01"
+			tasks: [{
+				id: "175EC6F8B60FA484"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+			rewards: [{
+				id: "3F9340E1D984F727"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: [
+				"22DE621681EC11A2"
+				"4DD0F75E6E191B01"
+			]
+			id: "75FF983F58EACB88"
+			tasks: [{
+				id: "5EE94000432E8F76"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+			rewards: [{
+				id: "09AD42701B94064B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: [
+				"103A17DC1E820232"
+				"0E985D96B9C6CDD7"
+			]
+			id: "0CFB277D79D8D69A"
+			tasks: [{
+				id: "3B15365D00B4DE08"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+			rewards: [{
+				id: "42BBB26CDD78FD2E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: [
+				"0CFB277D79D8D69A"
+				"4DD0F75E6E191B01"
+				"0E985D96B9C6CDD7"
+			]
+			id: "22DE621681EC11A2"
+			tasks: [{
+				id: "379E9EB69DD45F5A"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+			rewards: [{
+				id: "7BFF135E2C3F07C5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			dependencies: [
+				"75FF983F58EACB88"
+				"22DE621681EC11A2"
+			]
+			id: "51CE21043B94493B"
+			tasks: [{
+				id: "2E87C1B2B9304677"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+			rewards: [{
+				id: "58F3460CEDE10977"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["2DD7EF7D47958B1D"]
+			id: "103A17DC1E820232"
+			tasks: [{
+				id: "493BE88BA97AC67D"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+			rewards: [{
+				id: "223AE274826B4B40"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			subtitle: "没有富集铁"
+			dependencies: ["2DD7EF7D47958B1D"]
+			id: "408B496BB021D7DE"
+			tasks: [{
+				id: "0449289B2A995FD0"
+				type: "item"
+				item: "mekanism:dust_steel"
+			}]
+			rewards: [{
+				id: "66964CBEA06BF68E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["408B496BB021D7DE"]
+			id: "038CB134A9F939D0"
+			tasks: [{
+				id: "2A5BBFCB04221A8A"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+			rewards: [{
+				id: "4B8E1EE4E2376DF9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			subtitle: "电力熔炉"
+			dependencies: ["038CB134A9F939D0"]
+			id: "6127FEBC23E6216D"
+			tasks: [{
+				id: "505F23DD44B05F7D"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+			rewards: [{
+				id: "7C13038D2F931F31"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			subtitle: "合金制造"
+			dependencies: ["038CB134A9F939D0"]
+			id: "35C09A37ACF34154"
+			tasks: [{
+				id: "1185BA853C2A2711"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "131F5298EED975D8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			subtitle: "物质粉碎"
+			dependencies: ["038CB134A9F939D0"]
+			id: "4319B2B5F423FFA7"
+			tasks: [{
+				id: "49C92F5EB17DDA33"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+			rewards: [{
+				id: "5D2635CDE6043BB1"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			subtitle: "强化合金制造"
+			dependencies: ["038CB134A9F939D0"]
+			id: "25E7024C0BA9CC89"
+			tasks: [{
+				id: "0514B6CA42CB4A5B"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+			rewards: [{
+				id: "0CA78BD745AAB330"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["408B496BB021D7DE"]
+			id: "275FAB8199E53313"
+			tasks: [{
+				id: "6114C02DD0368805"
+				type: "item"
+				item: "mekanism:dust_obsidian"
+			}]
+			rewards: [{
+				id: "6E9C0A76A90CC580"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["275FAB8199E53313"]
+			id: "16364B4C1111543D"
+			tasks: [{
+				id: "4F55632BB00F135F"
+				type: "item"
+				item: "mekanism:dust_refined_obsidian"
+			}]
+			rewards: [{
+				id: "0BD9C58F785EFACD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			subtitle: "矿物2倍化"
+			dependencies: ["038CB134A9F939D0"]
+			id: "281B9E17ABA4EB4A"
+			tasks: [{
+				id: "424BAFF4C3A7C705"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [{
+				id: "7C922E721DFD5133"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			subtitle: "矿物3倍化"
+			dependencies: ["038CB134A9F939D0"]
+			id: "53ED0F4117C83E19"
+			tasks: [{
+				id: "69DFBA5125E59CB1"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+			rewards: [{
+				id: "06C6232197DE40A5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			subtitle: "矿物4倍化"
+			dependencies: ["038CB134A9F939D0"]
+			id: "7B30EC1F4FC77209"
+			tasks: [{
+				id: "3AA675769D066E8C"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+			rewards: [{
+				id: "1211934DD4E569F7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			subtitle: "矿物5倍化"
+			dependencies: ["038CB134A9F939D0"]
+			id: "2C1A69EDAAA6C36A"
+			tasks: [{
+				id: "38747E1DB827BE49"
+				type: "item"
+				item: "mekanism:combiner"
+			}]
+			rewards: [{
+				id: "474E59DD6BEA58B2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			subtitle: "区块加载"
+			dependencies: ["038CB134A9F939D0"]
+			id: "67BFF74BEE3F7FFA"
+			tasks: [{
+				id: "649D8FA478531F2A"
+				type: "item"
+				item: "mekanism:dimensional_stabilizer"
+			}]
+			rewards: [{
+				id: "50ABA94A0550A6CD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["103A17DC1E820232"]
+			id: "4F68964451E8CBFF"
+			tasks: [{
+				id: "132AA1AE9CC5FF3C"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+			rewards: [{
+				id: "1121FB2D8AEF6361"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["0CFB277D79D8D69A"]
+			id: "6EE5266DDE1B1A80"
+			tasks: [{
+				id: "7B4DBB355824C01E"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+			rewards: [{
+				id: "473AEA4E9E53B96D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["22DE621681EC11A2"]
+			id: "09B9451B4A1C66DA"
+			tasks: [{
+				id: "0CA92ED6E14C392B"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+			rewards: [{
+				id: "3E5A39A70E903A38"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			dependencies: ["51CE21043B94493B"]
+			id: "5183FEFBDBA1C9E3"
+			tasks: [{
+				id: "07CD7574D68A614A"
+				type: "item"
+				item: "mekanism:ultimate_tier_installer"
+			}]
+			rewards: [{
+				id: "4380A355EAB63B73"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["2DD7EF7D47958B1D"]
+			id: "16F64AC4D819B137"
+			tasks: [{
+				id: "06F70E8C99EA8700"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+			rewards: [{
+				id: "7609067E4CD5C2E4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			subtitle: "虽然但是，别用它"
+			dependencies: ["16F64AC4D819B137"]
+			id: "284762DA5EAC13E0"
+			tasks: [{
+				id: "09653F008DC4C208"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [{
+				id: "4BABE86637DFD3BD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["16F64AC4D819B137"]
+			id: "4B23068CC29F3BC6"
+			tasks: [{
+				id: "43C7FDB5DAA1B8A9"
+				type: "item"
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+			rewards: [{
+				id: "3822E2FAF79FE5AE"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "裂变反应堆"
+			x: 2.5d
+			y: -1.5d
+			description: [
+				"https://www.mcmod.cn/item/311255.html"
+				"https://www.mcmod.cn/item/39965.html"
+			]
+			dependencies: ["16F64AC4D819B137"]
+			id: "7E7F5EA866D41BBC"
+			tasks: [
+				{
+					id: "643848357519F3F3"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+				}
+				{
+					id: "6947A64326B45A93"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+				}
+				{
+					id: "05AC9E781EAD9C7D"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+				}
+			]
+			rewards: [{
+				id: "1BCAB25C1D655935"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "聚变反应堆"
+			x: 3.5d
+			y: -2.0d
+			description: ["https://www.mcmod.cn/item/36016.html"]
+			dependencies: ["7E7F5EA866D41BBC"]
+			id: "7EBAA300BF56C8AF"
+			tasks: [
+				{
+					id: "472A92A79FCEF216"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "71851735F0FE3CF6"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+				}
+				{
+					id: "06B9B653FFCC7F4A"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+				}
+			]
+			rewards: [{
+				id: "12BF990A2F0B7B0C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "反物质"
+			x: 2.0d
+			y: 1.0d
+			description: ["https://www.mcmod.cn/item/311264.html"]
+			dependencies: ["2DD7EF7D47958B1D"]
+			id: "494D54F89A4A36BC"
+			tasks: [
+				{
+					id: "2804E7BC8A9D6D49"
+					type: "item"
+					item: "mekanism:sps_casing"
+				}
+				{
+					id: "4FF13C3AC76BEE12"
+					type: "item"
+					item: "mekanism:sps_port"
+				}
+				{
+					id: "6F24E2B6308D3087"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+				}
+			]
+			rewards: [{
+				id: "6936DCAF113D86B8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["494D54F89A4A36BC"]
+			id: "7D485D44592375CD"
+			tasks: [{
+				id: "7565E594F2AD1D29"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+			rewards: [{
+				id: "16F5A13AA91DD0A4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "自然魔法"
+			icon: "botania:spark"
+			x: 2.5d
+			y: 7.0d
+			shape: "gear"
+			dependencies: ["48BFD741D1089178"]
+			hide: true
+			size: 2.0d
+			id: "34B140629F583D18"
+			tasks: [{
+				id: "26F2E120425EC945"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			subtitle: "最有用的一会"
+			dependencies: ["34B140629F583D18"]
+			id: "629031AE6AEC81D0"
+			tasks: [{
+				id: "2FE024144EF4C7BA"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "1BBAFEC6DBB3CE35"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 8.5d
+			dependencies: ["34B140629F583D18"]
+			id: "408D6624925ED723"
+			tasks: [{
+				id: "37DE96BB0DE60CD4"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "0D7ADAEFCFDDB9C4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "活化"
+			x: 3.5d
+			y: 8.5d
+			dependencies: ["408D6624925ED723"]
+			id: "75A92CCAA3FC93F5"
+			tasks: [
+				{
+					id: "6EF0C566645552A9"
+					type: "item"
+					item: "botania:livingrock"
+				}
+				{
+					id: "7AC03B7CBB14DEFB"
+					type: "item"
+					item: "botania:livingwood_log"
+				}
+			]
+			rewards: [{
+				id: "7B068769F68FA529"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 9.5d
+			subtitle: "简单有效"
+			dependencies: ["408D6624925ED723"]
+			id: "0CB464DCA68C4ED0"
+			tasks: [{
+				id: "5515801B9F58C9A2"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "1A44E9D34C766A0C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 11.0d
+			dependencies: ["46FAF4A54F4318E4"]
+			id: "6C04DBFF767ED361"
+			tasks: [{
+				id: "03D12FDC2BEDDF38"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "2FDE38BE4FA730A4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 12.0d
+			dependencies: ["6C04DBFF767ED361"]
+			id: "3B67AAF0228024AF"
+			tasks: [{
+				id: "1A6DDF8BB4C2846E"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+			rewards: [{
+				id: "2CA11B5F49F04F91"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.5d
+			dependencies: ["3B67AAF0228024AF"]
+			id: "4FB00C96FC6C52F0"
+			tasks: [{
+				id: "4A68DDFE8EAEEE28"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+			rewards: [{
+				id: "4276741E1D26C63B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			dependencies: ["4FB00C96FC6C52F0"]
+			id: "6A115016573FC82D"
+			tasks: [{
+				id: "2407AABB4C9D322C"
+				type: "item"
+				item: "mekanism:teleportation_core"
+			}]
+			rewards: [{
+				id: "0341F09971C7B8B9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: [
+				"6A115016573FC82D"
+				"2DD7EF7D47958B1D"
+			]
+			id: "3BB20AE2C604C973"
+			tasks: [{
+				id: "4EDA2585014C3953"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+			rewards: [{
+				id: "03D56CF5602F7175"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["3BB20AE2C604C973"]
+			id: "59FAED4DB1CF9939"
+			tasks: [{
+				id: "74AF5C1675049763"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			rewards: [{
+				id: "63E37B8056F0CC2F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["34B140629F583D18"]
+			id: "24CF9A049A315997"
+			tasks: [{
+				id: "3D1944FF18A2DA81"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+			rewards: [{
+				id: "7E581CEC675F230F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			dependencies: [
+				"4FB00C96FC6C52F0"
+				"24CF9A049A315997"
+			]
+			id: "4621C5B9F879DD1C"
+			tasks: [{
+				id: "0D585D65DDF09C38"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+			}]
+			rewards: [{
+				id: "3677FEF7F6D0CADE"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.5d
+			dependencies: ["408D6624925ED723"]
+			id: "0DD4CD84976895BD"
+			tasks: [{
+				id: "13589BFE64DF7E2B"
+				type: "item"
+				item: "botania:brewery"
+			}]
+			rewards: [{
+				id: "0B0916A9DEABC972"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "飞行"
+			x: 4.5d
+			y: 9.5d
+			dependencies: ["0DD4CD84976895BD"]
+			id: "7FFC00448446410F"
+			tasks: [{
+				id: "273B35038247D506"
+				type: "item"
+				item: {
+					id: "botania:blood_pendant"
+					Count: 1b
+					tag: {
+						brewKey: "kubejs:flight_effect"
+					}
+				}
+			}]
+			rewards: [{
+				id: "75E42875290643C3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 13.0d
+			dependencies: ["3B67AAF0228024AF"]
+			id: "3FECE91F5042075B"
+			tasks: [
+				{
+					id: "08AAA74B836690ED"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "0610060CBE3B389A"
+					type: "item"
+					item: "botania:natura_pylon"
+				}
+			]
+			rewards: [{
+				id: "1AC4B88B0B45648E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 14.0d
+			dependencies: ["3FECE91F5042075B"]
+			id: "0DD1A1EC6A7CF528"
+			tasks: [{
+				id: "296DA70424555178"
+				type: "item"
+				item: "botania:gaia_pylon"
+			}]
+			rewards: [{
+				id: "470064558B546019"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 15.0d
+			dependencies: ["0DD1A1EC6A7CF528"]
+			id: "619B5E9764E213BD"
+			tasks: [{
+				id: "38028FA0D067842B"
+				type: "item"
+				item: "botania:dice"
+			}]
+			rewards: [{
+				id: "53B98133DB9C2194"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "遗物收集者"
+			x: 2.5d
+			y: 16.0d
+			dependencies: ["619B5E9764E213BD"]
+			id: "216D34C9702A5284"
+			tasks: [
+				{
+					id: "7529ED09E44CBB28"
+					type: "item"
+					item: "botania:infinite_fruit"
+				}
+				{
+					id: "3B277ECF7CEFD24A"
+					type: "item"
+					item: "botania:thor_ring"
+				}
+				{
+					id: "7E130414D5CD861B"
+					type: "item"
+					item: {
+						id: "botania:odin_ring"
+						Count: 1b
+						tag: {
+							baubleUUID: [I;
+								-1799781886
+								-1782757000
+								-1393793077
+								-868451161
+							]
+						}
+					}
+				}
+				{
+					id: "18A5AE8462C92190"
+					type: "item"
+					item: "botania:loki_ring"
+				}
+				{
+					id: "368513CADC78F60A"
+					type: "item"
+					item: "botania:king_key"
+				}
+				{
+					id: "6BF9385D1275C0A9"
+					type: "item"
+					item: "botania:flugel_eye"
+				}
+			]
+			rewards: [{
+				id: "37C83DFB10964B53"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "随身魔力池"
+			x: 4.0d
+			y: 11.0d
+			dependencies: ["46FAF4A54F4318E4"]
+			id: "4135418B35A2ABC9"
+			tasks: [{
+				id: "5E0B46D0A1D4E9C0"
+				type: "item"
+				item: "botania:mana_mirror"
+			}]
+			rewards: [{
+				id: "595ABC87A5429791"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.0d
+			dependencies: ["408D6624925ED723"]
+			id: "46FAF4A54F4318E4"
+			tasks: [{
+				id: "579F8DE6C26E6903"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "3FF06634A5ADD6C2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			subtitle: "所有频道容量扩大了4倍"
+			description: ["https://www.mcmod.cn/class/260.html"]
+			dependencies: ["038CB134A9F939D0"]
+			id: "18909CCC22A06789"
+			tasks: [{
+				id: "133385282EAD47BD"
+				type: "item"
+				item: "ae2:controller"
+			}]
+			rewards: [{
+				id: "067D862116D16380"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["558C62ECC4745D68"]
+			id: "60CD92E9AE234E18"
+			tasks: [{
+				id: "37B1EDFB0ADAD06C"
+				type: "item"
+				item: "mekanism:qio_drive_base"
+			}]
+			rewards: [{
+				id: "64CA60A30729F477"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["60CD92E9AE234E18"]
+			id: "67E4C91AF5175795"
+			tasks: [{
+				id: "52413E9AE638B8D4"
+				type: "item"
+				item: "mekanism:qio_drive_hyper_dense"
+			}]
+			rewards: [{
+				id: "6763A5C199CF9CD1"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["67E4C91AF5175795"]
+			id: "59FB28BC83623900"
+			tasks: [{
+				id: "2AFD7DCF0D034639"
+				type: "item"
+				item: "mekanism:qio_drive_time_dilating"
+			}]
+			rewards: [{
+				id: "1D4B7AC86580E75F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["2DD7EF7D47958B1D"]
+			id: "558C62ECC4745D68"
+			tasks: [{
+				id: "4E54C3D068EF5AB5"
+				type: "item"
+				item: "mekanism:qio_drive_array"
+			}]
+			rewards: [{
+				id: "5C2C6B646E7B3D46"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["60CD92E9AE234E18"]
+			id: "2E9A47B07345CCAE"
+			tasks: [{
+				id: "4095745EB2CC0581"
+				type: "item"
+				item: "mekanism:qio_dashboard"
+			}]
+			rewards: [{
+				id: "02FAF942E09C8DEC"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			dependencies: ["2E9A47B07345CCAE"]
+			id: "2D3DE1A09C5415FC"
+			tasks: [{
+				id: "21383D75A8FEDC89"
+				type: "item"
+				item: "mekanism:portable_qio_dashboard"
+			}]
+			rewards: [{
+				id: "4E31CB54333A14EE"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			subtitle: "超速传电，理论无限"
+			dependencies: ["2DD7EF7D47958B1D"]
+			id: "205346612E09DFF8"
+			tasks: [{
+				id: "301AEA157294125F"
+				type: "item"
+				item: "thermal:energy_duct"
+			}]
+			rewards: [{
+				id: "69A0A44C2ED0D36E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

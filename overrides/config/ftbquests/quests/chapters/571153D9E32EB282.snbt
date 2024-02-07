@@ -39,9 +39,10 @@
 				item: "mekanism:basic_bin"
 			}]
 			rewards: [{
-				id: "0398D92190FEE09A"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "39D78B20A209B184"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -55,9 +56,10 @@
 				item: "mekanism:advanced_bin"
 			}]
 			rewards: [{
-				id: "3ADC860993253C75"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "5B9CEBAD833C65F4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -71,8 +73,8 @@
 				item: "mekanism:ultimate_bin"
 			}]
 			rewards: [{
-				id: "7AE6C19DE86202CB"
-				type: "random"
+				id: "6D95007693B28F06"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -88,8 +90,8 @@
 				item: "mekanism:elite_bin"
 			}]
 			rewards: [{
-				id: "32694CCFF6947C07"
-				type: "random"
+				id: "39F5E21F98F5CBB0"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -105,9 +107,10 @@
 				item: "mekanism:basic_fluid_tank"
 			}]
 			rewards: [{
-				id: "3CAE943454D2D583"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "37F5E9ADC6B91381"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -121,9 +124,10 @@
 				item: "mekanism:advanced_fluid_tank"
 			}]
 			rewards: [{
-				id: "636E295BF245364F"
-				type: "item"
-				item: "minecraft:golden_apple"
+				id: "54B867F042E92AB2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
 			}]
 		}
 		{
@@ -137,8 +141,8 @@
 				item: "mekanism:elite_fluid_tank"
 			}]
 			rewards: [{
-				id: "6266E2214D456414"
-				type: "random"
+				id: "4EA3BC781FE270FE"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -154,8 +158,8 @@
 				item: "mekanism:ultimate_fluid_tank"
 			}]
 			rewards: [{
-				id: "451A193AAA79DE9B"
-				type: "random"
+				id: "784E66E66EC555DA"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
