@@ -21,7 +21,6 @@ onEvent('recipes', event => {
     event.replaceInput({output: 'bloodmagic:apprenticebloodorb'}, 'minecraft:redstone_block', 'enigmaticlegacy:etherium_ingot')
     event.replaceInput({output: 'bloodmagic:magicianbloodorb'}, 'minecraft:gold_block', 'enigmaticlegacy:cosmic_heart')
 
-
     //焦炉更贵了，相当贵
     event.remove({id:'immersiveengineering:crafting/cokebrick'})
     event.recipes.createMechanicalCrafting('9x immersiveengineering:cokebrick', 
@@ -180,8 +179,8 @@ onEvent('recipes', event => {
 	],
 	{
 		A:'immersiveengineering:graphite_electrode',
-		B:'ars_nouveau:source_gem',
-        C:'bloodmagic:lavacrystal',
+		B:'ars_nouveau:wilden_tribute',
+        C:'bloodmagic:dungeon_metal',
         D:'bloodmagic:reagentvoid'
 	}).id('kubejs:tofustick')
 

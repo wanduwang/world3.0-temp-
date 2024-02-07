@@ -65,6 +65,12 @@
 //}
 
 //一般禁用物品{
+    ItemStages.restrict(<item:create_sa:zinc_pickaxe>, "disabled");
+    ItemStages.restrict(<item:create_sa:brass_pickaxe>, "disabled");
+    ItemStages.restrict(<item:create_sa:copper_pickaxe>, "disabled");
+    ItemStages.restrict(<item:ae2:fluix_pickaxe>, "disabled");
+    ItemStages.restrict(<item:ae2:certus_quartz_pickaxe>, "disabled");
+    ItemStages.restrict(<item:ae2:nether_quartz_pickaxe>, "disabled");
     ItemStages.restrict(<item:enigmaticlegacy:heaven_scroll>, "disabled");
     ItemStages.restrict(<item:enigmaticlegacy:fabulous_scroll>, "disabled");
     ItemStages.restrict(<item:mysticalagriculture:flight_augment>, "disabled");

@@ -1,0 +1,24 @@
+{
+	id: "67095230D17D9F79"
+	group: "70E0DD171C4BAA56"
+	order_index: 16
+	filename: "67095230D17D9F79"
+	title: "豆腐世界"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		shape: "gear"
+		dependencies: ["7CA329722362B5C3"]
+		hide: true
+		size: 2.0d
+		id: "2E2C0734227D5B02"
+		tasks: [{
+			id: "27D4A96B54C28A47"
+			type: "checkmark"
+			title: "豆腐世界"
+		}]
+	}]
+	quest_links: [ ]
+}

@@ -1,0 +1,669 @@
+{
+	id: "40EAC3C17ACBBBE4"
+	order_index: 2
+	title: "模型卡包"
+	icon: "touhou_little_maid:model_switcher"
+	loot_size: 1
+	rewards: [
+		{
+			title: "943"
+			command: "/ysm auth @p add 943"
+			type: "command"
+		}
+		{
+			title: "agir_free"
+			command: "/ysm auth @p add agir_free"
+			type: "command"
+		}
+		{
+			title: "ak_djxk"
+			command: "/ysm auth @p add ak_djxk"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add ak_dksjm"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add ak_gui_huak_gui_hu"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add ak_lpld_yg"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add ak_yls"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add alex"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add alice_5.0_ver"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add amagisummer"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add ania1.0.5"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add ansel"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add aoi"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add aoi_with_animation"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add arisu"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add bai_lu"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add bayunzi"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add bayunzi_2"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add bayunzi_3"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add bayunzi_4"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add chaddoge"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add chara1.2.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add chefty"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add chizui"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add chloe_von_einzbern"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add cirno1.0.5"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add creeper"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add cuoe"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add daiyousei1.1.5"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add default"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add default_boy"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add dekomori1.0.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add dian"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add dongxuelian"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add drg_gunner"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add drone"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add ely"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add engu"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add feiniao-mashi"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add feiying"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add flandre1.1.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add fox"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add free_endministrator"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add fridge"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add fulilian"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add fuluolun"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add furina_v2.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add fuxuan"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add game_api"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add game_kaofish"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add game_kinoko7"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add game_longbaobao"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add game_yommyko"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add ganyu1.0.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add gf_g11"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add gf_hk416"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add gf_ump40"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add gf_ump45"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add gf_ump9"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add gold_ship"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add goldship"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add gs_bc_yg"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add gs_heita"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add gs_hutao"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add gs_keli"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add gs_nilu"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add gs_pm"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add gs_tingyun"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add hk416"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add iroha"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add jiakezi1.1.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add joanofarc1.0.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add joanofarc_alter1.0.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add kaierxi"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add kali"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add kaxiusi"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add kelala2.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add keqin1.3.2"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add kirara"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add klee"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add kurumi1.2.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add laojiebing"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add leonhardt"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add lilili"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add lingmeng"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add lingmeng_2"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add luoshaliya"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add lycoris"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add marian_silver_spear1.2"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add mc_queen"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add megumin2"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add meiyou_2.0ver"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add merry"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add mikasa1.0.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add miku"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add miku1.0.7"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add miku_unwearable"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add molisha"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add molisha_2"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add murasame"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add nagato"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add nanaki"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add noelle_6.6ver"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add nunlyla"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add origami1.0.2"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add pangxiegirl"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add pulana"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add pulse_blade_pilot_ysm"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add puluona"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add puluona_2"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add qilunuo"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add qiluonuo_2"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add qingluka"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add qiufeng2.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add qiyana"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add red_box"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add reimu1.0.5"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add remilia1.1.3"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add rikka1.1.1"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add ryza"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add saber1.8.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add sakabanjiayu"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add saki"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add sakurafate1.0.0"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add sakuya1.2.1"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add seele"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add sensei"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add shanling"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add shigejubs1.1.9"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add shixian1.0.5"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add shuangshengwulin"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add signalis"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add skadi"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add smart_falcon"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add sophie"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add spider"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add steve"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add touka1.5.1"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add tuoru1.1.1"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add tv"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add two_body"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add typhon"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add umy"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add v_angelkawaii"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add v_rain"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add vocaloid_ca"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add vocaloid_ca_unwearable"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add vocaloid_miku"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add wine_fox"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add wuyin"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add xiaochun"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add xiaochun2"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add xiaoshun"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add xing"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add xingchen"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add xingye"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add xingyeai"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add ying"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add ying_wu_luo2"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add yinlang"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add yoshino1.1.7"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add yuan_xiang"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add yuan_xiang1"
+			type: "command"
+		}
+		{
+			command: "/ysm auth @p add yyj"
+			type: "command"
+		}
+		{ item: "tac:ultimate_material" }
+	]
+}

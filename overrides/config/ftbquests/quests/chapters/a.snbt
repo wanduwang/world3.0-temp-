@@ -1,45 +1,16 @@
 {
 	id: "498C45DB7F3DE53B"
-	group: ""
+	group: "0112FB3555078D9C"
 	order_index: 0
 	filename: "a"
-	title: "万物起源"
+	title: "0.起点"
 	icon: "ae2:singularity"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "至少你现在能当个吉祥物了"
-		icon: {
-			id: "touhou_little_maid:garage_kit"
-			Count: 1b
-			tag: {
-				EntityInfo: {
-					ModelId: "touhou_little_maid:hakurei_reimu"
-					id: "touhou_little_maid:maid"
-				}
-			}
-		}
-		disable_toast: true
-		x: 0.0d
-		y: 0.0d
-		shape: "heart"
-		subtitle: "点击领取灵梦fumo模型"
-		description: [
-			"服务器中还有其他大量模型"
-			"获取详情参考其他任务和活动"
-			"alt+Y 开启模型列表"
-		]
-		id: "2567BBD8134BE4A8"
-		tasks: [{
-			id: "22385B9BF4141BEF"
-			type: "checkmark"
-			title: "点击以完成"
-			disable_toast: true
-		}]
-		rewards: [{
-			id: "06A3B483287EDFB2"
-			type: "command"
-			title: "获取模型“灵梦”"
+	progression_mode: "linear"
+	quests: [
+		{
+			title: "【此身……？】"
 			icon: {
 				id: "touhou_little_maid:garage_kit"
 				Count: 1b
@@ -50,8 +21,607 @@
 					}
 				}
 			}
-			command: "/ysm auth @p add lingmeng"
-		}]
-	}]
+			disable_toast: true
+			x: -3.0d
+			y: 0.0d
+			shape: "heart"
+			subtitle: "点击领取灵梦fumo模型"
+			description: [
+				"#服务器中还有其他大量模型#"
+				"#获取详情参考其他任务和活动#"
+				"#alt+Y 开启模型列表#"
+				""
+				"【不知为何，这个世界的法则似乎与你记忆中不一致，究竟是你出现了偏差，还是记忆出现了问题。你已经分不清了，你也难以识辩镜中人究竟是不是自己？】"
+			]
+			dependencies: ["236C9213B500EE3B"]
+			id: "2567BBD8134BE4A8"
+			tasks: [{
+				id: "22385B9BF4141BEF"
+				type: "checkmark"
+				title: "点击以完成"
+				disable_toast: true
+			}]
+			rewards: [{
+				id: "06A3B483287EDFB2"
+				type: "command"
+				title: "获取模型“灵梦”"
+				icon: {
+					id: "touhou_little_maid:garage_kit"
+					Count: 1b
+					tag: {
+						EntityInfo: {
+							ModelId: "touhou_little_maid:hakurei_reimu"
+							id: "touhou_little_maid:maid"
+						}
+					}
+				}
+				team_reward: false
+				command: "/ysm auth @p add lingmeng"
+			}]
+		}
+		{
+			icon: "minecraft:golden_apple"
+			x: 0.0d
+			y: -1.25d
+			shape: "hexagon"
+			subtitle: "Who am I？"
+			description: [
+				"【当你睁开眼时，一切都发生了翻天覆地的变化……】"
+				"诶？我为什么会做这样的梦？梦？"
+				"又是什么……"
+				"我似乎刚经历了一场灾难，又似乎什么都没发生过"
+				"这是哪里？我不记得了……"
+				"这个世界原来长这样吗？"
+				"哦……不对……我又是谁……"
+				"【你望着身上的一枚戒指，陷入了久久的沉思之中】"
+				"【你对它感觉既熟悉，又陌生……】"
+				"【你尝试将它摘除，却似乎被某种痛苦爬满全身】"
+				"【自此，卡住许久的命运的齿轮……又开始转动了……】"
+			]
+			size: 1.5d
+			id: "733AA6CC702F6166"
+			tasks: [{
+				id: "5CE694A36989B541"
+				type: "checkmark"
+				title: "苏醒"
+			}]
+			rewards: [{
+				id: "04F2375B2BC7DD29"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "第一个“人类”"
+			x: -1.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "“塞浦路斯”？"
+			description: [
+				"#不要将怪奇宝典切换到你不认识的物品#"
+				"【*不知为何，你本能地对白色闪光充满恐惧*】"
+				"【这是你第一个能做出来的东西……】"
+				"我好想记得某个故事……"
+				"某个人曾对我说过的世界上第一个能被称为“人类”的人的故事……"
+				"塞浦路斯教授说，世界上的第一个“人类”，之所以是人类，是因为他学会了使用工具。他制造出来的工具为他在野外谋生提供了许多的便利，也让他更方便获得食物。"
+				"诶？【塞浦路斯】是谁？他长什么样子？这个世界上除了我，还有其他人存在吗？"
+				"不……我的记忆……到底发生了什么……"
+			]
+			hide_dependency_lines: false
+			dependencies: ["733AA6CC702F6166"]
+			hide: false
+			progression_mode: "linear"
+			id: "1A7A5A98DD30A1AD"
+			tasks: [{
+				id: "64BCA399376B505C"
+				type: "item"
+				item: "minecraft:crafting_table"
+				consume_items: false
+			}]
+			rewards: [
+				{
+					id: "4E6BB6F47868BD25"
+					type: "item"
+					item: {
+						id: "eccentrictome:tome"
+						Count: 1b
+						tag: {
+							"eccentrictome:mods": {
+								tconstruct: {
+									0: {
+										id: "tconstruct:materials_and_you"
+										Count: 1b
+									}
+									1: {
+										id: "tconstruct:encyclopedia"
+										Count: 1b
+									}
+									2: {
+										id: "tconstruct:tinkers_gadgetry"
+										Count: 1b
+									}
+								}
+								botania: {
+									0: {
+										id: "botania:lexicon"
+										Count: 1b
+									}
+								}
+								byg: {
+									0: {
+										id: "byg:biomepedia"
+										Count: 1b
+									}
+								}
+								ftbquests: {
+									0: {
+										id: "ftbquests:book"
+										Count: 1b
+									}
+								}
+								bloodmagic: {
+									0: {
+										id: "patchouli:guide_book"
+										Count: 1b
+										tag: {
+											"patchouli:book": "bloodmagic:guide"
+										}
+									}
+								}
+								thermal: {
+									0: {
+										id: "patchouli:guide_book"
+										Count: 1b
+										tag: {
+											"patchouli:book": "thermal:guidebook"
+										}
+									}
+								}
+								touhou_little_maid: {
+									0: {
+										id: "patchouli:guide_book"
+										Count: 1b
+										tag: {
+											"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+										}
+									}
+								}
+								tofucraft: {
+									0: {
+										id: "patchouli:guide_book"
+										Count: 1b
+										tag: {
+											"patchouli:book": "tofucraft:tofu_book"
+										}
+									}
+								}
+								solsweetpotato: {
+									0: {
+										id: "solsweetpotato:food_book"
+										Count: 1b
+									}
+								}
+								apotheosis: {
+									0: {
+										id: "patchouli:guide_book"
+										Count: 1b
+										tag: {
+											"patchouli:book": "apotheosis:apoth_chronicle"
+										}
+									}
+								}
+								cyclic: {
+									0: {
+										id: "patchouli:guide_book"
+										Count: 1b
+										tag: {
+											"patchouli:book": "cyclic:cyclic_guide_book"
+										}
+									}
+								}
+							}
+							"eccentrictome:version": 1
+						}
+					}
+				}
+				{
+					id: "09BF052673B4A96F"
+					type: "toast"
+					title: "怪奇宝典是所有指南书的集合"
+					icon: "touhou_little_maid:mute_bauble"
+					description: "怪奇宝典是所有指南书的集合"
+				}
+				{
+					id: "73298AC32E18F9E5"
+					type: "toast"
+					title: "右键选择书籍，左键复原"
+					icon: "touhou_little_maid:mute_bauble"
+					description: "右键选择书籍，左键复原"
+				}
+			]
+		}
+		{
+			title: "火种"
+			x: -2.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "不可熔毁的冰川"
+			description: [
+				"#记得查看本章节的其他说明#"
+				"【火焰似乎让你回想起一点什么……】"
+				"很久之前，有一个生存在冰川上的国家……"
+				"大概是多久呢？忘记了……"
+				"这炽热的火焰不禁让我脑海里突然出现这个画面"
+				"我似乎在那里生活过，但，那里究竟是哪儿呢?"
+				"记忆力似乎闪过一串……代码？"
+				"【神秘代码？：I.R.C.A.】"
+				"那究竟是什么？"
+			]
+			dependencies: ["1A7A5A98DD30A1AD"]
+			id: "236C9213B500EE3B"
+			tasks: [{
+				id: "5667DC2FFFAE71B0"
+				type: "item"
+				title: "熟肉"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:foods/meat/cooked"
+					}
+				}
+				consume_items: false
+			}]
+			rewards: [{
+				id: "2D072483F8B85912"
+				type: "toast"
+				title: "打开左侧任务表进入第一阶段"
+				icon: "create:cogwheel"
+				description: ""
+			}]
+		}
+		{
+			icon: "touhou_little_maid:maid_backpack_small"
+			x: 1.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "按部就班"
+			description: [
+				"#随着任务的进行逐步解锁游戏进度#"
+				"#阶段的存在确保你不会跳科技#"
+				"#你依旧可以尝试使用背包存储未知物品#"
+			]
+			dependencies: ["733AA6CC702F6166"]
+			id: "32041AD2912C3B96"
+			tasks: [{
+				id: "6F6FBBB34B9EE899"
+				type: "checkmark"
+				title: "游戏阶段"
+			}]
+			rewards: [{
+				id: "09075B46B3677AD7"
+				type: "item"
+				item: "minecraft:leather"
+				count: 4
+			}]
+		}
+		{
+			title: "不要自行添加其他模组"
+			icon: "cyclic:apple_lofty_stature"
+			x: 1.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "你可以试着提出建议"
+			description: [
+				"#强烈建议不要自行添加模组使游戏变得简单#"
+				"#如确有需求，请尝试联系作者#"
+				"#性能、渲染、文本等模组不在此列#"
+			]
+			dependencies: ["32041AD2912C3B96"]
+			id: "3DE427F496746E3E"
+			tasks: [{
+				id: "3CFC560B986DFCA9"
+				type: "checkmark"
+				title: "点击此按钮证明你同意了"
+			}]
+			rewards: [{
+				id: "5C41C5B6B17F55C4"
+				type: "item"
+				item: "cyclic:apple_lofty_stature"
+			}]
+		}
+		{
+			icon: "minecraft:golden_apple"
+			x: 2.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "自行适应"
+			description: [
+				"#整合包确有一套预设的按键设置#"
+				"#你依旧可以自行设置按键#"
+			]
+			dependencies: ["3DE427F496746E3E"]
+			id: "33B0992FA5005A94"
+			tasks: [{
+				id: "72AE3C9C7F17AB3C"
+				type: "checkmark"
+				title: "按键设置"
+			}]
+			rewards: [{
+				id: "1BD6CC2CFA8C0EBB"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			icon: "minecraft:golden_apple"
+			x: 2.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "建议多人游玩"
+			description: [
+				"#本包游玩难度较高，请时刻保持警惕#"
+				"#建议关闭死亡不掉落以达到预设的难度#"
+				"#较轻度的魔改以使得模组连接更流畅#"
+			]
+			dependencies: ["33B0992FA5005A94"]
+			id: "332E93E08CF5752C"
+			tasks: [{
+				id: "1856E5D77E12CD55"
+				type: "checkmark"
+				title: "高难度、轻魔改"
+			}]
+			rewards: [{
+				id: "5EEE657F7F01B207"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			icon: "minecraft:golden_apple"
+			x: 3.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "单人也能使用"
+			description: [
+				"#可以使用一些服务器指令#"
+				"#/home /spawn /rtp /tpa /back#"
+				"#传送指令有冷却时间，home只能设置至多三个#"
+			]
+			dependencies: ["332E93E08CF5752C"]
+			id: "35FEBB5E39E9F708"
+			tasks: [{
+				id: "241698D623D43CF8"
+				type: "checkmark"
+				title: "服务器指令"
+			}]
+			rewards: [{
+				id: "573B8A798224C865"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "不要尝试招惹怪物"
+			icon: "minecraft:golden_apple"
+			x: 3.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "现在的你相当脆弱"
+			description: [
+				"#受戒指的影响，你可能会被很对怪物秒杀#"
+				"#猪灵、铁傀儡等怪物将主动攻击你#"
+				"#盔甲的效能降低了，你也难以对怪物造成伤害#"
+			]
+			dependencies: [
+				"35FEBB5E39E9F708"
+				"3C0B898853644846"
+			]
+			id: "26492DA3F31C4415"
+			tasks: [{
+				id: "46C1B7798BE9510B"
+				type: "checkmark"
+				title: "服务器指令"
+			}]
+			rewards: [{
+				id: "1499D71D4242CB0B"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "升级你的技能"
+			icon: "minecraft:golden_apple"
+			x: 4.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "这是一场马拉松"
+			description: [
+				"#通过不断击杀怪物和挖掘方块提升经验值#"
+				"#不断地升级技能，以便能更好地活下去#"
+				"#ctrl+K打开技能界面#"
+			]
+			dependencies: ["26492DA3F31C4415"]
+			id: "3E0F2B6B90089A34"
+			tasks: [{
+				id: "2162BD33225C8181"
+				type: "checkmark"
+				title: "服务器指令"
+			}]
+			rewards: [{
+				id: "5F36492061772FA9"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			shape: "hexagon"
+			id: "3F280E0ED3F90B29"
+			tasks: [{
+				id: "71F1BC4D871F1E07"
+				type: "checkmark"
+				title: "六边形是主线任务"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			shape: "gear"
+			id: "1CE22016EA6CA244"
+			tasks: [{
+				id: "516DBEC8D2172CE1"
+				type: "checkmark"
+				title: "齿轮是解锁新章节的任务"
+			}]
+		}
+		{
+			title: "菱形是提示"
+			x: 1.5d
+			y: 1.5d
+			shape: "diamond"
+			id: "2B2AC53BEF2C13CB"
+			tasks: [{
+				id: "22BC1A0597277720"
+				type: "checkmark"
+				title: "菱形"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			shape: "octagon"
+			id: "59BBDB0C6C48EFAC"
+			tasks: [{
+				id: "6609684DBDD95407"
+				type: "checkmark"
+				title: "八边形是可重复任务"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			id: "66B9C4147835EC95"
+			tasks: [{
+				id: "2602B74AF5C92062"
+				type: "checkmark"
+				title: "圆形是一般任务"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			shape: "heart"
+			id: "1AA3899E28420DF2"
+			tasks: [{
+				id: "695D0FBE466C6D74"
+				type: "checkmark"
+				title: "心形是奖励任务"
+			}]
+		}
+		{
+			title: "尝试不同的食物吧"
+			icon: "minecraft:golden_apple"
+			x: 4.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "享受生活，即时在地狱"
+			description: [
+				"#生活调味料已被加入游戏当中#"
+				"#尝试不同的食物以获得更多的加成#"
+				"#注意，死亡会重置食用进度#"
+			]
+			dependencies: ["3E0F2B6B90089A34"]
+			id: "44A7394FAC6C2DE8"
+			tasks: [{
+				id: "4DF71B3A6A2558B7"
+				type: "checkmark"
+				title: "服务器指令"
+			}]
+			rewards: [{
+				id: "1692327E5CD281E6"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "连锁挖矿"
+			icon: "minecraft:golden_apple"
+			x: 5.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "你的飘号键"
+			description: [
+				"#按飘号键之后挖掘可以触发连锁采掘#"
+				"#一次最多挖掘64个方块#"
+				"#shift+~+滚轮可以切换连锁模式#"
+				"#连锁采掘需要消耗饱食度#"
+			]
+			dependencies: ["44A7394FAC6C2DE8"]
+			id: "5ACAD9D696DC3C6B"
+			tasks: [{
+				id: "73735EACB2D00D7F"
+				type: "checkmark"
+				title: "~"
+			}]
+			rewards: [{
+				id: "5175C08B8CD5AC66"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "有限水"
+			icon: "minecraft:golden_apple"
+			x: 5.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "还有别的方式"
+			description: [
+				"#再除了水流群系的地方无法形成无限水#"
+				"#可以尝试使用水井或者厨房水槽#"
+			]
+			dependencies: ["5ACAD9D696DC3C6B"]
+			id: "74889D478ADF7F17"
+			tasks: [{
+				id: "52FB87E298F40B0E"
+				type: "checkmark"
+				title: "水井将有用"
+			}]
+			rewards: [{
+				id: "71A2BAED90A4F7E3"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "记忆碎片"
+			description: ["何人的故事？"]
+			id: "3EC97DB3F008D684"
+			tasks: [{
+				id: "13C53200EBCC851E"
+				type: "checkmark"
+				title: "???"
+			}]
+			rewards: [{
+				id: "0E7DA30791A5F01E"
+				type: "item"
+				item: {
+					id: "minecraft:writable_book"
+					Count: 1b
+					tag: {
+						pages: ["【？？信息】\n\n姓名：？1@￥·马赛\n性别：男\n年龄：？6\n\n组织：@#！IRCA￥%！\n国籍：南极地\n代号：白光\n\n！@￥%@#￥%…………%#￥*%*￥……&%￥*￥#@￥！@￥#！\n\n[这份文本似乎遭到了什么破"]
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"记忆碎片·某段信息\"}"
+						}
+					}
+				}
+			}]
+		}
+	]
 	quest_links: [ ]
 }

@@ -1,32 +1,464 @@
 {
 	id: "0C1ABFAD28191231"
-	group: ""
-	order_index: 3
+	group: "0112FB3555078D9C"
+	order_index: 2
 	filename: "2_2"
 	title: "2.工程师与魔法师"
 	icon: "immersiveengineering:manual"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "新的学识"
-		icon: "immersiveengineering:manual"
-		x: 0.0d
-		y: 0.0d
-		shape: "gear"
-		dependencies: ["1518331DEF659FDE"]
-		size: 2.0d
-		id: "670B8AA9E28E9F74"
-		tasks: [{
-			id: "6BA6666E32A8D38D"
-			type: "checkmark"
-			title: "你开始知晓更多"
-		}]
-		rewards: [{
-			id: "616A8538D62E0B36"
-			type: "advancement"
-			advancement: "minecraft:story/2"
-			criterion: ""
-		}]
-	}]
+	quests: [
+		{
+			title: "新的学识"
+			icon: "immersiveengineering:manual"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["1518331DEF659FDE"]
+			hide: true
+			size: 2.0d
+			id: "670B8AA9E28E9F74"
+			tasks: [{
+				id: "6BA6666E32A8D38D"
+				type: "checkmark"
+				title: "你开始知晓更多"
+			}]
+			rewards: [{
+				id: "616A8538D62E0B36"
+				type: "advancement"
+				advancement: "minecraft:story/2"
+				criterion: ""
+			}]
+		}
+		{
+			title: "师傅你是做什么工作的"
+			x: -1.5d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["670B8AA9E28E9F74"]
+			id: "4B212A337A70C324"
+			tasks: [{
+				id: "34DBC35A101D333A"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "172ECF075645A85C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "传统魔法"
+			x: 0.5d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["670B8AA9E28E9F74"]
+			id: "19E18AE07294A2C1"
+			tasks: [{
+				id: "5CA47A2EF230D26D"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "4154AA78E596EB07"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "船新魔法"
+			x: -0.5d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["670B8AA9E28E9F74"]
+			id: "3E0B32D17A7ADD1C"
+			tasks: [{
+				id: "55A33B96714A3CD7"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [{
+				id: "6FDEC79F8C138BC7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "吸血鬼与猎人"
+			x: -1.5d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["670B8AA9E28E9F74"]
+			id: "41D42EEAE60A716E"
+			tasks: [{
+				id: "1D8658C19A471642"
+				type: "item"
+				item: "vampirism:item_med_chair"
+			}]
+			rewards: [{
+				id: "796E77B14F2739CD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			shape: "circle"
+			dependencies: ["670B8AA9E28E9F74"]
+			id: "4AF5A053EA33E931"
+			tasks: [{
+				id: "013B415FCF8BF56C"
+				type: "item"
+				item: "gobber2:gobber2_ingot_nether"
+			}]
+			rewards: [{
+				id: "12AA586E4A694E42"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "MC也是FPS游戏"
+			x: 2.5d
+			y: -2.5d
+			shape: "gear"
+			dependencies: ["4AF5A053EA33E931"]
+			id: "039C21749DC07A18"
+			tasks: [{
+				id: "2D1A095294F348B6"
+				type: "item"
+				item: "tac:workbench"
+			}]
+			rewards: [{
+				id: "3F579ED1FAA4C894"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["3E0B32D17A7ADD1C"]
+			id: "082319459545E813"
+			tasks: [{
+				id: "756758F329CE6DD8"
+				type: "item"
+				item: "ars_nouveau:source_gem"
+			}]
+			rewards: [{
+				id: "30547130CC8AF002"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["19E18AE07294A2C1"]
+			id: "31B475BBE863F805"
+			tasks: [{
+				id: "278ECE56467CBB9F"
+				type: "item"
+				item: "bloodmagic:reagentvoid"
+			}]
+			rewards: [{
+				id: "1B38B49DB4B898D1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["4B212A337A70C324"]
+			id: "49450394859BF547"
+			tasks: [{
+				id: "66D946BF70855740"
+				type: "item"
+				item: {
+					id: "immersiveengineering:graphite_electrode"
+					Count: 1b
+					tag: {
+						graphDmg: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5503325185D627A2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["19E18AE07294A2C1"]
+			id: "3F8766548F44D6B9"
+			tasks: [{
+				id: "2F5C0EC7FC5955A2"
+				type: "item"
+				item: "bloodmagic:lavacrystal"
+			}]
+			rewards: [{
+				id: "5AB13ACFA6E81BF6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "豆"
+			x: 1.5d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["670B8AA9E28E9F74"]
+			id: "7CA329722362B5C3"
+			tasks: [{
+				id: "04FCE0FB8CAB7A29"
+				type: "item"
+				item: "tofucraft:seeds_soybeans"
+			}]
+			rewards: [{
+				id: "56B3887547F6A09D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["7CA329722362B5C3"]
+			id: "6ED35152172C1DDC"
+			tasks: [{
+				id: "43D3DC5FE2C7F36A"
+				type: "item"
+				item: "tofucraft:bucket_soymilk"
+			}]
+			rewards: [{
+				id: "499A5157EF0A05DD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["7CA329722362B5C3"]
+			id: "4F84080D45A2E2AE"
+			tasks: [{
+				id: "0F1813B54E9CCB49"
+				type: "item"
+				item: "tofucraft:tofugrilled"
+			}]
+			rewards: [{
+				id: "11711155430B68EF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "豆腐世界"
+			icon: "tofucraft:yudofu"
+			x: 0.0d
+			y: 6.0d
+			shape: "hexagon"
+			dependencies: [
+				"50E8BAB530BA7867"
+				"6ED35152172C1DDC"
+				"4F84080D45A2E2AE"
+			]
+			id: "245BF90D062F9F8D"
+			tasks: [{
+				id: "16BB0CF03DA37D76"
+				type: "dimension"
+				dimension: "tofucraft:tofu_world"
+			}]
+			rewards: [{
+				id: "383341C717135D95"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			shape: "hexagon"
+			dependencies: [
+				"082319459545E813"
+				"31B475BBE863F805"
+				"49450394859BF547"
+				"3F8766548F44D6B9"
+			]
+			id: "50E8BAB530BA7867"
+			tasks: [{
+				id: "6FAED72CD0A29451"
+				type: "item"
+				item: {
+					id: "tofucraft:tofustick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F6F25C49AA307AB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "PCB板"
+			x: 0.0d
+			y: 9.0d
+			shape: "gear"
+			dependencies: ["245BF90D062F9F8D"]
+			size: 5.0d
+			id: "60DB6A5D0E113D0C"
+			tasks: [{
+				id: "17D56BF1CD0FAD17"
+				type: "item"
+				item: "tofucraft:tf_capacitor"
+			}]
+		}
+		{
+			title: "模型抽卡"
+			icon: "touhou_little_maid:model_switcher"
+			x: -0.5d
+			y: -1.5d
+			shape: "octagon"
+			dependencies: ["670B8AA9E28E9F74"]
+			hide: true
+			can_repeat: true
+			id: "6CED93AB14C412BC"
+			tasks: [{
+				id: "7ECA47966CE0FCBA"
+				type: "item"
+				item: "tac:ultimate_material"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "45E5FD255FD7237A"
+				type: "random"
+				team_reward: false
+				table_id: 4677766398733958116L
+			}]
+		}
+		{
+			title: "模型抽卡[9连+1次自选]"
+			icon: {
+				id: "touhou_little_maid:entity_placeholder"
+				Count: 1b
+				tag: {
+					RecipeId: "touhou_little_maid:altar/reborn_maid"
+				}
+			}
+			x: 0.5d
+			y: -1.5d
+			shape: "octagon"
+			dependencies: ["670B8AA9E28E9F74"]
+			hide: true
+			can_repeat: true
+			id: "4B9164D04EB0F354"
+			tasks: [{
+				id: "64E1923375DD05E7"
+				type: "item"
+				item: "tac:ultimate_material"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1BF0819BF0AEB51D"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "7BCBBC9E304D3701"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "7473390E085F3BF0"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "2C28F6A25D64F32D"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "7F78773BD74AEA28"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "2D18D8046742F1A3"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "6331A95E86997211"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "041884FEBCCC9E48"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "425CD004148548DE"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "1148E747AFD35B90"
+					type: "choice"
+					team_reward: false
+					exclude_from_claim_all: true
+					table_id: 4677766398733958116L
+				}
+			]
+		}
+	]
 	quest_links: [ ]
 }

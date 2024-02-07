@@ -1,0 +1,32 @@
+{
+	id: "4787FB4035309CF7"
+	group: "70E0DD171C4BAA56"
+	order_index: 13
+	filename: "4787FB4035309CF7"
+	title: "吸血鬼"
+	icon: "vampirism:item_med_chair"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "人鬼殊途"
+		x: 0.0d
+		y: 0.0d
+		shape: "gear"
+		dependencies: ["41D42EEAE60A716E"]
+		hide: true
+		size: 2.0d
+		id: "0C99A4BF5E4EFA34"
+		tasks: [{
+			id: "455E96F314FF0569"
+			type: "item"
+			item: "vampirism:item_med_chair"
+		}]
+		rewards: [{
+			id: "6BD6A7D4D52DA502"
+			type: "random"
+			exclude_from_claim_all: true
+			table_id: 1159360326438940748L
+		}]
+	}]
+	quest_links: [ ]
+}

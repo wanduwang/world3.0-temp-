@@ -1,0 +1,1585 @@
+{
+	id: "7D527751B44B4977"
+	group: "70E0DD171C4BAA56"
+	order_index: 12
+	filename: "tac"
+	title: "撞火佛祖[TAC]"
+	icon: {
+		id: "tac:timeless_50"
+		Count: 1b
+		tag: {
+			AmmoCount: 7
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "永恒时代工坊"
+			icon: {
+				id: "tac:timeless_50"
+				Count: 1b
+				tag: {
+					AmmoCount: 7
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["4AF5A053EA33E931"]
+			hide: true
+			size: 2.0d
+			id: "4260036CB5AB2020"
+			tasks: [{
+				id: "6DF3B4893C3EA870"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4DC8D0B880EADAA5"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "637E1E5417D4EC98"
+			tasks: [{
+				id: "754E70C1CD0101E7"
+				type: "item"
+				item: "tac:b_magnum"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["637E1E5417D4EC98"]
+			id: "2D4406D9EA9E90D7"
+			tasks: [{
+				id: "595EBD1953BF53D3"
+				type: "item"
+				item: {
+					id: "tac:colt_python"
+					Count: 1b
+					tag: {
+						AmmoCount: 6
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "75EE87079C319215"
+			tasks: [{
+				id: "35BDB7AFBABF8BC1"
+				type: "item"
+				item: "tac:round45"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["75EE87079C319215"]
+			id: "234BEEA56235EA9F"
+			tasks: [{
+				id: "705981FC52EC0DA7"
+				type: "item"
+				item: {
+					id: "tac:m1911"
+					Count: 1b
+					tag: {
+						AmmoCount: 7
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["75EE87079C319215"]
+			id: "20C0B71CD60950F7"
+			tasks: [{
+				id: "038E2DBB32C997AF"
+				type: "item"
+				item: {
+					id: "tac:sti2011"
+					Count: 1b
+					tag: {
+						AmmoCount: 9
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.5d
+			dependencies: ["75EE87079C319215"]
+			id: "7F12FAA56B4B5797"
+			tasks: [{
+				id: "0018589F5B78DAB0"
+				type: "item"
+				item: {
+					id: "tac:vector45"
+					Count: 1b
+					tag: {
+						AmmoCount: 19
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			dependencies: ["75EE87079C319215"]
+			id: "66752CCA417881BA"
+			tasks: [{
+				id: "5248BF2388E4BAF2"
+				type: "item"
+				item: {
+					id: "tac:m1a1_smg"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			dependencies: ["75EE87079C319215"]
+			id: "4B7AFC4A01042B92"
+			tasks: [{
+				id: "7D125C4BE8D8D775"
+				type: "item"
+				item: {
+					id: "tac:mp7"
+					Count: 1b
+					tag: {
+						AmmoCount: 40
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			dependencies: ["75EE87079C319215"]
+			id: "1D38BC939D9CE572"
+			tasks: [{
+				id: "36C72CFAD8318279"
+				type: "item"
+				item: {
+					id: "tac:mk23"
+					Count: 1b
+					tag: {
+						AmmoCount: 12
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "41748892B8D7A9DC"
+			tasks: [{
+				id: "0660C25B078A8D6F"
+				type: "item"
+				item: "tac:46x30"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "0B920A2725CEBD92"
+			tasks: [{
+				id: "22E66E8068B56C27"
+				type: "item"
+				item: "tac:ae50"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["0B920A2725CEBD92"]
+			id: "1AD6682A09C5D84C"
+			tasks: [{
+				id: "49B44525E8374AED"
+				type: "item"
+				item: {
+					id: "tac:deagle_357"
+					Count: 1b
+					tag: {
+						AmmoCount: 7
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["0B920A2725CEBD92"]
+			id: "2C3FE0E4FD491E5C"
+			tasks: [{
+				id: "2947B351D87DD731"
+				type: "item"
+				item: {
+					id: "tac:timeless_50"
+					Count: 1b
+					tag: {
+						AmmoCount: 7
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "20A600937F775786"
+			tasks: [{
+				id: "330AFC6FE0C50027"
+				type: "item"
+				item: "tac:win_30-30"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.5d
+			dependencies: ["20A600937F775786"]
+			id: "7681B983ADCD1490"
+			tasks: [{
+				id: "13E0B53EE70E22CE"
+				type: "item"
+				item: {
+					id: "tac:m24"
+					Count: 1b
+					tag: {
+						AmmoCount: 5
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "21A8D2F3FA019179"
+			tasks: [{
+				id: "252B679A330393E6"
+				type: "item"
+				item: "tac:bullet_308"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 7.5d
+			dependencies: ["21A8D2F3FA019179"]
+			id: "54DF374752EF034B"
+			tasks: [{
+				id: "7C95FF635F7E23E7"
+				type: "item"
+				item: {
+					id: "tac:m60"
+					Count: 1b
+					tag: {
+						AmmoCount: 70
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			dependencies: ["21A8D2F3FA019179"]
+			id: "50FC41D437A93C83"
+			tasks: [{
+				id: "2A2C33653CCF866A"
+				type: "item"
+				item: {
+					id: "tac:mk14"
+					Count: 1b
+					tag: {
+						AmmoCount: 10
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			dependencies: ["21A8D2F3FA019179"]
+			id: "2A9F12BA4EADA540"
+			tasks: [{
+				id: "23235F788529834B"
+				type: "item"
+				item: {
+					id: "tac:fn_fal"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			dependencies: ["21A8D2F3FA019179"]
+			id: "57F857D549C7CC19"
+			tasks: [{
+				id: "40387F36773A2DF7"
+				type: "item"
+				item: {
+					id: "tac:hk_g3"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			dependencies: ["21A8D2F3FA019179"]
+			id: "615AD129CBAD2851"
+			tasks: [{
+				id: "21ED452BC7350E21"
+				type: "item"
+				item: {
+					id: "tac:scar_mk20"
+					Count: 1b
+					tag: {
+						AmmoCount: 10
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			dependencies: ["21A8D2F3FA019179"]
+			id: "6AC1046B29A678E6"
+			tasks: [{
+				id: "48BA706B1C2DFAB5"
+				type: "item"
+				item: {
+					id: "tac:scar_h"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "19AE3845A09F3BD5"
+			tasks: [{
+				id: "1F9A78AF977CB199"
+				type: "item"
+				item: "tac:nato_556_bullet"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["19AE3845A09F3BD5"]
+			id: "20E19033923B2AEF"
+			tasks: [{
+				id: "6A443DE4E62A5D8A"
+				type: "item"
+				item: {
+					id: "tac:m4"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			dependencies: ["19AE3845A09F3BD5"]
+			id: "0E9DF3292627971D"
+			tasks: [{
+				id: "12DBA7C6750E86DF"
+				type: "item"
+				item: {
+					id: "tac:hk416_a5"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.5d
+			dependencies: ["19AE3845A09F3BD5"]
+			id: "5AEB95BE3F1FC7DD"
+			tasks: [{
+				id: "3DE776D70C22A0DD"
+				type: "item"
+				item: {
+					id: "tac:m249"
+					Count: 1b
+					tag: {
+						AmmoCount: 80
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["19AE3845A09F3BD5"]
+			id: "2F17B1073BEB863F"
+			tasks: [{
+				id: "4CA766CFCF39EA44"
+				type: "item"
+				item: {
+					id: "tac:m16a4"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			dependencies: ["19AE3845A09F3BD5"]
+			id: "74FA5A6928CF031F"
+			tasks: [{
+				id: "06BB602134011824"
+				type: "item"
+				item: {
+					id: "tac:scar_l"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.5d
+			dependencies: ["19AE3845A09F3BD5"]
+			id: "6D1F8BDF66552721"
+			tasks: [{
+				id: "11D56C89A9FD10D9"
+				type: "item"
+				item: {
+					id: "tac:spr15"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			dependencies: ["19AE3845A09F3BD5"]
+			id: "1F454D26CD6BBE40"
+			tasks: [{
+				id: "2849F4FB79A48D71"
+				type: "item"
+				item: {
+					id: "tac:mk18_mod1"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "6009C95FA72615A7"
+			tasks: [{
+				id: "509907BE50DF1842"
+				type: "item"
+				item: "tac:9mm_round"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["6009C95FA72615A7"]
+			id: "3B6E5D7CCDA3D63F"
+			tasks: [{
+				id: "0B794D5D65A84175"
+				type: "item"
+				item: {
+					id: "tac:glock_17"
+					Count: 1b
+					tag: {
+						AmmoCount: 17
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.5d
+			dependencies: ["6009C95FA72615A7"]
+			id: "19052ADB606BEA88"
+			tasks: [{
+				id: "141447845D06CF10"
+				type: "item"
+				item: {
+					id: "tac:m92fs"
+					Count: 1b
+					tag: {
+						AmmoCount: 15
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.5d
+			dependencies: ["6009C95FA72615A7"]
+			id: "3614D554FC7F76D4"
+			tasks: [{
+				id: "475354D933B09F6C"
+				type: "item"
+				item: {
+					id: "tac:micro_uzi"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 12.5d
+			dependencies: ["6009C95FA72615A7"]
+			id: "3416C23939547E2F"
+			tasks: [{
+				id: "1A11DC123458A5DE"
+				type: "item"
+				item: {
+					id: "tac:hk_mp5a5"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["6009C95FA72615A7"]
+			id: "6BD22AE647FB3852"
+			tasks: [{
+				id: "3DD05D9D5ADA933C"
+				type: "item"
+				item: {
+					id: "tac:glock_18"
+					Count: 1b
+					tag: {
+						AmmoCount: 17
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			dependencies: ["6009C95FA72615A7"]
+			id: "27B1C3C1D6416E9F"
+			tasks: [{
+				id: "74F56777ACC4DDED"
+				type: "item"
+				item: {
+					id: "tac:cz75"
+					Count: 1b
+					tag: {
+						AmmoCount: 16
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			dependencies: ["6009C95FA72615A7"]
+			id: "0DC09599E70CDE02"
+			tasks: [{
+				id: "4399B67518BE718D"
+				type: "item"
+				item: {
+					id: "tac:cz75_auto"
+					Count: 1b
+					tag: {
+						AmmoCount: 16
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.5d
+			dependencies: ["6009C95FA72615A7"]
+			id: "436F8282C5A27096"
+			tasks: [{
+				id: "69C1B822AF7E2623"
+				type: "item"
+				item: {
+					id: "tac:mp9"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			dependencies: ["6009C95FA72615A7"]
+			id: "33D0BC717957E616"
+			tasks: [{
+				id: "7448CC9C5EA44A12"
+				type: "item"
+				item: {
+					id: "tac:tti_g34"
+					Count: 1b
+					tag: {
+						AmmoCount: 23
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 11.5d
+			dependencies: ["6009C95FA72615A7"]
+			id: "4EA17668778FE8F6"
+			tasks: [{
+				id: "4BAE8B1D5A885253"
+				type: "item"
+				item: {
+					id: "tac:udp_9"
+					Count: 1b
+					tag: {
+						AmmoCount: 22
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 8.5d
+			dependencies: ["6009C95FA72615A7"]
+			id: "7ADC7285A538BEAD"
+			tasks: [{
+				id: "4E4C7E678C33456B"
+				type: "item"
+				item: {
+					id: "tac:tec_9"
+					Count: 1b
+					tag: {
+						AmmoCount: 10
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 13.5d
+			dependencies: ["6009C95FA72615A7"]
+			id: "70C84A035C7C8860"
+			tasks: [{
+				id: "63623406DE2E04DB"
+				type: "item"
+				item: {
+					id: "tac:uzi"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "383D9E910D025751"
+			tasks: [{
+				id: "08E5713A80D52703"
+				type: "item"
+				item: "tac:10_gauge_round"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			dependencies: ["383D9E910D025751"]
+			id: "5AB3E9F9BC54ABD7"
+			tasks: [{
+				id: "7389CE7A005B3219"
+				type: "item"
+				item: {
+					id: "tac:db_short"
+					Count: 1b
+					tag: {
+						AmmoCount: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.5d
+			dependencies: ["383D9E910D025751"]
+			id: "30756D994F339D87"
+			tasks: [{
+				id: "0DE5270B18F63279"
+				type: "item"
+				item: {
+					id: "tac:aa_12"
+					Count: 1b
+					tag: {
+						AmmoCount: 8
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			dependencies: ["383D9E910D025751"]
+			id: "7980C719F7530BDE"
+			tasks: [{
+				id: "16AF1B9488B53693"
+				type: "item"
+				item: {
+					id: "tac:m870_classic"
+					Count: 1b
+					tag: {
+						AmmoCount: 6
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			dependencies: ["383D9E910D025751"]
+			id: "204A2D8963C7B8FA"
+			tasks: [{
+				id: "6B6C69687A06B8B9"
+				type: "item"
+				item: {
+					id: "tac:m1014"
+					Count: 1b
+					tag: {
+						AmmoCount: 8
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "246BEE2AA6F6AE31"
+			tasks: [{
+				id: "42A461DA5358A252"
+				type: "item"
+				item: "tac:58x42"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["246BEE2AA6F6AE31"]
+			id: "268F4D4C0652C1C7"
+			tasks: [{
+				id: "3C6870B4364968FE"
+				type: "item"
+				item: {
+					id: "tac:qbz_95"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["246BEE2AA6F6AE31"]
+			id: "176E8AC2FD75DE53"
+			tasks: [{
+				id: "08A5219AEC7D176C"
+				type: "item"
+				item: {
+					id: "tac:qbz_191"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "649AFCEF9787C909"
+			tasks: [{
+				id: "077D720CDFFABDF8"
+				type: "item"
+				item: "tac:762x25"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "61271CE4F0642015"
+			tasks: [{
+				id: "11DC19C533333754"
+				type: "item"
+				item: "tac:762x54"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			dependencies: ["61271CE4F0642015"]
+			id: "5B411D0487E1B3BC"
+			tasks: [{
+				id: "217654BC40082855"
+				type: "item"
+				item: {
+					id: "tac:dp28"
+					Count: 1b
+					tag: {
+						AmmoCount: 50
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "7A0BAD3E1197B96B"
+			tasks: [{
+				id: "050100337CD7CF16"
+				type: "item"
+				item: "tac:762x39"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			dependencies: ["7A0BAD3E1197B96B"]
+			id: "6CFC8AF403BF6058"
+			tasks: [{
+				id: "04F51F5E817AB152"
+				type: "item"
+				item: {
+					id: "tac:ak47"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			dependencies: ["7A0BAD3E1197B96B"]
+			id: "78B4DD2D2369B879"
+			tasks: [{
+				id: "24BF00FC1810BB4D"
+				type: "item"
+				item: {
+					id: "tac:type81_x"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			dependencies: ["7A0BAD3E1197B96B"]
+			id: "62AB72DF9B70E1C6"
+			tasks: [{
+				id: "216558B3005C33A7"
+				type: "item"
+				item: {
+					id: "tac:rpk"
+					Count: 1b
+					tag: {
+						AmmoCount: 40
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 6.5d
+			dependencies: ["7A0BAD3E1197B96B"]
+			id: "00FCD90DEAF11C13"
+			tasks: [{
+				id: "2BF7791AC05C41A0"
+				type: "item"
+				item: {
+					id: "tac:sks_tactical"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			dependencies: ["7A0BAD3E1197B96B"]
+			id: "0C2FF6DA39FB205C"
+			tasks: [{
+				id: "55279D0497CE30DC"
+				type: "item"
+				item: {
+					id: "tac:mk47"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "3912E6552B2E94FA"
+			tasks: [{
+				id: "67F521617D2ED2BA"
+				type: "item"
+				item: "tac:50bmg"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.5d
+			dependencies: ["3912E6552B2E94FA"]
+			id: "4F842AED079225E4"
+			tasks: [{
+				id: "722177FF0E8E1030"
+				type: "item"
+				item: {
+					id: "tac:m82a2"
+					Count: 1b
+					tag: {
+						AmmoCount: 5
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "1F25A50E1CC3E589"
+			tasks: [{
+				id: "7F5F917BFE067780"
+				type: "item"
+				item: "tac:lapua338"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.5d
+			dependencies: ["1F25A50E1CC3E589"]
+			id: "204BA389DB277BA2"
+			tasks: [{
+				id: "4712D9E0977FB320"
+				type: "item"
+				item: {
+					id: "tac:ai_awp"
+					Count: 1b
+					tag: {
+						AmmoCount: 5
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			dependencies: ["1F25A50E1CC3E589"]
+			id: "5FEB8A862DEFA1E3"
+			tasks: [{
+				id: "3F9095CD4494AE69"
+				type: "item"
+				item: {
+					id: "tac:mrad"
+					Count: 1b
+					tag: {
+						AmmoCount: 5
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "33A2CE13C4BBD1FA"
+			tasks: [{
+				id: "2490153F17167F97"
+				type: "item"
+				item: "tac:bullet68"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["33A2CE13C4BBD1FA"]
+			id: "0D314B98D6C43769"
+			tasks: [{
+				id: "0AF79B8CD0E8052D"
+				type: "item"
+				item: {
+					id: "tac:sig_mcx_spear"
+					Count: 1b
+					tag: {
+						AmmoCount: 20
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "2D6A23AF0DE55E8F"
+			tasks: [{
+				id: "3B2F09AE3DA5B86A"
+				type: "item"
+				item: "tac:57x28"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["2D6A23AF0DE55E8F"]
+			id: "0A33CD95A296F909"
+			tasks: [{
+				id: "65E94CFD2EC35DCE"
+				type: "item"
+				item: {
+					id: "tac:p90"
+					Count: 1b
+					tag: {
+						AmmoCount: 50
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "7D0FE0C31CF5FA94"
+			tasks: [{
+				id: "1ADE52901CFFC352"
+				type: "item"
+				item: "tac:rpg7_missile"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			dependencies: ["7D0FE0C31CF5FA94"]
+			id: "31CF523B20265F9B"
+			tasks: [{
+				id: "63464391A5CBC377"
+				type: "item"
+				item: {
+					id: "tac:rpg7"
+					Count: 1b
+					tag: {
+						AmmoCount: 1
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "07C2484861730F1A"
+			tasks: [{
+				id: "222252454EFCA4C1"
+				type: "item"
+				item: "tac:light_grenade"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "50C99A3012C00877"
+			tasks: [{
+				id: "780B003A43D1391B"
+				type: "item"
+				item: "tac:baseball_grenade"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "65A4B666D27B5496"
+			tasks: [{
+				id: "3DFCAD2C4F50B191"
+				type: "item"
+				item: "tac:coyote_sight"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "653812301BA350C1"
+			tasks: [{
+				id: "73812121296E9903"
+				type: "item"
+				item: "tac:aimpoint_t2"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "1EB53B31A3749FEF"
+			tasks: [{
+				id: "44F77E23A21EADEE"
+				type: "item"
+				item: "tac:aimpoint_t1"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "36AE3277E7835942"
+			tasks: [{
+				id: "0DFDF9E89B127829"
+				type: "item"
+				item: "tac:eotech_n"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "58DD70D878660AAF"
+			tasks: [{
+				id: "003402463493D806"
+				type: "item"
+				item: "tac:vortex_uh_1"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "3E18BAFCCD480D77"
+			tasks: [{
+				id: "558C79D791439EB8"
+				type: "item"
+				item: "tac:eotech_short"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "5BA12663F54BB36A"
+			tasks: [{
+				id: "291DEC323894FF95"
+				type: "item"
+				item: "tac:srs_red_dot"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "4E75AB844013242B"
+			tasks: [{
+				id: "1B0DAE62696D65A6"
+				type: "item"
+				item: "tac:acog_4x_scope"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "05587D538B06BA0E"
+			tasks: [{
+				id: "29B72FD605763C95"
+				type: "item"
+				item: "tac:qmk152"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "0BC13E3A7FC2E88C"
+			tasks: [{
+				id: "343828A17BDC840C"
+				type: "item"
+				item: "tac:elcan_14x"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "530DA30BF02A5EA8"
+			tasks: [{
+				id: "32C360FAF5E510B9"
+				type: "item"
+				item: "tac:lpvo_1_6"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "290CDBBAA04476AF"
+			tasks: [{
+				id: "6BECDEC9E2D4742E"
+				type: "item"
+				item: "tac:8x_scope"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "77891A5B595DF10C"
+			tasks: [{
+				id: "096895F682BD2B08"
+				type: "item"
+				item: "tac:old_8x_scope"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "1FB429B649314285"
+			tasks: [{
+				id: "24DC7E7E521C2CCB"
+				type: "item"
+				item: "tac:old_4x_scope"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "032D68564A16AB5C"
+			tasks: [{
+				id: "47D6D6141AA20651"
+				type: "item"
+				item: "tac:mini_dot"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "409E85B1FE4D7AD4"
+			tasks: [{
+				id: "28FB4B65F01CC6D2"
+				type: "item"
+				item: "tac:sro_dot"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "361B1453A309A141"
+			tasks: [{
+				id: "5C1A0EA68635354F"
+				type: "item"
+				item: "tac:silencer"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "4A4F5131514B3A30"
+			tasks: [{
+				id: "4C7DA74A5DACC151"
+				type: "item"
+				item: "tac:muzzle_brake"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "53997B3683FAF2AD"
+			tasks: [{
+				id: "55722F9414F93AAC"
+				type: "item"
+				item: "tac:muzzle_compensator"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "4530DA037712B233"
+			tasks: [{
+				id: "152D88A85CBCB231"
+				type: "item"
+				item: "tac:pistol_silencer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "08CDB93A25A23D6C"
+			tasks: [{
+				id: "6C59167E9FC0B288"
+				type: "item"
+				item: "tac:light_stock"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "193E1DA93C63B859"
+			tasks: [{
+				id: "734DB4001294BDA4"
+				type: "item"
+				item: "tac:tactical_stock"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "7F053A8AE9F6B20E"
+			tasks: [{
+				id: "556EFA5DFA0514BE"
+				type: "item"
+				item: "tac:weighted_stock"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "224AAFC9AAE4B401"
+			tasks: [{
+				id: "588C687478C5AA7E"
+				type: "item"
+				item: "tac:light_grip"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "07D1719F744AC7C7"
+			tasks: [{
+				id: "674F358B91162381"
+				type: "item"
+				item: "tac:specialised_grip"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "2D884D05FD3666DD"
+			tasks: [{
+				id: "2B4728D2DA387E53"
+				type: "item"
+				item: "tac:ir_laser"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "520559283598555B"
+			tasks: [{
+				id: "5A32ED8B7AA1002D"
+				type: "item"
+				item: "tac:basic_laser"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "47ECD5091A53AF8D"
+			tasks: [{
+				id: "7ED7719C307BC22B"
+				type: "item"
+				item: "tac:small_extended_mag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "6C88D170DCE0A5A1"
+			tasks: [{
+				id: "4DA0D18EFABC5C23"
+				type: "item"
+				item: "tac:medium_extended_mag"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			dependencies: ["4260036CB5AB2020"]
+			id: "3FD94921F241897A"
+			tasks: [{
+				id: "2BBA5B6733B0D629"
+				type: "item"
+				item: "tac:large_extended_mag"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			subtitle: "右键打开，o键穿戴"
+			dependencies: ["4260036CB5AB2020"]
+			id: "4396C0708F0D5A71"
+			tasks: [{
+				id: "3253B874DC1E9BDC"
+				type: "item"
+				item: {
+					id: "tac:light_armor"
+					Count: 1b
+					tag: {
+						RigDurability: 50.0f
+					}
+					ForgeCaps: {
+						"tac:rig": [ ]
+						Parent: [ ]
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			subtitle: "右键打开，o键穿戴"
+			dependencies: ["4260036CB5AB2020"]
+			id: "65C6FD0371D34112"
+			tasks: [{
+				id: "2AF595104E3D9007"
+				type: "item"
+				item: {
+					id: "tac:medium_steel_armor"
+					Count: 1b
+					tag: {
+						RigDurability: 110.0f
+					}
+					ForgeCaps: {
+						"tac:rig": [ ]
+						Parent: [ ]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: [
+				"65C6FD0371D34112"
+				"4396C0708F0D5A71"
+			]
+			dependency_requirement: "one_completed"
+			id: "1A381EFA467C7564"
+			tasks: [{
+				id: "0E8ADC11C9E340D9"
+				type: "item"
+				item: "tac:light_armor_plate"
+			}]
+		}
+		{
+			title: "铜锭兑换"
+			x: 3.0d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: ["4260036CB5AB2020"]
+			hide: true
+			id: "17DCEDB0394FF90A"
+			tasks: [{
+				id: "6D270B5D9F995F75"
+				type: "item"
+				title: "任意锭"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots"
+					}
+				}
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2A93A630829FFF84"
+				type: "item"
+				team_reward: false
+				item: "minecraft:copper_ingot"
+				count: 64
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,9 +1,9 @@
 {
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
-  "name": "ComingSoon",
-  "version": "2",
-  "author": "z",
+  "name": "起始与终焉：七咒的轮回v1.0",
+  "version": "1.0",
+  "author": "WLMC",
   "description": "",
   "fileApi": "",
   "url": "",
@@ -1037,7 +1037,7 @@
     },
     {
       "path": "config/awesomedungeonocean_1.properties",
-      "hash": "e4b96c8f9648ddfac4a249ed0a2d578291cd4b36",
+      "hash": "dc0d19341f51cfd17ef1b6e548474b8fb7eb5cdc",
       "force": true,
       "type": "addon"
     },
@@ -1181,7 +1181,7 @@
     },
     {
       "path": "config/bettervillage_1.properties",
-      "hash": "7d2d399deefdac9f8a88fad6a0c27f9d7086a7d9",
+      "hash": "e0b5c2fe9903614f0a90e63348f8226ebd2a14a3",
       "force": true,
       "type": "addon"
     },
@@ -1307,7 +1307,7 @@
     },
     {
       "path": "config/byg/backups/last_working_configs_backup.zip",
-      "hash": "94fe68044f8db047467ff23422b6050fda4374e6",
+      "hash": "159570a2f9222b2935ef202b82ddd3a67e3c607f",
       "force": true,
       "type": "addon"
     },
@@ -1349,7 +1349,7 @@
     },
     {
       "path": "config/byg/nether-biomes.json5",
-      "hash": "a6bb1e7ef673807bf1150e132e542ef0964ac480",
+      "hash": "fcf73d97f2a893385ab4a1ba987b5b3ed96acc96",
       "force": true,
       "type": "addon"
     },
@@ -1984,98 +1984,158 @@
       "type": "addon"
     },
     {
+      "path": "config/ftbquests/quests/chapters/1853BE4A430159B8.snbt",
+      "hash": "2de24842e3202bed96a900e447b902003a0610c1",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "config/ftbquests/quests/chapters/1904D1563628012C.snbt",
-      "hash": "31802b2fecf9d799128055f77cb2d11314fc7ab0",
+      "hash": "881f326844c1bdcd234fc62cdbd58ff6eddb4b96",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/chapters/2.snbt",
-      "hash": "f938df71075212148ba4f316e0353d237bf0d068",
+      "hash": "ae0ae833bbf4f6859c5cebcd1e924c4ccf1e068b",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/chapters/2_2.snbt",
-      "hash": "d767afd61eb2087e379d3d21cd4569e9d8ae18f7",
+      "hash": "034757f3d7828f92b1c80df6d858bbcf050fa57f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/3.snbt",
+      "hash": "00e33db733c0267825382ace12bf481f48138f40",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/chapters/3F0E61E7328AB234.snbt",
-      "hash": "53518cae60853df6ae6e0ae5abc4117cdaa8da73",
+      "hash": "99ee78b9ee9098e02c74df4bb170adeba9c16c8e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/4.snbt",
+      "hash": "fc9b7668a6f887622fa1a74e856da34c7dcda8eb",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/chapters/468C66436B0AB3C9.snbt",
-      "hash": "54df079f8e918911d304d10c38f438ce5fa89c5e",
+      "hash": "ab46c36c7a0ec4f4d297c4bb0faba21c4ec0a755",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/4787FB4035309CF7.snbt",
+      "hash": "a28c82b66230172c6f136a471708c8c596340566",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/48CF16EC473C398A.snbt",
+      "hash": "b803d4d6a821706329e0b0a2e583e6e6c2f1cfdd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/4A7654D7124A0E1F.snbt",
+      "hash": "192f904d63813b0ad2a72e431fa16fce54a3105f",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/chapters/523BC151783FCB34.snbt",
-      "hash": "5516a8fc716c8332d03620d67fd23394b5d7e580",
+      "hash": "76395aeceb5d921123cc2299231d49bbf6a715e3",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/chapters/571153D9E32EB282.snbt",
-      "hash": "5b8e652cb40530e75e40b723dec66aeb456c3c5e",
+      "hash": "e6aa1f1849d9694dedb338559c8ebb0bd3c52e40",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/chapters/5B4C6985C5FEE3B9.snbt",
-      "hash": "4f2c7ff4b3ec0e4e8a942828682bf644c6f77cf3",
+      "hash": "06e359a28531b7b6c3836a14fbbe0661b73cdd99",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/5CBAD96E5FC7F765.snbt",
+      "hash": "a73cac19f8c35699eb465e41a55573e5d59dc582",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/chapters/610C8E5B710A34EF.snbt",
-      "hash": "5a9521b74ef1fb08b5c89926cd27767b7e3a456e",
+      "hash": "e04577bacc72fbddb13b97ab5ef263ef0584a08f",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/chapters/6572808BC13962BB.snbt",
-      "hash": "173488f66cecb11389988432daea3205cd9a07f3",
+      "hash": "26e1163c3a3318950951c3b352a0a3fb2e5362fe",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/chapters/65B428287A0E0F34.snbt",
-      "hash": "8a95e407a3d4130ed1ae5ac1fe256d18e93f9207",
+      "hash": "d8754dda455fe0637ed8377525dbc9de8e8d2652",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/67095230D17D9F79.snbt",
+      "hash": "c2b6559dfed2a096a3d2f737348fca34b73af772",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/chapters/7AEFF27E8FEAEEC3.snbt",
-      "hash": "3e70efb701403537208998e5f51b3e63e53925c9",
+      "hash": "841f5b6e9a968ceb56729de56a7252e24fdf9adf",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/chapters/a.snbt",
-      "hash": "ee786c41fa30357f2d756eaf52922202dd77af95",
+      "hash": "f546b2768cbb5486aaa18c952292ab15fa2ae7e2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/tac.snbt",
+      "hash": "bd8166892a87c6ed9d0d090c9ebc2f5fb5091a4f",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/chapter_groups.snbt",
-      "hash": "96a94513e340c3382d7e9dfb0cdd11d7a2380e06",
+      "hash": "2ec2c58fddddf242b2e317270765862e40d29e0b",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/data.snbt",
-      "hash": "c6870a26fb21f6b0d7b8064e0a879bf775819c7f",
+      "hash": "a94b6078ef03eb09076553bf3ddcc5ce6a5990e5",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/ftbquests/quests/reward_tables/1016E0130812F04C.snbt",
-      "hash": "b4220f89ab05fa67aba88a8efff4a7adcaf86fc0",
+      "hash": "d60ca1999d28b994e0bdccdb4762c9db33cf6a6a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/40EAC3C17ACBBBE4.snbt",
+      "hash": "96ea242922462e3cd88f552bc3c870c6e280a908",
       "force": true,
       "type": "addon"
     },
@@ -2411,7 +2471,7 @@
     },
     {
       "path": "config/libraryferret_1.properties",
-      "hash": "ee026a9470a0a643bf403dbd973baedcaeaafa20",
+      "hash": "ad441f05858b1e8335cf9941352e3e7435d26940",
       "force": true,
       "type": "addon"
     },
@@ -2705,7 +2765,7 @@
     },
     {
       "path": "config/oculus.properties",
-      "hash": "f477309b3953fc4f0d42470ff318c193a5dc2e3c",
+      "hash": "348d65ee1033c97234f75f534454de8966b3c847",
       "force": true,
       "type": "addon"
     },
@@ -2759,7 +2819,7 @@
     },
     {
       "path": "config/personality-client.toml",
-      "hash": "a2b7e572477a0ec1a42362d95582221a8ad4c1b3",
+      "hash": "1f9849b7a92f34bd1b63e7c1b12a42acb5027246",
       "force": true,
       "type": "addon"
     },
@@ -2807,7 +2867,7 @@
     },
     {
       "path": "config/puffish_skills/categories/combat/experience.json",
-      "hash": "15a14b46e20cea1ca3ed160344617a64be9306c0",
+      "hash": "0cb93bcc33e52fd908c588b645b160c95f74f3a2",
       "force": true,
       "type": "addon"
     },
@@ -2837,7 +2897,7 @@
     },
     {
       "path": "config/puffish_skills/categories/mining/experience.json",
-      "hash": "6a367fecab208e7bac1ac04a5461bef8f295d92c",
+      "hash": "b5fd0da600c7fa56af0b23da9cf23f7857343ba0",
       "force": true,
       "type": "addon"
     },
@@ -3947,7 +4007,7 @@
     },
     {
       "path": "config/worldedit/worldedit.properties",
-      "hash": "cc85f0f3552ac06e000c32ec561e81f97aa196f0",
+      "hash": "03988164e7b89925921a4f6f3afdb70a71dbb013",
       "force": true,
       "type": "addon"
     },
@@ -3972,1992 +4032,6 @@
     {
       "path": "config/xaeropatreon.txt",
       "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/943.ysm",
-      "hash": "536329aa8f4358a0538629ea6ebec07a0bee6879",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/agir_free.ysm",
-      "hash": "5fd03a07142aef91779fa24e954c3e73e2efbab3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ak_djxk.ysm",
-      "hash": "2b0530651216b3034b5be2f76fb4e233bb8dcd82",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ak_dksjm.ysm",
-      "hash": "39adb0236480b5e84e2459452536693ff9f1a2ef",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ak_gui_huak_gui_hu.ysm",
-      "hash": "2c698df1055540e2ed5abdd491d502d56d1419dc",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ak_lpld_yg.ysm",
-      "hash": "abfb84d29c50052cc91bc36cfb545e24ed936de1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ak_yls.ysm",
-      "hash": "8d8bcb0c4a391660888a8168890a402781d30394",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/alice_5.0_ver.ysm",
-      "hash": "96e7b8b816562100792876855f8823cdbb622808",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/amagisummer.ysm",
-      "hash": "0c337cdbdb722fbcba236b8c4fe4fb50f28ac2be",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ania1.0.5.ysm",
-      "hash": "b90397fe26fd0e7e7945fba5d2e06fb9fb2ebd8c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ansel.ysm",
-      "hash": "24de44037ab84520c73d86543aaed05a7d3c5c90",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/aoi.ysm",
-      "hash": "5e92d87ca7217498eec3d4f1495cfe78efaac9ed",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/aoi_with_animation.zip",
-      "hash": "53799c65050b82ef3c54d31ae9b3d816ff01ad62",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/arisu.ysm",
-      "hash": "079b7756941252e2f48f1f7d7d7b80d2dadd9cb1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/bai_lu.ysm",
-      "hash": "e2cbfd2cbf58bb337f9152b0bdd9723b21179ce6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/bayunzi.ysm",
-      "hash": "8f407462242589c20ac9faa55a9c7eed7c482a27",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/bayunzi_2.ysm",
-      "hash": "9beb8b4f5adc1acee80c6eaab704ebb0ca83d026",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/bayunzi_3.ysm",
-      "hash": "d70a8272fd1e36f65db81dc6aceaa07296001906",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/bayunzi_4.ysm",
-      "hash": "dbf2f5505f9bd9a8f960511563899ed456a2851e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/chaddoge/arm.animation.json",
-      "hash": "a6a90cc02dc13ffc012c979cfba3415db7da8377",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/chaddoge/arm.json",
-      "hash": "cebb9d34aff50815057026a8b06c6691e4c752e4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/chaddoge/chadoge1.png",
-      "hash": "17d61b712b73b249afb8c58da0353355f681ee04",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/chaddoge/extra.animation.json",
-      "hash": "a44266ca7ace158b2f7ca61b5d36d5776f75f7da",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/chaddoge/main.animation.json",
-      "hash": "4af22e5f3dbdf450b6e22de60b8d27d2edfc7269",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/chaddoge/main.json",
-      "hash": "fa6f88944c6fa44d167be5abc8e51ccd53b7dbad",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/chaddoge/readme.txt",
-      "hash": "a5a772760ff62cc7af203e4f56a9d99b35cb0695",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/chara1.2.0.ysm",
-      "hash": "ff2a71b225404d0d644b8d3523acec0bb4ccba3a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/chefty.ysm",
-      "hash": "483fd6d657a2d15062da1390c97c86f2f2e7d196",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/chizui.zip",
-      "hash": "2fad4020792d77a2625ca64a956b07e3d1a18be5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/chloe_von_einzbern.ysm",
-      "hash": "41a80e95c734993489f5caa663251acd38942a30",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/cirno1.0.5.ysm",
-      "hash": "900fd60b5c42c13aca341d20401cb4680f419bb5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/creeper.zip",
-      "hash": "723ababe520730f148fc067a0cc5a87fc8292914",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/cuoe.ysm",
-      "hash": "8a12d1ed17dadbf2bbaa6ecccb1e417aafc85833",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/daiyousei1.1.5.ysm",
-      "hash": "a28ab2c349158f40bf6d5d821ae04f6ab7e4dbda",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/dekomori1.0.0.ysm",
-      "hash": "a00dc821af93a76c0d2e0d92bfde3e1f56c05873",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/dian.ysm",
-      "hash": "f66aa1323249608a4ae4c84b14505ef069914898",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/dongxuelian/arm.json",
-      "hash": "35c52ac73c513f79aaded9fc4849d4bb95e4e4bc",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/dongxuelian/hanjian2.0.png",
-      "hash": "72e95a632f8182cc2bd16e11e9d8bf89eee0003d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/dongxuelian/main.animation.json",
-      "hash": "b01e537377127700d82e8d9fe5d459f57e133646",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/dongxuelian/main.json",
-      "hash": "2583763f926d7253afac97ee423257b3b1292c9a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/drg_gunner/arm.animation.json",
-      "hash": "a6a90cc02dc13ffc012c979cfba3415db7da8377",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/drg_gunner/arm.json",
-      "hash": "75564ea566496172ce2346319b13b533d993d353",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/drg_gunner/extra.animation.json",
-      "hash": "e0f4c8df49908fb8f7775cbd2c02b09fb14dcf5b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/drg_gunner/gunner.png",
-      "hash": "8154df53d7829b5bea826fcb3a2194dcd2dcfb99",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/drg_gunner/main.animation.json",
-      "hash": "6e1c0decc7ca32da1a073c2f7987a02282de3eb1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/drg_gunner/main.json",
-      "hash": "69e21c0fd4917b855a669fc53fbc3a7aacfaa4ca",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/drg_gunner/readme.txt",
-      "hash": "fa411dddf8922cfaedca99b5d088c2ae5566d7d2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/drone/arm.json",
-      "hash": "81d3427f3b29dcddd12b69a01694e604a85c5ee9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/drone/drone.png",
-      "hash": "22f078198458585e1585a52edc0e22ded9efc5c9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/drone/main.animation.json",
-      "hash": "68d1b2395101df7307b00895c71006e0a79c1cd5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/drone/main.json",
-      "hash": "2620220ad62823f4bc1c1fc6f57cf83d5e4c57d1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ely.ysm",
-      "hash": "1238bb3b5c905ce32798b9a271f8b3ca15a52078",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/engu/arm.json",
-      "hash": "f7341d046eb376c48eaa6e0537d6203e8f6067b1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/engu/engu.png",
-      "hash": "917184cb8404b3b554ad9de2d33108c46eb45142",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/engu/main.json",
-      "hash": "cba160924917705c11bd823bf7662c2e53abace4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/feiniao-mashi/1..png",
-      "hash": "8e784b15061bd347380da9c94133f68530aaed43",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/feiniao-mashi/2.png",
-      "hash": "9002ffd5b208bab905a2834abe47e340c6b48ff2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/feiniao-mashi/3.png",
-      "hash": "2476a59e18121b7b14dc01d4ad642be5fc26ad51",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/feiniao-mashi/arm.json",
-      "hash": "95e97932daa3d214e97e127b4213d5ff816ab607",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/feiniao-mashi/extra.animation.json",
-      "hash": "eae824746fbe050a0ffdf77ab75c9bca5d359794",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/feiniao-mashi/main.animation.json",
-      "hash": "7995142cfdf69b14919aa7b352d815527dd09d35",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/feiniao-mashi/main.json",
-      "hash": "c2af8d6f0318b7230689055fcdefda7d4ed731e3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/feiying/arm.json",
-      "hash": "ee79c7296149ee1b6d7350c906fe0d10ca438194",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/feiying/feiying.png",
-      "hash": "c12ae87809a30416cdf78fa49e183c35ffeac6b8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/feiying/main.animation.json",
-      "hash": "e956389ab971fbb78cc18713596c4d814f619c62",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/feiying/main.json",
-      "hash": "f75a5c57af54f5b8d777bd6c141dd321a894253e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/flandre1.1.0.ysm",
-      "hash": "3c51de606d69cdfcb1c9456af87b00d788c13143",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/fox/arm.json",
-      "hash": "8ecf930176b9d7d78c7b40c561694e33f6238976",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/fox/fox.png",
-      "hash": "469ae6be314e7a1973cbafbd931a722e32394c85",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/fox/main.animation.json",
-      "hash": "055238091b12bc450e73d045898b59c97d786ce1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/fox/main.json",
-      "hash": "fad1777691ca93f5bab6462e31f4ae966676ef89",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/free_endministrator.ysm",
-      "hash": "5d025b8e438081b4ea8c5d70e7e8b1078219ea3f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/fridge.zip",
-      "hash": "6d0109c23e20ba451ec2db5ee8c1786881de6eff",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/fulilian.zip",
-      "hash": "18a098b0336cd2463be5c25020ddc2730223d5cf",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/fuluolun.zip",
-      "hash": "32e5902ad03a82f7adaf9ad6741dc15864fca672",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/furina_v2.0.ysm",
-      "hash": "3d45868de840632ef1ee5ac592fa96e83557af44",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/fuxuan.ysm",
-      "hash": "ad7ac24a4daf7b47a15758b45f8063a3191b67ee",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/game_api.ysm",
-      "hash": "2cc6396e933828775e18dd3dc89c35edaccb986b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/game_kaofish.ysm",
-      "hash": "781ae79a0f0162e017539171771cc55da59d0bb6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/game_kinoko7.ysm",
-      "hash": "86e21a6fa1b2f3f58f574ab577b82d92c4ade8b5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/game_longbaobao.ysm",
-      "hash": "bc3c21d8f95f5ef188670f8009a410de412fea5f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/game_yommyko.ysm",
-      "hash": "ab0dcbf28690accf203d296c5ad68c47f6de26f3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ganyu1.0.0.ysm",
-      "hash": "8f1d2ca0f74c3a633ffc96126ba75d5d6a1bbf0b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gf_g11.ysm",
-      "hash": "e28c15eb4c1670e7978b8e2d98466c2bdb30a67d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gf_hk416.ysm",
-      "hash": "1180a98a1651de96e356a9189d9bfcb59ad38dbf",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gf_ump40.ysm",
-      "hash": "218604a48519ccb218e7bc82234f4147dcbf471c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gf_ump45.ysm",
-      "hash": "806b5dd9826ef2255f7be8ae5e54160f3ebf33ff",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gf_ump9.ysm",
-      "hash": "2c5e0b5ce97f59a0faf5c205d97157025f9e73f6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/goldship/arm.json",
-      "hash": "d69cfb1a68c3fbe230a576a01938430c6f18c390",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/goldship/goldship.png",
-      "hash": "927e592026fc970d443982d69bb0cbdd8d9894dc",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/goldship/main.animation.json",
-      "hash": "fc466ce1d4e22dc23de968ff23736a179eb613dc",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/goldship/main.json",
-      "hash": "36527159aabbc1296974c7a13d37d13e57f252a3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gold_ship/arm.json",
-      "hash": "d69cfb1a68c3fbe230a576a01938430c6f18c390",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gold_ship/goldship.png",
-      "hash": "927e592026fc970d443982d69bb0cbdd8d9894dc",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gold_ship/main.animation.json",
-      "hash": "441d854065574e313c22b2b19eb587c5db3673a0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gold_ship/main.json",
-      "hash": "72dd716c99aad0241a281082abe3b0cb2a7d91b3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gs_bc_yg.ysm",
-      "hash": "b07f83920b2a7a45ce333535a35fdc23ba7b50cb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gs_heita.ysm",
-      "hash": "ab5bb3da42a32dccdcfbbb24a37497092792a936",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gs_hutao.ysm",
-      "hash": "f351d22f14b161fac4b113c08bf57c3ff42c1975",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gs_keli.ysm",
-      "hash": "5a4d92404deabb1c7ee6bd3521b9d2649497e6b3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gs_nilu.ysm",
-      "hash": "a63473bc1890ff9165888b569b6a35153645c4d9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gs_pm.ysm",
-      "hash": "5f5c17a67bf09bacc229f2897802ceac0b1e33f7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/gs_tingyun.ysm",
-      "hash": "ba8c76e9a9c9ce1b5b65e29ace74e07347753986",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/hk416/arm.json",
-      "hash": "e6e4989676d495104836412c5ced796db01b1c17",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/hk416/extra.animation.json",
-      "hash": "3256063f6a9fbd2d556017aa73c2522c45998147",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/hk416/hk416.png",
-      "hash": "bfec7387d0b6d1627b50d41f38832a670c66416a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/hk416/main.animation.json",
-      "hash": "b4434ced786a4e2ff5d3abdb18537f3eab143f43",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/hk416/main.bbmodel",
-      "hash": "2081dff404a3c4512c16c2b84454f72dd8f9aa73",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/hk416/main.json",
-      "hash": "8dde33e97a56606eae9a216f08b6019187e172d5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/iroha.ysm",
-      "hash": "8c1ce90118f39c8ba8af679c2454a1b76ecbb3d1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/jiakezi1.1.0.ysm",
-      "hash": "836756c95e5aa0ea5f6e870e1ba0ea084faee537",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/joanofarc1.0.0.ysm",
-      "hash": "3425d714d1ae404e0e5fd61d1b19d10fd06d0b9d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/joanofarc_alter1.0.0.ysm",
-      "hash": "fc01eec9df0981cbb7a520f0aa8146eb768e1e78",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kaierxi/arm.json",
-      "hash": "4d3affc28765f946c99b63edc5a8a62a81576b22",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kaierxi/main.geo.json",
-      "hash": "aedf800ecbd77a76f8b046369327712f8669b432",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kaierxi/main.json",
-      "hash": "ec7329cfeb84ca219c3bb8d2c2c1db5227ded3b1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kaierxi/texture.png",
-      "hash": "62c1ab89198eab2d5fbae51137df291c13038574",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kali.ysm",
-      "hash": "d938e96a6c33ad3b94e1c99d185b6be165af5b14",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kaxiusi.ysm",
-      "hash": "299fe664d176f64f7484ce75168365d1235ee488",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kelala2.0/arm.json",
-      "hash": "21666c6f4daf8fb4030dfbbc9a5b7ba8a11b93f6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kelala2.0/extra.animation.json",
-      "hash": "cb0942ca16ea1240c1bc3f4ea3d11e04c0366017",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kelala2.0/kelala.png",
-      "hash": "8cfb677e38ee03e5ad637d10cd1495ccd85ff509",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kelala2.0/kelala1.png",
-      "hash": "7caf11f7bc6a7c2d8ae3575cd5b42cf625445ff1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kelala2.0/main.animation.json",
-      "hash": "84abc04e86f6f6e25e790ae15be242cd2b172217",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kelala2.0/main.json",
-      "hash": "ee48ab41f0534c2732566c4147e1b117147ccbc7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/keqin1.3.2.ysm",
-      "hash": "6227bd8044801de303b6ca2f5a49c18c6a9db0a7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kirara.zip",
-      "hash": "8f3df81be997c3a90207902cad6c4bfa3b027fb9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/klee/arm.animation.json",
-      "hash": "c30a4df335403f21be5df71736a2360b42e435f3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/klee/arm.json",
-      "hash": "b385e180b8bea87b2ded564b7c0444f9bd0de3ed",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/klee/extra.animation.json",
-      "hash": "09191f7ef322ea04806cc4d97ff0ca1c35d1b11b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/klee/klee.png",
-      "hash": "df155f39ee296ac03af933b4046b69ac98c4e75d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/klee/main.animation.json",
-      "hash": "4974d5ad920501832bf7f66af6794a99e5f6e49c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/klee/main.json",
-      "hash": "e2fff27e490cdfcda0bcff7a59a310a7ae738fb6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/kurumi1.2.0.ysm",
-      "hash": "cb505be96b2e27fd3bbb294d74810d65a9f34242",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/laojiebing/arm.json",
-      "hash": "b0cfe06997df2128cd17a2d2fe89fbdda66a2535",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/laojiebing/main.animation.json",
-      "hash": "5bd138322ea7e1fa693312639598384c66d27aa4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/laojiebing/main.json",
-      "hash": "e173e49163a855c7fe078d78909a426962e162f9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/laojiebing/wuhunzhenshen.png",
-      "hash": "f13661798def4f2f0d3c105c67e963f89298c90c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/leonhardt.ysm",
-      "hash": "adce360148a7ce3292206cdcf8c5b0ca9a8080e3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/lilili.zip",
-      "hash": "4b36c77dbd04c57e4f28bb59172ab3676f247aac",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/lingmeng.ysm",
-      "hash": "051ae98d1ce9062cb4a9c2b7b7c0a0f8acf1f835",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/lingmeng_2.ysm",
-      "hash": "9e1a35daa2099b2f5f93773a0069bb435a1a9046",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/luoshaliya.zip",
-      "hash": "486b8e12f085cc35bb8531fa385d3a54a5ae25c2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/lycoris/arm.animation.json",
-      "hash": "c4da87f29b87cf5a89ebe5e1a9d31340f0952676",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/lycoris/arm.json",
-      "hash": "17037575068a376776ea769bb54a38b46e8a8842",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/lycoris/extra.animation.json",
-      "hash": "30c82d102c9113f03827a59753ec62c713a24bed",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/lycoris/longnai.png",
-      "hash": "00160a5e85cbfbca0fa1cf1671e43114e0c354f5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/lycoris/main.animation.json",
-      "hash": "4e3d799429a4174a53688063651aa3a801a1c809",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/lycoris/main.json",
-      "hash": "43767679ee6e73e277c591ea5cf46ae0b471bd0a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/lycoris/qinasu.png",
-      "hash": "5a6a0cec096042f52b7ffc31d53f567c3922654e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/marian_silver_spear1.2.ysm",
-      "hash": "d404dc3235e1f4bfc100ab9e50e2abdae788c958",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/mc_queen/arm.json",
-      "hash": "0b8c8f75b10ad9cb9fd1e4828f945df6a6b4ceb0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/mc_queen/extra.animation.json",
-      "hash": "e10853529c0cceb8c6e1f235c897df89f0107348",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/mc_queen/main.animation.json",
-      "hash": "1103fdd94e6107cecc8cde1e10019a2cc76f18fc",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/mc_queen/main.json",
-      "hash": "9b7f5b7be51cc1a785a164e9e8a6253a73503948",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/mc_queen/mc_queen.png",
-      "hash": "6efaec2096ae606b88df7e91a8909ac1e2b32211",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/mc_queen.ysm",
-      "hash": "2502f6a57f3fed5a261a83a1180b62d906c31861",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/megumin2.ysm",
-      "hash": "9c5cd590dc5e40316f9704977efe5ab7764a87ee",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/meiyou_2.0ver.ysm",
-      "hash": "f905a563235bfde8c6fd171c7f7ecb882c9ac8f4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/merry.ysm",
-      "hash": "3d74eee56aecf421d7f6dd2c44a528d65a3a9df8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/mikasa1.0.0.ysm",
-      "hash": "eb77d99a4920f7679d6942bd22184df6674b9ba2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/miku.ysm",
-      "hash": "028304e0f57564d87f45a06ec8cee328dfb6ad4b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/miku1.0.7.ysm",
-      "hash": "1e15018ac51d334da47b0f0ce706416242fd3269",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/miku_unwearable.ysm",
-      "hash": "632ff4b9cfc71c6d5cd47fa815280e509fb16634",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/molisha.ysm",
-      "hash": "5d345a1d4d23aca00ba2e846619a18254f94af58",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/molisha_2.ysm",
-      "hash": "022c6334ecbd13174bc43c091a73318c0773a850",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/murasame/arm.animation.json",
-      "hash": "a6a90cc02dc13ffc012c979cfba3415db7da8377",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/murasame/arm.json",
-      "hash": "3a8d3396b3b86023241789434720147284e93c52",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/murasame/default.png",
-      "hash": "028fa1bbccffe0f670098173e03e715540f01000",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/murasame/extra.animation.json",
-      "hash": "84e6e7e008194bf6160760a7c03cc568e4a2b8db",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/murasame/main.animation.json",
-      "hash": "61fe9456aa010962d7cbfa7b6f74c087330dfe9d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/murasame/main.bbmodel",
-      "hash": "b90cd99f17943cae978742265f6cb0fe607696f2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/murasame/main.json",
-      "hash": "a1320421c186d7cd3f2e929d36013078a99d7448",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/nagato.ysm",
-      "hash": "5bc624fe5b36ccd11c6f43b2de03b0fb70250c6d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/nanaki.ysm",
-      "hash": "18c9d721fb9fe6fe6a754b074668fca4383ea8ec",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/noelle_6.6ver.ysm",
-      "hash": "62c6580040563641dcfeb7c4743cef556d12fcd6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/nunlyla/arm.json",
-      "hash": "f54087f066f5e4572e0335404ad7e760ffd06d63",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/nunlyla/extra.animation.json",
-      "hash": "5193389d866ba8adb83f8935ec3f17c28feb3bc7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/nunlyla/main.animation.json",
-      "hash": "e4dea47aa948eb26dfe2ab6007cbec895f2e0423",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/nunlyla/main.json",
-      "hash": "c347da6ab5542fda7c4cffaee9651ac6fb2e8274",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/nunlyla/texture.png",
-      "hash": "b74a345346f3960ea58c70979d0d198a18729962",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/origami1.0.2.ysm",
-      "hash": "f330563ee95971208714aed0bde7f05e08681329",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/pangxiegirl.ysm",
-      "hash": "61d91750d989ed1c6c4b4602ff19c85f4bbd8b00",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/pulana.ysm",
-      "hash": "e78e2a82eaf8c42fa0cee64ba08845909777627b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/pulse_blade_pilot_ysm/arm.json",
-      "hash": "e5255666907e18b1a4a13e97e321201d208fdf12",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/pulse_blade_pilot_ysm/main.animation.json",
-      "hash": "e5e60b7140844487c29edf78b5145f19b5b237c0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/pulse_blade_pilot_ysm/main.json",
-      "hash": "4d75272e04cf806bfca8237282b125f91ed44752",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/pulse_blade_pilot_ysm/pulse_blade_pilot_ysm.png",
-      "hash": "610971d7233524947f3a607e250446e017cd6596",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/pulse_blade_pilot_ysm.ysm",
-      "hash": "e98e1fb9106047c074007232d93a0b07d87f378f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/puluona.ysm",
-      "hash": "eb485828b4bf25a5862b8349268fe29ebb58d45b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/puluona_2.ysm",
-      "hash": "afe14018045ade8fb44f7faa3100ce37369f4cea",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/qilunuo.ysm",
-      "hash": "78e360aa5fa8ce2e73c56e07222685523b5104b8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/qiluonuo_2.ysm",
-      "hash": "e42fc4a2bfac585ce500eba32c0d079897c07a68",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/qingluka/arm.json",
-      "hash": "99b021c6e9b0787b1c8569f79fc6202e0da410a6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/qingluka/main.json",
-      "hash": "a6ed90d64f4a4d59a88dec18a1b98c06044a1a98",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/qingluka/texture.png",
-      "hash": "83603cce0522b7d0209fcad5266a157d08344891",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/qiufeng2.0.ysm",
-      "hash": "e62d79d2a7a4dfe56371bb11c4c6b9e092c8ae42",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/qiyana.ysm",
-      "hash": "0a4f9557057f45f43b5af8bc4ad13e953962a992",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/red_box.zip",
-      "hash": "1d7a8f6ee8d0b4ce0bf3e3a6828532368377c891",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/reimu1.0.5.ysm",
-      "hash": "28bbd0828cc7864e2d3ec6a431c8d0cd03c2ea3a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/remilia1.1.3.ysm",
-      "hash": "22ecbcf57fadc1ba465b3d157425bbf9dbf80435",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/rikka1.1.1.ysm",
-      "hash": "e06c3b55437d80b5f560f44b8829775df0152d89",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ryza/arm.json",
-      "hash": "1d600b7f0168fcc267aed3f47463cee72033e7b8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ryza/default.png",
-      "hash": "26565880a363c443ab108ea0691d8719a142d2e0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ryza/main.animation.json",
-      "hash": "7de45163cc9c9f036e9aab8c4b3a7e7ae1e2b548",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ryza/main.json",
-      "hash": "329b7543a42991b37b6964b6f410dd21fa49c78b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/saber1.8.0.ysm",
-      "hash": "dedd19acddcb5d85a54f52fdec825a96aba846a9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sakabanjiayu/arm.json",
-      "hash": "48f7c60ea3362d85f8e906f22c560231fc57640f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sakabanjiayu/extra.animation.json",
-      "hash": "59e6608e0cb516f522cfa7de4e03b5866c6acc23",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sakabanjiayu/main.animation.json",
-      "hash": "162278ac22e9e7fb7f938ae9e839e3a8246cd455",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sakabanjiayu/main.json",
-      "hash": "6e46e42da7ae5659a1baa583412d62174c14c0f1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sakabanjiayu/texture.png",
-      "hash": "c9ba96cd1bda3ef4cd18ac0dea041e5dcc9f2a57",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sakabanjiayu.ysm",
-      "hash": "6c6dd12656372cce9b66c34359ed3671dfef0208",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/saki.ysm",
-      "hash": "80813a188c22eed1a542d0142b9e75da9b6858b4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sakurafate1.0.0.ysm",
-      "hash": "61b2275da30ad2a1fa6f869ab7cc2733c585c469",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sakuya1.2.1.ysm",
-      "hash": "6f6ec4808cb05481578f4e8eb4c19f94c4c1d8ed",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/seele/arm.animation.json",
-      "hash": "f9d05d4fd511e4ba65182f0255fcb75a47f977bd",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/seele/arm.json",
-      "hash": "cb7eaf1846d09fb51c572a94d22c0e6aa84f2376",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/seele/extra.animation.json",
-      "hash": "89664ce8c06a45ca2c5353e194fcc090797b9abb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/seele/main.animation.json",
-      "hash": "f9d05d4fd511e4ba65182f0255fcb75a47f977bd",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/seele/main.json",
-      "hash": "b7fba4dcd32a7f36c7a817f06592055bdf23348a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/seele/seele.png",
-      "hash": "3770e9c1fb22cc0808155a968cb53f4c2b33d4ec",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sensei/arm.json",
-      "hash": "28b88d64803ecde8aaa8245b83978a505eb3e0e6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sensei/extra.animation.json",
-      "hash": "77d948e099c66a47462c74cac33e31e316dd0bd8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sensei/main.animation.json",
-      "hash": "db7fbbcbe8cb319b583092b892e240a0a6be9949",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sensei/main.bbmodel",
-      "hash": "71629366f1f08e573392e85eec4226d71194d210",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sensei/main.json",
-      "hash": "f17eedb29d54db8c74b415140f2b40c24334c0f7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sensei/sensei.png",
-      "hash": "e8bc3870548d0476525da6d5124a4c4a228af447",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/shanling.ysm",
-      "hash": "08ab9fca1839a53860a709c72904c795ff5aa2ee",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/shigejubs1.1.9.ysm",
-      "hash": "5ad1cd994ec1b49625701d90c8a3e07eda33e1bd",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/shixian1.0.5.ysm",
-      "hash": "dcfc232564bdbc4b81cfceb53c6ca30120143941",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/shuangshengwulin.zip",
-      "hash": "fcae6cb0056bc446994a4f26a889c3b7104491ce",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/signalis.ysm",
-      "hash": "c64bd30ff3ac7455145e1d51f19a2ce407c9229d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/skadi/arm.animation.json",
-      "hash": "946e451469dc49ca0a978c668cad0c3d82404c75",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/skadi/arm.json",
-      "hash": "4e4b057f8bf79e5c245b05e906c28a193383d468",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/skadi/extra.animation.json",
-      "hash": "726c5d16067fe0d7ca7d1a5a620b4f90241f762b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/skadi/main.animation.json",
-      "hash": "1797a3aba6c33034d49250cb32203d8a1476bd27",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/skadi/main.json",
-      "hash": "e61096d144d94819da1a64552d30e7b0562562d2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/skadi/skadi.png",
-      "hash": "2553329c1d59a05cc420baa27c32d33df44cb0c7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/skadi/tac.animation.json",
-      "hash": "7da444ae1ba5fc7a63cd39a372252afdd11c2bac",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/smart_falcon/arm.json",
-      "hash": "ee79c7296149ee1b6d7350c906fe0d10ca438194",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/smart_falcon/feiying.png",
-      "hash": "c12ae87809a30416cdf78fa49e183c35ffeac6b8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/smart_falcon/main.animation.json",
-      "hash": "f8c86cf9542bff4c6ef3f4e70ffbd6285e15dfbf",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/smart_falcon/main.json",
-      "hash": "fa074ef3293def4177ecb83c3ee28b360f5e0b79",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sophie/arm.json",
-      "hash": "25b0f4dcdd436b4a63be1bc7a1be7eb43543c166",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sophie/default.png",
-      "hash": "0827f6d8f02ea6eb873ae98c2da427b83c7f3913",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sophie/main.animation.json",
-      "hash": "37f3174991136b6a7f4fb9f45838698472191100",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/sophie/main.json",
-      "hash": "00663d277d90e1626b169f34a159baac31f2cb5f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/spider.zip",
-      "hash": "920972fc9fd199c5c8dbeb20d542f21eafe5ae6e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/touka1.5.1.ysm",
-      "hash": "8e63e78c9433ea3c6255a1c478033bfe8702677b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/tuoru1.1.1.ysm",
-      "hash": "eaddfe66d3b6722e072bf425fe43d1a6a30a1df2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/tv/arm.json",
-      "hash": "4d93165d9667c134cfe4ac4455cbf96b9dc5901b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/tv/main.animation.json",
-      "hash": "28975aa8c06876ec031b871e2ef3a7961055ad0b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/tv/main.json",
-      "hash": "5a6ce1e999f67e739f417ac81ee86c27e2eec9c4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/tv/tv.png",
-      "hash": "cb60b0a26b3a4512e4cf6ab8604d9cdc33ea039c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/two_body.ysm",
-      "hash": "d3ec314e14c37a77eddf9aaa7f3051f423d3292f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/typhon/arm.animation.json",
-      "hash": "a6a90cc02dc13ffc012c979cfba3415db7da8377",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/typhon/arm.json",
-      "hash": "adcf6bba54e597277bbff7f6ba9a1fe98e8daed5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/typhon/extra.animation.json",
-      "hash": "53504a8f0239b0bb5d1a7bffcbb29e8f742e4ecb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/typhon/main.animation.json",
-      "hash": "542663a261c82df6f5b6f9457c71790872b3d992",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/typhon/main.json",
-      "hash": "ce51b965db26cefd32e4c43dbd051640604d603b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/typhon/texture0.png",
-      "hash": "3dce61f2d6d54690e33f8ba6ad9ada5ad57158d0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/typhon/texture1.png",
-      "hash": "c470cfe68335f4564351ebb3e319f162b827835f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/typhon/texture2.png",
-      "hash": "99ed1aee2d3880483f3fd9d36dd23313f3e42cac",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/umy.ysm",
-      "hash": "73bdda8001ee59355039c781558b71e585c0008a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/UUZ.ysm",
-      "hash": "47eb7fdce34653297e4948537731f4a2f1b87cf9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/UUZ_2.ysm",
-      "hash": "282683d2ae68b2eab8fcf8de589c9adc18e20972",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/UUZ_3.ysm",
-      "hash": "356b8647d4f2795aad742b44862f6f544c07f6cb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/UUZ_4.ysm",
-      "hash": "534a696a1fa0e1102d385862f03bf8b1f6f28753",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/vocaloid_ca.ysm",
-      "hash": "a6335ae24a468c6f89b75369ab2017ec1f6590d0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/vocaloid_ca_unwearable.ysm",
-      "hash": "545f1fd363aca7838c251e1151997a7f5f0d6b89",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/vocaloid_miku.ysm",
-      "hash": "75c819967db2f9b5679f548883552cd157ee6b08",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/v_angelkawaii.ysm",
-      "hash": "a4efb86c6a60daeaa50ba0373f880a4ffbef414a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/v_rain.ysm",
-      "hash": "70504a758eeb58d3502c039ab6693e01d0020270",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/wuyin.ysm",
-      "hash": "14445b3324cdc24d39a7a6395337555b41070477",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xiaochun/arm.json",
-      "hash": "8b3209d0a066e38f13d94d9a6cfb5d31c0f4f3a1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xiaochun/main.json",
-      "hash": "d910b8f0ffa3d449f4ac2f0d99d1e16be7231df7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xiaochun/texture.png",
-      "hash": "93435ccd2e0c192b8ed9bc6f24b17ce626cb9745",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xiaochun2.ysm",
-      "hash": "fff35016dfcb8364b0561e5c8062221032c0e27a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xiaoshun/arm.json",
-      "hash": "af82c605fb9d2d6ddc578dc35cba90cc5426e101",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xiaoshun/extra.animation.json",
-      "hash": "928d6410ce491aa3e7195657bf754fa1d4c878ef",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xiaoshun/main.animation.json",
-      "hash": "11731d8205fdb852dfd9116aa7702e925d41056f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xiaoshun/main.json",
-      "hash": "65fed1ca3435a792d5c1b9528c41a316617c2723",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xiaoshun/texture.png",
-      "hash": "cd8adce5de74fc6ec2174fbb4d691a22b9a92416",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xing/arm.animation.json",
-      "hash": "77726dd8db99c2ee20806b62839a74abc2524e51",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xing/arm.json",
-      "hash": "38497ecaf04eda7938f0bba11f8ad571bac91ee1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xing/extra.animation.json",
-      "hash": "2a9d95d0b3f77dfac7b7094de0addf41717fccf7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xing/main.animation.json",
-      "hash": "77726dd8db99c2ee20806b62839a74abc2524e51",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xing/main.json",
-      "hash": "f8b8323413d9569174023471b8c53f6c87f86441",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xing/tac.animation.json",
-      "hash": "b5b5da52cc4402b1ac1ab9eb30f97193fedb5d23",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xing/xing.png",
-      "hash": "cfd8de18f0fecad4bf97adbcfb0a881296e8322a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xingchen/arm.json",
-      "hash": "95c8489a8b567489fb204fd17eb978fc0c1db876",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xingchen/extra.animation.json",
-      "hash": "cceebf1eb0736eb05873e61e4492e37194f3228c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xingchen/main.animation.json",
-      "hash": "8dd39962978ae87d0004914e8eba4678d0a34498",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xingchen/main.bbmodel",
-      "hash": "3772806539732b6700778ab1d43694d0e005a96b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xingchen/main.json",
-      "hash": "6aa7c6d39412af3d18209aeeccd2124818a812a1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xingchen/xingcheng.png",
-      "hash": "5181fb0ddf28baf85263e72822257dbdf59b4732",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xingye/arm.json",
-      "hash": "ffb7314417824bd8cbfd993fda3e79bcd59de3a1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xingye/main.json",
-      "hash": "e77064f969c169628ac595625a8a0a79eb366afb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xingye/texture.png",
-      "hash": "c1e5784ede63dd47751ea75edda37b63da38241d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xingyeai/arm.json",
-      "hash": "1564ef82743d37eebd0cc41b9dd6c35d7f668ca8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xingyeai/main.animation.json",
-      "hash": "229c413a4c6fe18a8c387a6a0ea5e80a84a19984",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xingyeai/main.json",
-      "hash": "e9756480813424bd874eca64a47bf7e1661b3bfb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/xingyeai/xingyeai.png",
-      "hash": "8a3f7cf0150c5be97547fcaae3fe9a76e1e7f14f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ying.ysm",
-      "hash": "fe010030e64787b67c34154451960d93fa6daa6c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/ying_wu_luo2.ysm",
-      "hash": "5361565f3cb56541fd3452621c356cb9e00b938f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yinlang/arm.animation.json",
-      "hash": "7fb8176bbabb2a377f511bba8df24aae81e222c8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yinlang/arm.json",
-      "hash": "6b02749ce8cf62310bfe4fd5db1f5014a9839f17",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yinlang/extra.animation.json",
-      "hash": "69452b23f23d142489820a87d9ea407d049b92c8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yinlang/main.animation.json",
-      "hash": "7fb8176bbabb2a377f511bba8df24aae81e222c8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yinlang/main.json",
-      "hash": "d4823851e0a3aed17c6b06d4393a20b5b49302e4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yinlang/yinlang.png",
-      "hash": "e12e1c3f8b5d373e4a8315674673291664b6b042",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yoshino1.1.7.ysm",
-      "hash": "6d32818a5d898b60f68e8a3b9cb455edf91906b6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yuan_xiang/arm.json",
-      "hash": "1fcadc52a8ffdba6eeee161ad729a4568a2234f1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yuan_xiang/extra.animation.json",
-      "hash": "5b64c40db6afa2187c01daff78b4fc9dbe1723d5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yuan_xiang/main.animation.json",
-      "hash": "cea085b9f6a435f6db75b7f93a7174e749843f35",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yuan_xiang/main.json",
-      "hash": "46198cda2e178eac9854dd1ebfdf6f2597f746e5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yuan_xiang/texture2.png",
-      "hash": "f6cc7ab56ca982343ed80b501ae9a4ac5833c851",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yuan_xiang1/arm.json",
-      "hash": "1fcadc52a8ffdba6eeee161ad729a4568a2234f1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yuan_xiang1/extra.animation.json",
-      "hash": "20e488f3d1ec239494db6f21b9530009ab9c7d15",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yuan_xiang1/main.animation.json",
-      "hash": "cea085b9f6a435f6db75b7f93a7174e749843f35",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yuan_xiang1/main.json",
-      "hash": "46198cda2e178eac9854dd1ebfdf6f2597f746e5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yuan_xiang1/texture2.png",
-      "hash": "f6cc7ab56ca982343ed80b501ae9a4ac5833c851",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yyj/arm.animation.json",
-      "hash": "b0ad19654785d9a5ee6072fcc9ec17ed7876b8c2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yyj/arm.json",
-      "hash": "a4c873b55f27fb13e2db88b4d741f5cb168242c4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yyj/extra.animation.json",
-      "hash": "ef165bcb9f068cc109972d94597eb4740691be3d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yyj/main.animation.json",
-      "hash": "b0ad19654785d9a5ee6072fcc9ec17ed7876b8c2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yyj/main.json",
-      "hash": "dbe167be0352fa19c8e0939ea5940b407277e06c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yyj/tac.animation.json",
-      "hash": "837712a065d2280d3cedada4b637c59d37412c59",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/yyj/yyj.png",
-      "hash": "dbfd7190eef9b0e742650694edf481716f16df32",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/yes_steve_model/auth/zacamusume.rar",
-      "hash": "fe019d4397da559b76319c0fc265d0696fa93126",
       "force": true,
       "type": "addon"
     },
@@ -10523,7 +8597,7 @@
     },
     {
       "path": "global_packs/required_data/tac_reformed.zip",
-      "hash": "5e21480ec15e155b19704c19a14101f67e14fb4b",
+      "hash": "424f88cafab177de028619f83baf2aa4b77a7b6a",
       "force": true,
       "type": "addon"
     },
@@ -11225,19 +9299,19 @@
     },
     {
       "path": "kubejs/server_scripts/2_stage.js",
-      "hash": "7d557cfb4b13b3a848aa37f8e543e0cd64b4ee46",
+      "hash": "4bb434fffdbd2013f27bc42fa0e35678994014d0",
       "force": true,
       "type": "addon"
     },
     {
       "path": "kubejs/server_scripts/3_stage.js",
-      "hash": "065919af51c8eea39e0e382fc02269a5e435fd37",
+      "hash": "d167a9f21cbf8135f38743d0fd6bb5dba50e970f",
       "force": true,
       "type": "addon"
     },
     {
       "path": "kubejs/server_scripts/4_stage.js",
-      "hash": "cf92fa6388b4e3057b4a4135d76a7e40929be5ef",
+      "hash": "ddfb43d16b4418bffed754d6a077bf37e45fda9e",
       "force": true,
       "type": "addon"
     },
@@ -11262,12 +9336,6 @@
     {
       "path": "kubejs/startup_scripts/script.js",
       "hash": "cd01fdc7b449348c37712a86e8de53aedb37bfdd",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/awesomedungeonocean_ocean_cage_c9c238a93c.nbt",
-      "hash": "b401645da441681c967ff2e6236b6d6effb1fee9",
       "force": true,
       "type": "addon"
     },
@@ -11308,320 +9376,8 @@
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_0_f0e2021747.nbt",
-      "hash": "28e1e5f82feab34b7d3c5460ffa914521ec0db29",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_10_ef7390a822.nbt",
-      "hash": "26ee17590b3308d1ee221cd3632697ef2a9d0c3b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_1_d33cc86297.nbt",
-      "hash": "b84ce1724e9b277e4ebbc8a779ebd18acaf59a0e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_2_eee568a047.nbt",
-      "hash": "2b41bb3db82b3106b09f8b7d19015ebfe95aaace",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_3_50da79b947.nbt",
-      "hash": "bc12b43b6b3e691461029435307a89e625a3e495",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_4_77f18b9200.nbt",
-      "hash": "71824b1082a85db46ce588ea2a104120447ead70",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_5_d50784ff42.nbt",
-      "hash": "dd1ec8095e3349e000d0a5627a3438d27c7afb4c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_6_c756a06022.nbt",
-      "hash": "b03d8cd27a4d94693f30bc3490701fb98bfd5862",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_7_7d875457b5.nbt",
-      "hash": "a5b39670b968db39c108a53d8417c4a4b371722b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_8_b9fdabe9f9.nbt",
-      "hash": "838720311eb92eb73eaccf42d790aead170dba16",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_9_34f62f9cb5.nbt",
-      "hash": "38748c7580ff202f9bd7b83a01e36590e5135634",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_2x3_2x3_empty_547d238db6.nbt",
-      "hash": "8c839f1aea5fa01e36738379a86803bf53795b37",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_10_5ba0d13af0.nbt",
-      "hash": "4c74eb8b76248161d2cc95a2496abdfac1254e43",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_3_b108e47757.nbt",
-      "hash": "4703ecfa59c77314500269b281a6a6bd39c3c8c3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_4_52cec4534d.nbt",
-      "hash": "4f76d157655b619f3d7bc19c3b867033c5110629",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_5_de981fe924.nbt",
-      "hash": "b2724e4cda07c7ec11db5ab07c5339280988e413",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_6_1421cb2249.nbt",
-      "hash": "5ec5aa1dc24aa133e59f53ad3a0897a767f0556f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_7_e659c44069.nbt",
-      "hash": "9159138c529da275d2a5f58d9f438ed4eaa54533",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_8_27da72aea2.nbt",
-      "hash": "b643b345b745f9d16ba2fdb8eaafc31ff2555b97",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_9_01b2f4a40f.nbt",
-      "hash": "7f2da597af586b5794ed922463c501d5a5a8aa39",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_3x3_3x3_empty_478e284ed4.nbt",
-      "hash": "14c0c30189b98155ae55186c92ef6cb39d096148",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_arches_arch_0_8add85a4c3.nbt",
-      "hash": "d1808a7cfe22c582c79eac5b743d1eb206278c2d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_arches_arch_11_7e683771ba.nbt",
-      "hash": "4f3f90b625a40d29dc3eb82b06e30cd0d3f39ce2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_arches_arch_2_a78fbb6b49.nbt",
-      "hash": "61a15e7a80009f084f0883eb9425341214005fac",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_arches_arch_6_70062986f0.nbt",
-      "hash": "033a6461b742ddf79eae9ee4132354267b4060b1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_bridges_bridge_big_0_80e03675b9.nbt",
-      "hash": "cd070f348afcbad4f3e68cf36575619ff872051f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_bridges_bridge_big_1_1ede92fb93.nbt",
-      "hash": "1b86456f0f3777fe536a25a71417e96a656ef75b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_bridges_bridge_big_2_5824cd2e1b.nbt",
-      "hash": "1f274ebdc48a6d62830e9981f416ad897e4e8bda",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_bridges_bridge_big_3_43d1311cfc.nbt",
-      "hash": "a7c45072cd214a31eed38e7c6bbd599ad5192d67",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_bridges_bridge_stone_071b5dd198.nbt",
-      "hash": "c0910d79d9ae0226cad9988dee83f11444851d8b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_bridges_bridge_wood_a32827d751.nbt",
-      "hash": "a3764c82486b725c07713e99f5d9280df50bbc8b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_campfire_prop_campfire_prop_0_f6d16284e5.nbt",
-      "hash": "817b8477bcb650c8e8440fc75a1440c56efdf565",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_campfire_prop_campfire_prop_1_c61fe33f3a.nbt",
-      "hash": "8f76003e6ce055be3edec3aa0104cfb434cd49e1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_campfire_prop_campfire_prop_2_3b95ff5e48.nbt",
-      "hash": "22a766983abaaa66ebe5faf824840daf15d4dcb5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_campfire_prop_campfire_prop_3_9dd877a8a1.nbt",
-      "hash": "60596bee79646a2b412a7334654a70c8ef9b9f34",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_campfire_prop_campfire_prop_4_035f14a11e.nbt",
-      "hash": "5747f3b62f7070667b3f14a478b04287d1688617",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_campfire_prop_campfire_prop_5_e8b8fd517c.nbt",
-      "hash": "44c2416be715958b8e7536226c03a4043cb4581c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_campfire_prop_campfire_prop_6_fd344a6bf2.nbt",
-      "hash": "45f129758535e057ea158f88c2381c0f59e43563",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_skeleton_shell_55b4080ab9.nbt",
-      "hash": "d8c30bbc82585e818bd1adfd25f18814b5e82dc3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair1_stair1_0_1c96d27111.nbt",
-      "hash": "d48d5e48427b502548bbbd6ccc39a3c80452f1d7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair1_stair1_1_209a4f7c16.nbt",
-      "hash": "d8796f828818fd9847f7b1a54037b25fd2870473",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair1_stair1_2_13f41cf985.nbt",
-      "hash": "38b46f8dfc604eb50b7a28baf89b17c0aeb07280",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair1_stair1_3_1a94672c3c.nbt",
-      "hash": "a91411432374dfb629bbf8a3057e858e0aadb27b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair2_stair2_0_7c159e85f7.nbt",
-      "hash": "aab10f1aa70935afcc728d53211aa0a4f31e0255",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair2_stair2_1_36e5e99a80.nbt",
-      "hash": "695c4ae1c0e55b1364ef54fb4782962f6b723a2a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair2_stair2_2_0d4f6bf291.nbt",
-      "hash": "730852f6454770d52ed9a6ed89e544f0072cce14",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair2_stair2_3_dc4e11de08.nbt",
-      "hash": "8063be50bb57734bc04dbf04f790be4c2bfc7406",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair2_stair2_4_0db8414e48.nbt",
-      "hash": "f4648955b6daf0068ca12358ba7952641b342330",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair2_stair2_5_ccca018dd2.nbt",
-      "hash": "d2620010cd43aee9cf42c57457625b71027457d2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_skeleton_dungeon_stair_bottom_stair_bottom_1444059b00.nbt",
-      "hash": "1d957f10c75735a5d815a351cab23a546dadafbb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_0_c0736bd3a2.nbt",
-      "hash": "63f4613b95ece3bd5c728732489e4f9a6386b693",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_1_9e4b4a8643.nbt",
       "hash": "ce1d054fda992abee36c2d6ac4a41b47e05fed43",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_2_e546b41936.nbt",
-      "hash": "428c1520517542f5fd4f03397d4eba187efef00b",
       "force": true,
       "type": "addon"
     },
@@ -11640,12 +9396,6 @@
     {
       "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_5_ac5114c0a5.nbt",
       "hash": "7e5362fb015a1c88d81dd47b0ce231c2be87964d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_loot_piles_loot_pile_6_484ed43715.nbt",
-      "hash": "2f87d276b748888bb4828d072b4a6164f3b3719f",
       "force": true,
       "type": "addon"
     },
@@ -11680,386 +9430,8 @@
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_shells_small_shell_7x7_8ff232e934.nbt",
-      "hash": "c6cc1b9934082e8cad7d0f15f7c4b343a1a0c677",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_shells_small_shell_9x5_24b7cbb1ad.nbt",
-      "hash": "5a8a7894cd24002c97e8c361806f0c013adad285",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_shells_small_shell_9x7_5e99bab350.nbt",
-      "hash": "7f9dcdc8282117381528e2c75c128f7b508b7e2a",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "modernfix/structureCacheV1/betterdungeons_small_dungeon_shells_small_shell_9x9_b88c93854b.nbt",
       "hash": "70073a692f44f5ba12a90dc16007b9863fbf55be",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_big_stairs_big_stairs_0_68bc7485e5.nbt",
-      "hash": "ac0b6e2d8bb32d5d4675b9d7de6609abc2808e87",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_big_stairs_big_stairs_crumbled_0_1d8711bc6b.nbt",
-      "hash": "26ed69332730738e203c386d3d41884712783e70",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_big_stairs_big_stairs_crumbled_1_f23103678a.nbt",
-      "hash": "22692824a8bb24ee586ce2f31f01c0b364062e4e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_big_stairs_big_stairs_crumbled_2_b6c98f56cf.nbt",
-      "hash": "bf670f5f8c14387498115ef7026f2b37b38b6d09",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_cubby_double_0_3d91d37244.nbt",
-      "hash": "b7aa2bbd0543fd924c31e3b4fa5198c07b2579eb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_cubby_single_0_b223b5c881.nbt",
-      "hash": "f25124754a4b53c76a077d5019143c9a72966c83",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_cubby_sm_single_0_5c1f9a28ea.nbt",
-      "hash": "5829ebce1715c70e3b9c5eff667c86052389b0f3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_0_19470f2517.nbt",
-      "hash": "71772511993232df85d1322854bc2af69a7c330e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_1_9de30ac762.nbt",
-      "hash": "cfbba5defdc7861d08259cf2153a3dd3d9cf1199",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_2_cea4f419f6.nbt",
-      "hash": "f531b388ea35d14225fa77457977cbd3f15cb683",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_3_771ff98168.nbt",
-      "hash": "8192b04e0621796eadd3e770e5d50fd38334452c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_4_c8124bc64f.nbt",
-      "hash": "628d1232f07e7a66a714cbce03512c61ea9034f7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_5_2ed61aea75.nbt",
-      "hash": "d0df4c03bf82ee63dcb359a1a44342629bae2b49",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_6_ae56d3227d.nbt",
-      "hash": "de8987af0ac15d4b79d51d4865a736f920e228dc",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_7_1bfd37e7a5.nbt",
-      "hash": "4031e742f7c3324a9e430b7287691044987f39e8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_8_3e6c3af909.nbt",
-      "hash": "3a68ad3ea295bf1d6cd5d72b9cc98f0ec8bb3196",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_9_28ffc66738.nbt",
-      "hash": "6fdf0ca5ecce7c0f823632616dfe18de29041365",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_empty_d19b114bd3.nbt",
-      "hash": "a5cfdd308cc194c7f45b84850e776f23cc7a9583",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_spawner_0_4bc4d81937.nbt",
-      "hash": "52bd0cbe6e26029d11dc15472a2b5b5f7e55deb0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_spawner_1_5688fe111e.nbt",
-      "hash": "9939e55685a5b8623cffe38002e3390cc419f9b6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_cubby_prop_cubby_prop_spawner_2_1bffa9f7ce.nbt",
-      "hash": "00224e8b44a8795881a47d4430e854ff539af8fc",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_room_floor1_room_0_97e7590a1b.nbt",
-      "hash": "d6f5bc9ee3fede8c51c1e8453da2bc412a2c764f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_room_floor1_room_1_09ff8e38e0.nbt",
-      "hash": "8c32de06f64636d0351764bf32793258f61632c1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_room_floor1_room_2_859bab9870.nbt",
-      "hash": "9425d66a29f73300e30ab9fdfa2d818f7be79b68",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_room_floor1_room_stairs_52bff3bb2b.nbt",
-      "hash": "e9948ccb837afc5b070b8a514a6e4044568ccf9e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_room_floor1_specialroom_0_405c6102d6.nbt",
-      "hash": "1aa3f0fa5b0c0b4c84b8457a353fe67269469adf",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_hall_terminator_0_fe26f5a081.nbt",
-      "hash": "c13047ee623a8358c3c3174e7d518a5e7d3c3d8f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_hall_terminator_1_8a83130c87.nbt",
-      "hash": "64f4165556eeb549213616304609a3dfcff3387f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_hall_terminator_2_195c65d5b2.nbt",
-      "hash": "11efd3f6c17cef4813169fba4442c2a9046c87e2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_hall_terminator_3_e32de48315.nbt",
-      "hash": "d85ad0999736f09486432c421fe9dcb00bae38e4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_hall_terminator_4_9e2c2040b4.nbt",
-      "hash": "d49d82ff07ad8ce6f78bf1e23515ca1798b5d078",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_room_terminator_0_25b9cc04a3.nbt",
-      "hash": "6d1cde84d12dd7961e2d27f3447bdfd2068aeffa",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_room_terminator_1_ae781e45c5.nbt",
-      "hash": "6bdcfc06e99f10ce5d6b33d52131992007928e13",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_room_terminator_2_681e5c1230.nbt",
-      "hash": "516257f5547c5e84e64848f17206d3ae388287a9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_room_terminator_3_c9fad1901e.nbt",
-      "hash": "57ebef1f4adb699d26a49da58f26a787d3f8409c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor1_terminator_floor1_room_terminator_4_4116006d4b.nbt",
-      "hash": "d54cc91a6b2c8e4aaac53800520e4cdf4c7c9ee0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_room_floor2_room_0_b9616343f3.nbt",
-      "hash": "5d9cec30396afe89d9b4987c2795c637660765e4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_room_floor2_room_1_18b0aab15e.nbt",
-      "hash": "0eb9c889810935f024477a3ddd7a6e91335466a1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_room_floor2_room_2_4a5bdc6111.nbt",
-      "hash": "f9151cd54f841a5134ce7f42ac276b3587cc599b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_room_floor2_room_3_1432056cbe.nbt",
-      "hash": "f9ba4f7793dd19e24ef0ad8c9b586e0e348140a9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_terminator_floor2_hall_terminator_0_a331c62f6f.nbt",
-      "hash": "6ac1ee9363d193428e91c022f26a27199468b61a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_terminator_floor2_hall_terminator_1_3570c92d17.nbt",
-      "hash": "241de45ea2ee5df642ad7014d24ea915757edc24",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_terminator_floor2_hall_terminator_2_6e2ce00136.nbt",
-      "hash": "efe00802ca46ee41a93e1722f2c0d028e4b2bede",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_terminator_floor2_hall_terminator_3_982ebe639d.nbt",
-      "hash": "30a249c7d903ae6fcd25f6620a4e12762cb3d673",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_floor2_terminator_floor2_hall_terminator_4_34ff06bc12.nbt",
-      "hash": "20368395bbf60699bb380daf4197588b001fd198",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_bow_closed_bd8c00425e.nbt",
-      "hash": "0629ec0761864ad5668ec0daa7e0847b82654b43",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_bow_open_0_65598c2c42.nbt",
-      "hash": "7e02b7c71d736e38585a42a81d4ab085b0f70a70",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_bow_open_1_da585a42f2.nbt",
-      "hash": "b4d1acd00acaf94f564871218c35cd6a763d54a4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_chest_closed_a5c11e963a.nbt",
-      "hash": "940d4e81cc11c386cc8e08d28116992faf2bf5fb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_chest_open_0_c52a8dc0ee.nbt",
-      "hash": "3062593435255c09b8389ed800f55308d8da64de",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_chest_open_1_f3f201b8cc.nbt",
-      "hash": "f6451c06ec10a5c32e95022af974d88f19b72afa",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_empty_closed_a78f2c7f53.nbt",
-      "hash": "d22400d5877a79648df6b9eba5ba9ed80f178e2b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_empty_open_1_c970a77123.nbt",
-      "hash": "453f93280710f096ab128aa8e076ba24771e8145",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_flower_open_0_1db0be3bca.nbt",
-      "hash": "cdd516cc9473ed343043dc973c7ad17942c8ec9f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_skull_closed_bd8c00425e.nbt",
-      "hash": "0629ec0761864ad5668ec0daa7e0847b82654b43",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_skull_open_1_011de72dba.nbt",
-      "hash": "39bae16d2a02461c76641cc38e86f1322b6b875b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_spawner_closed_ee27e68eba.nbt",
-      "hash": "cbbfc8d5e3721987997ee373639fb6d45c6d5534",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_spawner_open_0_b890589d3c.nbt",
-      "hash": "f71e1a64710579cda7b8c87c89eeea411800ce82",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_tombstone_tombstone_spawner_open_1_ff34104ec3.nbt",
-      "hash": "527be01bf2b34e1665dd91e9a181d45410f64aa4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/betterdungeons_zombie_dungeon_zombie_start_d1343bb6e8.nbt",
-      "hash": "90e81d9a4f0472622e7173af58691e447b991849",
       "force": true,
       "type": "addon"
     },
@@ -12070,38 +9442,14 @@
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/beyond_earth_meteor_1_b1517ea582.nbt",
-      "hash": "12a170e781082a6fadcc005d575cadb9656a7c24",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "modernfix/structureCacheV1/beyond_earth_meteor_2_e5cd3196c9.nbt",
       "hash": "06ccf0f3fb920f3a01aa54bb2d3ce8d70b4411aa",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/beyond_earth_meteor_3_3c32128882.nbt",
-      "hash": "0b541f1dbc4a42e90d62024e998e65f758361f14",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/beyond_earth_meteor_4_68def8cd9d.nbt",
-      "hash": "d72f240038465739ea6d45843ff3499a94e721ef",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "modernfix/structureCacheV1/beyond_earth_meteor_5_210e7e5cbc.nbt",
       "hash": "f503da2ae5714ad1adffa9f0a2e83b1964f2f919",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/beyond_earth_meteor_6_55fc1c4a07.nbt",
-      "hash": "ff4732f121ada27a0a259383b632e4ef7fe9676f",
       "force": true,
       "type": "addon"
     },
@@ -12148,12 +9496,6 @@
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/byg_village_red_rock_town_centers_red_rock_meeting_point_2_33ae61a3c3.nbt",
-      "hash": "ee33d26aceb3f2d47d6fbbd81f9ec33a31a45b82",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "modernfix/structureCacheV1/byg_village_red_rock_town_centers_red_rock_meeting_point_3_a0e8ff4e6e.nbt",
       "hash": "880c951cfac5aa1f9e9d2035604ca100d20a1513",
       "force": true,
@@ -12178,12 +9520,6 @@
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/byg_village_ruins_town_centers_ruins_meeting_point_4_78eb4d0d06.nbt",
-      "hash": "0cf0a91bbad271adac7604c7d2de844a6ad46b33",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "modernfix/structureCacheV1/byg_village_skyris_town_centers_skyris_meeting_point_1_65e47245d6.nbt",
       "hash": "b6d97df983b851852eef8d447d259854714006c3",
       "force": true,
@@ -12196,12 +9532,6 @@
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/byg_village_skyris_town_centers_skyris_meeting_point_3_2d6cbfc8be.nbt",
-      "hash": "f3a9897eff386f4f0f8d65b18a409ca59a8a440f",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "modernfix/structureCacheV1/byg_village_skyris_town_centers_skyris_meeting_point_4_4a5e0be11e.nbt",
       "hash": "fe61c73526001ebfe19fcb11fbbd3daf93deee79",
       "force": true,
@@ -12210,72 +9540,6 @@
     {
       "path": "modernfix/structureCacheV1/byg_village_tropical_town_centers_tropical_meeting_point_1_a2b5de8ae3.nbt",
       "hash": "74faee85c79fc4c7efa9a14e8dc41cbeae0d224a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/byg_village_tropical_town_centers_tropical_meeting_point_2_66024d3615.nbt",
-      "hash": "aa0169847e51cac6cc04d57b330e861596743a9c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_abandoned_temple_abandoned_temple_0_ac98710a34.nbt",
-      "hash": "40da564c21604a0021eb9beec643624777e01592",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_abandoned_temple_abandoned_temple_1_cf7070605d.nbt",
-      "hash": "6f9d3356cbdca2342bd00f061fc763bcf64ef0e9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_bandit_village_bandit_village_street_2_cc370fe8c0.nbt",
-      "hash": "5b8900efdc8eef590b8c2f62220f90443a86c5fb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_ceryneian_hind_ceryneian_hind_part_1_1bcc5b024d.nbt",
-      "hash": "15c23ed2c5e4702469d535363568ea9e1e79b62c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_coliseum_coliseum_part_0_1131075b76.nbt",
-      "hash": "15ef1ff4fe86cac6597f377838ffbc9bdd1c48ea",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_coliseum_coliseum_part_2_c88764e2b0.nbt",
-      "hash": "8ac505cbc78e7f2c3339c79b62e14e99bdc92347",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_fishing_hut_fishing_hut_main_1887bfce7a.nbt",
-      "hash": "d400785db17c88649eb9cd4847c02e74fdae3ab4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_giant_mushroom_red_giant_mushroom_part_0_e41cc51dd5.nbt",
-      "hash": "c540f469b80348d70f91878681e227978fba7571",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_giant_mushroom_twin_giant_mushroom_part_0_1f543c0202.nbt",
-      "hash": "f9db78f0ed6b17fd7ce95368d90a479fde966b06",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_illager_campsite_illager_campsite_street_6_main_06b76cba56.nbt",
-      "hash": "947283e0ad61d142bc4a44d60e414d9b8cc5a19c",
       "force": true,
       "type": "addon"
     },
@@ -12310,24 +9574,6 @@
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/dungeons_arise_illager_fort_illager_fort_part_0_14f81ea64c.nbt",
-      "hash": "a4b5ad5da889475650b88eb2845bf4f4c7fc407c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_illager_fort_illager_fort_part_1_456a5f0c18.nbt",
-      "hash": "9063570941d48c71c1b55dab68b62414bdd95346",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_illager_fort_illager_fort_part_2_a73f601603.nbt",
-      "hash": "2651081972ca83d6dd1e63958fb3890111b04d08",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "modernfix/structureCacheV1/dungeons_arise_illager_galley_illager_galley_part_0_7460cc384e.nbt",
       "hash": "5fdefcd8a025a8427855bb9cf353b1f461e0b8e1",
       "force": true,
@@ -12352,300 +9598,6 @@
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/dungeons_arise_illager_windmill_illager_windmill_part_0_42f7a07a41.nbt",
-      "hash": "1e2a27372cd372c18a748d81d5dd512ee33a2d55",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_infested_temple_infested_temple_layout_part_1_middle_4534b8d353.nbt",
-      "hash": "fa0d986821c9ac3e3c0fa61ea671c8fe4aafd188",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_jungle_tree_house_jungle_tree_house_0_main_7ac637a6dc.nbt",
-      "hash": "b13ff515f86897e750cc7818c95803919e8da54e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_jungle_tree_house_jungle_tree_house_1_roots_61584c10da.nbt",
-      "hash": "0064fcc7cbb594800b512b4c16da6e145c3ef020",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_lighthouse_lighthouse_part_1_ef71e5f1b6.nbt",
-      "hash": "447b27ec374d4ccb9bdfa0c71b87d27631e00051",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_lighthouse_lighthouse_part_2_af866dceaf.nbt",
-      "hash": "65a41f11f75b248fd1fd07546e6a7d7975f0ff12",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_merchant_campsite_merchant_campsite_iron_golem_normal_0_3743e58916.nbt",
-      "hash": "a596198b3b004400bf149cce486669c21d9ea276",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_merchant_campsite_merchant_campsite_street_0_ab7e2ac9d6.nbt",
-      "hash": "50155c50b6bd376ae74cafc9276a894abf565b43",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_merchant_campsite_merchant_campsite_street_1_3f18fc4371.nbt",
-      "hash": "a37705103cb70836b6e554cf254b1c6082d4d6af",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_merchant_campsite_merchant_campsite_street_2_87ff2cc3e2.nbt",
-      "hash": "a9550bfaa1dd4501a0a1bf0e31f91eb37cde5b31",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_merchant_campsite_merchant_campsite_street_3_cc99174195.nbt",
-      "hash": "2a73acb2e9a78dd44bda0c512984a5d6ee305672",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_merchant_campsite_merchant_campsite_street_4_main_a9d9e667e3.nbt",
-      "hash": "3653b7546c8906d52461b8fb73b49947825dc09b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_merchant_campsite_merchant_campsite_tent_0_cdea251a4b.nbt",
-      "hash": "cae52546e4569680906b59193fbf3a90047f4302",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_merchant_campsite_merchant_campsite_tent_1_a48f2dbb52.nbt",
-      "hash": "d68ec945654680a3d09c635a03007150a66c468c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_merchant_campsite_merchant_campsite_tent_2_c32a1f309f.nbt",
-      "hash": "cbbbc4feedec9c937aa275fe7869a553802a246b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_merchant_campsite_merchant_campsite_tent_3_3c1b33d2fd.nbt",
-      "hash": "202f6de0d2a9973f042f86bcb6b0759a4c52a95b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_merchant_campsite_merchant_campsite_villager_normal_0_670f14adab.nbt",
-      "hash": "ce90c6aad9dd6c302389b4bb9956ed99f955e62e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_descent_0_181d765703.nbt",
-      "hash": "ca054046d0f17f1909b747730ad6f5eacc4732d2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_spawner_skeleton_0_b0381c14d6.nbt",
-      "hash": "13834759478c4d4a74c053f570364b407358deba",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_spawner_skeleton_1_32135c78e1.nbt",
-      "hash": "62d4e6526cc12224627b438d2248b2eebfaadd91",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_spawner_skeleton_2_472fad6a5a.nbt",
-      "hash": "6c7a305ed686fc68a5532c493655e191698bf3f3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_spawner_skeleton_3_075e11cde7.nbt",
-      "hash": "b0f9452330a842417d7f5fbcc560b9854ba2c561",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_straight_0_e5ca32fc9c.nbt",
-      "hash": "71d48eccf464e675437b5d06c5af4f352a052a5b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_triple_0_79528e38be.nbt",
-      "hash": "2f0580d5c1368488de81878120b99db4123fbf39",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mining_system_mining_system_turn_0_71436ffe41.nbt",
-      "hash": "16c60d88b7709f3b096d9e0283ac0075e7364a26",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_monastery_monastery_start_c7c1b3a089.nbt",
-      "hash": "4d1164b4592f870df350048292ad54b70eaf828e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_bottom_0_78b43c759c.nbt",
-      "hash": "ac2329ad5d8dbe1208aba672fea99d355628fa0f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_bottom_1_1ece1934e1.nbt",
-      "hash": "09d30fa1b9d69ccaa09a468d9ad13f2077a3b524",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_bottom_2_e0bd18bf7b.nbt",
-      "hash": "6737527873175925656faebbff8979f711974222",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_bottom_3_7396a73e47.nbt",
-      "hash": "45f94aaad2f1b88e6bc4d3f5bdb9002ad3ec34c5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_piglin_0_d4e738c022.nbt",
-      "hash": "ff32f4de163a57cfe1cd9f62a2b252bb757d39ea",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_piglin_1_6e9ef81cc4.nbt",
-      "hash": "df913c8431a2d04ed8fafb56d41fab443921b124",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_piglin_2_3a1aa9ebbc.nbt",
-      "hash": "43c5600b18898e10f85775dcc7101f3145d0d35d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_roots_0_28e4b332ff.nbt",
-      "hash": "f1189017dcbc3bac5c8e780bf1206587349ebdfc",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_top_0_245b0107e5.nbt",
-      "hash": "472119f8e8c08d68085cafaa26a2c61c221d61c9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_top_1_ee821db976.nbt",
-      "hash": "f455c1d615c742ffc9942c2ac7538d46241dd256",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_top_2_12fe45267f.nbt",
-      "hash": "98e15e645ec6edaa6e70aedc393d43fe069aa40b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_top_3_a333188923.nbt",
-      "hash": "09adca2b72f9d6426a593628f4fb64dfa5c9e116",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_house_mushroom_house_top_4_08c4735f8a.nbt",
-      "hash": "7882e6cccc122da1f9eb50953267843a423bf7d8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_mines_mushroom_mines_part_0_0315195851.nbt",
-      "hash": "9568ba5ddd051367ccf717ab21a23cf19eb384a3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_mines_mushroom_mines_part_1_4d90540104.nbt",
-      "hash": "b92c79d33527d6230aa4831992ef23dbe7bf4c8c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_mushroom_mines_mushroom_mines_part_2_9ad2aba4e6.nbt",
-      "hash": "149350df08033e0613bf693eaebf7523473dd2a3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_scorched_mines_scorched_mines_well_0_536d530474.nbt",
-      "hash": "68872387aea28f5a390c4dee3a90082eaf45fa3d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_small_blimp_small_blimp_ladders_0_7c649de4c0.nbt",
-      "hash": "66c1c2f5a29c1542792e5eddcfc442c4461d25d1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_small_blimp_small_blimp_part_0_6121245bba.nbt",
-      "hash": "f9b0f5ea2b491bd2fa3b3812e7aed4aced1611b2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_small_blimp_small_blimp_part_1_54b9d6e8bd.nbt",
-      "hash": "7489dc1966e3f73d683d82f61e4692d91cd0e1fa",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_small_blimp_small_blimp_skeleton_0_f3f46c5f44.nbt",
-      "hash": "98132958efea6f3f55edf7ab648ed02dcc0d9cd2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_small_blimp_small_blimp_skeleton_1_e30f3810f5.nbt",
-      "hash": "d559b5e65cc593ad91a9c51e0703871688b71a71",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/dungeons_arise_small_blimp_small_blimp_skeleton_2_f831ec4707.nbt",
-      "hash": "641cac1c15b348cc88b96882a25f4311df70e98f",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "modernfix/structureCacheV1/dungeons_arise_typhon_typhon_part_0_9c0367a88b.nbt",
       "hash": "410242e64c46f3d1a702e73471560cbd819810d7",
       "force": true,
@@ -12664,67 +9616,13 @@
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/dungeons_arise_undead_pirate_ship_undead_pirate_ship_part_0_83e75b3d38.nbt",
-      "hash": "e17ae4255e7f17d613e1b415d2f07ba9b972e302",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "modernfix/structureCacheV1/dungeons_arise_undead_pirate_ship_undead_pirate_ship_part_1_cfc118100e.nbt",
       "hash": "2087bab46508fe8cd8e5461b74015fabfecac32c",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/dungeons_arise_wishing_well_wishing_well_0_84b0997dd5.nbt",
-      "hash": "3290c214b164189799e872c9d91430fde6eb7190",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/farmersdelight_village_houses_plains_compost_pile_937cf64930.nbt",
-      "hash": "36ba424f40673f67affa95b6df088c060d565c49",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/farmersdelight_village_houses_savanna_compost_pile_77b375390a.nbt",
-      "hash": "0f6e07ebe0dc918eeb44e15bbf563648a4b0a77d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/farmersdelight_village_houses_taiga_compost_pile_0b5bd60c4a.nbt",
-      "hash": "f3b965004e4c347948c23f3dab15a3ca8441e89a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/graveyard_small_grave_crashed_carriage_cb4c757628.nbt",
-      "hash": "6e075531d297d3bc75a4bfe19960e386eef4d854",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/infernalexp_glowstone_canyon_grand_heaven_portal_1_3f1f5d1aa4.nbt",
-      "hash": "f915db50bc8ee6576f9e9b55f525ce0d5395bb1b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/infernalexp_glowstone_canyon_grand_heaven_portal_2_3f1f5d1aa4.nbt",
-      "hash": "f915db50bc8ee6576f9e9b55f525ce0d5395bb1b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/infernalexp_glowstone_canyon_grand_heaven_portal_3_3f1f5d1aa4.nbt",
-      "hash": "f915db50bc8ee6576f9e9b55f525ce0d5395bb1b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/infernalexp_glowstone_canyon_grand_heaven_portal_4_3f1f5d1aa4.nbt",
+      "path": "modernfix/structureCacheV1/infernalexp_glowstone_canyon_grand_heaven_portal_5_3f1f5d1aa4.nbt",
       "hash": "f915db50bc8ee6576f9e9b55f525ce0d5395bb1b",
       "force": true,
       "type": "addon"
@@ -12736,152 +9634,8 @@
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/infernalexp_glowstone_canyon_platform_altar_00ce01e236.nbt",
-      "hash": "c83a190d71f37c2987d8b5616339680719f21e19",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_outpost_pillagers_outpost_captain_71bd1825ea.nbt",
-      "hash": "1850aba563b4b01868965fb734527e69a167bbe5",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "modernfix/structureCacheV1/kaisyn_ships_wreckage_ocean_load_1f75138859.nbt",
       "hash": "8dc1bafde79993ea092d33ebd71cc12faff2bc31",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_houses_forest_large_farm_1_3f2585dcf0.nbt",
-      "hash": "843fda8e259a5f0b6dafdff2780a5779467814d8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_houses_forest_small_farm_1_fc496ab6f1.nbt",
-      "hash": "230f47f925d668fac5c8022820e5a9245edc7100",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_corner_01_9dd4379906.nbt",
-      "hash": "9bf6cdb3c343df17fadae121b71724e3155e9b1f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_corner_02_478284d9f3.nbt",
-      "hash": "6f1cfe049a30a3f1ceb1c9dd873eb468d2054188",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_corner_03_ac2fec8a94.nbt",
-      "hash": "0cc386b24061876c2f24956e334a02d75476c434",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_crossroad_01_ae5e138e84.nbt",
-      "hash": "d6fa734241a6e407ec192377276f542aaea87f11",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_crossroad_02_bb32f69502.nbt",
-      "hash": "595933448d70850a6cb96c9ee94ee1c2882093cf",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_crossroad_03_09967fdda4.nbt",
-      "hash": "8d2219c088bf314a6b01e628426ec65cc27e2e54",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_crossroad_04_c00454e134.nbt",
-      "hash": "b9c10f4b1f9d58071f52683cab9a93480b0da353",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_crossroad_05_9d84ba6d15.nbt",
-      "hash": "fd70ca7adc0eb1c2e8d8edaead0c6212b25e6604",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_crossroad_06_35b7e37c50.nbt",
-      "hash": "477b891109db7f47a63c41607066a52c386b0ce3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_straight_01_c4a8f8acee.nbt",
-      "hash": "f566575d1c194b3a970ac4e852ae2201db1fa4e2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_straight_02_3587891c66.nbt",
-      "hash": "adf7c79439488fbbb92456d75565245d7fe5c701",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_straight_03_246ae1b221.nbt",
-      "hash": "3089b129f263cdeb7cba98781610edc608f87e76",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_straight_04_91f8efeaa6.nbt",
-      "hash": "545ce0479c318df69a816dbb415056033304a9c0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_straight_05_fe8ff354be.nbt",
-      "hash": "923718fe036176e821da4be43b107fcc9c3ab064",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_straight_06_cf41c6b08d.nbt",
-      "hash": "8e52ccb147e95206e047682a9aa8feebc0cbf6da",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_streets_turn_01_800cc1037c.nbt",
-      "hash": "c14e6fa7e1fd7c76d8de4c0e12bf7fc63f28ebb0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_terminators_terminator_01_0eee05857d.nbt",
-      "hash": "84e43fc37b08783cc84416fa5ce21138d512f650",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_terminators_terminator_02_1ebea8069c.nbt",
-      "hash": "70c486ed6f24519ba50c2e97e11a6a23171526dd",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_terminators_terminator_03_5dad30ef2e.nbt",
-      "hash": "2f7277ccbcd2cad089510d255da6a81c6d4bfd47",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_terminators_terminator_04_06f14031f4.nbt",
-      "hash": "3594dfab7a2e53a73d43bc6b765c0d6ebf2ba316",
       "force": true,
       "type": "addon"
     },
@@ -12892,68 +9646,8 @@
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/kaisyn_village_forest_ruins_town_centers_forest_meeting_point_2_6aeb6d407b.nbt",
-      "hash": "ad721d8860c48058bfc894cd9beb50bb7e8f9105",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_jungle_tribal_villagers_baby_2e43b39e32.nbt",
-      "hash": "d352c143cbd1431100df7986c4bd85030166e787",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_jungle_tribal_villagers_nitwit_c887dee43b.nbt",
-      "hash": "25f1afcec84823b68420d901408999397347ff66",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_jungle_tribal_villagers_unemployed_0132c46fda.nbt",
-      "hash": "cd0f51047354aa4cc3aaf947d227fea0e66e9ff3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/kaisyn_village_sparse_jungle_polynesian_sparse_jungle_tiki_torch_1_1780b483f6.nbt",
-      "hash": "f9ec49ffe44c7811d1cc033edaec9d758f2b9ad1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/supplementaries_way_sign_5afeece7b2.nbt",
-      "hash": "c15b8260ac5e998cf57b676a76ade64ce6af3579",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_earth_earth_0x1x0_cf36821a66.nbt",
-      "hash": "d53d46b8a469cdd28af42250c71fd4b55585dc47",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_earth_earth_4x1x6_6c53734e6c.nbt",
-      "hash": "78c749c15f0974cee788772ba0f7773ed16f095c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_earth_sky_2x2x4_23d6077ef1.nbt",
-      "hash": "07a6e18be9562e1093d8d4dff31c932c02d4895b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_sky_earth_11x1x11_50fa9a99ae.nbt",
-      "hash": "9271db38d58564b2d2c4423afe0c05199e270684",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_sky_earth_8x1x11_79faa69e4f.nbt",
-      "hash": "71647625d58b7e488b5dc66856681faf72cc87eb",
+      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_earth_earth_11x1x11_38d226c404.nbt",
+      "hash": "ef7597bd4a5ffbaa564d61d453b458744b7db1c2",
       "force": true,
       "type": "addon"
     },
@@ -12970,134 +9664,8 @@
       "type": "addon"
     },
     {
-      "path": "modernfix/structureCacheV1/tconstruct_slime_islands_sky_sky_4x1x6_609907d42c.nbt",
-      "hash": "0b1b16fbf90e0c4d9b7f2c68ea7840474c9cecf1",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "modernfix/structureCacheV1/tofucraft_tofu_village_town_centers_fountain_d2bbfcba3f.nbt",
       "hash": "16fe2d9b013a939a6b72d34e5633fcbfc4a55aa8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/vampirism_village_entities_hunter_trainer_90f48ede2a.nbt",
-      "hash": "6523e5847dfa13620d1e4cc7f0b47a154fb27589",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/vampirism_village_plains_houses_hunter_trainer_49662ce920.nbt",
-      "hash": "28a0e930230ce6c495d991c5406c6b059593c64d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/vampirism_village_plains_houses_plains_temple_3_e53d0a488e.nbt",
-      "hash": "1faeca296c37a28a550477127ee93cda217451a0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/vampirism_village_plains_houses_plains_temple_4_26ed391faa.nbt",
-      "hash": "767bba5caaae70750e6aba53d2c6d8d40cfa5968",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/vampirism_village_savanna_houses_hunter_trainer_d199b4bb4d.nbt",
-      "hash": "b52328b324846d11c96a614cd4af4dba1c51f194",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/vampirism_village_savanna_houses_savanna_temple_1_4bf1638294.nbt",
-      "hash": "359bc19d6d0102086a7a8a96da3972376772bf9e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/vampirism_village_savanna_houses_savanna_temple_2_5319b94ae9.nbt",
-      "hash": "bd8da6de5be232f8ff934f0fe1d13cc9b63d8c56",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/vampirism_village_taiga_houses_hunter_trainer_167a9d46f4.nbt",
-      "hash": "f782d997b4be12cfa64da64328f661bf0fa39f39",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/vampirism_village_taiga_houses_taiga_temple_1_0e1452265a.nbt",
-      "hash": "2348da82b8a4642074963945049ed3dbd44e7c62",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/vampirism_village_totem_5bcee3ed1e.nbt",
-      "hash": "3148014920ea12960ca7ba399954eb9d67ccd6da",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/yungsbridges_bridge_stone_15_1_12e30ad0fa.nbt",
-      "hash": "cfba394f0017ca60d9e60360fd3205ba4eb3294a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/yungsbridges_bridge_stone_16_0_broken_b48099f8c1.nbt",
-      "hash": "f79b5865691c7f7caeda4348addce80303b7d8f8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/yungsbridges_bridge_stone_16_0_cc1ad65c45.nbt",
-      "hash": "67574d6ecdac552886bf57519b2d017354aab746",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/yungsbridges_bridge_stone_22_0_broken_4dc51796d4.nbt",
-      "hash": "2be6bb30070c7a26d7152b81ad4deaf73933e99e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/yungsbridges_bridge_stone_22_0_c1ff11724d.nbt",
-      "hash": "e7c320030848b89389e8cfcdd1ad86d6d7340d88",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/yungsbridges_bridge_stone_24_0_broken_40472f6f10.nbt",
-      "hash": "c0fda463c39c4e2ddc3302c902b6ebdf54c3ef4d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/yungsbridges_bridge_stone_24_0_d6164138de.nbt",
-      "hash": "c1d6372ac569a65abacd50c7d641ab9acc643c4b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/yungsbridges_bridge_stone_31_0_880d3ce64d.nbt",
-      "hash": "25be8369452ea2f9777848a4562a0fab91c18be0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/yungsbridges_bridge_wood_17_0_6d5beca773.nbt",
-      "hash": "aa0586255ce4cba1c67d1a762e0147c0fded8ad2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "modernfix/structureCacheV1/yungsbridges_bridge_wood_17_0_broken_a618486e40.nbt",
-      "hash": "2c3ca3fee1d19d1c47fb1feb622ef98dc1a407d2",
       "force": true,
       "type": "addon"
     },
@@ -14555,7 +11123,7 @@
     },
     {
       "path": "options.txt",
-      "hash": "a3cf87f182e83e067a98288ab26467389be5363f",
+      "hash": "076e7c7858ef114e39585001557958f1d5ebac24",
       "force": true,
       "type": "addon"
     },
@@ -14585,7 +11153,7 @@
     },
     {
       "path": "scripts/itemstage1.zs",
-      "hash": "7498758423dec8011e86642f97c34c8edfbd35fa",
+      "hash": "36d3736812cfbfc09a8604ed647d4f1b8ea7c2a8",
       "force": true,
       "type": "addon"
     },
@@ -14597,7 +11165,7 @@
     },
     {
       "path": "scripts/itemstage3.zs",
-      "hash": "8ad4416946e8bb4292b9514a12a99a3f225f2d53",
+      "hash": "40540a2b1bcc16ee7f52e99f201d48d49652e9b1",
       "force": true,
       "type": "addon"
     },

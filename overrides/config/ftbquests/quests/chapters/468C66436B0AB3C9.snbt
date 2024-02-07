@@ -1,7 +1,7 @@
 {
 	id: "468C66436B0AB3C9"
-	group: ""
-	order_index: 7
+	group: "70E0DD171C4BAA56"
+	order_index: 6
 	filename: "468C66436B0AB3C9"
 	title: "车万女仆"
 	icon: {
@@ -30,6 +30,7 @@
 			description: ["灵梦：只要你给钱......"]
 			hide_dependency_lines: true
 			dependencies: ["763F0302D9D332B2"]
+			hide: true
 			size: 2.0d
 			id: "0DE53777BAA777DD"
 			tasks: [{
@@ -57,7 +58,7 @@
 		{
 			x: -2.0d
 			y: 2.0d
-			subtitle: "击杀女仆妖精以获得P点"
+			subtitle: "击杀女仆以获得P点"
 			dependencies: ["0DE53777BAA777DD"]
 			id: "2552AF94D9EDA59E"
 			tasks: [{
@@ -350,7 +351,7 @@
 		}
 		{
 			x: 2.0d
-			y: 7.0d
+			y: 8.0d
 			dependencies: ["3CF4F090AEF24F13"]
 			id: "3BE95BBC48AAC651"
 			tasks: [{
@@ -373,7 +374,7 @@
 		}
 		{
 			x: 4.0d
-			y: 7.0d
+			y: 8.0d
 			dependencies: ["3BE95BBC48AAC651"]
 			id: "492AC13604F8A17D"
 			tasks: [{
@@ -396,7 +397,7 @@
 		}
 		{
 			x: 4.0d
-			y: 8.0d
+			y: 9.0d
 			dependencies: ["3BE95BBC48AAC651"]
 			id: "125726ADF80C8D62"
 			tasks: [{
@@ -419,7 +420,7 @@
 		}
 		{
 			x: 4.0d
-			y: 6.0d
+			y: 7.0d
 			dependencies: ["3BE95BBC48AAC651"]
 			id: "79D1600B8FFB13A5"
 			tasks: [{
@@ -442,7 +443,7 @@
 		}
 		{
 			x: 4.0d
-			y: 9.0d
+			y: 10.0d
 			dependencies: ["3BE95BBC48AAC651"]
 			id: "52E4E49721A01FE9"
 			tasks: [{
@@ -465,7 +466,7 @@
 		}
 		{
 			x: 4.0d
-			y: 5.0d
+			y: 6.0d
 			dependencies: ["3BE95BBC48AAC651"]
 			id: "4E54B423217C1E3A"
 			tasks: [{
@@ -488,7 +489,7 @@
 		}
 		{
 			x: 4.0d
-			y: 4.0d
+			y: 5.0d
 			dependencies: ["3BE95BBC48AAC651"]
 			id: "6E143DE62E21AB83"
 			tasks: [{
@@ -511,7 +512,7 @@
 		}
 		{
 			x: 4.0d
-			y: 10.0d
+			y: 11.0d
 			dependencies: ["3BE95BBC48AAC651"]
 			id: "6AC81A4CECFC1E18"
 			tasks: [{
@@ -527,6 +528,237 @@
 			}]
 			rewards: [{
 				id: "4178623107616505"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			dependencies: ["4CCF4B310927C07D"]
+			id: "41B184C7636D6074"
+			tasks: [{
+				id: "3810F8BC6AA1A790"
+				type: "item"
+				item: "touhou_little_maid:crafting_table_backpack"
+			}]
+			rewards: [{
+				id: "4933675611D32463"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.5d
+			dependencies: ["4CCF4B310927C07D"]
+			id: "27AC9B7E7319726A"
+			tasks: [{
+				id: "5DAB912C077678E5"
+				type: "item"
+				item: "touhou_little_maid:furnace_backpack"
+			}]
+			rewards: [{
+				id: "2AE134644C94F37E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			dependencies: ["4CCF4B310927C07D"]
+			id: "4027CCC77018C03A"
+			tasks: [{
+				id: "61E7B379E3005C79"
+				type: "item"
+				item: "touhou_little_maid:tank_backpack"
+			}]
+			rewards: [{
+				id: "147D2C0D8D5C057C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.5d
+			dependencies: ["4CCF4B310927C07D"]
+			id: "5E216AF8DB5BCCBB"
+			tasks: [{
+				id: "4F12FF554E9400C0"
+				type: "item"
+				item: "touhou_little_maid:ender_chest_backpack"
+			}]
+			rewards: [{
+				id: "604037E42434CA41"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "强化！"
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["2BCD9D91C2AB5538"]
+			id: "1B329C14E52088E6"
+			tasks: [{
+				id: "0A18A0BB4EF075F3"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:entity_placeholder"
+					Count: 1b
+					tag: {
+						RecipeId: "touhou_little_maid:altar/spawn_lightning_bolt"
+					}
+				}
+			}]
+			rewards: [{
+				id: "63BCC172312B7E95"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "Do you wan't build a snowman?"
+			x: -0.5d
+			y: 5.0d
+			dependencies: ["2BCD9D91C2AB5538"]
+			id: "6C437B15BA189D7E"
+			tasks: [{
+				id: "38EE6A179B663AE5"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C2185C604C10009"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "给我看看！"
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["3CF4F090AEF24F13"]
+			id: "5DD78C8018F5B599"
+			tasks: [{
+				id: "2F825FF33400F7F0"
+				type: "item"
+				item: "touhou_little_maid:red_fox_scroll"
+			}]
+			rewards: [{
+				id: "5396829D9C9EC7E0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "死了啦，都怪你啦"
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["3CF4F090AEF24F13"]
+			id: "118F35DA25279562"
+			tasks: [{
+				id: "5BBF8C50B8015FFC"
+				type: "item"
+				item: "touhou_little_maid:white_fox_scroll"
+			}]
+			rewards: [{
+				id: "3B219F42438204A9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			dependencies: ["3CF4F090AEF24F13"]
+			id: "710B7568FB213D27"
+			tasks: [{
+				id: "20F35DDCD073FEF5"
+				type: "item"
+				item: "touhou_little_maid:kappa_compass"
+			}]
+			rewards: [{
+				id: "780396259B660F89"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			dependencies: ["2BCD9D91C2AB5538"]
+			id: "2EDC5B2F8C564396"
+			tasks: [{
+				id: "1AADF683B01AB658"
+				type: "item"
+				item: "touhou_little_maid:keyboard"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			dependencies: ["2BCD9D91C2AB5538"]
+			id: "345F165747990190"
+			tasks: [{
+				id: "277A9C66627C4CD2"
+				type: "item"
+				item: "touhou_little_maid:bookshelf"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.5d
+			dependencies: ["2BCD9D91C2AB5538"]
+			id: "563775D4A22CE2C2"
+			tasks: [{
+				id: "43F2F2365D2FB10F"
+				type: "item"
+				item: "touhou_little_maid:computer"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			dependencies: ["2BCD9D91C2AB5538"]
+			id: "032731F781AF8BB2"
+			tasks: [{
+				id: "08D002263651F075"
+				type: "item"
+				item: "touhou_little_maid:gomoku"
+			}]
+		}
+		{
+			title: "看来你运气相当高"
+			x: -1.0d
+			y: 5.5d
+			dependencies: ["2BCD9D91C2AB5538"]
+			id: "613A295972F73720"
+			tasks: [{
+				id: "76B4C14F1E7C0BD5"
+				type: "item"
+				item: "touhou_little_maid:shrine"
+			}]
+			rewards: [{
+				id: "1C1A31A6923A2CD9"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L

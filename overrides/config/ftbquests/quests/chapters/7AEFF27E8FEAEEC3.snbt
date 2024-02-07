@@ -1,7 +1,7 @@
 {
 	id: "7AEFF27E8FEAEEC3"
-	group: ""
-	order_index: 9
+	group: "70E0DD171C4BAA56"
+	order_index: 8
 	filename: "7AEFF27E8FEAEEC3"
 	title: "末地创世"
 	icon: {
@@ -30,6 +30,7 @@
 			description: ["有很多种的眼睛，本章节将介绍其获取途径"]
 			hide_dependency_lines: true
 			dependencies: ["7EDDE806CBCB95E7"]
+			hide: true
 			size: 2.0d
 			id: "186127039AC3CF4F"
 			tasks: [{
@@ -536,6 +537,50 @@
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
+		}
+		{
+			title: "十二龙珠"
+			x: 6.0d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: ["79245A443F566440"]
+			hide: true
+			can_repeat: true
+			id: "70599565EF35F7EB"
+			tasks: [{
+				id: "5C616BC7F74D38AD"
+				type: "item"
+				title: "Any #kubejs:great_endeye"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:great_endeye"
+					}
+				}
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "158D9F0D5D989607"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "6EBD262049AB0156"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "488AC6DC5C5D6DFF"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+			]
 		}
 	]
 	quest_links: [ ]

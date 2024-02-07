@@ -1,3 +1,6 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "0112FB3555078D9C", title: "生存阶段" }
+		{ id: "70E0DD171C4BAA56", title: "玩法细分" }
+	]
 }

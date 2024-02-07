@@ -1,9 +1,9 @@
 {
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "ComingSoon",
-  "version": "2",
-  "author": "z",
+  "name": "起始与终焉：七咒的轮回v1.0",
+  "version": "1.0",
+  "author": "WLMC",
   "overrides": "overrides",
   "minecraft": {
     "version": "1.18.2",

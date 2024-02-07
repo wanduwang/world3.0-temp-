@@ -205,5 +205,26 @@
 		{ item: "minecraft:enchanted_golden_apple", weight: 50 }
 		{ item: "expandedstorage:wood_to_netherite_conversion_kit", weight: 10 }
 		{ item: "twilightforest:torchberries", count: 16, weight: 150 }
+		{ item: "ars_nouveau:source_gem", count: 10, weight: 20 }
+		{ item: "touhou_little_maid:smart_slab_init", weight: 5 }
+		{ item: "create:precision_mechanism" }
+		{ item: "create_sa:steam_engine" }
+		{ item: "create_sa:heat_engine" }
+		{ item: "create_sa:hydraulic_engine" }
+		{ item: "create:blaze_cake", count: 4, weight: 20 }
+		{ item: "gobber2:gobber2_ingot_nether", count: 16, weight: 15 }
+		{
+			xp: 70
+			type: "xp"
+			weight: 100
+		}
+		{
+			xp_levels: 3
+			type: "xp_levels"
+			weight: 100
+		}
+		{ item: "minecraft:gunpowder", count: 32, weight: 100 }
+		{ item: "minecraft:nether_star" }
+		{ item: "tac:ultimate_material", weight: 100 }
 	]
 }

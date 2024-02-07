@@ -1,7 +1,7 @@
 {
 	id: "1904D1563628012C"
-	group: ""
-	order_index: 5
+	group: "70E0DD171C4BAA56"
+	order_index: 4
 	filename: "1904D1563628012C"
 	title: "更多熔炉"
 	icon: "ironfurnaces:gold_furnace"
@@ -21,6 +21,7 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["70AB407A4C15C26C"]
+			hide: true
 			size: 2.0d
 			id: "549B65D497949949"
 			tasks: [{

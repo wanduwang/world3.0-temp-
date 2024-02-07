@@ -1,0 +1,38 @@
+{
+	id: "4A7654D7124A0E1F"
+	group: "70E0DD171C4BAA56"
+	order_index: 14
+	filename: "4A7654D7124A0E1F"
+	title: "沉浸工程"
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		icon: {
+			id: "immersiveengineering:hammer"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+		}
+		x: 0.0d
+		y: 0.0d
+		shape: "gear"
+		dependencies: ["4B212A337A70C324"]
+		hide: true
+		size: 2.0d
+		id: "3F394B40A4EA5118"
+		tasks: [{
+			id: "402ABA639892D045"
+			type: "checkmark"
+			title: "沉浸工程"
+		}]
+	}]
+	quest_links: [ ]
+}

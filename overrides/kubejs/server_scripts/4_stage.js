@@ -10,10 +10,10 @@ console.info('Hello, World! (You will see this line every time server resources 
 onEvent('recipes', event => {
 
     //觉醒龙种子是七级
-    event.recipes.botania.terra_plate("mysticalagriculture:awakened_draconium_seeds", ["mysticalagriculture:gaia_spirit_seeds","mysticalagriculture:dragon_egg_seeds","mysticalagriculture:nether_star_seeds","mysticalagradditions:insanium_block","mysticalagriculture:draconium_seeds"], 100000).id('kubejs:draconium_seeds')
+    event.recipes.botania.terra_plate("mysticalagriculture:awakened_draconium_seeds", ["draconicevolution:awakened_core","mysticalagriculture:gaia_spirit_seeds","mysticalagriculture:dragon_egg_seeds","mysticalagriculture:nether_star_seeds","mysticalagradditions:insanium_block","mysticalagriculture:draconium_seeds"], 100000).id('kubejs:draconium_seeds')
     event.remove({id: 'mysticalagriculture:seed/infusion/draconium'})
     //龙种子是六级
-    event.recipes.botania.terra_plate("mysticalagriculture:draconium_seeds", ["mysticalagriculture:terrasteel_seeds","mysticalagriculture:hepatizon_seeds","mysticalagriculture:queens_slime_seeds","mysticalagriculture:manyullyn_seeds","mysticalagriculture:enderium_seeds","mysticalagriculture:wither_skeleton_seeds","mysticalagriculture:netherite_seeds","mysticalagriculture:emerald_seeds","mysticalagriculture:diamond_seeds","mysticalagradditions:insanium_essence"], 100000).id('kubejs:dra_seeds')
+    event.recipes.botania.terra_plate("mysticalagriculture:draconium_seeds", ["draconicevolution:wyvern_core","mysticalagriculture:terrasteel_seeds","mysticalagriculture:hepatizon_seeds","mysticalagriculture:queens_slime_seeds","mysticalagriculture:manyullyn_seeds","mysticalagriculture:enderium_seeds","mysticalagriculture:wither_skeleton_seeds","mysticalagriculture:netherite_seeds","mysticalagriculture:emerald_seeds","mysticalagriculture:diamond_seeds","mysticalagradditions:insanium_essence"], 100000).id('kubejs:dra_seeds')
     event.remove({id: 'mysticalagriculture:seed/infusion/awakened_draconium'})
 
     //种子基底要符文合成
@@ -38,6 +38,36 @@ onEvent('recipes', event => {
     event.remove({id: 'draconicevolution:decompress/large_chaos_frag'})
     event.remove({id: 'draconicevolution:decompress/medium_chaos_frag'})
     event.remove({id: 'draconicevolution:decompress/small_chaos_frag'})
+    event.shaped('9x draconicevolution:large_chaos_frag',
+	[
+		'BBB',
+		'BAB',
+		'BBB',
+	],
+	{
+		A:'draconicevolution:chaos_shard',
+		B:'mysticalagriculture:awakened_draconium_essence',
+	}).id('kubejs:chaos_shard2frag')
+    event.shaped('9x draconicevolution:medium_chaos_frag',
+	[
+		'BBB',
+		'BAB',
+		'BBB',
+	],
+	{
+		A:'draconicevolution:large_chaos_frag',
+		B:'mysticalagriculture:awakened_draconium_essence',
+	}).id('kubejs:chaos_frag2mfrag')
+    event.shaped('9x draconicevolution:small_chaos_frag',
+	[
+		'BBB',
+		'BAB',
+		'BBB',
+	],
+	{
+		A:'draconicevolution:medium_chaos_frag',
+		B:'mysticalagriculture:awakened_draconium_essence',
+	}).id('kubejs:chaos_mfrag2sfrag')
 
     //传送符咒需要传送核心
     event.replaceInput({id: "draconicevolution:dislocator"}, 'minecraft:ender_eye', 'mekanism:teleportation_core')

@@ -1,7 +1,7 @@
 {
 	id: "571153D9E32EB282"
-	group: ""
-	order_index: 11
+	group: "70E0DD171C4BAA56"
+	order_index: 10
 	filename: "571153D9E32EB282"
 	title: "简单堆叠"
 	icon: "mekanism:basic_bin"
@@ -14,6 +14,7 @@
 			y: 0.0d
 			shape: "gear"
 			dependencies: ["6C99E0158CFD4653"]
+			hide: true
 			size: 3.0d
 			id: "4F60DCBC369CD311"
 			tasks: [{

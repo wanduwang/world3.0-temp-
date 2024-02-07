@@ -1,6 +1,6 @@
 {
 	id: "6572808BC13962BB"
-	group: ""
+	group: "70E0DD171C4BAA56"
 	order_index: 2
 	filename: "6572808BC13962BB"
 	title: "扩展箱子"
@@ -18,6 +18,7 @@
 			description: ["更大的存储空间"]
 			hide_dependency_lines: true
 			dependencies: ["49637BCEDB772EAB"]
+			hide: true
 			size: 2.0d
 			id: "7768819C0F3FA72D"
 			tasks: [{
@@ -119,7 +120,7 @@
 			}]
 		}
 		{
-			title: "铁箱子"
+			title: "铁桶"
 			x: 6.0d
 			y: 2.0d
 			subtitle: "你喜欢铁桶吗"
@@ -302,6 +303,11 @@
 				type: "item"
 				item: "expandedstorage:iron_mini_chest"
 			}]
+			rewards: [{
+				id: "11969FC84347F203"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
 		}
 		{
 			x: -5.0d
@@ -312,6 +318,11 @@
 				id: "600284E7F0814944"
 				type: "item"
 				item: "expandedstorage:gold_mini_chest"
+			}]
+			rewards: [{
+				id: "78BA947C9D947179"
+				type: "item"
+				item: "minecraft:golden_apple"
 			}]
 		}
 		{
@@ -324,6 +335,11 @@
 				type: "item"
 				item: "expandedstorage:diamond_mini_chest"
 			}]
+			rewards: [{
+				id: "35A3FF6CF43E8542"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
 		}
 		{
 			x: -5.0d
@@ -335,6 +351,11 @@
 				type: "item"
 				item: "expandedstorage:obsidian_mini_chest"
 			}]
+			rewards: [{
+				id: "778A5DD67344E454"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
 		}
 		{
 			x: -5.0d
@@ -345,6 +366,11 @@
 				id: "4C5E09DACE967826"
 				type: "item"
 				item: "expandedstorage:netherite_mini_chest"
+			}]
+			rewards: [{
+				id: "490F6CD792080734"
+				type: "item"
+				item: "minecraft:golden_apple"
 			}]
 		}
 		{

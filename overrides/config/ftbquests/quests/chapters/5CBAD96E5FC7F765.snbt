@@ -1,0 +1,419 @@
+{
+	id: "5CBAD96E5FC7F765"
+	group: "70E0DD171C4BAA56"
+	order_index: 0
+	filename: "5CBAD96E5FC7F765"
+	title: "可重复任务"
+	icon: "thermal:machine_cycle_augment"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "兑换凋零头"
+			x: -1.5d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "耐心"
+			dependencies: ["05A35D5DAA8F72DB"]
+			hide: true
+			can_repeat: true
+			id: "51148EE06890DC26"
+			tasks: [
+				{
+					id: "16D1A925271592A5"
+					type: "item"
+					item: "minecraft:bone_block"
+					consume_items: true
+				}
+				{
+					id: "76734305DA371D5F"
+					type: "item"
+					item: "tconstruct:necrotic_bone"
+					count: 10L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6A07880357820C01"
+				type: "item"
+				team_reward: false
+				item: "minecraft:wither_skeleton_skull"
+			}]
+		}
+		{
+			title: "赌命"
+			x: 1.5d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "豪掷千金"
+			dependencies: ["180EDE667761E465"]
+			hide: true
+			can_repeat: true
+			id: "2A3B097ED38F7575"
+			tasks: [{
+				id: "1A7B2353B1E6C69F"
+				type: "item"
+				item: "enigmaticlegacy:forbidden_fruit"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1C2B44D1E58C9EE2"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "55B74CF92B2D80B2"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "48CA4C0CED4721AF"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "6772F1FAE883148C"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "57FCCB1C621065C3"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			title: "征服荒野"
+			x: 3.0d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: ["44A7E0489E22CFC4"]
+			hide: true
+			can_repeat: true
+			id: "2224B1CCC5C96F4C"
+			tasks: [
+				{
+					id: "7A75680D7AB4705D"
+					type: "kill"
+					entity: "ars_nouveau:wilden_boss"
+					value: 1L
+				}
+				{
+					id: "57421C3C59C2D914"
+					type: "item"
+					item: "ars_nouveau:wilden_tribute"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "26E29C18008DB1C0"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "4BB34DA1BF712A92"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			title: "十二龙珠"
+			x: 1.5d
+			y: 1.5d
+			shape: "octagon"
+			dependencies: ["79245A443F566440"]
+			hide: true
+			can_repeat: true
+			id: "7DB2CD3DA4B15F06"
+			tasks: [{
+				id: "6CB7AEAAC20D4DB0"
+				type: "item"
+				title: "Any #kubejs:great_endeye"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:great_endeye"
+					}
+				}
+				count: 12L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "11FE656F061D8033"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "0FD29673851F6B82"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+				{
+					id: "7F2D1A05508F8EB1"
+					type: "random"
+					team_reward: false
+					table_id: 1159360326438940748L
+				}
+			]
+		}
+		{
+			title: "酒酿"
+			x: 1.5d
+			y: -1.5d
+			shape: "octagon"
+			dependencies: ["3F3DC076B043301A"]
+			hide: true
+			can_repeat: true
+			id: "61C9DB3248965E8C"
+			tasks: [{
+				id: "425598B72FC66F50"
+				type: "fluid"
+				fluid: "createaddition:flowing_bioethanol"
+				amount: 5000L
+			}]
+			rewards: [{
+				id: "09162084C866593E"
+				type: "random"
+				team_reward: false
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "铜锭兑换"
+			x: -1.5d
+			y: -1.5d
+			shape: "octagon"
+			dependencies: ["4260036CB5AB2020"]
+			hide: true
+			id: "3ED2DCA4DA229021"
+			tasks: [{
+				id: "11ABB4BD3C149045"
+				type: "item"
+				title: "任意锭"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots"
+					}
+				}
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "23D99A96CEFCBB4C"
+				type: "item"
+				team_reward: false
+				item: "minecraft:copper_ingot"
+				count: 64
+			}]
+		}
+		{
+			icon: {
+				id: "vampirism:amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 1.5d
+			shape: "octagon"
+			dependencies: ["3C0B898853644846"]
+			hide: true
+			can_repeat: true
+			id: "01E0E46C67E41B34"
+			tasks: [{
+				id: "2639FC6F3F7C74B9"
+				type: "checkmark"
+				title: "“你若困于无风之地”"
+			}]
+			rewards: [{
+				id: "20FA01D132C24DBE"
+				type: "command"
+				title: "清除「吸血猩红热」"
+				icon: {
+					id: "vampirism:amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				team_reward: false
+				auto: "no_toast"
+				command: "/effect clear @p vampirism:sanguinare"
+			}]
+		}
+		{
+			title: "模型抽卡"
+			icon: "touhou_little_maid:model_switcher"
+			x: -3.0d
+			y: -1.5d
+			shape: "octagon"
+			dependencies: ["670B8AA9E28E9F74"]
+			hide: true
+			can_repeat: true
+			id: "3849CF0E1552BF77"
+			tasks: [{
+				id: "09A47F68E83F8E9A"
+				type: "item"
+				item: "tac:ultimate_material"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2618CED936882439"
+				type: "random"
+				team_reward: false
+				table_id: 4677766398733958116L
+			}]
+		}
+		{
+			title: "模型抽卡[9连+1次自选]"
+			icon: {
+				id: "touhou_little_maid:entity_placeholder"
+				Count: 1b
+				tag: {
+					RecipeId: "touhou_little_maid:altar/reborn_maid"
+				}
+			}
+			x: -3.0d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: ["670B8AA9E28E9F74"]
+			hide: true
+			can_repeat: true
+			id: "5B735F7199271BFD"
+			tasks: [{
+				id: "2439988874A46A5F"
+				type: "item"
+				item: "tac:ultimate_material"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4D6A21783AD741AF"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "2FEF0DB2AF92A937"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "0A4E107A94990D0E"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "79D8927F54671B53"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "05B59F8B165C7CF9"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "404D61C17BFCD04D"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "656467D52D8884D7"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "3715DC430F57F142"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "527DD21644921342"
+					type: "random"
+					team_reward: false
+					table_id: 4677766398733958116L
+				}
+				{
+					id: "34AF86E5CFE92B96"
+					type: "choice"
+					team_reward: false
+					exclude_from_claim_all: true
+					table_id: 4677766398733958116L
+				}
+			]
+		}
+		{
+			title: "抽卡券制作"
+			icon: "tac:ultimate_material"
+			x: -3.0d
+			y: 1.5d
+			shape: "octagon"
+			subtitle: "你需要进入二阶段来开启抽卡任务"
+			dependencies: ["57639DAA67D9E5BB"]
+			hide: true
+			can_repeat: true
+			id: "7D731326117A484A"
+			tasks: [
+				{
+					id: "32710CB76D738120"
+					type: "item"
+					item: "create:polished_rose_quartz"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "0714C0C57849EFC8"
+					type: "item"
+					item: "create:precision_mechanism"
+					consume_items: true
+				}
+				{
+					id: "1FF61E4E3F502252"
+					type: "item"
+					item: "create:blaze_burner"
+					consume_items: true
+				}
+				{
+					id: "2CA25AD757239865"
+					type: "item"
+					item: "create_sa:vault_component"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "627A71359ED29901"
+				type: "item"
+				team_reward: false
+				item: "tac:ultimate_material"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

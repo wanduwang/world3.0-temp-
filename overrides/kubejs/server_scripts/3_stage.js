@@ -253,6 +253,11 @@ onEvent('recipes', event => {
 	event.replaceInput({input: 'mekanismgenerators:reactor_glass'}, 'mekanismgenerators:reactor_glass', '#thermal:glass/hardened')
 	event.replaceInput({input: 'mekanism:structural_glass'}, 'mekanism:structural_glass', '#thermal:glass/hardened')
 
+    //末影箱更贵了
+	event.remove({id: 'tconstruct:smeltery/casting/obsidian/chest'})
+    event.replaceInput({output: 'minecraft:ender_chest'}, 'minecraft:obsidian', 'gobber2:gobber2_ingot_end')
+	event.replaceInput({output: 'minecraft:ender_chest'}, 'minecraft:ender_eye', '#kubejs:great_endeye')
+
 	//花药台前置
 	event.remove({id: 'botania:apothecary_default'})
     event.shaped('1x botania:apothecary_default',
@@ -267,7 +272,7 @@ onEvent('recipes', event => {
 	}).id('kubejs:apothecary_default')
 
 	//添加御空药水
-	event.recipes.botania.brew("kubejs:flight_effect", ["alexsmobs:flying_fish","bloodmagic:airsigil","ars_nouveau:air_essence","enigmaticlegacy:astral_dust","botania:ender_air_bottle"]).id('kubejs:flight_potion')
+	event.recipes.botania.brew("kubejs:flight_effect", ["#kubejs:great_endeye","alexsmobs:flying_fish","bloodmagic:airsigil","ars_nouveau:air_essence","enigmaticlegacy:astral_dust","botania:ender_air_bottle"]).id('kubejs:flight_potion')
 
 	//修改活石配方
 	event.remove({id: 'botania:pure_daisy/livingrock'})

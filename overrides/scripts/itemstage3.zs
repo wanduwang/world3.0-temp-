@@ -228,7 +228,6 @@
         ItemStages.restrict(<item:cyclic:gold_lantern>, "disabled");
         ItemStages.restrict(<item:cyclic:gold_chain>, "disabled");
         ItemStages.restrict(<item:cyclic:gold_bars>, "disabled");
-        ItemStages.restrict(<item:cyclic:obsidian_pressure_plate>, "disabled");
         ItemStages.restrict(<item:cyclic:gem_amber>, "disabled");
         ItemStages.restrict(<item:cyclic:gem_obsidian>, "disabled");
         ItemStages.restrict(<item:cyclic:cloud_membrane>, "disabled");
@@ -351,6 +350,7 @@
         ItemStages.restrict(<item:cyclic:spark>, "1_create");
     //}
     //2阶段部分{
+        ItemStages.restrict(<item:cyclic:obsidian_pressure_plate>, "2_enginee");
         ItemStages.restrict(<item:cyclic:wireless_energy>, "2_enginee");
         ItemStages.restrict(<item:cyclic:peat_farm>, "2_enginee");
         ItemStages.restrict(<item:cyclic:placer>, "2_enginee");

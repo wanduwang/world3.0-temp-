@@ -1,0 +1,352 @@
+{
+	id: "00509A9827D6A288"
+	group: "0112FB3555078D9C"
+	order_index: 3
+	filename: "3"
+	title: "3.星辰与深渊"
+	icon: "mekanism:alloy_atomic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "mekanism:alloy_atomic"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["60DB6A5D0E113D0C"]
+			hide: true
+			size: 2.0d
+			id: "5BF69E03B74BB91B"
+			tasks: [{
+				id: "218B942170FB3B78"
+				type: "checkmark"
+				title: "迫近的真相"
+			}]
+			rewards: [{
+				id: "2B19E7572E9B4FDD"
+				type: "advancement"
+				advancement: "minecraft:story/3"
+				criterion: ""
+			}]
+		}
+		{
+			title: "自然魔法"
+			x: 0.0d
+			y: -2.0d
+			shape: "gear"
+			dependencies: ["5BF69E03B74BB91B"]
+			id: "48BFD741D1089178"
+			tasks: [{
+				id: "11BA628FFF2EB0E0"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			shape: "hexagon"
+			dependencies: ["48BFD741D1089178"]
+			id: "740383EC877712AC"
+			tasks: [{
+				id: "383A960F48BECD30"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			shape: "hexagon"
+			dependencies: ["48BFD741D1089178"]
+			id: "6EE7BE068F767365"
+			tasks: [{
+				id: "5D79958D9FA7ACC3"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			shape: "hexagon"
+			dependencies: ["48BFD741D1089178"]
+			id: "66428A048B62D709"
+			tasks: [{
+				id: "70AAAB2D0E5CD12E"
+				type: "item"
+				item: "botania:fabulous_pool"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			shape: "gear"
+			dependencies: [
+				"1A0EC3C1A27CC6CA"
+				"00A9AA23DB97D535"
+				"74CDE0BBA4E93CC5"
+				"4C289B7A946AA2F5"
+				"21A2CF8653177FFA"
+				"547F8834741D6FE7"
+			]
+			id: "2534BC99091C55FC"
+			tasks: [{
+				id: "6D5274283E380A2D"
+				type: "item"
+				item: "beyond_earth:nasa_workbench"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			shape: "hexagon"
+			dependencies: ["740383EC877712AC"]
+			id: "299458A30BE69F34"
+			tasks: [{
+				id: "2AFD0E33C20F2960"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: [
+				"66428A048B62D709"
+				"299458A30BE69F34"
+			]
+			id: "10A97A2D9F7DE583"
+			tasks: [{
+				id: "5482EC7E0D9B5DA4"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: ["10A97A2D9F7DE583"]
+			id: "213CB249D430FF95"
+			tasks: [{
+				id: "654E7864DF82B2B0"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			shape: "hexagon"
+			dependencies: ["213CB249D430FF95"]
+			id: "2A13D216CC5D4BC6"
+			tasks: [{
+				id: "1474729585105568"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["2A13D216CC5D4BC6"]
+			id: "3F03B488364C9F47"
+			tasks: [{
+				id: "4BCFA264F7AEA24C"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			shape: "hexagon"
+			dependencies: ["3F03B488364C9F47"]
+			id: "1A0EC3C1A27CC6CA"
+			tasks: [{
+				id: "10B8549AB27DCA05"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+		}
+		{
+			title: "无线电"
+			x: 0.0d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["6EE7BE068F767365"]
+			id: "5F57354E7031BDEB"
+			tasks: [{
+				id: "0B394A6C3A623D94"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			shape: "gear"
+			dependencies: ["2534BC99091C55FC"]
+			size: 3.0d
+			id: "362E14FC79C9E4A8"
+			tasks: [{
+				id: "5A9B173CAFED8847"
+				type: "item"
+				item: "beyond_earth:compressed_calorite"
+			}]
+		}
+		{
+			title: "高科技"
+			x: -1.5d
+			y: -3.0d
+			shape: "gear"
+			dependencies: ["5BF69E03B74BB91B"]
+			id: "52A3F7231F31A990"
+			tasks: [{
+				id: "29A00508FB1934B6"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			shape: "hexagon"
+			dependencies: ["5F57354E7031BDEB"]
+			id: "00A9AA23DB97D535"
+			tasks: [{
+				id: "750CC050C1CF4BFA"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			shape: "hexagon"
+			dependencies: ["52A3F7231F31A990"]
+			id: "74CDE0BBA4E93CC5"
+			tasks: [{
+				id: "718381442530F242"
+				type: "item"
+				item: "mekanism:qio_drive_supermassive"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			shape: "hexagon"
+			dependencies: ["52A3F7231F31A990"]
+			id: "4C289B7A946AA2F5"
+			tasks: [{
+				id: "5D811E38F9B1406C"
+				type: "item"
+				item: "mekanism:laser"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			shape: "hexagon"
+			dependencies: ["6EE7BE068F767365"]
+			id: "21A2CF8653177FFA"
+			tasks: [{
+				id: "48830559DE74786F"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			shape: "hexagon"
+			dependencies: ["52A3F7231F31A990"]
+			id: "547F8834741D6FE7"
+			tasks: [{
+				id: "0F9750920A3BF949"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+		}
+		{
+			title: "神化图书馆"
+			x: -1.5d
+			y: -1.0d
+			shape: "gear"
+			dependencies: ["4BCAA6227606DF0F"]
+			id: "0B66C681D53255F3"
+			tasks: [{
+				id: "498F3EFD34CC2F3B"
+				type: "item"
+				item: "apotheosis:library"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["5BF69E03B74BB91B"]
+			id: "4BCAA6227606DF0F"
+			tasks: [{
+				id: "3CC48916F532B3D1"
+				type: "item"
+				item: "gobber2:gobber2_ingot_end"
+			}]
+		}
+		{
+			icon: "mekanism:basic_control_circuit"
+			x: -5.0d
+			y: -3.0d
+			shape: "gear"
+			hide_dependency_lines: false
+			dependencies: ["52A3F7231F31A990"]
+			hide: false
+			size: 2.0d
+			id: "25F19F054BB09035"
+			tasks: [{
+				id: "3C347827A2A9CB75"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: {
+				id: "botania:lexicon"
+				Count: 1b
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			x: 3.5d
+			y: 2.0d
+			shape: "gear"
+			hide_dependency_lines: false
+			dependencies: ["48BFD741D1089178"]
+			hide: false
+			size: 2.0d
+			id: "6BE36A6CC5D83805"
+			tasks: [{
+				id: "113F3885AC9FFE74"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "fluxnetworks:flux_configurator"
+			x: 7.0d
+			y: -4.5d
+			shape: "gear"
+			hide_dependency_lines: false
+			dependencies: ["5F57354E7031BDEB"]
+			hide: false
+			size: 2.0d
+			id: "62D1EA98978E33B0"
+			tasks: [{
+				id: "29282280E9DB39BA"
+				type: "checkmark"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

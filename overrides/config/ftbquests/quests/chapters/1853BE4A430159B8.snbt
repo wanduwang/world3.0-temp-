@@ -1,0 +1,24 @@
+{
+	id: "1853BE4A430159B8"
+	group: "70E0DD171C4BAA56"
+	order_index: 15
+	filename: "1853BE4A430159B8"
+	title: "血魔法"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		shape: "gear"
+		dependencies: ["19E18AE07294A2C1"]
+		hide: true
+		size: 2.0d
+		id: "13E2CE3671987313"
+		tasks: [{
+			id: "5706068F11690A54"
+			type: "checkmark"
+			title: "血魔法"
+		}]
+	}]
+	quest_links: [ ]
+}

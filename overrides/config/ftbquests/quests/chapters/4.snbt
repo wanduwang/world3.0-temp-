@@ -1,0 +1,472 @@
+{
+	id: "33D4736702FD5C2C"
+	group: "0112FB3555078D9C"
+	order_index: 4
+	filename: "4"
+	title: "4.启示与终焉"
+	icon: "draconicevolution:dragon_heart"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "draconicevolution:dragon_heart"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["362E14FC79C9E4A8"]
+			hide: true
+			size: 3.0d
+			id: "6B8E65376CDCB43A"
+			tasks: [{
+				id: "764099157EB1F05B"
+				type: "checkmark"
+				title: "答案"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["6B8E65376CDCB43A"]
+			id: "470175F8B4748CDB"
+			tasks: [{
+				id: "699DBD937F1949FB"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["6B8E65376CDCB43A"]
+			id: "6ECC5FA25BD8E9BB"
+			tasks: [{
+				id: "7DEF072701908E7C"
+				type: "item"
+				item: "gobber2:dragon_star"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["6ECC5FA25BD8E9BB"]
+			id: "583CA43DCAED5FF6"
+			tasks: [{
+				id: "0CE1683D5E5BD270"
+				type: "item"
+				item: "mysticalagriculture:infusion_altar"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			shape: "hexagon"
+			dependencies: ["470175F8B4748CDB"]
+			id: "2CDC19EF90D0BF80"
+			tasks: [{
+				id: "1BC40333BBCA762B"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			shape: "hexagon"
+			dependencies: ["2CDC19EF90D0BF80"]
+			id: "734E95CC238C12C6"
+			tasks: [{
+				id: "5280C01A1565D50D"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["470175F8B4748CDB"]
+			id: "4FCD921225190AC3"
+			tasks: [{
+				id: "635977EAC6F52695"
+				type: "item"
+				item: "draconicevolution:crafting_core"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			shape: "hexagon"
+			dependencies: ["4FCD921225190AC3"]
+			id: "60656D397B49B2A6"
+			tasks: [{
+				id: "02B3C7487E434748"
+				type: "item"
+				item: "draconicevolution:basic_crafting_injector"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			shape: "hexagon"
+			dependencies: [
+				"60656D397B49B2A6"
+				"2CDC19EF90D0BF80"
+			]
+			id: "7C7A7F8868F70744"
+			tasks: [{
+				id: "7919B1CB718C8FF3"
+				type: "item"
+				item: "draconicevolution:wyvern_crafting_injector"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			shape: "hexagon"
+			dependencies: [
+				"7C7A7F8868F70744"
+				"734E95CC238C12C6"
+			]
+			id: "2789D7659630FB67"
+			tasks: [{
+				id: "374F564286299FB9"
+				type: "item"
+				item: "draconicevolution:awakened_crafting_injector"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.0d
+			shape: "hexagon"
+			dependencies: ["67567C5165DD9829"]
+			id: "7FB07411D703BE89"
+			tasks: [{
+				id: "38C49605DCC0D624"
+				type: "item"
+				item: "draconicevolution:chaotic_crafting_injector"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			shape: "hexagon"
+			dependencies: [
+				"687DD8EE5F60DBA7"
+				"4650424484B0026C"
+			]
+			id: "67567C5165DD9829"
+			tasks: [{
+				id: "1D05CBD7CC245C53"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			shape: "hexagon"
+			dependencies: ["583CA43DCAED5FF6"]
+			id: "6D9CF9FBBDD78A6B"
+			tasks: [{
+				id: "2EDA91661B37873C"
+				type: "item"
+				item: "mysticalagriculture:draconium_seeds"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 8.5d
+			shape: "hexagon"
+			dependencies: ["6D9CF9FBBDD78A6B"]
+			id: "4650424484B0026C"
+			tasks: [{
+				id: "4215B85ED357D0DD"
+				type: "item"
+				item: "mysticalagriculture:awakened_draconium_seeds"
+			}]
+		}
+		{
+			title: "做好准备"
+			x: 0.0d
+			y: 7.0d
+			shape: "hexagon"
+			dependencies: ["2789D7659630FB67"]
+			id: "00608F11B6A4224E"
+			tasks: [
+				{
+					id: "53A3BC7805DAC32D"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_staff"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										2129460134
+										-1389542818
+										-1458534111
+										1218334413
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "31E710320296E205"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_chestpiece"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										546068751
+										-248361604
+										-1494527074
+										-1103983457
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "645BA664A326EC23"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_bow"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-666753754
+										-1450228722
+										-1142943793
+										1585355492
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "撕裂空间的力量"
+			icon: "born_in_chaos_v1:seedof_chaos"
+			x: 0.0d
+			y: 8.0d
+			shape: "hexagon"
+			dependencies: ["00608F11B6A4224E"]
+			id: "50A37C6968277E51"
+			tasks: [{
+				id: "186324AB7E2F9BE4"
+				type: "kill"
+				entity: "draconicevolution:draconic_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			shape: "hexagon"
+			dependencies: ["50A37C6968277E51"]
+			id: "687DD8EE5F60DBA7"
+			tasks: [{
+				id: "333C3E0BE2B08FFF"
+				type: "item"
+				item: "draconicevolution:chaos_shard"
+			}]
+		}
+		{
+			title: "撕裂空间的力量"
+			x: -0.5d
+			y: 12.0d
+			shape: "hexagon"
+			dependencies: ["7FB07411D703BE89"]
+			id: "3C9B45266882B36E"
+			tasks: [{
+				id: "2F20D59F9D25101B"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									997012134
+									312363096
+									-1762690301
+									-1142642037
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			title: "终结活在莫比乌斯环中的命运"
+			x: 0.0d
+			y: 13.0d
+			shape: "rsquare"
+			description: [
+				"警告：请清空背包和饰品再完成"
+				"警告：请在安全的地方完成任务"
+			]
+			dependencies: [
+				"3C9B45266882B36E"
+				"7383E54BDB70458E"
+			]
+			id: "3930877036A07B57"
+			tasks: [{
+				id: "23486082EDEEB463"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1392342838
+									-619231298
+									-1989697498
+									861175664
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1601359F118ABCB0"
+					type: "command"
+					title: " "
+					team_reward: false
+					auto: "invisible"
+					command: "/curios clear @p ring"
+				}
+				{
+					id: "078767ED8595AFD0"
+					type: "command"
+					title: " "
+					team_reward: false
+					auto: "invisible"
+					command: "/effect give @p minecraft:poison 60 255"
+				}
+				{
+					id: "2752F2A4256C6CE1"
+					type: "command"
+					title: " "
+					team_reward: false
+					auto: "invisible"
+					command: "/effect give @p minecraft:slowness 60 255"
+				}
+				{
+					id: "7267862D6929B4C5"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/effect give @p minecraft:weakness 60 255"
+				}
+				{
+					id: "709DB89AF13E3DC4"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/effect give @p minecraft:blindness 60 255"
+				}
+				{
+					id: "629F21199797AC62"
+					type: "toast"
+					title: "尽管非常痛苦，但你知道，诅咒消失了"
+					icon: "touhou_little_maid:mute_bauble"
+					team_reward: false
+					auto: "enabled"
+					description: ""
+				}
+			]
+		}
+		{
+			title: "清除混沌的力量"
+			x: 0.5d
+			y: 12.0d
+			shape: "hexagon"
+			dependencies: ["7FB07411D703BE89"]
+			id: "7383E54BDB70458E"
+			tasks: [{
+				id: "040E04CFC0DEEE85"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_bow"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-503333158
+									-945798411
+									-1280328394
+									-1111917431
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0
+							}
+						}
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

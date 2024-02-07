@@ -1,6 +1,6 @@
 {
 	id: "2F6B32EF85544D50"
-	group: ""
+	group: "0112FB3555078D9C"
 	order_index: 1
 	filename: "2"
 	title: "1.齿轮与神秘"
@@ -20,6 +20,8 @@
 				"你看向了你的戒指，那似乎是一种诅咒"
 			]
 			hide_dependency_lines: true
+			dependencies: ["236C9213B500EE3B"]
+			hide: true
 			size: 2.0d
 			id: "3C0B898853644846"
 			tasks: [{
@@ -116,11 +118,6 @@
 							Damage: 0
 						}
 					}
-				}
-				{
-					id: "01CD0E42A6E40EC2"
-					type: "item"
-					item: "minecraft:enchanting_table"
 				}
 			]
 			rewards: [{
@@ -489,55 +486,6 @@
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
-		}
-		{
-			title: "赌命"
-			x: 1.0d
-			y: -2.0d
-			shape: "octagon"
-			subtitle: "豪掷千金"
-			dependencies: ["5DE0BFB7403CE051"]
-			hide: true
-			can_repeat: true
-			id: "0F9BF4DCF1419724"
-			tasks: [{
-				id: "271E73FD88182B78"
-				type: "item"
-				item: "enigmaticlegacy:forbidden_fruit"
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "41F610F3AE725E70"
-					type: "random"
-					team_reward: false
-					table_id: 1159360326438940748L
-				}
-				{
-					id: "1460F42A4FB925B5"
-					type: "random"
-					team_reward: false
-					table_id: 1159360326438940748L
-				}
-				{
-					id: "1F943CAF03256BFE"
-					type: "random"
-					team_reward: false
-					table_id: 1159360326438940748L
-				}
-				{
-					id: "35C14C8296D9FDF5"
-					type: "random"
-					team_reward: false
-					table_id: 1159360326438940748L
-				}
-				{
-					id: "5B54A313D5DA9B94"
-					type: "random"
-					team_reward: false
-					table_id: 1159360326438940748L
-				}
-			]
 		}
 		{
 			title: "火炬大师"
@@ -1044,7 +992,11 @@
 			x: 8.0d
 			y: 5.0d
 			shape: "hexagon"
-			dependencies: ["24AF84E54C183CEA"]
+			dependencies: [
+				"24AF84E54C183CEA"
+				"1DF238BCAA2A58AE"
+				"4EBECA16DAC188F4"
+			]
 			id: "3B5604EF0EA9E7D8"
 			tasks: [{
 				id: "59CF89477EB942A9"
@@ -1052,8 +1004,8 @@
 				item: "immersiveengineering:cokebrick"
 			}]
 			rewards: [{
-				id: "3786E5E9414962BA"
-				type: "loot"
+				id: "6C692AF2BA42BFFF"
+				type: "random"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
 			}]
@@ -1083,6 +1035,123 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "经典再现"
+			x: 0.0d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["3C0B898853644846"]
+			id: "6D03CEB5C70B13BE"
+			tasks: [{
+				id: "7186A9F935BC9F43"
+				type: "item"
+				title: "工作站"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:tables"
+					}
+				}
+			}]
+			rewards: [{
+				id: "040F11A361BC395C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "焦不完全黑"
+			x: 7.5d
+			y: 2.5d
+			shape: "hexagon"
+			dependencies: ["6D03CEB5C70B13BE"]
+			id: "1DF238BCAA2A58AE"
+			tasks: [{
+				id: "0CE7C50822262BF0"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+			}]
+			rewards: [{
+				id: "367FE8679B51B91B"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "@某高校"
+			dependencies: ["698147F529116513"]
+			id: "4EBECA16DAC188F4"
+			tasks: [{
+				id: "75C376891DDFA094"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+			}]
+			rewards: [{
+				id: "67456DE8405657AE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1159360326438940748L
+			}]
+		}
+		{
+			title: "焦黑"
+			x: 7.0d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["6D03CEB5C70B13BE"]
+			id: "698147F529116513"
+			tasks: [{
+				id: "4611572FE18345C7"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+			rewards: [{
+				id: "37FF082AB2D9FFDF"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			icon: {
+				id: "vampirism:amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: -1.5d
+			shape: "octagon"
+			dependencies: ["3C0B898853644846"]
+			hide: true
+			can_repeat: true
+			id: "6B0678EB279E5E66"
+			tasks: [{
+				id: "191412FA29862FFF"
+				type: "checkmark"
+				title: "“你若困于无风之地”"
+			}]
+			rewards: [{
+				id: "5DC4313EF6187EB5"
+				type: "command"
+				title: "清除「吸血猩红热」"
+				icon: {
+					id: "vampirism:amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				team_reward: false
+				auto: "no_toast"
+				command: "/effect clear @p vampirism:sanguinare"
 			}]
 		}
 	]
